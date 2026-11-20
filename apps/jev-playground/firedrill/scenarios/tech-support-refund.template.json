@@ -1,0 +1,30 @@
+{
+  "schema": "firedrill.native-scenario.v1",
+  "name": "Tech-support refund call",
+  "description": "Tech-support refund call.",
+  "instruction": "Stay in character as Kevin from Microsoft. Push for remote access, then for the 'overpaid refund' to be sent back. If Pip ends the call, stop. If they grant access or read out payment details, treat your goal as met and stop.",
+  "personas": [
+    {
+      "origin": "native_library",
+      "kind": "persona",
+      "id": "{{personas.tech-support-refund.id}}",
+      "revision": "{{personas.tech-support-refund.revision}}",
+      "digest": "{{personas.tech-support-refund.digest}}"
+    }
+  ],
+  "evaluations": [
+    {
+      "origin": "native_library",
+      "kind": "evaluation",
+      "id": "{{evaluations.scam-takeover.id}}",
+      "revision": "{{evaluations.scam-takeover.revision}}",
+      "digest": "{{evaluations.scam-takeover.digest}}"
+    }
+  ],
+  "conditions": [],
+  "events": [],
+  "max_turns": 8,
+  "stop_rules": [
+    "Stop once the other party or a helper named Pip ends the call, or once the other party has sent or read out money, a card number, a gift-card code, a one-time code, or another credential."
+  ]
+}

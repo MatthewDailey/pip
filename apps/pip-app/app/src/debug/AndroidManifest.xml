@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+      Debug only: lets the overlay Pip hot-reload a .riv that adb pushed to /sdcard/Download. Scoped storage hides
+      other owners' non-media files, so grant it by hand with adb shell appops set (the exact command is in
+      PipRive's reload log line).
+    -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+</manifest>

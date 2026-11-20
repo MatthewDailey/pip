@@ -1,0 +1,8 @@
+{
+  "name": "@shady-pip/pip-fixtures",
+  "private": true,
+  "description": "Pip's scenario fixtures: small fictional third-party apps (ExampleMail, ExampleChat, a gift-card store, a refund form, a voicemail player) that the scenario runner opens so Pip's accessibility service sees a real other app",
+  "scripts": {
+    "build": ". ../../scripts/env.sh && ./gradlew assembleDebug -q"
+  }
+}

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-350 -400 700 800" width="700" height="800">
+<!-- Vanity mirror glass behind Pip; (0,0) at screen (540,1150). -->
+<defs>
+<linearGradient id="lg1" gradientUnits="userSpaceOnUse" x1="0" y1="-330" x2="0" y2="212"><stop offset="0" stop-color="#EAF3F6"/><stop offset="0.5" stop-color="#C9DCE3"/><stop offset="1" stop-color="#B2C8D1"/></linearGradient>
+<radialGradient id="rg2" gradientUnits="userSpaceOnUse" cx="0" cy="-360" r="300"><stop offset="0" stop-color="#FFF1C4" stop-opacity="0.400"/><stop offset="1" stop-color="#FFF1C4" stop-opacity="0.000"/></radialGradient>
+<clipPath id="glass-clip"><path d="M-232 -332L232 -332L232 -332C248.57 -332 262 -318.57 262 -302L262 182L262 182C262 198.57 248.57 212 232 212L-232 212L-232 212C-248.57 212 -262 198.57 -262 182L-262 -302L-262 -302C-262 -318.57 -248.57 -332 -232 -332Z"/></clipPath>
+</defs>
+<g id="shadow">
+<path d="M-250 -333L250 -333L250 -333C257.18 -333 263 -327.18 263 -320L263 210L263 210C263 217.18 257.18 223 250 223L-250 223L-250 223C-257.18 223 -263 217.18 -263 210L-263 -320L-263 -320C-263 -327.18 -257.18 -333 -250 -333Z" fill="#3A2A26" fill-opacity="0.058"/>
+<path d="M-250 -343.8L250 -343.8L250 -343.8C263.14 -343.8 273.8 -333.14 273.8 -320L273.8 210L273.8 210C273.8 223.14 263.14 233.8 250 233.8L-250 233.8L-250 233.8C-263.14 233.8 -273.8 223.14 -273.8 210L-273.8 -320L-273.8 -320C-273.8 -333.14 -263.14 -343.8 -250 -343.8Z" fill="#3A2A26" fill-opacity="0.058"/>
+<path d="M-250 -354.6L250 -354.6L250 -354.6C269.11 -354.6 284.6 -339.11 284.6 -320L284.6 210L284.6 210C284.6 229.11 269.11 244.6 250 244.6L-250 244.6L-250 244.6C-269.11 244.6 -284.6 229.11 -284.6 210L-284.6 -320L-284.6 -320C-284.6 -339.11 -269.11 -354.6 -250 -354.6Z" fill="#3A2A26" fill-opacity="0.058"/>
+<path d="M-250 -365.4L250 -365.4L250 -365.4C275.07 -365.4 295.4 -345.07 295.4 -320L295.4 210L295.4 210C295.4 235.07 275.07 255.4 250 255.4L-250 255.4L-250 255.4C-275.07 255.4 -295.4 235.07 -295.4 210L-295.4 -320L-295.4 -320C-295.4 -345.07 -275.07 -365.4 -250 -365.4Z" fill="#3A2A26" fill-opacity="0.058"/>
+<path d="M-250 -376.2L250 -376.2L250 -376.2C281.04 -376.2 306.2 -351.04 306.2 -320L306.2 210L306.2 210C306.2 241.04 281.04 266.2 250 266.2L-250 266.2L-250 266.2C-281.04 266.2 -306.2 241.04 -306.2 210L-306.2 -320L-306.2 -320C-306.2 -351.04 -281.04 -376.2 -250 -376.2Z" fill="#3A2A26" fill-opacity="0.058"/>
+<path d="M-250 -387L250 -387L250 -387C287 -387 317 -357 317 -320L317 210L317 210C317 247 287 277 250 277L-250 277L-250 277C-287 277 -317 247 -317 210L-317 -320L-317 -320C-317 -357 -287 -387 -250 -387Z" fill="#3A2A26" fill-opacity="0.058"/>
+</g>
+<path id="glass" d="M-232 -332L232 -332L232 -332C248.57 -332 262 -318.57 262 -302L262 182L262 182C262 198.57 248.57 212 232 212L-232 212L-232 212C-248.57 212 -262 198.57 -262 182L-262 -302L-262 -302C-262 -318.57 -248.57 -332 -232 -332Z" fill="url(#lg1)"/>
+<g clip-path="url(#glass-clip)">
+<g id="tiles">
+<path d="M-262 -332L-262 212" fill="none" stroke="#6E8A96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.122"/>
+<path d="M-174 -332L-174 212" fill="none" stroke="#6E8A96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.122"/>
+<path d="M-86 -332L-86 212" fill="none" stroke="#6E8A96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.122"/>
+<path d="M2 -332L2 212" fill="none" stroke="#6E8A96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.122"/>
+<path d="M90 -332L90 212" fill="none" stroke="#6E8A96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.122"/>
+<path d="M178 -332L178 212" fill="none" stroke="#6E8A96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.122"/>
+<path d="M-262 -332L262 -332" fill="none" stroke="#6E8A96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.122"/>
+<path d="M-262 -244L262 -244" fill="none" stroke="#6E8A96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.122"/>
+<path d="M-262 -156L262 -156" fill="none" stroke="#6E8A96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.122"/>
+<path d="M-262 -68L262 -68" fill="none" stroke="#6E8A96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.122"/>
+<path d="M-262 20L262 20" fill="none" stroke="#6E8A96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.122"/>
+<path d="M-262 108L262 108" fill="none" stroke="#6E8A96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.122"/>
+<path d="M-262 196L262 196" fill="none" stroke="#6E8A96" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.122"/>
+</g>
+<circle id="bulb-wash" cx="0" cy="-360" r="300" fill="url(#rg2)"/>
+</g>
+</svg>

@@ -1,0 +1,19 @@
+{
+  "piece": "banner",
+  "svg": "fx-banner.svg",
+  "origin": [516.0, 115.5],
+  "size": [1032, 231.0],
+  "notes": [
+    "Text only: three stacked copies of the same string, baseline at y=0, centred on x=0.",
+    "Style: bold 44sp (115.5px); a 25% ink copy offset down by 0.6*stroke, a #3A2A26 stroke 7dp (18.4px, round joins), then the white fill.",
+    "When the string is wider than the screen minus 24dp margins (after the actor's scale), font size and stroke shrink together: size = 115.5 * avail / (textWidth + 18.4)."
+  ],
+  "clips": [],
+  "inputs": [
+    {
+      "name": "fontScale",
+      "type": "number",
+      "drives": "uniform scale of all three text layers when the string must shrink to fit"
+    }
+  ]
+}

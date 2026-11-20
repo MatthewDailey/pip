@@ -1,0 +1,105 @@
+{
+ "piece": "set-d80s-neon",
+ "origin": [540, 380],
+ "notes": "Blurred glows are stacked strokes of growing width at low alpha. \"power\" (0..1) maps to: glow and core opacity = power, tube opacity = 0.25 + 0.75*power. Lettering outlined from Helvetica Neue Bold Italic (Roboto Bold Italic in Kotlin).",
+ "clips": [
+  {
+   "name": "flicker-on",
+   "duration": 1.35,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "opacity",
+     "keys": [
+      [0.0, 0],
+      [0.068, 1],
+      [0.108, 0.15],
+      [0.162, 1],
+      [0.203, 0.45],
+      [0.243, 1],
+      [1.134, 1],
+      [1.35, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "glow",
+     "property": "opacity",
+     "keys": [
+      [0.0, 0],
+      [0.068, 0.5],
+      [0.108, 0.1],
+      [0.162, 1]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "core",
+     "property": "opacity",
+     "keys": [
+      [0.0, 0],
+      [0.068, 0.5],
+      [0.108, 0.1],
+      [0.162, 1]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "root",
+     "property": "scale",
+     "keys": [
+      [0.0, 0.95],
+      [0.243, 0.95],
+      [0.608, 1],
+      [1.134, 1],
+      [1.35, 1.05]
+     ],
+     "ease": "easeInOut"
+    },
+    {
+     "target": "root",
+     "property": "y",
+     "keys": [
+      [0.0, 0],
+      [1.134, 0],
+      [1.35, -18]
+     ],
+     "ease": "easeIn"
+    }
+   ]
+  },
+  {
+   "name": "hum",
+   "duration": 0.441,
+   "loop": true,
+   "tracks": [
+    {
+     "target": "glow",
+     "property": "opacity",
+     "keys": [
+      [0.0, 0.9],
+      [0.028, 1.0],
+      [0.083, 0.8],
+      [0.138, 1.0],
+      [0.193, 0.8],
+      [0.248, 1.0],
+      [0.303, 0.8],
+      [0.358, 1.0],
+      [0.413, 0.8],
+      [0.441, 0.9]
+     ],
+     "ease": "easeInOut"
+    }
+   ]
+  }
+ ],
+ "inputs": [
+  {
+   "name": "power",
+   "type": "number",
+   "drives": "the tube brightness (see notes)"
+  }
+ ],
+ "size": [760, 300]
+}

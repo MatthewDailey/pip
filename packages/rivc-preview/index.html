@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pip preview</title>
+<style>
+  :root {
+    --bg: #f6f5f2; --panel: #ffffff; --ink: #1d1b18; --muted: #6b665e; --line: #e2ded6;
+    --accent: #c2410c; --ok: #15803d; --bad: #b91c1c;
+    --check-a: #e9e6e0; --check-b: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 13px/1.4 system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--ink); }
+  header { display: flex; gap: 12px; align-items: baseline; padding: 10px 16px; border-bottom: 1px solid var(--line); background: var(--panel); }
+  header h1 { font-size: 15px; margin: 0; }
+  #status { color: var(--muted); }
+  #status.bad { color: var(--bad); font-weight: 600; }
+  #status.ok { color: var(--ok); }
+  main { display: grid; grid-template-columns: minmax(320px, 1fr) 380px; gap: 16px; padding: 16px; }
+  main > * { min-width: 0; }
+  @media (max-width: 760px) { main { grid-template-columns: 1fr; } }
+  #stage {
+    position: relative; min-height: 480px; border: 1px solid var(--line); border-radius: 8px; overflow: hidden;
+    display: flex; align-items: center; justify-content: center;
+    background-color: var(--check-b);
+    background-image:
+      linear-gradient(45deg, var(--check-a) 25%, transparent 25%, transparent 75%, var(--check-a) 75%),
+      linear-gradient(45deg, var(--check-a) 25%, transparent 25%, transparent 75%, var(--check-a) 75%);
+    background-size: 20px 20px; background-position: 0 0, 10px 10px;
+  }
+  #stage canvas { width: min(360px, 100%); height: auto; aspect-ratio: 540 / 660; }
+  #stage.backdrop { background: #000 url("backdrop.png") center / contain no-repeat; aspect-ratio: 1080 / 2424; max-height: 82vh; margin: 0 auto; width: auto; align-items: flex-end; justify-content: flex-end; }
+  #stage.backdrop canvas { width: 22%; height: auto; aspect-ratio: 540 / 660; margin: 0 8% 70% 0; }
+  #caption { position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); max-width: 86%; padding: 6px 12px; border-radius: 8px; background: rgba(29, 27, 24, .82); color: #fff; font: 600 15px/1.3 system-ui, sans-serif; text-align: center; pointer-events: none; }
+  #log { height: 180px; overflow: auto; font: 12px/1.35 ui-monospace, monospace; background: #1d1b18; color: #ece8e1; border-radius: 6px; padding: 6px 8px; margin: 0; }
+  #log .ev { color: #fdba74; } #log .vm { color: #93c5fd; } #log .sys { color: #a3a3a3; } #log .err { color: #fca5a5; }
+  section { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin-bottom: 12px; }
+  section h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 0 0 8px; }
+  .row { display: flex; align-items: center; gap: 8px; margin: 6px 0; flex-wrap: wrap; }
+  .row label.name { min-width: 72px; font-weight: 600; }
+  .row input[type=range] { flex: 1; min-width: 120px; }
+  .row input.num { width: 64px; }
+  .row input.bound { width: 52px; color: var(--muted); }
+  .row.bounds { margin: -2px 0 10px 80px; font-size: 12px; }
+  .group { font-size: 12px; font-weight: 600; color: var(--muted); margin: 10px 0 2px; }
+  .group:first-child { margin-top: 0; }
+  button { font: inherit; padding: 4px 10px; border: 1px solid var(--line); border-radius: 6px; background: #fbfaf8; cursor: pointer; }
+  button:hover { border-color: var(--accent); }
+  .muted { color: var(--muted); }
+  #time { font-variant-numeric: tabular-nums; }
+  #lastEvent { margin-left: auto; font: 12px ui-monospace, monospace; padding: 1px 6px; border-radius: 4px; transition: background .4s; }
+  #lastEvent.flash { background: #fdba74; color: var(--ink); transition: none; }
+  #scrub { flex: 1; min-width: 160px; }
+  #artboard { max-width: 240px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Pip preview</h1>
+  <span id="source" class="muted"></span>
+  <span id="status">loading…</span>
+  <span id="lastEvent" class="muted" title="The latest Rive event (stories cue sounds with events); every event is in the log"></span>
+</header>
+<main>
+  <div>
+    <div id="stage"><canvas id="canvas" width="540" height="660"></canvas><div id="caption" hidden></div></div>
+    <section style="margin-top:12px">
+      <h2>Event log</h2>
+      <pre id="log"></pre>
+    </section>
+  </div>
+  <aside>
+    <section>
+      <h2>Playback</h2>
+      <div class="row">
+        <button id="play">Pause</button>
+        <button id="restart" title="Reload the file and start again from t = 0">Restart</button>
+        <span id="time" class="muted">t = 0.000 s</span>
+      </div>
+      <div class="row" id="timelineRow" hidden>
+        <label class="name" for="scrub">Timeline</label>
+        <input id="scrub" type="range" min="0" max="1" step="0.01667" value="0">
+        <span id="timelineName" class="muted"></span>
+      </div>
+      <div class="row">
+        <label class="name" for="artboard">Artboard</label>
+        <select id="artboard"></select>
+      </div>
+      <div class="row">
+        <label class="name" for="speed">Speed</label>
+        <input id="speed" type="range" min="0.05" max="3" step="0.05" value="1">
+        <span id="speedOut">1.00×</span>
+      </div>
+      <div class="row">
+        <label class="name">Step</label>
+        <button data-step="1">+1 frame</button>
+        <button data-step="10">+10</button>
+        <button data-step="60">+1 s</button>
+        <span class="muted">(60 fps)</span>
+      </div>
+    </section>
+    <section>
+      <h2>View</h2>
+      <div class="row"><label><input id="backdrop" type="checkbox"> Over home-screen screenshot</label></div>
+      <div class="row"><label><input id="voice" type="checkbox" checked> Voice: speak a story's <code>say:</code> lines (browser text-to-speech)</label></div>
+    </section>
+    <section>
+      <h2 id="controlsTitle">Controls</h2>
+      <div id="controls"><span class="muted">No file loaded.</span></div>
+    </section>
+  </aside>
+</main>
+<script src="preview.js"></script>
+</body>
+</html>

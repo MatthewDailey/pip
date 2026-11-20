@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Test art for the animation pass: every colour is distinct so the browser proof can find each part by pixel. -->
+  <ellipse id="face" cx="100" cy="120" rx="60" ry="50" fill="#88CC88"/>
+  <ellipse id="eyeL" cx="80" cy="105" rx="8" ry="10" fill="#202020"/>
+  <ellipse id="eyeR" cx="120" cy="105" rx="8" ry="10" fill="#202020"/>
+  <path id="mouth" fill="#802040" d="M 80 140 C 90 145 110 145 120 140 C 110 150 90 150 80 140 Z"/>
+  <path id="mouth_smile" fill="#802040" d="M 78 136 C 90 156 110 156 122 136 C 110 166 90 166 78 136 Z"/>
+  <ellipse id="dot" cx="20" cy="20" rx="8" ry="8" fill="#FF0000"/>
+  <ellipse id="flash" cx="180" cy="20" rx="12" ry="12" fill="#FFFF00"/>
+</svg>

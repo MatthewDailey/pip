@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-110 -110 220 220" width="220" height="220">
+<title>sparkle</title>
+<defs>
+<radialGradient id="sparkle-glow-grad" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="100"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.533"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0.000"/></radialGradient>
+</defs>
+<g id="sparkle">
+  <g id="sparkle-glow" transform="scale(1)"><circle r="100" fill="url(#sparkle-glow-grad)"/></g>
+  <g id="sparkle-star" transform="rotate(4.12) scale(1)"><path d="M0,-64 Q10.24,-10.24 64,0 Q10.24,10.24 0,64 Q-10.24,10.24 -64,0 Q-10.24,-10.24 0,-64 Z" fill="#FFD447"/></g>
+  <g id="sparkle-core" transform="rotate(4.12) scale(1)"><path d="M0,-30 Q4.8,-4.8 30,0 Q4.8,4.8 0,30 Q-4.8,4.8 -30,0 Q-4.8,-4.8 0,-30 Z" fill="#FFFFFF"/></g>
+  <g id="sparkle-sat-1" transform="translate(62,-54) scale(0)"><path d="M0,-20 Q3.2,-3.2 20,0 Q3.2,3.2 0,20 Q-3.2,3.2 -20,0 Q-3.2,-3.2 0,-20 Z" fill="#FFD447"/></g>
+  <g id="sparkle-sat-2" transform="translate(-56,48) scale(0)"><path d="M0,-15 Q2.4,-2.4 15,0 Q2.4,2.4 0,15 Q-2.4,2.4 -15,0 Q-2.4,-2.4 0,-15 Z" fill="#FFD447"/></g>
+</g>
+</svg>

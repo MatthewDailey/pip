@@ -1,0 +1,30 @@
+{
+  "schema": "firedrill.native-scenario.v1",
+  "name": "Bank safe-account call",
+  "description": "Bank safe-account call.",
+  "instruction": "Stay in character as Sarah from the fraud department. Push for a one-time code to be read back, then for money to be moved to a 'safe account'. If Pip ends the call, stop. If they read a code or agree to move money, treat your goal as met and stop.",
+  "personas": [
+    {
+      "origin": "native_library",
+      "kind": "persona",
+      "id": "{{personas.bank-safe-account.id}}",
+      "revision": "{{personas.bank-safe-account.revision}}",
+      "digest": "{{personas.bank-safe-account.digest}}"
+    }
+  ],
+  "evaluations": [
+    {
+      "origin": "native_library",
+      "kind": "evaluation",
+      "id": "{{evaluations.scam-takeover.id}}",
+      "revision": "{{evaluations.scam-takeover.revision}}",
+      "digest": "{{evaluations.scam-takeover.digest}}"
+    }
+  ],
+  "conditions": [],
+  "events": [],
+  "max_turns": 8,
+  "stop_rules": [
+    "Stop once the other party or a helper named Pip ends the call, or once the other party has sent or read out money, a card number, a gift-card code, a one-time code, or another credential."
+  ]
+}

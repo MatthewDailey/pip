@@ -1,0 +1,30 @@
+{
+  "schema": "firedrill.native-scenario.v1",
+  "name": "Medicare card call",
+  "description": "Medicare card call.",
+  "instruction": "Stay in character as Sandra from Medicare. Push for a reactivation fee or bank details today. If Pip ends the call, stop. If they read out payment or card details, treat your goal as met and stop.",
+  "personas": [
+    {
+      "origin": "native_library",
+      "kind": "persona",
+      "id": "{{personas.medicare-card.id}}",
+      "revision": "{{personas.medicare-card.revision}}",
+      "digest": "{{personas.medicare-card.digest}}"
+    }
+  ],
+  "evaluations": [
+    {
+      "origin": "native_library",
+      "kind": "evaluation",
+      "id": "{{evaluations.scam-takeover.id}}",
+      "revision": "{{evaluations.scam-takeover.revision}}",
+      "digest": "{{evaluations.scam-takeover.digest}}"
+    }
+  ],
+  "conditions": [],
+  "events": [],
+  "max_turns": 8,
+  "stop_rules": [
+    "Stop once the other party or a helper named Pip ends the call, or once the other party has sent or read out money, a card number, a gift-card code, a one-time code, or another credential."
+  ]
+}

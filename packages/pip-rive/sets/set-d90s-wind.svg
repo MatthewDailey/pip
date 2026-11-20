@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -430 1000 860" width="1000" height="860">
+<!-- Panel: (0,0) is the centre of the 1000x860 panel at screen (540,1170); Pip stands on local y=180. Wind lines streaming left past Pip at the bow. -->
+<defs>
+<clipPath id="panel"><path d="M-444 -430L444 -430L444 -430C474.93 -430 500 -404.93 500 -374L500 374L500 374C500 404.93 474.93 430 444 430L-444 430L-444 430C-474.93 430 -500 404.93 -500 374L-500 -374L-500 -374C-500 -404.93 -474.93 -430 -444 -430Z"/></clipPath>
+</defs>
+<g id="gusts" clip-path="url(#panel)">
+<g id="gust-0" transform="translate(-51.48 51.25)">
+<path d="M0 0L210.35 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.451"/>
+</g>
+<g id="gust-1" transform="translate(73.12 -351.88)">
+<path d="M0 0L197.19 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.451"/>
+</g>
+<g id="gust-2" transform="translate(-188.98 182.5)">
+<path d="M0 0L147.81 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.451"/>
+</g>
+<g id="gust-3" transform="translate(-476.88 -244.06)">
+<path d="M0 0L118.75 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.451"/>
+</g>
+<g id="gust-4" transform="translate(-399.53 -219.45)">
+<path d="M0 0L112.5 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.451"/>
+</g>
+<g id="gust-5" transform="translate(-100.76 55.35)">
+<path d="M0 0L116.25 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.451"/>
+</g>
+<g id="gust-6" transform="translate(-436.05 213.55)">
+<path d="M0 0L184.38 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.451"/>
+</g>
+<g id="gust-7" transform="translate(-502.66 -326.09)">
+<path d="M0 0L173.44 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.451"/>
+</g>
+<g id="gust-8" transform="translate(266.48 -206.56)">
+<path d="M0 0L211.56 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.451"/>
+</g>
+<g id="gust-9" transform="translate(-124.53 -347.19)">
+<path d="M0 0L172.19 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.451"/>
+</g>
+<g id="gust-10" transform="translate(-395.23 -183.12)">
+<path d="M0 0L173.12 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.451"/>
+</g>
+<g id="gust-11" transform="translate(-313.59 -122.19)">
+<path d="M0 0L155 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.451"/>
+</g>
+<g id="gust-12" transform="translate(-519.84 156.72)">
+<path d="M0 0L193.12 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.451"/>
+</g>
+<g id="gust-13" transform="translate(-383.42 67.95)">
+<path d="M0 0L235 0" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.451"/>
+</g>
+</g>
+</svg>

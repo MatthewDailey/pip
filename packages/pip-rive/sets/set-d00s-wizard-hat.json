@@ -1,0 +1,37 @@
+{
+  "piece": "set-d00s-wizard-hat",
+  "scene": "d00s",
+  "painter": "paintWizardHat",
+  "origin": "pip-anchored (-14, 60)",
+  "origin_note": "screen px (1080 x 2424 stage) where the SVG's (0, 0) sits when the actor is at rest",
+  "viewBox": [-200.0,-320.0,400.0,380.0],
+  "size": [400.0,380.0],
+  "pose": "rest, origin at the brim centre",
+  "format": "Draft motion format for rivc. Every track targets a <g id> in the SVG; a group's pivot is its translate() origin. Properties: x, y (absolute, in the parent's units), rotation (degrees, clockwise), scaleX, scaleY, opacity, strokeWidth, fillColor ('#RRGGBB'). Keys are [time s, value]; 'ease' applies between keys (linear, hold, sine, quadIn). driver 'time' clips play on the clock; driver 'input:<name>' clips are scrubbed, clip time = input value. mixBy names an input whose value (0..1) is the clip's blend weight. The SVG's own transforms are each group's setup pose.",
+  "clips": [
+    {
+      "name": "tip-sway",
+      "duration": 1.904,
+      "loop": true,
+      "driver": "time",
+      "note": "tip wobble sin(3.3t) * 5 px at the tip ~ +/-3.2 deg about the bend; the Kotlin also adds 1.5 x the hat's own rotation",
+      "tracks": [
+        {
+          "target": "hat-tip",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[0.0,0.0],[0.119,1.2246],[0.238,2.2627],[0.357,2.9564],[0.476,3.2],[0.595,2.9564],[0.714,2.2627],[0.833,1.2246],[0.952,0.0],[1.071,-1.2246],[1.19,-2.2627],[1.309,-2.9564],[1.428,-3.2],[1.547,-2.9564],[1.666,-2.2627],[1.785,-1.2246],[1.904,-0.0]]
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "lean",
+      "type": "number",
+      "drives": "optional: hat-tip rotation += lean (deg) * 0.9 to echo the actor's rotation (Kotlin: wob += rotation * 1.5 px)"
+    }
+  ],
+  "anchor": "anchorToPip at (-14, 60); drops in at 0.4 s and sways with Pip",
+  "layers": ["hat-cone","hat-tip","hat-band"]
+}

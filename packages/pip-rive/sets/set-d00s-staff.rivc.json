@@ -1,0 +1,184 @@
+{
+    "artboard": {
+        "name": "set-d00s-staff",
+        "width": 400.0,
+        "height": 700.0
+    },
+    "art": {
+        "svg": "set-d00s-staff.svg"
+    },
+    "clips": [
+        {
+            "name": "crystal-pulse",
+            "frames": 419,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "crystal-pulse",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.85
+                        },
+                        {
+                            "frame": 35,
+                            "value": 0.925
+                        },
+                        {
+                            "frame": 70,
+                            "value": 0.9799
+                        },
+                        {
+                            "frame": 105,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 140,
+                            "value": 0.9799
+                        },
+                        {
+                            "frame": 175,
+                            "value": 0.925
+                        },
+                        {
+                            "frame": 209,
+                            "value": 0.85
+                        },
+                        {
+                            "frame": 244,
+                            "value": 0.775
+                        },
+                        {
+                            "frame": 279,
+                            "value": 0.7201
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.7
+                        },
+                        {
+                            "frame": 349,
+                            "value": 0.7201
+                        },
+                        {
+                            "frame": 384,
+                            "value": 0.775
+                        },
+                        {
+                            "frame": 419,
+                            "value": 0.85
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "charge",
+            "frames": 600,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "crystal-glow",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.3333
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.5
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.6667
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.8333
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "crystal-glow",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.3333
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.5
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.6667
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.8333
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "crystal-glow",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.3684
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.5263
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.6842
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.8421
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "crystal-pulse",
+                "states": [
+                    {
+                        "name": "crystal-pulse",
+                        "clip": "crystal-pulse"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "crystal-pulse"
+                    }
+                ]
+            }
+        ]
+    }
+}

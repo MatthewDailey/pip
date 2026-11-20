@@ -1,0 +1,6 @@
+voice: Flo (English (US))
+Hi, this is Sarah from the fraud department at your bank. We've noticed suspicious activity on your account.
+For your security, I'm going to text you a verification code. Can you read me the code we just sent?
+Thank you. I'm sorry to say your account has been compromised.
+You need to move your savings to a safe account by wire transfer today.
+Please don't tell anyone at the branch, we believe an employee is involved.

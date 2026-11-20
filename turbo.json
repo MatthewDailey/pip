@@ -1,0 +1,695 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "ui": "tui",
+  "globalPassThroughEnv": [
+    "JAVA_HOME",
+    "ANDROID_HOME",
+    "ANDROID_SDK_ROOT",
+    "ANDROID_SERIAL",
+    "AVD_NAME",
+    "EMULATOR_FOREGROUND",
+    "LOGCAT_TAGS",
+    "GRADLE_USER_HOME",
+    "RIVC_GRADLE",
+    "RIVC_CMD",
+    "PREVIEW_SRC",
+    "PORT",
+    "BACKDROP",
+    "OPENAI_API_KEY",
+    "OPENAI_SECRET",
+    "OPENAI_SECRET_PROJECT",
+    "CLOUDSDK_CONFIG",
+    "ADB",
+    "SYNC_NUDGE",
+    "SHOW_TIMEOUT",
+    "SHOW_ARGS",
+    "SHOW_ACTION",
+    "OUT_NAME",
+    "SOUNDTRACK_FROM",
+    "SOUNDTRACK_TO",
+    "TMPDIR",
+    "JEV_API_KEY",
+    "JEV_MODEL",
+    "JEV_API_BASE_URL",
+    "ANTHROPIC_API_KEY",
+    "LLM_PROVIDER",
+    "LLM_MODEL",
+    "OPENAI_MODEL",
+    "ANTHROPIC_MODEL",
+    "TWILIO_ACCOUNT_SID",
+    "TWILIO_AUTH_TOKEN",
+    "PIP_LINE_NUMBER",
+    "MOM_NUMBER",
+    "ROBO_CALLER_NUMBER",
+    "PUBLIC_BASE_URL",
+    "VERCEL_AUTOMATION_BYPASS_SECRET",
+    "KV_REST_API_URL",
+    "KV_REST_API_TOKEN",
+    "PIP4_URL",
+    "PIP4_APPROACH",
+    "PIP4_BYPASS_SECRET",
+    "PIP_TWILIO",
+    "PIP_RECORD",
+    "PIP_SKIP_SIGNATURE",
+    "TWILIO_PIP_LINE",
+    "TWILIO_ROBO_CALLER",
+    "TWILIO_API_KEY",
+    "TWILIO_API_SECRET",
+    "TWILIO_API_KEY_SID",
+    "TWILIO_API_KEY_SECRET",
+    "TWILIO_TWIML_APP_SID",
+    "TWILIO_PUSH_CREDENTIAL_SID",
+    "PIP_APP_SECRET",
+    "MOM_CLIENT_IDENTITY",
+    "PIP_VOICE",
+    "OPENAI_PROJECT_ID",
+    "OPENAI_WEBHOOK_SECRET",
+    "PIP_REALTIME_MODEL",
+    "PIP_REALTIME_VOICE",
+    "DEBUG_TOKEN",
+    "PIP_STT_ENGINE",
+    "PIP_STT_MODEL",
+    "PIP_CALL_URL",
+    "PIP_USER",
+    "SCENARIOS_AUTO",
+    "SCENARIOS_PORT",
+    "PIP_MUTE_PATH",
+    "PIP_SPEAK"
+  ],
+  "globalDependencies": [
+    "scripts/env.sh"
+  ],
+  "tasks": {
+    "build": {
+      "dependsOn": [
+        "//#setup",
+        "^build"
+      ],
+      "outputs": []
+    },
+    "test": {
+      "dependsOn": [
+        "//#setup",
+        "build"
+      ],
+      "outputs": []
+    },
+    "lint": {
+      "outputs": [],
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "@shady-pip/rivc#build": {
+      "inputs": [
+        "src/main/**",
+        "schema/**",
+        "*.gradle.kts",
+        "gradle/**",
+        "rivc"
+      ],
+      "outputs": [
+        "build/install/**"
+      ],
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "@shady-pip/rivc#test": {
+      "dependsOn": [
+        "//#setup",
+        "build"
+      ],
+      "inputs": [
+        "src/**",
+        "schema/**",
+        "examples/**",
+        "*.gradle.kts",
+        "gradle/**"
+      ],
+      "outputs": [
+        "build/test-results/**"
+      ]
+    },
+    "@shady-pip/rivc#rivc:test": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "@shady-pip/pip-app#build": {
+      "inputs": [
+        "app/src/main/**",
+        "app/build.gradle.kts",
+        "*.gradle.kts",
+        "gradle.properties",
+        "gradle/**"
+      ],
+      "outputs": [
+        "app/build/outputs/apk/**"
+      ],
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/pip-rive#build"
+      ]
+    },
+    "@shady-pip/pip-app#test": {
+      "dependsOn": [
+        "//#setup",
+        "build",
+        "@shady-pip/pip-rive#build"
+      ],
+      "inputs": [
+        "app/src/main/**",
+        "app/src/test/**",
+        "app/build.gradle.kts",
+        "*.gradle.kts",
+        "gradle.properties",
+        "gradle/**"
+      ],
+      "outputs": [
+        "app/build/test-results/**"
+      ]
+    },
+    "@shady-pip/pip-app#lint": {
+      "inputs": [
+        "app/src/**",
+        "app/build.gradle.kts",
+        "*.gradle.kts",
+        "gradle.properties",
+        "gradle/**"
+      ],
+      "outputs": [
+        "app/build/reports/lint-results-debug.*"
+      ],
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/pip-rive#build"
+      ]
+    },
+    "@shady-pip/pip-app#pip:push": {
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/pip-rive#build"
+      ],
+      "cache": false
+    },
+    "@shady-pip/pip-app#pip:roam": {
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/pip-rive#build"
+      ],
+      "cache": false
+    },
+    "@shady-pip/pip-app#pip:greet": {
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/pip-rive#build"
+      ],
+      "cache": false
+    },
+    "@shady-pip/pip-app#pip:greet-record": {
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/pip-rive#build"
+      ],
+      "cache": false
+    },
+    "@shady-pip/pip-app#pip:roam-stop": {
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/pip-rive#build"
+      ],
+      "cache": false
+    },
+    "@shady-pip/pip-app#pip:story": {
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/pip-rive#build"
+      ],
+      "cache": false
+    },
+    "@shady-pip/showreel-to-rivc#build:wip": {
+      "inputs": [
+        "src/main/**",
+        "*.gradle.kts",
+        "../rivc/src/main/**"
+      ],
+      "outputs": [
+        "build/install/**"
+      ],
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "@shady-pip/showreel-to-rivc#test:wip": {
+      "dependsOn": [
+        "//#setup",
+        "build:wip"
+      ],
+      "outputs": []
+    },
+    "emulator": {
+      "persistent": true,
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "logcat": {
+      "persistent": true,
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "preview": {
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/rivc#build"
+      ],
+      "persistent": true,
+      "cache": false
+    },
+    "app:setup": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "app:install": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "sms:scam": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "sms:hello": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "call:fake": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "call:app": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "call:live": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "call:irs": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "call:bank": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "call:grandson": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "call:pharmacy": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "call:list": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "voice:greeting": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "pip:sampler": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "pip:peeks": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "pip:showreel": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "pip:mood": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "pip:blink": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "pip:detect-scam-call": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "pip:act-unmute": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "pip:mute-rule": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "pip:voice": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "pip:bundled": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "showreel:record": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "soundtrack:test": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "goldens": {
+      "inputs": [
+        "*.mjs",
+        "*.json",
+        "index.html",
+        "preview.js",
+        "vendor/**",
+        "fixtures/**",
+        "goldens/*.png"
+      ],
+      "outputs": [],
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "golden:update": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "playwright:install": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "art:fx": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "art:sets-6090": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "art:icon": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "art:sets-modern": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "//#demo": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/pip-rive#build"
+      ]
+    },
+    "//#demo:reset": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "//#setup": {
+      "cache": false,
+      "outputs": [],
+      "outputLogs": "errors-only"
+    },
+    "dev": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "persistent": true,
+      "cache": false
+    },
+    "//#dev": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "persistent": true,
+      "cache": false,
+      "interactive": true
+    },
+    "pip:exploratory": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "cache": false
+    },
+    "pip:hodor": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "cache": false
+    },
+    "pip:showreel-rive": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "cache": false
+    },
+    "@shady-pip/pip-call#test": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "outputs": []
+    },
+    "@shady-pip/pip-call#build": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**"
+      ]
+    },
+    "sim": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "cache": false
+    },
+    "@shady-pip/jev-playground#build": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**"
+      ]
+    },
+    "typecheck": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "outputs": []
+    },
+    "eval": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "cache": false
+    },
+    "start": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "persistent": true,
+      "cache": false
+    },
+    "droid": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "persistent": true,
+      "cache": false
+    },
+    "jev": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "persistent": true,
+      "cache": false
+    },
+    "@shady-pip/pip-rive#build": {
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/rivc#build"
+      ],
+      "inputs": [
+        "build.sh",
+        "pip/*.json",
+        "pip/*.svg",
+        "showreel/*.json",
+        "showreel/gen/**",
+        "showreel/fonts/**",
+        "sets/*.svg",
+        "sets/*.rivc.json",
+        "stories/**",
+        "roam/*.json",
+        "roam/*.svg"
+      ],
+      "outputs": [
+        "dist/**"
+      ]
+    },
+    "@shady-pip/pip-rive#rive:greet": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "@shady-pip/pip-rive#rive:roam": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    },
+    "@shady-pip/pip-rive#rive:rig": {
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/rivc#build"
+      ],
+      "cache": false
+    },
+    "@shady-pip/pip-app#app:install": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/pip-rive#build"
+      ]
+    },
+    "@shady-pip/pip-app#app:setup": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/pip-rive#build"
+      ]
+    },
+    "@shady-pip/pip-app#droid": {
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/pip-rive#build"
+      ],
+      "persistent": true,
+      "cache": false
+    },
+    "@shady-pip/pip-fixtures#build": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "inputs": [
+        "app/src/main/**",
+        "app/build.gradle.kts",
+        "*.gradle.kts",
+        "gradle.properties",
+        "gradle/**"
+      ],
+      "outputs": [
+        "app/build/outputs/apk/**"
+      ]
+    },
+    "@shady-pip/pip-scenarios#scenarios": {
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/pip-fixtures#build"
+      ],
+      "cache": false,
+      "interactive": true
+    },
+    "@shady-pip/pip-scenarios#scenarios:sheet": {
+      "dependsOn": [
+        "//#setup"
+      ],
+      "cache": false
+    },
+    "@shady-pip/pip-scenarios#scenarios:auto": {
+      "dependsOn": [
+        "//#setup",
+        "@shady-pip/pip-fixtures#build"
+      ],
+      "cache": false
+    },
+    "@shady-pip/pip-app#pip:talk": {
+      "cache": false,
+      "dependsOn": [
+        "//#setup"
+      ]
+    }
+  }
+}

@@ -1,0 +1,29 @@
+<!doctype html>
+<!-- Fake "virus detected" scare page with a tech-support number, for Pip's scenario runner. The number is a 555 test number. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; connect-src 'none'">
+<title>System Alert</title>
+<style>
+  body { margin: 0; font: 17px/1.45 system-ui, sans-serif; background: #202124; color: #fff; }
+  .box { margin: 40px 16px; background: #d93025; border-radius: 14px; padding: 22px 18px; box-shadow: 0 12px 40px rgba(0,0,0,.5); }
+  h1 { font: 700 26px/1.2 system-ui; margin: 0 0 12px; }
+  .num { display: block; margin: 18px 0 6px; font: 700 26px/1.2 system-ui; }
+  .bar { height: 10px; border-radius: 5px; background: rgba(255,255,255,.3); overflow: hidden; margin-top: 18px; }
+  .bar i { display: block; height: 100%; width: 82%; background: #fff; }
+  button { width: 100%; margin-top: 20px; font: 600 18px system-ui; color: #d93025; background: #fff; border: 0; border-radius: 26px; padding: 15px; }
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>⚠ 5 viruses detected!</h1>
+  <div>Your phone is severely damaged by (5) viruses. Your photos and bank details will be deleted. Act now: call Example Phone Support immediately.</div>
+  <span class="num">Call 1-888-555-0199</span>
+  <div>Do not close this page or restart your phone.</div>
+  <div class="bar"><i></i></div>
+  <button onclick="this.textContent = 'Test page: nothing happens.'">Remove viruses now</button>
+</div>
+</body>
+</html>

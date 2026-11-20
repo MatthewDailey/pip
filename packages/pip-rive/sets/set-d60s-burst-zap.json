@@ -1,0 +1,51 @@
+{
+ "piece": "set-d60s-burst-zap",
+ "origin": [880, 1080],
+ "rotation": -6,
+ "clips": [
+  {
+   "name": "hit",
+   "duration": 0.6,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "scale",
+     "keys": [
+      [0.0, 0.2],
+      [0.132, 1.12],
+      [0.24, 0.98],
+      [0.432, 1],
+      [0.6, 0.3]
+     ],
+     "ease": "easeOut"
+    },
+    {
+     "target": "root",
+     "property": "rotation",
+     "keys": [
+      [0.0, -31],
+      [0.132, -2],
+      [0.24, -6],
+      [0.432, -6],
+      [0.6, 12]
+     ],
+     "ease": "easeInOut"
+    },
+    {
+     "target": "root",
+     "property": "opacity",
+     "keys": [
+      [0.0, 1],
+      [0.432, 1],
+      [0.6, 0]
+     ],
+     "ease": "easeIn"
+    }
+   ],
+   "note": "slams in on the punch (overshoot ease 0.1,0.9,0.3,1.4 on the first segment), holds, shrinks away"
+  }
+ ],
+ "notes": "Word glyphs are outlined (Avenir Black standing in for Roboto Black, skewed -0.16).",
+ "size": [520, 420]
+}

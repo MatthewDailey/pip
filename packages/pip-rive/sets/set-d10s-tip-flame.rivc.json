@@ -1,0 +1,189 @@
+{
+    "artboard": {
+        "name": "set-d10s-tip-flame",
+        "width": 200.0,
+        "height": 180.0
+    },
+    "art": {
+        "svg": "set-d10s-tip-flame.svg"
+    },
+    "clips": [
+        {
+            "name": "flicker",
+            "frames": 685,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "tip-flame-flicker",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.9237
+                        },
+                        {
+                            "frame": 43,
+                            "value": 0.8998
+                        },
+                        {
+                            "frame": 86,
+                            "value": 0.9273
+                        },
+                        {
+                            "frame": 129,
+                            "value": 0.8753
+                        },
+                        {
+                            "frame": 171,
+                            "value": 0.7395
+                        },
+                        {
+                            "frame": 214,
+                            "value": 0.7145
+                        },
+                        {
+                            "frame": 257,
+                            "value": 0.8495
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.9505
+                        },
+                        {
+                            "frame": 343,
+                            "value": 0.9237
+                        },
+                        {
+                            "frame": 386,
+                            "value": 0.8998
+                        },
+                        {
+                            "frame": 428,
+                            "value": 0.9273
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.8753
+                        },
+                        {
+                            "frame": 514,
+                            "value": 0.7395
+                        },
+                        {
+                            "frame": 557,
+                            "value": 0.7145
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.8495
+                        },
+                        {
+                            "frame": 643,
+                            "value": 0.9505
+                        },
+                        {
+                            "frame": 685,
+                            "value": 0.9237
+                        }
+                    ]
+                },
+                {
+                    "target": "tip-flame-flicker",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.11020881561718193
+                        },
+                        {
+                            "frame": 43,
+                            "value": -0.07966380837802918
+                        },
+                        {
+                            "frame": 86,
+                            "value": -0.03289771107084112
+                        },
+                        {
+                            "frame": 129,
+                            "value": 0.017643533408410676
+                        },
+                        {
+                            "frame": 171,
+                            "value": 0.0796899883168091
+                        },
+                        {
+                            "frame": 214,
+                            "value": 0.13036736847771643
+                        },
+                        {
+                            "frame": 257,
+                            "value": 0.13344787460748644
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.12251862283149795
+                        },
+                        {
+                            "frame": 343,
+                            "value": 0.11020881561718193
+                        },
+                        {
+                            "frame": 386,
+                            "value": 0.07966380837802918
+                        },
+                        {
+                            "frame": 428,
+                            "value": 0.03289771107084112
+                        },
+                        {
+                            "frame": 471,
+                            "value": -0.017643533408410676
+                        },
+                        {
+                            "frame": 514,
+                            "value": -0.0796899883168091
+                        },
+                        {
+                            "frame": 557,
+                            "value": -0.13036736847771643
+                        },
+                        {
+                            "frame": 600,
+                            "value": -0.13344787460748644
+                        },
+                        {
+                            "frame": 643,
+                            "value": -0.12251862283149795
+                        },
+                        {
+                            "frame": 685,
+                            "value": -0.11020881561718193
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "flicker",
+                "states": [
+                    {
+                        "name": "flicker",
+                        "clip": "flicker"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "flicker"
+                    }
+                ]
+            }
+        ]
+    }
+}

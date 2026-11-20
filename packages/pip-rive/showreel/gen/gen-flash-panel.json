@@ -1,0 +1,10 @@
+{
+    "artboard": {
+        "name": "gen-flash-panel",
+        "width": 940.0,
+        "height": 760.0
+    },
+    "art": {
+        "svg": "gen-flash-panel.svg"
+    }
+}

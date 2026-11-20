@@ -1,0 +1,153 @@
+RIVE 7.5 fileId=0 toc=[]
+#0 Backboard
+#1 ViewModel name="Pip"
+#2 ViewModelPropertyNumber name="mood"
+#3 ViewModelPropertyTrigger name="blink"
+#4 ViewModelInstance name="Default" viewModelId=0
+#5 ViewModelInstanceNumber viewModelPropertyId=0 propertyValue=0.0
+#6 ViewModelInstanceTrigger viewModelPropertyId=1
+#7 Artboard [0] name="Pip" width=540.0 height=660.0 clip=false defaultStateMachineId=0 viewModelId=0
+#8 Node [1] name="root" parentId=0
+#9 Shape [2] name="eyeR" parentId=1 x=389.0 y=401.5
+#10 Ellipse [3] parentId=2 width=42.0 height=69.0
+#11 Fill [4] parentId=2
+#12 SolidColor [5] parentId=4 colorValue=#FF8B3F37
+#13 Shape [6] name="eyeL" parentId=1 x=252.0 y=420.5
+#14 Ellipse [7] parentId=6 width=42.0 height=69.0
+#15 Fill [8] parentId=6
+#16 SolidColor [9] parentId=8 colorValue=#FF8B3F37
+#17 Shape [10] name="face" parentId=1
+#18 PointsPath [11] parentId=10 isClosed=true
+#19 CubicDetachedVertex [12] parentId=11 x=292.6 y=316.0 inRotation=-0.068683736 inDistance=59.740856 outRotation=3.0722342 outDistance=54.831833
+#20 CubicDetachedVertex [13] parentId=11 x=135.0 y=366.2 inRotation=-0.5088842 inDistance=65.270515 outRotation=2.63205 outDistance=103.3257
+#21 CubicDetachedVertex [14] parentId=11 x=30.9 y=544.2 inRotation=-1.8975537 inDistance=69.47611 outRotation=1.2447121 outDistance=58.376194
+#22 CubicDetachedVertex [15] parentId=11 x=190.5 y=654.4 inRotation=-2.979064 inDistance=81.57506 outRotation=0.16179173 outDistance=44.07562
+#23 CubicDetachedVertex [16] parentId=11 x=354.0 y=654.4 inRotation=2.9979851 inDistance=49.610683 outRotation=-0.14354858 outDistance=102.7569
+#24 CubicDetachedVertex [17] parentId=11 x=537.1 y=508.0 inRotation=1.7815498 inDistance=82.219215 outRotation=-1.3580173 outDistance=16.573774
+#25 CubicDetachedVertex [18] parentId=11 x=536.8 y=444.9 inRotation=1.3521274 inDistance=16.59518 outRotation=-1.7961175 outDistance=45.654026
+#26 CubicDetachedVertex [19] parentId=11 x=453.5 y=341.0 inRotation=0.46175903 inDistance=47.360004 outRotation=-2.6810188 outDistance=43.648254
+#27 Fill [20] parentId=10
+#28 SolidColor [21] parentId=20 colorValue=#FFFDE3D2
+#29 Shape [22] name="hat" parentId=1
+#30 PointsPath [23] parentId=22 isClosed=true
+#31 CubicDetachedVertex [24] parentId=23 x=194.2 y=6.6 inRotation=-0.16392916 inDistance=13.480727 outRotation=2.9825463 outDistance=40.410023
+#32 CubicDetachedVertex [25] parentId=23 x=71.4 y=75.3 inRotation=-0.76483554 inDistance=55.02454 outRotation=2.3760595 outDistance=53.3971
+#33 CubicDetachedVertex [26] parentId=23 x=2.7 y=185.5 inRotation=-1.5512675 inDistance=25.604883 outRotation=1.5900247 outDistance=26.004807
+#34 CubicDetachedVertex [27] parentId=23 x=51.5 y=212.9 inRotation=2.8437896 inDistance=31.69511 outRotation=-0.2837941 outDistance=7.5
+#35 CubicDetachedVertex [28] parentId=23 x=99.5 y=189.7 inRotation=2.598403 inDistance=12.382245 outRotation=-0.5585993 outDistance=3.7735925
+#36 CubicDetachedVertex [29] parentId=23 x=105.8 y=186.5 inRotation=-2.3561945 inDistance=0.28284273 outRotation=0.7853982 outDistance=0.56568545
+#37 CubicDetachedVertex [30] parentId=23 x=88.0 y=221.0 inRotation=-1.076855 inDistance=28.053164 outRotation=2.0741956 outDistance=7.877182
+#38 CubicDetachedVertex [31] parentId=23 x=71.7 y=251.0 inRotation=-1.0743736 inDistance=10.917875 outRotation=2.067219 outDistance=10.917875
+#39 CubicDetachedVertex [32] parentId=23 x=58.0 y=276.0 inRotation=-1.0412067 inDistance=4.7507896 outRotation=2.087227 outDistance=82.22293
+#40 CubicDetachedVertex [33] parentId=23 x=0.7 y=433.5 inRotation=-1.5683149 inDistance=40.300125 outRotation=1.5707964 outDistance=22.7
+#41 CubicDetachedVertex [34] parentId=23 x=17.5 y=482.6 inRotation=-2.343747 inDistance=17.042593 outRotation=0.7998899 outDistance=4.879549
+#42 CubicDetachedVertex [35] parentId=23 x=24.7 y=489.0 inRotation=3.1415927 inDistance=0.5 outRotation=0.0 outDistance=0.5
+#43 CubicDetachedVertex [36] parentId=23 x=27.4 y=481.4 inRotation=1.8045396 inDistance=4.3174067 outRotation=-1.3370532 outDistance=8.634813
+#44 CubicDetachedVertex [37] parentId=23 x=39.7 y=450.2 inRotation=2.072703 inDistance=9.353609 outRotation=-1.047518 outDistance=6.0033326
+#45 CubicDetachedVertex [38] parentId=23 x=157.2 y=445.0 inRotation=3.1415927 inDistance=114.5 outRotation=0.0 outDistance=91.2
+#46 CubicDetachedVertex [39] parentId=23 x=272.3 y=443.8 inRotation=1.9513026 inDistance=1.0770329 outRotation=-1.19029 outDistance=1.0770329
+#47 CubicDetachedVertex [40] parentId=23 x=272.9 y=443.7 inRotation=-1.5707964 inDistance=0.9 outRotation=1.4711276 outDistance=1.0049876
+#48 CubicDetachedVertex [41] parentId=23 x=404.9 y=445.0 inRotation=3.1415927 inDistance=104.8 outRotation=0.0 outDistance=0.0
+#49 StraightVertex [42] parentId=23 x=536.7 y=445.0
+#50 CubicDetachedVertex [43] parentId=23 x=535.3 y=439.0 inRotation=0.0 inDistance=0.0 outRotation=-1.7880898 outDistance=7.8854294
+#51 CubicDetachedVertex [44] parentId=23 x=525.7 y=412.6 inRotation=1.0452125 inDistance=5.7801385 outRotation=-2.0844023 outDistance=4.4777226
+#52 CubicDetachedVertex [45] parentId=23 x=526.2 y=405.8 inRotation=2.3204954 inDistance=3.9623225 outRotation=-0.82040334 outDistance=18.183784
+#53 CubicDetachedVertex [46] parentId=23 x=535.1 y=340.1 inRotation=1.2477248 inDistance=23.938463 outRotation=-1.8941168 outDistance=20.143734
+#54 CubicDetachedVertex [47] parentId=23 x=500.9 y=277.9 inRotation=0.9580547 inDistance=32.51538 outRotation=-2.186343 outDistance=27.190624
+#55 CubicDetachedVertex [48] parentId=23 x=453.9 y=203.7 inRotation=1.0322684 inDistance=54.39945 outRotation=-2.1115024 outDistance=59.835857
+#56 CubicDetachedVertex [49] parentId=23 x=386.2 y=103.6 inRotation=0.87645006 inDistance=32.662212 outRotation=-2.263676 outDistance=68.88396
+#57 CubicDetachedVertex [50] parentId=23 x=249.0 y=7.9 inRotation=0.23028104 inDistance=49.506866 outRotation=-2.904744 outDistance=11.933147
+#58 Fill [51] parentId=22
+#59 SolidColor [52] parentId=51 colorValue=#FFF05248
+#60 CubicEaseInterpolator [53] x1=0.42 y1=0.0 x2=0.58 y2=1.0
+#61 LinearAnimation name="idle" fps=60 duration=120 loopValue=1
+#62 KeyedObject objectId=1
+#63 KeyedProperty propertyKey=14
+#64 KeyFrameDouble frame=0 interpolationType=2 value=0.0 interpolatorId=53
+#65 KeyFrameDouble frame=60 interpolationType=2 value=-18.0 interpolatorId=53
+#66 KeyFrameDouble frame=120 interpolationType=2 value=0.0 interpolatorId=53
+#67 LinearAnimation name="blink" fps=60 duration=14 loopValue=0
+#68 KeyedObject objectId=6
+#69 KeyedProperty propertyKey=17
+#70 KeyFrameDouble frame=0 interpolationType=1 value=1.0
+#71 KeyFrameDouble frame=5 interpolationType=1 value=0.08
+#72 KeyFrameDouble frame=8 interpolationType=1 value=0.08
+#73 KeyFrameDouble frame=14 interpolationType=1 value=1.0
+#74 KeyedObject objectId=2
+#75 KeyedProperty propertyKey=17
+#76 KeyFrameDouble frame=0 interpolationType=1 value=1.0
+#77 KeyFrameDouble frame=5 interpolationType=1 value=0.08
+#78 KeyFrameDouble frame=8 interpolationType=1 value=0.08
+#79 KeyFrameDouble frame=14 interpolationType=1 value=1.0
+#80 LinearAnimation name="mood_0" fps=60 duration=1 loopValue=0
+#81 KeyedObject objectId=21
+#82 KeyedProperty propertyKey=37
+#83 KeyFrameColor frame=0 interpolationType=1 value=#FFFDE3D2
+#84 LinearAnimation name="mood_1" fps=60 duration=1 loopValue=0
+#85 KeyedObject objectId=21
+#86 KeyedProperty propertyKey=37
+#87 KeyFrameColor frame=0 interpolationType=1 value=#FFFFB8C8
+#88 LinearAnimation name="mood_2" fps=60 duration=1 loopValue=0
+#89 KeyedObject objectId=21
+#90 KeyedProperty propertyKey=37
+#91 KeyFrameColor frame=0 interpolationType=1 value=#FFF26A5A
+#92 LinearAnimation name="mood_3" fps=60 duration=1 loopValue=0
+#93 KeyedObject objectId=21
+#94 KeyedProperty propertyKey=37
+#95 KeyFrameColor frame=0 interpolationType=1 value=#FFC9D8F0
+#96 StateMachine name="Pip"
+#97 StateMachineNumber name="mood" value=0.0
+#98 StateMachineTrigger name="blink"
+#99 StateMachineLayer name="Idle"
+#100 AnyState
+#101 EntryState
+#102 StateTransition stateToId=3 flags=0 duration=0 exitTime=0
+#103 ExitState
+#104 AnimationState animationId=0
+#105 StateMachineLayer name="Blink"
+#106 AnyState
+#107 StateTransition stateToId=3 flags=0 duration=0 exitTime=0
+#108 TransitionViewModelCondition opValue=0
+#109 BindablePropertyTrigger
+#110 DataBindContext propertyKey=686 flags=0 sourcePathIds=[0,1]
+#111 TransitionPropertyViewModelComparator
+#112 TransitionValueTriggerComparator
+#113 EntryState
+#114 StateTransition stateToId=4 flags=0 duration=0 exitTime=0
+#115 ExitState
+#116 AnimationState animationId=1
+#117 StateTransition stateToId=4 flags=12 duration=0 exitTime=100
+#118 AnimationState
+#119 StateMachineLayer name="Mood"
+#120 AnyState
+#121 StateTransition stateToId=3 flags=0 duration=150 exitTime=0
+#122 TransitionViewModelCondition opValue=0
+#123 BindablePropertyNumber
+#124 DataBindContext propertyKey=636 flags=0 sourcePathIds=[0,0]
+#125 TransitionPropertyViewModelComparator
+#126 TransitionValueNumberComparator value=0.0
+#127 StateTransition stateToId=4 flags=0 duration=150 exitTime=0
+#128 TransitionViewModelCondition opValue=0
+#129 BindablePropertyNumber
+#130 DataBindContext propertyKey=636 flags=0 sourcePathIds=[0,0]
+#131 TransitionPropertyViewModelComparator
+#132 TransitionValueNumberComparator value=1.0
+#133 StateTransition stateToId=5 flags=0 duration=150 exitTime=0
+#134 TransitionViewModelCondition opValue=0
+#135 BindablePropertyNumber
+#136 DataBindContext propertyKey=636 flags=0 sourcePathIds=[0,0]
+#137 TransitionPropertyViewModelComparator
+#138 TransitionValueNumberComparator value=2.0
+#139 StateTransition stateToId=6 flags=0 duration=150 exitTime=0
+#140 TransitionViewModelCondition opValue=0
+#141 BindablePropertyNumber
+#142 DataBindContext propertyKey=636 flags=0 sourcePathIds=[0,0]
+#143 TransitionPropertyViewModelComparator
+#144 TransitionValueNumberComparator value=3.0
+#145 EntryState
+#146 StateTransition stateToId=3 flags=0 duration=0 exitTime=0
+#147 ExitState
+#148 AnimationState animationId=2
+#149 AnimationState animationId=3
+#150 AnimationState animationId=4
+#151 AnimationState animationId=5

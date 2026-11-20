@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-198.25 -188.6 396.5 377.21" width="396.5" height="377.21">
+<title>bubble</title>
+<g id="bubble">
+  <g id="bubble-shadow"><rect x="-173" y="-158.1" width="356.5" height="131.85" rx="47.25" fill="#3A2A26" fill-opacity="0.180"/></g>
+  <g id="bubble-box"><rect x="-178.25" y="-168.6" width="356.5" height="131.85" rx="47.25" fill="#FFFFFF" stroke="#F05248" stroke-width="7.88"/></g>
+  <g id="bubble-tail"><path d="M-26.25,-37.75 L0,0 L26.25,-37.75 Z" fill="#FFFFFF"/><path d="M-26.25,-36.75 L0,0 L26.25,-36.75" fill="none" stroke="#F05248" stroke-width="7.88" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g id="text-bubble" data-text="No no no!" data-font-size="49.88" data-font-weight="bold" data-color="#3A2A26" data-align="center" data-max-width="682.5" data-box="-141.5 -131.85 283 58.35"></g>
+</g>
+</svg>

@@ -1,0 +1,297 @@
+{
+    "artboard": {
+        "name": "set-d00s-signal",
+        "width": 220.0,
+        "height": 172.0
+    },
+    "art": {
+        "svg": "set-d00s-signal.svg"
+    },
+    "clips": [
+        {
+            "name": "bars",
+            "frames": 3000,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "bar-0-fill",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 3000,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "bar-0-fill-shape/fill",
+                    "property": "colorValue",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "color": "#F05248",
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 960,
+                            "color": "#FFB020",
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 2160,
+                            "color": "#34C759",
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "bar-1-fill",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 1200,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 3000,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "bar-1-fill-shape/fill",
+                    "property": "colorValue",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "color": "#F05248",
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 960,
+                            "color": "#FFB020",
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 2160,
+                            "color": "#34C759",
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "bar-2-fill",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 1200,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 1800,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 3000,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "bar-2-fill-shape/fill",
+                    "property": "colorValue",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "color": "#F05248",
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 960,
+                            "color": "#FFB020",
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 2160,
+                            "color": "#34C759",
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "bar-3-fill",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 1800,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 2400,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 3000,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "bar-3-fill-shape/fill",
+                    "property": "colorValue",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "color": "#F05248",
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 960,
+                            "color": "#FFB020",
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 2160,
+                            "color": "#34C759",
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "bar-4-fill",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 2400,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 3000,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "bar-4-fill-shape/fill",
+                    "property": "colorValue",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "color": "#F05248",
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 960,
+                            "color": "#FFB020",
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 2160,
+                            "color": "#34C759",
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "no-signal",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 960,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "x-blink",
+            "frames": 209,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "no-signal-x",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 111,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 203,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 209,
+                            "value": 1.0,
+                            "ease": "hold"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "x-blink",
+                "states": [
+                    {
+                        "name": "x-blink",
+                        "clip": "x-blink"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "x-blink"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+ "piece": "set-d60s-comic",
+ "origin": [540, 1150],
+ "notes": "Halftone dots are merged into one compound path per colour (one Rive shape each).",
+ "clips": [
+  {
+   "name": "rays-spin",
+   "duration": 5.0,
+   "loop": true,
+   "tracks": [
+    {
+     "target": "rays",
+     "property": "rotation",
+     "keys": [
+      [0, 0],
+      [5, 30]
+     ],
+     "ease": "linear"
+    }
+   ],
+   "note": "6 deg/s; the ray pattern repeats every 30 deg so the loop is seamless"
+  }
+ ],
+ "inputs": [
+  {
+   "name": "progress",
+   "type": "number",
+   "drives": "Scene-level: n.f slides set n out and set n+1 in (a whip pan). The set itself is static at its own origin; the host translates it by -f*940 (horizontal) or +f*760 (vertical)."
+  }
+ ],
+ "size": [940, 760]
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Fictional third-party apps for Pip's scenario runner (apps/pip-scenarios). Each screen has its own label and task,
+  so Pip's accessibility service sees an ordinary other app. Nothing here touches the network.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="false"
+        android:label="Pip fixtures"
+        android:icon="@android:drawable/sym_def_app_icon"
+        android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+
+        <activity android:name=".MailActivity" android:label="ExampleMail" android:exported="true"
+            android:taskAffinity="dev.playground.pipfixtures.mail" />
+        <activity android:name=".ChatActivity" android:label="ExampleChat" android:exported="true"
+            android:taskAffinity="dev.playground.pipfixtures.chat"
+            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+        <activity android:name=".GiftCardActivity" android:label="ExampleStore" android:exported="true"
+            android:taskAffinity="dev.playground.pipfixtures.store" />
+        <activity android:name=".FormActivity" android:label="ExampleRefunds" android:exported="true"
+            android:taskAffinity="dev.playground.pipfixtures.form"
+            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+        <activity android:name=".VoicemailActivity" android:label="Voicemail" android:exported="true"
+            android:taskAffinity="dev.playground.pipfixtures.voicemail" />
+        <activity android:name=".GalleryActivity" android:label="ExampleGallery" android:exported="true"
+            android:taskAffinity="dev.playground.pipfixtures.gallery" />
+
+        <!-- Only the adb shell (which holds DUMP) can post the fake notifications. -->
+        <receiver android:name=".NotifyReceiver" android:exported="true"
+            android:permission="android.permission.DUMP" />
+
+        <provider android:name=".VoicemailProvider"
+            android:authorities="dev.playground.pipfixtures.voicemail"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+    </application>
+
+</manifest>

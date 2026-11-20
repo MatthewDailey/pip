@@ -1,0 +1,328 @@
+{
+    "artboard": {
+        "name": "set-d10s-room",
+        "width": 1200.0,
+        "height": 2544.0
+    },
+    "art": {
+        "svg": "set-d10s-room.svg"
+    },
+    "clips": [
+        {
+            "name": "heat",
+            "frames": 600,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "leaf-0",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -1.0471975511965976
+                        },
+                        {
+                            "frame": 600,
+                            "value": -1.7453292519943295
+                        }
+                    ]
+                },
+                {
+                    "target": "leaf-0-shape/fill",
+                    "property": "colorValue",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "color": "#5FA85A"
+                        },
+                        {
+                            "frame": 600,
+                            "color": "#8A8A40"
+                        }
+                    ]
+                },
+                {
+                    "target": "leaf-1",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.5235987755982988
+                        },
+                        {
+                            "frame": 600,
+                            "value": -1.2217304763960306
+                        }
+                    ]
+                },
+                {
+                    "target": "leaf-1-shape/fill",
+                    "property": "colorValue",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "color": "#5FA85A"
+                        },
+                        {
+                            "frame": 600,
+                            "color": "#8A8A40"
+                        }
+                    ]
+                },
+                {
+                    "target": "leaf-2",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.6981317007977318
+                        }
+                    ]
+                },
+                {
+                    "target": "leaf-2-shape/fill",
+                    "property": "colorValue",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "color": "#5FA85A"
+                        },
+                        {
+                            "frame": 600,
+                            "color": "#8A8A40"
+                        }
+                    ]
+                },
+                {
+                    "target": "leaf-3",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.5235987755982988
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.2217304763960306
+                        }
+                    ]
+                },
+                {
+                    "target": "leaf-3-shape/fill",
+                    "property": "colorValue",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "color": "#5FA85A"
+                        },
+                        {
+                            "frame": 600,
+                            "color": "#8A8A40"
+                        }
+                    ]
+                },
+                {
+                    "target": "leaf-4",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0471975511965976
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.7453292519943295
+                        }
+                    ]
+                },
+                {
+                    "target": "leaf-4-shape/fill",
+                    "property": "colorValue",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "color": "#5FA85A"
+                        },
+                        {
+                            "frame": 600,
+                            "color": "#8A8A40"
+                        }
+                    ]
+                },
+                {
+                    "target": "smoke",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0566
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.2925
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.5283
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.7642
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "smoke",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 6,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "heat-tint",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.14
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "picture-rattle",
+            "frames": 1257,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "picture-wobble",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 79,
+                            "value": 0.013358750094764598
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.024682446281703806
+                        },
+                        {
+                            "frame": 236,
+                            "value": 0.032250193918351225
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.03490658503988659
+                        },
+                        {
+                            "frame": 393,
+                            "value": 0.032250193918351225
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.024682446281703806
+                        },
+                        {
+                            "frame": 550,
+                            "value": 0.013358750094764598
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 707,
+                            "value": -0.013358750094764598
+                        },
+                        {
+                            "frame": 785,
+                            "value": -0.024682446281703806
+                        },
+                        {
+                            "frame": 864,
+                            "value": -0.032250193918351225
+                        },
+                        {
+                            "frame": 942,
+                            "value": -0.03490658503988659
+                        },
+                        {
+                            "frame": 1021,
+                            "value": -0.032250193918351225
+                        },
+                        {
+                            "frame": 1100,
+                            "value": -0.024682446281703806
+                        },
+                        {
+                            "frame": 1178,
+                            "value": -0.013358750094764598
+                        },
+                        {
+                            "frame": 1257,
+                            "value": -0.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "inputs": [
+            {
+                "name": "picture-rattleMix",
+                "type": "number",
+                "default": 0.0
+            }
+        ],
+        "layers": [
+            {
+                "name": "picture-rattle",
+                "states": [
+                    {
+                        "name": "picture-rattle",
+                        "direct": [
+                            {
+                                "clip": "picture-rattle",
+                                "by": "picture-rattleMix"
+                            }
+                        ]
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "picture-rattle"
+                    }
+                ]
+            }
+        ]
+    }
+}

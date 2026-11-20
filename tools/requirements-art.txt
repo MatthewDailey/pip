@@ -1,0 +1,4 @@
+# Extra packages for tools/pip-art (scenery generators and reference renders). cairosvg needs Homebrew's cairo.
+cairosvg
+cairocffi
+pillow

@@ -1,0 +1,60 @@
+{
+    "artboard": {
+        "name": "set-d90s-banner",
+        "width": 760.0,
+        "height": 320.0
+    },
+    "art": {
+        "svg": "set-d90s-banner.svg"
+    },
+    "clips": [
+        {
+            "name": "triangle-spin",
+            "frames": 1800,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "triangle",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1800,
+                            "value": 2.0943951023931953
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "pop",
+            "frames": 840,
+            "fps": 600
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "triangle-spin",
+                "states": [
+                    {
+                        "name": "triangle-spin",
+                        "clip": "triangle-spin"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "triangle-spin"
+                    }
+                ]
+            }
+        ]
+    }
+}

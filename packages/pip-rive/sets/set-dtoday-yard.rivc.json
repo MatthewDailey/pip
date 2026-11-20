@@ -1,0 +1,272 @@
+{
+    "artboard": {
+        "name": "set-dtoday-yard",
+        "width": 1200.0,
+        "height": 2544.0
+    },
+    "art": {
+        "svg": "set-dtoday-yard.svg"
+    },
+    "clips": [
+        {
+            "name": "cloud-drift",
+            "frames": 18850,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "cloud-0",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -448.875
+                        },
+                        {
+                            "frame": 2356,
+                            "value": -444.6324
+                        },
+                        {
+                            "frame": 4712,
+                            "value": -442.875
+                        },
+                        {
+                            "frame": 7069,
+                            "value": -444.6324
+                        },
+                        {
+                            "frame": 9425,
+                            "value": -448.875
+                        },
+                        {
+                            "frame": 11781,
+                            "value": -453.1176
+                        },
+                        {
+                            "frame": 14137,
+                            "value": -454.875
+                        },
+                        {
+                            "frame": 16493,
+                            "value": -453.1176
+                        },
+                        {
+                            "frame": 18850,
+                            "value": -448.875
+                        }
+                    ]
+                },
+                {
+                    "target": "cloud-1",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -229.7012
+                        },
+                        {
+                            "frame": 2356,
+                            "value": -228.8876
+                        },
+                        {
+                            "frame": 4712,
+                            "value": -231.5082
+                        },
+                        {
+                            "frame": 7069,
+                            "value": -236.0278
+                        },
+                        {
+                            "frame": 9425,
+                            "value": -239.7988
+                        },
+                        {
+                            "frame": 11781,
+                            "value": -240.6124
+                        },
+                        {
+                            "frame": 14137,
+                            "value": -237.9918
+                        },
+                        {
+                            "frame": 16493,
+                            "value": -233.4722
+                        },
+                        {
+                            "frame": 18850,
+                            "value": -229.7012
+                        }
+                    ]
+                },
+                {
+                    "target": "cloud-2",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 8.5808
+                        },
+                        {
+                            "frame": 2356,
+                            "value": 5.2173
+                        },
+                        {
+                            "frame": 4712,
+                            "value": 0.6281
+                        },
+                        {
+                            "frame": 7069,
+                            "value": -2.4984
+                        },
+                        {
+                            "frame": 9425,
+                            "value": -2.3308
+                        },
+                        {
+                            "frame": 11781,
+                            "value": 1.0327
+                        },
+                        {
+                            "frame": 14137,
+                            "value": 5.6219
+                        },
+                        {
+                            "frame": 16493,
+                            "value": 8.7484
+                        },
+                        {
+                            "frame": 18850,
+                            "value": 8.5808
+                        }
+                    ]
+                },
+                {
+                    "target": "cloud-3",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 240.5967
+                        },
+                        {
+                            "frame": 2356,
+                            "value": 236.1485
+                        },
+                        {
+                            "frame": 4712,
+                            "value": 233.81
+                        },
+                        {
+                            "frame": 7069,
+                            "value": 234.9511
+                        },
+                        {
+                            "frame": 9425,
+                            "value": 238.9033
+                        },
+                        {
+                            "frame": 11781,
+                            "value": 243.3515
+                        },
+                        {
+                            "frame": 14137,
+                            "value": 245.69
+                        },
+                        {
+                            "frame": 16493,
+                            "value": 244.5489
+                        },
+                        {
+                            "frame": 18850,
+                            "value": 240.5967
+                        }
+                    ]
+                },
+                {
+                    "target": "cloud-4",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 444.6467
+                        },
+                        {
+                            "frame": 2356,
+                            "value": 443.2035
+                        },
+                        {
+                            "frame": 4712,
+                            "value": 445.2656
+                        },
+                        {
+                            "frame": 7069,
+                            "value": 449.6252
+                        },
+                        {
+                            "frame": 9425,
+                            "value": 453.7283
+                        },
+                        {
+                            "frame": 11781,
+                            "value": 455.1715
+                        },
+                        {
+                            "frame": 14137,
+                            "value": 453.1094
+                        },
+                        {
+                            "frame": 16493,
+                            "value": 448.7498
+                        },
+                        {
+                            "frame": 18850,
+                            "value": 444.6467
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "red-light",
+            "frames": 600,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "red-tint",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.13
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "cloud-drift",
+                "states": [
+                    {
+                        "name": "cloud-drift",
+                        "clip": "cloud-drift"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "cloud-drift"
+                    }
+                ]
+            }
+        ]
+    }
+}

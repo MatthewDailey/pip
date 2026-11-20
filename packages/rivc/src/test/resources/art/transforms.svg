@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="-20 -10 400 300">
+  <style>
+    .leaf { fill: #3FA34D; stroke: #1F5E2A; stroke-width: 2 }
+    #sign { opacity: 0.9 }
+    rect.post { fill: #8B5A2B }
+  </style>
+  <rect x="-20" y="-10" width="400" height="300" fill="#F4EFE6"/>
+  <g id="tree" transform="translate(80 40)">
+    <rect class="post" x="-8" y="100" width="16" height="120"/>
+    <g id="crown" transform="scale(1.5)">
+      <circle class="leaf" cx="0" cy="40" r="40"/>
+      <g id="branch" transform="rotate(-30 0 40)">
+        <ellipse class="leaf" cx="0" cy="-5" rx="12" ry="28" style="fill:#6CC070"/>
+      </g>
+    </g>
+  </g>
+  <g id="sign" transform="matrix(0.966 -0.259 0.259 0.966 210 60)" data-text="WELCOME" data-text-size="18">
+    <rect id="board" x="0" y="0" width="130" height="50" rx="8" fill="#FFD166" stroke="#8B5A2B" stroke-width="3"/>
+    <text id="label" x="65" y="32" data-text="WELCOME">WELCOME</text>
+  </g>
+  <g id="leaning" transform="translate(250 150) skewX(20)">
+    <rect x="0" y="0" width="60" height="80" fill="#7FA8D9"/>
+    <circle cx="30" cy="20" r="12" fill="#FFF6C9"/>
+  </g>
+  <g id="mirror" transform="translate(150 260) scale(-1 1)" opacity="0.6">
+    <polygon points="0,0 40,-50 80,0" fill="#F05248"/>
+    <line x1="0" y1="10" x2="80" y2="10" stroke="#2B2B2B" stroke-width="4"/>
+  </g>
+</svg>

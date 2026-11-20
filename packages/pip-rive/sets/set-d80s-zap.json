@@ -1,0 +1,546 @@
+{
+ "piece": "set-d80s-zap",
+ "origin": [190, 1180],
+ "clips": [
+  {
+   "name": "crackle",
+   "duration": 0.364,
+   "loop": true,
+   "tracks": [
+    {
+     "target": "arc-0-0",
+     "property": "opacity",
+     "keys": [
+      [0, 1],
+      [0.045, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-0-1",
+     "property": "opacity",
+     "keys": [
+      [0, 1],
+      [0.045, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-0-2",
+     "property": "opacity",
+     "keys": [
+      [0, 1],
+      [0.045, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-0-3",
+     "property": "opacity",
+     "keys": [
+      [0, 1],
+      [0.045, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-0-4",
+     "property": "opacity",
+     "keys": [
+      [0, 1],
+      [0.045, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-0-5",
+     "property": "opacity",
+     "keys": [
+      [0, 1],
+      [0.045, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-1-0",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.045, 1],
+      [0.091, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-1-1",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.045, 1],
+      [0.091, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-1-2",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.045, 1],
+      [0.091, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-1-3",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.045, 1],
+      [0.091, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-1-4",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.045, 1],
+      [0.091, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-1-5",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.045, 1],
+      [0.091, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-2-0",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.091, 1],
+      [0.136, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-2-1",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.091, 1],
+      [0.136, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-2-2",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.091, 1],
+      [0.136, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-2-3",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.091, 1],
+      [0.136, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-2-4",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.091, 1],
+      [0.136, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-2-5",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.091, 1],
+      [0.136, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-3-0",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.136, 1],
+      [0.182, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-3-1",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.136, 1],
+      [0.182, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-3-2",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.136, 1],
+      [0.182, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-3-3",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.136, 1],
+      [0.182, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-3-4",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.136, 1],
+      [0.182, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-3-5",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.136, 1],
+      [0.182, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-4-0",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.182, 1],
+      [0.227, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-4-1",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.182, 1],
+      [0.227, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-4-2",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.182, 1],
+      [0.227, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-4-3",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.182, 1],
+      [0.227, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-4-4",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.182, 1],
+      [0.227, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-4-5",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.182, 1],
+      [0.227, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-5-0",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.227, 1],
+      [0.273, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-5-1",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.227, 1],
+      [0.273, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-5-2",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.227, 1],
+      [0.273, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-5-3",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.227, 1],
+      [0.273, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-5-4",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.227, 1],
+      [0.273, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-5-5",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.227, 1],
+      [0.273, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-6-0",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.273, 1],
+      [0.318, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-6-1",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.273, 1],
+      [0.318, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-6-2",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.273, 1],
+      [0.318, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-6-3",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.273, 1],
+      [0.318, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-6-4",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.273, 1],
+      [0.318, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-6-5",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.273, 1],
+      [0.318, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-7-0",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.318, 1],
+      [0.364, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-7-1",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.318, 1],
+      [0.364, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-7-2",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.318, 1],
+      [0.364, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-7-3",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.318, 1],
+      [0.364, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-7-4",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.318, 1],
+      [0.364, 0]
+     ],
+     "ease": "hold"
+    },
+    {
+     "target": "arc-7-5",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.318, 1],
+      [0.364, 0]
+     ],
+     "ease": "hold"
+    }
+   ],
+   "note": "22 fresh arc sets per second, 8 sets cycling"
+  }
+ ],
+ "inputs": [
+  {
+   "name": "progress",
+   "type": "number",
+   "drives": "charge 0..1: an arc shows only when progress >= its threshold (more arcs as it builds)"
+  }
+ ],
+ "thresholds": {
+  "arc-0-0": 0.112,
+  "arc-0-1": 0.688,
+  "arc-0-2": 0.537,
+  "arc-0-3": 0.258,
+  "arc-0-4": 0.273,
+  "arc-0-5": 0.895,
+  "arc-1-0": 0.344,
+  "arc-1-1": 0.506,
+  "arc-1-2": 0.615,
+  "arc-1-3": 0.38,
+  "arc-1-4": 0.109,
+  "arc-1-5": 0.809,
+  "arc-2-0": 0.816,
+  "arc-2-1": 0.094,
+  "arc-2-2": 0.496,
+  "arc-2-3": 0.258,
+  "arc-2-4": 0.26,
+  "arc-2-5": 0.179,
+  "arc-3-0": 0.457,
+  "arc-3-1": 0.719,
+  "arc-3-2": 0.047,
+  "arc-3-3": 0.938,
+  "arc-3-4": 0.227,
+  "arc-3-5": 0.268,
+  "arc-4-0": 0.895,
+  "arc-4-1": 0.747,
+  "arc-4-2": 0.959,
+  "arc-4-3": 0.84,
+  "arc-4-4": 0.742,
+  "arc-4-5": 0.211,
+  "arc-5-0": 0.164,
+  "arc-5-1": 0.59,
+  "arc-5-2": 0.521,
+  "arc-5-3": 0.76,
+  "arc-5-4": 0.514,
+  "arc-5-5": 0.52,
+  "arc-6-0": 0.23,
+  "arc-6-1": 0.586,
+  "arc-6-2": 0.832,
+  "arc-6-3": 0.758,
+  "arc-6-4": 0.945,
+  "arc-6-5": 0.821,
+  "arc-7-0": 0.291,
+  "arc-7-1": 0.953,
+  "arc-7-2": 0.41,
+  "arc-7-3": 0.562,
+  "arc-7-4": 0.848,
+  "arc-7-5": 0.439
+ },
+ "size": [680, 620]
+}

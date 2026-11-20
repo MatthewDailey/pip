@@ -1,0 +1,199 @@
+{
+  "piece": "set-d00s-burst",
+  "scene": "d00s",
+  "painter": "paintBurst",
+  "origin": [729.0,1344.0],
+  "origin_note": "screen px (1080 x 2424 stage) where the SVG's (0, 0) sits when the actor is at rest",
+  "viewBox": [-1400.0,-1400.0,2800.0,2800.0],
+  "size": [2800.0,2800.0],
+  "pose": "progress 0.12",
+  "format": "Draft motion format for rivc. Every track targets a <g id> in the SVG; a group's pivot is its translate() origin. Properties: x, y (absolute, in the parent's units), rotation (degrees, clockwise), scaleX, scaleY, opacity, strokeWidth, fillColor ('#RRGGBB'). Keys are [time s, value]; 'ease' applies between keys (linear, hold, sine, quadIn). driver 'time' clips play on the clock; driver 'input:<name>' clips are scrubbed, clip time = input value. mixBy names an input whose value (0..1) is the clip's blend weight. The SVG's own transforms are each group's setup pose.",
+  "clips": [
+    {
+      "name": "burst",
+      "duration": 1.0,
+      "loop": false,
+      "driver": "input:progress",
+      "note": "e = 1 - (1 - p)^3, fade = 1 - p. The ring animates its ellipse size and stroke so the line stays crisp.",
+      "tracks": [
+        {
+          "target": "ray-0",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "ray-1",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "ray-2",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "ray-3",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "ray-4",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "ray-5",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "ray-6",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "ray-7",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "ray-8",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "ray-9",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "ray-10",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "ray-11",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "ray-12",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "ray-13",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "ray-14",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1628],[0.1,0.3897],[0.2,0.5713],[0.3,0.7128],[0.4,0.8192],[0.5,0.8953],[0.6,0.9464],[0.7,0.9774],[0.8,0.9933],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "flash",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0.0,0.5],[0.1,0.3645],[0.2,0.256],[0.3,0.1715],[0.4,0.108],[0.5,0.0625],[0.6,0.032],[0.7,0.0135],[0.8,0.004],[0.9,0.0005],[1.0,0.0]]
+        },
+        {
+          "target": "flash-glow",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.1509],[0.1,0.381],[0.2,0.5653],[0.3,0.7088],[0.4,0.8166],[0.5,0.8939],[0.6,0.9457],[0.7,0.9771],[0.8,0.9932],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "flash-glow",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0.0,0.1509],[0.1,0.381],[0.2,0.5653],[0.3,0.7088],[0.4,0.8166],[0.5,0.8939],[0.6,0.9457],[0.7,0.9771],[0.8,0.9932],[0.9,0.9992],[1.0,1.0]]
+        },
+        {
+          "target": "flash-glow",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0.0,0.95],[0.1,0.7695],[0.2,0.608],[0.3,0.4655],[0.4,0.342],[0.5,0.2375],[0.6,0.152],[0.7,0.0855],[0.8,0.038],[0.9,0.0095],[1.0,0.0]]
+        },
+        {
+          "target": "rays",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[0,0],[1,10]]
+        },
+        {
+          "target": "rays",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0.0,0.6],[0.25,0.45],[0.5,0.3],[0.75,0.15],[1.0,0.0]]
+        },
+        {
+          "target": "shock-ring-ellipse",
+          "property": "width",
+          "ease": "linear",
+          "keys": [[0.0,120.0],[0.1,564.44],[0.2,920.32],[0.3,1197.48],[0.4,1405.76],[0.5,1555.0],[0.6,1655.04],[0.7,1715.72],[0.8,1746.88],[0.9,1758.36],[1.0,1760.0]]
+        },
+        {
+          "target": "shock-ring-ellipse",
+          "property": "height",
+          "ease": "linear",
+          "keys": [[0.0,16.8],[0.1,79.0216],[0.2,128.8448],[0.3,167.6472],[0.4,196.8064],[0.5,217.7],[0.6,231.7056],[0.7,240.2008],[0.8,244.5632],[0.9,246.1704],[1.0,246.4]]
+        },
+        {
+          "target": "shock-ring-ellipse",
+          "property": "strokeWidth",
+          "ease": "linear",
+          "keys": [[0.0,17.0],[0.25,13.5],[0.5,10.0],[0.75,6.5],[1.0,3.0]]
+        },
+        {
+          "target": "shock-ring",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,1],[1,0]]
+        },
+        {
+          "target": "core",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,1.0],[0.25,0.75],[0.5,0.5],[0.75,0.25],[1.0,0.001]]
+        },
+        {
+          "target": "core",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0.0,1.0],[0.25,0.75],[0.5,0.5],[0.75,0.25],[1.0,0.001]]
+        },
+        {
+          "target": "core",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,1],[1,0]]
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "progress",
+      "type": "number",
+      "range": [0,1],
+      "drives": "the whole impact; the scene runs it 0 -> 1 linearly over 0.75 s from the slam; hidden at 0 and 1"
+    }
+  ],
+  "layers": ["flash","flash-glow","rays/ray-0..14","shock-ring","core"]
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#FFFFFF"/>
+  <!-- Arcs: all four flag combinations, a rotated ellipse arc and a full circle from two arcs. -->
+  <path id="flags" d="M 40 80 a 40 25 0 0 1 60 0 M 120 80 a 40 25 0 1 1 60 0 M 40 140 A 40 25 0 0 0 100 140 M 120 140 A 40 25 0 1 0 180 140"
+    fill="none" stroke="#2B4C8C" stroke-width="4"/>
+  <path id="tilted" d="M220,60a60,30,30,0,1,120,60" fill="none" stroke="#F05248" stroke-width="5"/>
+  <path id="disc" d="M 270 200 m -40 0 a 40 40 0 1 0 80 0 a 40 40 0 1 0 -80 0 z" fill="#FFC94A"/>
+  <!-- Quadratics with smooth continuation, smooth cubics, H/V and compact numbers. -->
+  <path id="wave" d="M20 240q20-40 40 0t40 0 40 0 40 0" fill="none" stroke="#3FA34D" stroke-width="4"/>
+  <path id="blob" d="M30,190C30,170 60,160 80,175S120,200 110,215s-40,20-60,10-20-20-20-35z" fill="#7FA8D9"/>
+  <path id="steps" d="M200 290h20v-20h20v-20h20v-20h20V290Z" fill="#8B3F37"/>
+  <!-- Even-odd fill: a frame with a hole. -->
+  <path id="frame" fill-rule="evenodd" d="M330 230h60v60h-60zM345 245h30v30h-30z" fill="#2B2B2B"/>
+  <path id="dots" d="M.5.5.5 10m10-10e0 0 10" fill="none" stroke="#000" stroke-width="1"/>
+</svg>

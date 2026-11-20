@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-100 -110 200 220" width="200" height="220">
+<title>music-note</title>
+<g id="note" transform="translate(0,0) rotate(0) scale(1,1)">
+  <g transform="translate(-16,4)">
+    <g id="note-shadow" transform="translate(5,7)"><path d="M14,-62 L23,-62 L23,30 L14,30 Z M14,-64 C30,-52 62,-40 54,2 C52,-22 38,-32 14,-36 Z" fill="#3A2A26" fill-opacity="0.180"/><g transform="translate(-4,30) rotate(-24)"><ellipse rx="28" ry="19" fill="#3A2A26" fill-opacity="0.180"/></g></g>
+    <g id="note-body"><path d="M14,-62 L23,-62 L23,30 L14,30 Z M14,-64 C30,-52 62,-40 54,2 C52,-22 38,-32 14,-36 Z" fill="#F05248"/><g transform="translate(-4,30) rotate(-24)"><ellipse rx="28" ry="19" fill="#F05248"/></g></g>
+    <g id="note-shine"><g transform="translate(-4,30) rotate(-24)"><ellipse cx="-10" cy="-7.5" rx="7" ry="3.5" fill="#FFFFFF" fill-opacity="0.533"/></g></g>
+  </g>
+</g>
+</svg>

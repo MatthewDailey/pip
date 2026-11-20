@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-530 -450 1060 900" width="1060" height="900">
+<!-- Shared by d60s and d70s: drop shadow, cream border, flash, whip streaks. -->
+<defs>
+<clipPath id="panel"><path d="M-406 -380L406 -380L406 -380C441.35 -380 470 -351.35 470 -316L470 316L470 316C470 351.35 441.35 380 406 380L-406 380L-406 380C-441.35 380 -470 351.35 -470 316L-470 -316L-470 -316C-470 -351.35 -441.35 -380 -406 -380Z"/></clipPath>
+</defs>
+<g id="shadow">
+<path d="M-400 -331L400 -331L400 -331C420.43 -331 437 -314.43 437 -294L437 342L437 342C437 362.43 420.43 379 400 379L-400 379L-400 379C-420.43 379 -437 362.43 -437 342L-437 -294L-437 -294C-437 -314.43 -420.43 -331 -400 -331Z" fill="#000000" fill-opacity="0.061"/>
+<path d="M-400 -341.8L400 -341.8L400 -341.8C426.4 -341.8 447.8 -320.4 447.8 -294L447.8 342L447.8 342C447.8 368.4 426.4 389.8 400 389.8L-400 389.8L-400 389.8C-426.4 389.8 -447.8 368.4 -447.8 342L-447.8 -294L-447.8 -294C-447.8 -320.4 -426.4 -341.8 -400 -341.8Z" fill="#000000" fill-opacity="0.061"/>
+<path d="M-400 -352.6L400 -352.6L400 -352.6C432.36 -352.6 458.6 -326.36 458.6 -294L458.6 342L458.6 342C458.6 374.36 432.36 400.6 400 400.6L-400 400.6L-400 400.6C-432.36 400.6 -458.6 374.36 -458.6 342L-458.6 -294L-458.6 -294C-458.6 -326.36 -432.36 -352.6 -400 -352.6Z" fill="#000000" fill-opacity="0.061"/>
+<path d="M-400 -363.4L400 -363.4L400 -363.4C438.33 -363.4 469.4 -332.33 469.4 -294L469.4 342L469.4 342C469.4 380.33 438.33 411.4 400 411.4L-400 411.4L-400 411.4C-438.33 411.4 -469.4 380.33 -469.4 342L-469.4 -294L-469.4 -294C-469.4 -332.33 -438.33 -363.4 -400 -363.4Z" fill="#000000" fill-opacity="0.061"/>
+<path d="M-400 -374.2L400 -374.2L400 -374.2C444.29 -374.2 480.2 -338.29 480.2 -294L480.2 342L480.2 342C480.2 386.29 444.29 422.2 400 422.2L-400 422.2L-400 422.2C-444.29 422.2 -480.2 386.29 -480.2 342L-480.2 -294L-480.2 -294C-480.2 -338.29 -444.29 -374.2 -400 -374.2Z" fill="#000000" fill-opacity="0.061"/>
+<path d="M-400 -385L400 -385L400 -385C450.26 -385 491 -344.26 491 -294L491 342L491 342C491 392.26 450.26 433 400 433L-400 433L-400 433C-450.26 433 -491 392.26 -491 342L-491 -294L-491 -294C-491 -344.26 -450.26 -385 -400 -385Z" fill="#000000" fill-opacity="0.061"/>
+</g>
+<path id="border" d="M-406 -380L406 -380L406 -380C441.35 -380 470 -351.35 470 -316L470 316L470 316C470 351.35 441.35 380 406 380L-406 380L-406 380C-441.35 380 -470 351.35 -470 316L-470 -316L-470 -316C-470 -351.35 -441.35 -380 -406 -380Z" fill="none" stroke="#FFF8EE" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="border-outer" d="M-406 -387L406 -387L406 -387C445.21 -387 477 -355.21 477 -316L477 316L477 316C477 355.21 445.21 387 406 387L-406 387L-406 387C-445.21 387 -477 355.21 -477 316L-477 -316L-477 -316C-477 -355.21 -445.21 -387 -406 -387Z" fill="none" stroke="#3A2A26" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.200"/>
+<g clip-path="url(#panel)">
+<g id="streaks">
+<g id="streak-0" transform="translate(66.7 -184.06)">
+<path d="M0 0L428.75 0" fill="none" stroke="#FFFFFF" stroke-width="3.79" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.298"/>
+</g>
+<g id="streak-1" transform="translate(375.49 -58.45)">
+<path d="M0 0L384.45 0" fill="none" stroke="#FFFFFF" stroke-width="5.41" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.365"/>
+</g>
+<g id="streak-2" transform="translate(-166.11 -118.75)">
+<path d="M0 0L224.29 0" fill="none" stroke="#FFFFFF" stroke-width="8.71" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.306"/>
+</g>
+<g id="streak-3" transform="translate(-491.86 234.53)">
+<path d="M0 0L351.64 0" fill="none" stroke="#FFFFFF" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.573"/>
+</g>
+<g id="streak-4" transform="translate(-439.51 -227.48)">
+<path d="M0 0L444.75 0" fill="none" stroke="#FFFFFF" stroke-width="9.26" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.510"/>
+</g>
+<g id="streak-5" transform="translate(153.02 -2.97)">
+<path d="M0 0L451.72 0" fill="none" stroke="#FFFFFF" stroke-width="4.15" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.525"/>
+</g>
+<g id="streak-6" transform="translate(-385.37 332.5)">
+<path d="M0 0L359.02 0" fill="none" stroke="#FFFFFF" stroke-width="4.61" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.612"/>
+</g>
+<g id="streak-7" transform="translate(-99.39 245.11)">
+<path d="M0 0L236.8 0" fill="none" stroke="#FFFFFF" stroke-width="5.04" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.616"/>
+</g>
+<g id="streak-8" transform="translate(-177.22 -207.81)">
+<path d="M0 0L437.36 0" fill="none" stroke="#FFFFFF" stroke-width="6.13" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.580"/>
+</g>
+<g id="streak-9" transform="translate(-622.59 -160.31)">
+<path d="M0 0L456.64 0" fill="none" stroke="#FFFFFF" stroke-width="5.73" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.290"/>
+</g>
+<g id="streak-10" transform="translate(269.99 187.4)">
+<path d="M0 0L464.02 0" fill="none" stroke="#FFFFFF" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.365"/>
+</g>
+<g id="streak-11" transform="translate(106.82 -74.22)">
+<path d="M0 0L151.48 0" fill="none" stroke="#FFFFFF" stroke-width="3.21" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.671"/>
+</g>
+<g id="streak-12" transform="translate(294.89 -243.44)">
+<path d="M0 0L550.16 0" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.267"/>
+</g>
+<g id="streak-13" transform="translate(-115.51 197.42)">
+<path d="M0 0L172.81 0" fill="none" stroke="#FFFFFF" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.455"/>
+</g>
+<g id="streak-14" transform="translate(405.99 308.75)">
+<path d="M0 0L329.49 0" fill="none" stroke="#FFFFFF" stroke-width="4.75" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.671"/>
+</g>
+<g id="streak-15" transform="translate(523.64 -204.84)">
+<path d="M0 0L156.41 0" fill="none" stroke="#FFFFFF" stroke-width="7.06" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.576"/>
+</g>
+<g id="streak-16" transform="translate(640.92 244.18)">
+<path d="M0 0L318.83 0" fill="none" stroke="#FFFFFF" stroke-width="9.98" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.376"/>
+</g>
+<g id="streak-17" transform="translate(255.28 285)">
+<path d="M0 0L378.71 0" fill="none" stroke="#FFFFFF" stroke-width="8.28" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.443"/>
+</g>
+<g id="streak-18" transform="translate(433.21 -68.28)">
+<path d="M0 0L254.84 0" fill="none" stroke="#FFFFFF" stroke-width="8.2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.678"/>
+</g>
+<g id="streak-19" transform="translate(416.9 -63.83)">
+<path d="M0 0L509.14 0" fill="none" stroke="#FFFFFF" stroke-width="6.87" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.341"/>
+</g>
+<g id="streak-20" transform="translate(-855.15 102.42)">
+<path d="M0 0L456.64 0" fill="none" stroke="#FFFFFF" stroke-width="6.89" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.588"/>
+</g>
+<g id="streak-21" transform="translate(148.06 130.62)">
+<path d="M0 0L194.96 0" fill="none" stroke="#FFFFFF" stroke-width="6.36" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.329"/>
+</g>
+<g id="streak-22" transform="translate(-436.23 -71.25)">
+<path d="M0 0L545.23 0" fill="none" stroke="#FFFFFF" stroke-width="3.66" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.514"/>
+</g>
+<g id="streak-23" transform="translate(-268.53 192.97)">
+<path d="M0 0L197.42 0" fill="none" stroke="#FFFFFF" stroke-width="9.58" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.478"/>
+</g>
+</g>
+</g>
+<path id="flash" d="M-406 -380L406 -380L406 -380C441.35 -380 470 -351.35 470 -316L470 316L470 316C470 351.35 441.35 380 406 380L-406 380L-406 380C-441.35 380 -470 351.35 -470 316L-470 -316L-470 -316C-470 -351.35 -441.35 -380 -406 -380Z" fill="#FFFFFF" opacity="0"/>
+</svg>

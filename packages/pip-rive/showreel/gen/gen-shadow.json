@@ -1,0 +1,10 @@
+{
+    "artboard": {
+        "name": "gen-shadow",
+        "width": 200.0,
+        "height": 200.0
+    },
+    "art": {
+        "svg": "gen-shadow.svg"
+    }
+}

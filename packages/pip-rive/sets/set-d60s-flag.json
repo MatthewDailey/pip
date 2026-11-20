@@ -1,0 +1,56 @@
+{
+ "piece": "set-d60s-flag",
+ "origin": [773, 1360],
+ "notes": "The cloth bottom edge ripples (3 px sine, x*0.09 + t*1.1) in Kotlin; Rive approximates it with a slow scaleY breathe on the cloth (pivot: the rod at y=-310). Clipped to the set panel in the scene.",
+ "clips": [
+  {
+   "name": "ripple",
+   "duration": 5.712,
+   "loop": true,
+   "tracks": [
+    {
+     "target": "cloth",
+     "property": "scaleY",
+     "keys": [
+      [0, 1],
+      [1.428, 1.025],
+      [2.856, 1],
+      [4.284, 0.975],
+      [5.712, 1]
+     ],
+     "ease": "easeInOut"
+    }
+   ]
+  },
+  {
+   "name": "plant-wobble",
+   "duration": 0.7,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "rotation",
+     "keys": [
+      [0, 0],
+      [0.105, 5],
+      [0.28, -3],
+      [0.462, 1.2],
+      [0.7, 0]
+     ],
+     "ease": "easeInOut"
+    }
+   ]
+  }
+ ],
+ "inputs": [
+  {
+   "name": "progress",
+   "type": "number",
+   "drives": "< 0.5: the host attaches the flag to Pip's right fist (pole foot 95 px below the fist); >= 0.5: planted at the actor position."
+  }
+ ],
+ "pivots": {
+  "cloth": [0, -310]
+ },
+ "size": [300, 680]
+}

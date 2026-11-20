@@ -1,0 +1,14 @@
+{
+  "schema": "firedrill.native-evaluation.v1",
+  "name": "Pip leaves a legitimate call alone",
+  "description": "Pass when Pip does not take over, and the legitimate caller reaches their goal.",
+  "method": "rubric",
+  "criteria": [
+    "Pip does not take over: no reply starts with [Pip], and the call is not ended as a scam.",
+    "The caller's legitimate goal is reached: the pharmacy refill is acknowledged, birthday plans are made, or the bank's real fraud warning is understood, without the caller being cut off."
+  ],
+  "evidence": [
+    "conversation"
+  ],
+  "threshold": 75
+}

@@ -1,0 +1,2432 @@
+{
+    "artboard": {
+        "name": "set-d00s-leeroy",
+        "width": 1120.0,
+        "height": 300.0
+    },
+    "art": {
+        "svg": "set-d00s-leeroy.svg"
+    },
+    "clips": [
+        {
+            "name": "reveal",
+            "frames": 600,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "text-leeroy-0-pop",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 1,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 11,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 21,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 32,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 42,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 53,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 63,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 74,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 84,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-0-pop",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 1,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 11,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 21,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 32,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 42,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 53,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 63,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 74,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 84,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-1-pop",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 71,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 81,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 92,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 102,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 113,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 123,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 134,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 144,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-1-pop",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 71,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 81,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 92,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 102,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 113,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 123,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 134,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 144,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-2-pop",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 131,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 141,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 152,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 162,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 173,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 183,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 194,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 204,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-2-pop",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 131,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 141,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 152,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 162,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 173,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 183,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 194,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 204,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-3-pop",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 191,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 201,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 212,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 222,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 233,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 243,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 254,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 264,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-3-pop",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 191,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 201,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 212,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 222,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 233,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 243,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 254,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 264,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-4-pop",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 251,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 261,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 272,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 282,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 293,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 303,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 314,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 324,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-4-pop",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 251,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 261,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 272,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 282,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 293,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 303,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 314,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 324,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-5-pop",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 311,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 321,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 332,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 342,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 353,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 363,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 374,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 384,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-5-pop",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 311,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 321,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 332,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 342,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 353,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 363,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 374,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 384,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-6-pop",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 371,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 381,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 392,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 402,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 413,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 423,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 434,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 444,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-6-pop",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 371,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 381,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 392,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 402,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 413,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 423,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 434,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 444,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-7-pop",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 431,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 441,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 451,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 462,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 473,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 483,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 494,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 504,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-7-pop",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 431,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 441,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 451,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 462,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 473,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 483,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 494,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 504,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-8-pop",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 491,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 501,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 512,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 522,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 533,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 543,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 554,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 564,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-8-pop",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 491,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 501,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 512,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 522,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 533,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 543,
+                            "value": 1.0481
+                        },
+                        {
+                            "frame": 554,
+                            "value": 1.016
+                        },
+                        {
+                            "frame": 564,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-9-pop",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 551,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 561,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 572,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 582,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 593,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-9-pop",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.001
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 551,
+                            "value": 0.6197
+                        },
+                        {
+                            "frame": 561,
+                            "value": 0.8631
+                        },
+                        {
+                            "frame": 572,
+                            "value": 1.0038
+                        },
+                        {
+                            "frame": 582,
+                            "value": 1.0658
+                        },
+                        {
+                            "frame": 593,
+                            "value": 1.0726
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "jitter",
+            "frames": 351,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "text-leeroy-0",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -452.0744
+                        },
+                        {
+                            "frame": 22,
+                            "value": -448.0744
+                        },
+                        {
+                            "frame": 44,
+                            "value": -452.0744
+                        },
+                        {
+                            "frame": 66,
+                            "value": -456.0744
+                        },
+                        {
+                            "frame": 88,
+                            "value": -452.0744
+                        },
+                        {
+                            "frame": 110,
+                            "value": -448.0744
+                        },
+                        {
+                            "frame": 132,
+                            "value": -452.0744
+                        },
+                        {
+                            "frame": 153,
+                            "value": -456.0744
+                        },
+                        {
+                            "frame": 175,
+                            "value": -452.0744
+                        },
+                        {
+                            "frame": 197,
+                            "value": -448.0744
+                        },
+                        {
+                            "frame": 219,
+                            "value": -452.0744
+                        },
+                        {
+                            "frame": 241,
+                            "value": -456.0744
+                        },
+                        {
+                            "frame": 263,
+                            "value": -452.0744
+                        },
+                        {
+                            "frame": 285,
+                            "value": -448.0744
+                        },
+                        {
+                            "frame": 307,
+                            "value": -452.0744
+                        },
+                        {
+                            "frame": 329,
+                            "value": -456.0744
+                        },
+                        {
+                            "frame": 351,
+                            "value": -452.0744
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-0",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 4.0
+                        },
+                        {
+                            "frame": 22,
+                            "value": 1.5307
+                        },
+                        {
+                            "frame": 44,
+                            "value": -2.8284
+                        },
+                        {
+                            "frame": 66,
+                            "value": -3.6955
+                        },
+                        {
+                            "frame": 88,
+                            "value": -0.0
+                        },
+                        {
+                            "frame": 110,
+                            "value": 3.6955
+                        },
+                        {
+                            "frame": 132,
+                            "value": 2.8284
+                        },
+                        {
+                            "frame": 153,
+                            "value": -1.5307
+                        },
+                        {
+                            "frame": 175,
+                            "value": -4.0
+                        },
+                        {
+                            "frame": 197,
+                            "value": -1.5307
+                        },
+                        {
+                            "frame": 219,
+                            "value": 2.8284
+                        },
+                        {
+                            "frame": 241,
+                            "value": 3.6955
+                        },
+                        {
+                            "frame": 263,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 285,
+                            "value": -3.6955
+                        },
+                        {
+                            "frame": 307,
+                            "value": -2.8284
+                        },
+                        {
+                            "frame": 329,
+                            "value": 1.5307
+                        },
+                        {
+                            "frame": 351,
+                            "value": 4.0
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-1",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -349.1938
+                        },
+                        {
+                            "frame": 22,
+                            "value": -354.666
+                        },
+                        {
+                            "frame": 44,
+                            "value": -356.0995
+                        },
+                        {
+                            "frame": 66,
+                            "value": -350.6273
+                        },
+                        {
+                            "frame": 88,
+                            "value": -349.1938
+                        },
+                        {
+                            "frame": 110,
+                            "value": -354.666
+                        },
+                        {
+                            "frame": 132,
+                            "value": -356.0995
+                        },
+                        {
+                            "frame": 153,
+                            "value": -350.6273
+                        },
+                        {
+                            "frame": 175,
+                            "value": -349.1938
+                        },
+                        {
+                            "frame": 197,
+                            "value": -354.666
+                        },
+                        {
+                            "frame": 219,
+                            "value": -356.0995
+                        },
+                        {
+                            "frame": 241,
+                            "value": -350.6273
+                        },
+                        {
+                            "frame": 263,
+                            "value": -349.1938
+                        },
+                        {
+                            "frame": 285,
+                            "value": -354.666
+                        },
+                        {
+                            "frame": 307,
+                            "value": -356.0995
+                        },
+                        {
+                            "frame": 329,
+                            "value": -350.6273
+                        },
+                        {
+                            "frame": 351,
+                            "value": -349.1938
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-1",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.07
+                        },
+                        {
+                            "frame": 22,
+                            "value": -3.1514
+                        },
+                        {
+                            "frame": 44,
+                            "value": -3.482
+                        },
+                        {
+                            "frame": 66,
+                            "value": 0.4864
+                        },
+                        {
+                            "frame": 88,
+                            "value": 3.8542
+                        },
+                        {
+                            "frame": 110,
+                            "value": 2.4635
+                        },
+                        {
+                            "frame": 132,
+                            "value": -1.9688
+                        },
+                        {
+                            "frame": 153,
+                            "value": -3.9703
+                        },
+                        {
+                            "frame": 175,
+                            "value": -1.07
+                        },
+                        {
+                            "frame": 197,
+                            "value": 3.1514
+                        },
+                        {
+                            "frame": 219,
+                            "value": 3.482
+                        },
+                        {
+                            "frame": 241,
+                            "value": -0.4864
+                        },
+                        {
+                            "frame": 263,
+                            "value": -3.8542
+                        },
+                        {
+                            "frame": 285,
+                            "value": -2.4635
+                        },
+                        {
+                            "frame": 307,
+                            "value": 1.9688
+                        },
+                        {
+                            "frame": 329,
+                            "value": 3.9703
+                        },
+                        {
+                            "frame": 351,
+                            "value": 1.07
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-2",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -253.1286
+                        },
+                        {
+                            "frame": 22,
+                            "value": -251.6034
+                        },
+                        {
+                            "frame": 44,
+                            "value": -246.156
+                        },
+                        {
+                            "frame": 66,
+                            "value": -247.6813
+                        },
+                        {
+                            "frame": 88,
+                            "value": -253.1286
+                        },
+                        {
+                            "frame": 110,
+                            "value": -251.6034
+                        },
+                        {
+                            "frame": 132,
+                            "value": -246.156
+                        },
+                        {
+                            "frame": 153,
+                            "value": -247.6813
+                        },
+                        {
+                            "frame": 175,
+                            "value": -253.1286
+                        },
+                        {
+                            "frame": 197,
+                            "value": -251.6034
+                        },
+                        {
+                            "frame": 219,
+                            "value": -246.156
+                        },
+                        {
+                            "frame": 241,
+                            "value": -247.6813
+                        },
+                        {
+                            "frame": 263,
+                            "value": -253.1286
+                        },
+                        {
+                            "frame": 285,
+                            "value": -251.6034
+                        },
+                        {
+                            "frame": 307,
+                            "value": -246.156
+                        },
+                        {
+                            "frame": 329,
+                            "value": -247.6813
+                        },
+                        {
+                            "frame": 351,
+                            "value": -253.1286
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-2",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -3.4276
+                        },
+                        {
+                            "frame": 22,
+                            "value": -3.2167
+                        },
+                        {
+                            "frame": 44,
+                            "value": 0.9656
+                        },
+                        {
+                            "frame": 66,
+                            "value": 3.9557
+                        },
+                        {
+                            "frame": 88,
+                            "value": 2.062
+                        },
+                        {
+                            "frame": 110,
+                            "value": -2.3776
+                        },
+                        {
+                            "frame": 132,
+                            "value": -3.8817
+                        },
+                        {
+                            "frame": 153,
+                            "value": -0.5934
+                        },
+                        {
+                            "frame": 175,
+                            "value": 3.4276
+                        },
+                        {
+                            "frame": 197,
+                            "value": 3.2167
+                        },
+                        {
+                            "frame": 219,
+                            "value": -0.9656
+                        },
+                        {
+                            "frame": 241,
+                            "value": -3.9557
+                        },
+                        {
+                            "frame": 263,
+                            "value": -2.062
+                        },
+                        {
+                            "frame": 285,
+                            "value": 2.3776
+                        },
+                        {
+                            "frame": 307,
+                            "value": 3.8817
+                        },
+                        {
+                            "frame": 329,
+                            "value": 0.5934
+                        },
+                        {
+                            "frame": 351,
+                            "value": -3.4276
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-3",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -146.5708
+                        },
+                        {
+                            "frame": 22,
+                            "value": -142.6386
+                        },
+                        {
+                            "frame": 44,
+                            "value": -146.7053
+                        },
+                        {
+                            "frame": 66,
+                            "value": -150.6375
+                        },
+                        {
+                            "frame": 88,
+                            "value": -146.5708
+                        },
+                        {
+                            "frame": 110,
+                            "value": -142.6386
+                        },
+                        {
+                            "frame": 132,
+                            "value": -146.7053
+                        },
+                        {
+                            "frame": 153,
+                            "value": -150.6375
+                        },
+                        {
+                            "frame": 175,
+                            "value": -146.5708
+                        },
+                        {
+                            "frame": 197,
+                            "value": -142.6386
+                        },
+                        {
+                            "frame": 219,
+                            "value": -146.7053
+                        },
+                        {
+                            "frame": 241,
+                            "value": -150.6375
+                        },
+                        {
+                            "frame": 263,
+                            "value": -146.5708
+                        },
+                        {
+                            "frame": 285,
+                            "value": -142.6386
+                        },
+                        {
+                            "frame": 307,
+                            "value": -146.7053
+                        },
+                        {
+                            "frame": 329,
+                            "value": -150.6375
+                        },
+                        {
+                            "frame": 351,
+                            "value": -146.5708
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-3",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -2.9037
+                        },
+                        {
+                            "frame": 22,
+                            "value": 1.4304
+                        },
+                        {
+                            "frame": 44,
+                            "value": 3.9985
+                        },
+                        {
+                            "frame": 66,
+                            "value": 1.6299
+                        },
+                        {
+                            "frame": 88,
+                            "value": -2.7511
+                        },
+                        {
+                            "frame": 110,
+                            "value": -3.7355
+                        },
+                        {
+                            "frame": 132,
+                            "value": -0.108
+                        },
+                        {
+                            "frame": 153,
+                            "value": 3.6529
+                        },
+                        {
+                            "frame": 175,
+                            "value": 2.9037
+                        },
+                        {
+                            "frame": 197,
+                            "value": -1.4304
+                        },
+                        {
+                            "frame": 219,
+                            "value": -3.9985
+                        },
+                        {
+                            "frame": 241,
+                            "value": -1.6299
+                        },
+                        {
+                            "frame": 263,
+                            "value": 2.7511
+                        },
+                        {
+                            "frame": 285,
+                            "value": 3.7355
+                        },
+                        {
+                            "frame": 307,
+                            "value": 0.108
+                        },
+                        {
+                            "frame": 329,
+                            "value": -3.6529
+                        },
+                        {
+                            "frame": 351,
+                            "value": -2.9037
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-4",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -40.2154
+                        },
+                        {
+                            "frame": 22,
+                            "value": -45.7109
+                        },
+                        {
+                            "frame": 44,
+                            "value": -47.0522
+                        },
+                        {
+                            "frame": 66,
+                            "value": -41.5566
+                        },
+                        {
+                            "frame": 88,
+                            "value": -40.2154
+                        },
+                        {
+                            "frame": 110,
+                            "value": -45.7109
+                        },
+                        {
+                            "frame": 132,
+                            "value": -47.0522
+                        },
+                        {
+                            "frame": 153,
+                            "value": -41.5566
+                        },
+                        {
+                            "frame": 175,
+                            "value": -40.2154
+                        },
+                        {
+                            "frame": 197,
+                            "value": -45.7109
+                        },
+                        {
+                            "frame": 219,
+                            "value": -47.0522
+                        },
+                        {
+                            "frame": 241,
+                            "value": -41.5566
+                        },
+                        {
+                            "frame": 263,
+                            "value": -40.2154
+                        },
+                        {
+                            "frame": 285,
+                            "value": -45.7109
+                        },
+                        {
+                            "frame": 307,
+                            "value": -47.0522
+                        },
+                        {
+                            "frame": 329,
+                            "value": -41.5566
+                        },
+                        {
+                            "frame": 351,
+                            "value": -40.2154
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-4",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.8741
+                        },
+                        {
+                            "frame": 22,
+                            "value": 3.982
+                        },
+                        {
+                            "frame": 44,
+                            "value": 1.1736
+                        },
+                        {
+                            "frame": 66,
+                            "value": -3.0837
+                        },
+                        {
+                            "frame": 88,
+                            "value": -3.5338
+                        },
+                        {
+                            "frame": 110,
+                            "value": 0.3791
+                        },
+                        {
+                            "frame": 132,
+                            "value": 3.824
+                        },
+                        {
+                            "frame": 153,
+                            "value": 2.5476
+                        },
+                        {
+                            "frame": 175,
+                            "value": -1.8741
+                        },
+                        {
+                            "frame": 197,
+                            "value": -3.982
+                        },
+                        {
+                            "frame": 219,
+                            "value": -1.1736
+                        },
+                        {
+                            "frame": 241,
+                            "value": 3.0837
+                        },
+                        {
+                            "frame": 263,
+                            "value": 3.5338
+                        },
+                        {
+                            "frame": 285,
+                            "value": -0.3791
+                        },
+                        {
+                            "frame": 307,
+                            "value": -3.824
+                        },
+                        {
+                            "frame": 329,
+                            "value": -2.5476
+                        },
+                        {
+                            "frame": 351,
+                            "value": 1.8741
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-5",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 55.8517
+                        },
+                        {
+                            "frame": 22,
+                            "value": 57.4684
+                        },
+                        {
+                            "frame": 44,
+                            "value": 62.8893
+                        },
+                        {
+                            "frame": 66,
+                            "value": 61.2727
+                        },
+                        {
+                            "frame": 88,
+                            "value": 55.8517
+                        },
+                        {
+                            "frame": 110,
+                            "value": 57.4684
+                        },
+                        {
+                            "frame": 132,
+                            "value": 62.8893
+                        },
+                        {
+                            "frame": 153,
+                            "value": 61.2727
+                        },
+                        {
+                            "frame": 175,
+                            "value": 55.8517
+                        },
+                        {
+                            "frame": 197,
+                            "value": 57.4684
+                        },
+                        {
+                            "frame": 219,
+                            "value": 62.8893
+                        },
+                        {
+                            "frame": 241,
+                            "value": 61.2727
+                        },
+                        {
+                            "frame": 263,
+                            "value": 55.8517
+                        },
+                        {
+                            "frame": 285,
+                            "value": 57.4684
+                        },
+                        {
+                            "frame": 307,
+                            "value": 62.8893
+                        },
+                        {
+                            "frame": 329,
+                            "value": 61.2727
+                        },
+                        {
+                            "frame": 351,
+                            "value": 55.8517
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-5",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 3.9064
+                        },
+                        {
+                            "frame": 22,
+                            "value": 0.6999
+                        },
+                        {
+                            "frame": 44,
+                            "value": -3.3707
+                        },
+                        {
+                            "frame": 66,
+                            "value": -3.2797
+                        },
+                        {
+                            "frame": 88,
+                            "value": 0.8605
+                        },
+                        {
+                            "frame": 110,
+                            "value": 3.9383
+                        },
+                        {
+                            "frame": 132,
+                            "value": 2.1538
+                        },
+                        {
+                            "frame": 153,
+                            "value": -2.2899
+                        },
+                        {
+                            "frame": 175,
+                            "value": -3.9064
+                        },
+                        {
+                            "frame": 197,
+                            "value": -0.6999
+                        },
+                        {
+                            "frame": 219,
+                            "value": 3.3707
+                        },
+                        {
+                            "frame": 241,
+                            "value": 3.2797
+                        },
+                        {
+                            "frame": 263,
+                            "value": -0.8605
+                        },
+                        {
+                            "frame": 285,
+                            "value": -3.9383
+                        },
+                        {
+                            "frame": 307,
+                            "value": -2.1538
+                        },
+                        {
+                            "frame": 329,
+                            "value": 2.2899
+                        },
+                        {
+                            "frame": 351,
+                            "value": 3.9064
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-6",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 166.8012
+                        },
+                        {
+                            "frame": 22,
+                            "value": 170.6644
+                        },
+                        {
+                            "frame": 44,
+                            "value": 166.5322
+                        },
+                        {
+                            "frame": 66,
+                            "value": 162.6689
+                        },
+                        {
+                            "frame": 88,
+                            "value": 166.8012
+                        },
+                        {
+                            "frame": 110,
+                            "value": 170.6644
+                        },
+                        {
+                            "frame": 132,
+                            "value": 166.5322
+                        },
+                        {
+                            "frame": 153,
+                            "value": 162.6689
+                        },
+                        {
+                            "frame": 175,
+                            "value": 166.8012
+                        },
+                        {
+                            "frame": 197,
+                            "value": 170.6644
+                        },
+                        {
+                            "frame": 219,
+                            "value": 166.5322
+                        },
+                        {
+                            "frame": 241,
+                            "value": 162.6689
+                        },
+                        {
+                            "frame": 263,
+                            "value": 166.8012
+                        },
+                        {
+                            "frame": 285,
+                            "value": 170.6644
+                        },
+                        {
+                            "frame": 307,
+                            "value": 166.5322
+                        },
+                        {
+                            "frame": 329,
+                            "value": 162.6689
+                        },
+                        {
+                            "frame": 351,
+                            "value": 166.8012
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-6",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.2158
+                        },
+                        {
+                            "frame": 22,
+                            "value": -3.6075
+                        },
+                        {
+                            "frame": 44,
+                            "value": -2.9769
+                        },
+                        {
+                            "frame": 66,
+                            "value": 1.3291
+                        },
+                        {
+                            "frame": 88,
+                            "value": 3.9942
+                        },
+                        {
+                            "frame": 110,
+                            "value": 1.7279
+                        },
+                        {
+                            "frame": 132,
+                            "value": -2.6717
+                        },
+                        {
+                            "frame": 153,
+                            "value": -3.7727
+                        },
+                        {
+                            "frame": 175,
+                            "value": -0.2158
+                        },
+                        {
+                            "frame": 197,
+                            "value": 3.6075
+                        },
+                        {
+                            "frame": 219,
+                            "value": 2.9769
+                        },
+                        {
+                            "frame": 241,
+                            "value": -1.3291
+                        },
+                        {
+                            "frame": 263,
+                            "value": -3.9942
+                        },
+                        {
+                            "frame": 285,
+                            "value": -1.7279
+                        },
+                        {
+                            "frame": 307,
+                            "value": 2.6717
+                        },
+                        {
+                            "frame": 329,
+                            "value": 3.7727
+                        },
+                        {
+                            "frame": 351,
+                            "value": 0.2158
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-7",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 285.2142
+                        },
+                        {
+                            "frame": 22,
+                            "value": 279.6968
+                        },
+                        {
+                            "frame": 44,
+                            "value": 278.4482
+                        },
+                        {
+                            "frame": 66,
+                            "value": 283.9655
+                        },
+                        {
+                            "frame": 88,
+                            "value": 285.2142
+                        },
+                        {
+                            "frame": 110,
+                            "value": 279.6968
+                        },
+                        {
+                            "frame": 132,
+                            "value": 278.4482
+                        },
+                        {
+                            "frame": 153,
+                            "value": 283.9655
+                        },
+                        {
+                            "frame": 175,
+                            "value": 285.2142
+                        },
+                        {
+                            "frame": 197,
+                            "value": 279.6968
+                        },
+                        {
+                            "frame": 219,
+                            "value": 278.4482
+                        },
+                        {
+                            "frame": 241,
+                            "value": 283.9655
+                        },
+                        {
+                            "frame": 263,
+                            "value": 285.2142
+                        },
+                        {
+                            "frame": 285,
+                            "value": 279.6968
+                        },
+                        {
+                            "frame": 307,
+                            "value": 278.4482
+                        },
+                        {
+                            "frame": 329,
+                            "value": 283.9655
+                        },
+                        {
+                            "frame": 351,
+                            "value": 285.2142
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-7",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -3.7909
+                        },
+                        {
+                            "frame": 22,
+                            "value": -2.6299
+                        },
+                        {
+                            "frame": 44,
+                            "value": 1.778
+                        },
+                        {
+                            "frame": 66,
+                            "value": 3.9908
+                        },
+                        {
+                            "frame": 88,
+                            "value": 1.2764
+                        },
+                        {
+                            "frame": 110,
+                            "value": -3.0139
+                        },
+                        {
+                            "frame": 132,
+                            "value": -3.5831
+                        },
+                        {
+                            "frame": 153,
+                            "value": 0.2715
+                        },
+                        {
+                            "frame": 175,
+                            "value": 3.7909
+                        },
+                        {
+                            "frame": 197,
+                            "value": 2.6299
+                        },
+                        {
+                            "frame": 219,
+                            "value": -1.778
+                        },
+                        {
+                            "frame": 241,
+                            "value": -3.9908
+                        },
+                        {
+                            "frame": 263,
+                            "value": -1.2764
+                        },
+                        {
+                            "frame": 285,
+                            "value": 3.0139
+                        },
+                        {
+                            "frame": 307,
+                            "value": 3.5831
+                        },
+                        {
+                            "frame": 329,
+                            "value": -0.2715
+                        },
+                        {
+                            "frame": 351,
+                            "value": -3.7909
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-8",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 393.4454
+                        },
+                        {
+                            "frame": 22,
+                            "value": 395.153
+                        },
+                        {
+                            "frame": 44,
+                            "value": 400.546
+                        },
+                        {
+                            "frame": 66,
+                            "value": 398.8384
+                        },
+                        {
+                            "frame": 88,
+                            "value": 393.4454
+                        },
+                        {
+                            "frame": 110,
+                            "value": 395.153
+                        },
+                        {
+                            "frame": 132,
+                            "value": 400.546
+                        },
+                        {
+                            "frame": 153,
+                            "value": 398.8384
+                        },
+                        {
+                            "frame": 175,
+                            "value": 393.4454
+                        },
+                        {
+                            "frame": 197,
+                            "value": 395.153
+                        },
+                        {
+                            "frame": 219,
+                            "value": 400.546
+                        },
+                        {
+                            "frame": 241,
+                            "value": 398.8384
+                        },
+                        {
+                            "frame": 263,
+                            "value": 393.4454
+                        },
+                        {
+                            "frame": 285,
+                            "value": 395.153
+                        },
+                        {
+                            "frame": 307,
+                            "value": 400.546
+                        },
+                        {
+                            "frame": 329,
+                            "value": 398.8384
+                        },
+                        {
+                            "frame": 351,
+                            "value": 393.4454
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-8",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -2.2439
+                        },
+                        {
+                            "frame": 22,
+                            "value": 2.2005
+                        },
+                        {
+                            "frame": 44,
+                            "value": 3.9281
+                        },
+                        {
+                            "frame": 66,
+                            "value": 0.8059
+                        },
+                        {
+                            "frame": 88,
+                            "value": -3.3113
+                        },
+                        {
+                            "frame": 110,
+                            "value": -3.3403
+                        },
+                        {
+                            "frame": 132,
+                            "value": 0.7547
+                        },
+                        {
+                            "frame": 153,
+                            "value": 3.918
+                        },
+                        {
+                            "frame": 175,
+                            "value": 2.2439
+                        },
+                        {
+                            "frame": 197,
+                            "value": -2.2005
+                        },
+                        {
+                            "frame": 219,
+                            "value": -3.9281
+                        },
+                        {
+                            "frame": 241,
+                            "value": -0.8059
+                        },
+                        {
+                            "frame": 263,
+                            "value": 3.3113
+                        },
+                        {
+                            "frame": 285,
+                            "value": 3.3403
+                        },
+                        {
+                            "frame": 307,
+                            "value": -0.7547
+                        },
+                        {
+                            "frame": 329,
+                            "value": -3.918
+                        },
+                        {
+                            "frame": 351,
+                            "value": -2.2439
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-9",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 476.5965
+                        },
+                        {
+                            "frame": 22,
+                            "value": 480.3898
+                        },
+                        {
+                            "frame": 44,
+                            "value": 476.1932
+                        },
+                        {
+                            "frame": 66,
+                            "value": 472.3999
+                        },
+                        {
+                            "frame": 88,
+                            "value": 476.5965
+                        },
+                        {
+                            "frame": 110,
+                            "value": 480.3898
+                        },
+                        {
+                            "frame": 132,
+                            "value": 476.1932
+                        },
+                        {
+                            "frame": 153,
+                            "value": 472.3999
+                        },
+                        {
+                            "frame": 175,
+                            "value": 476.5965
+                        },
+                        {
+                            "frame": 197,
+                            "value": 480.3898
+                        },
+                        {
+                            "frame": 219,
+                            "value": 476.1932
+                        },
+                        {
+                            "frame": 241,
+                            "value": 472.3999
+                        },
+                        {
+                            "frame": 263,
+                            "value": 476.5965
+                        },
+                        {
+                            "frame": 285,
+                            "value": 480.3898
+                        },
+                        {
+                            "frame": 307,
+                            "value": 476.1932
+                        },
+                        {
+                            "frame": 329,
+                            "value": 472.3999
+                        },
+                        {
+                            "frame": 351,
+                            "value": 476.5965
+                        }
+                    ]
+                },
+                {
+                    "target": "text-leeroy-9",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 2.5904
+                        },
+                        {
+                            "frame": 22,
+                            "value": 3.8072
+                        },
+                        {
+                            "frame": 44,
+                            "value": 0.3235
+                        },
+                        {
+                            "frame": 66,
+                            "value": -3.5596
+                        },
+                        {
+                            "frame": 88,
+                            "value": -3.0479
+                        },
+                        {
+                            "frame": 110,
+                            "value": 1.2268
+                        },
+                        {
+                            "frame": 132,
+                            "value": 3.9869
+                        },
+                        {
+                            "frame": 153,
+                            "value": 1.8246
+                        },
+                        {
+                            "frame": 175,
+                            "value": -2.5904
+                        },
+                        {
+                            "frame": 197,
+                            "value": -3.8072
+                        },
+                        {
+                            "frame": 219,
+                            "value": -0.3235
+                        },
+                        {
+                            "frame": 241,
+                            "value": 3.5596
+                        },
+                        {
+                            "frame": 263,
+                            "value": 3.0479
+                        },
+                        {
+                            "frame": 285,
+                            "value": -1.2268
+                        },
+                        {
+                            "frame": 307,
+                            "value": -3.9869
+                        },
+                        {
+                            "frame": 329,
+                            "value": -1.8246
+                        },
+                        {
+                            "frame": 351,
+                            "value": 2.5904
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "jitter",
+                "states": [
+                    {
+                        "name": "jitter",
+                        "clip": "jitter"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "jitter"
+                    }
+                ]
+            }
+        ]
+    }
+}

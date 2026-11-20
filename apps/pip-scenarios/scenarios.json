@@ -1,0 +1,894 @@
+{
+  "$comment": "Every situation from the Pip re-skin mocks, staged live on the emulator by run.mjs. Add one by copying an entry: steps are listed in lib/steps.mjs, done conditions in lib/device.mjs. Brands, people and numbers are fictional.",
+  "refs": {},
+  "scenarios": [
+    {
+      "id": "call-unknown-ringing",
+      "group": "Calls",
+      "title": "Unknown caller ringing",
+      "mock": {
+        "ref": "moments",
+        "name": "Call ringing: screening verdict"
+      },
+      "trigger": "Unknown or spoofed caller",
+      "expect": {
+        "level": "caution",
+        "pip": "Wary card on the ringing screen",
+        "surface": "Two soft taps; optionally silenced"
+      },
+      "fidelity": "approximated",
+      "why": "The emulator can't fail a STIR/SHAKEN check, so the caller is only unknown, not spoofed.",
+      "hint": "Answer or decline the call. Hang up to continue.",
+      "steps": [
+        {
+          "do": "ring",
+          "from": "4155550199"
+        }
+      ],
+      "done": [
+        "call-ended"
+      ]
+    },
+    {
+      "id": "call-known-ringing",
+      "group": "Calls",
+      "title": "Known caller: quiet thumbs-up",
+      "mock": {
+        "ref": "moments",
+        "name": "Known caller: quiet thumbs-up"
+      },
+      "trigger": "Call from a contact",
+      "expect": {
+        "level": "info",
+        "pip": "Happy chip, 3 s",
+        "surface": "No sound, no buzz"
+      },
+      "fidelity": "real",
+      "hint": "A contact is ringing. Answer or decline; hang up to continue.",
+      "steps": [
+        {
+          "do": "contact",
+          "name": "Dr. Rivera's office",
+          "number": "6505550111"
+        },
+        {
+          "do": "ring",
+          "from": "6505550111"
+        }
+      ],
+      "done": [
+        "call-ended"
+      ]
+    },
+    {
+      "id": "call-live-scam",
+      "group": "Calls",
+      "title": "Live call: risk climbs",
+      "mock": {
+        "ref": "moments",
+        "name": "Live call: risk climbs"
+      },
+      "trigger": "Live call: score ≥ 5",
+      "expect": {
+        "level": "danger",
+        "pip": "Alarmed, centre, \"Hang up\"",
+        "surface": "Heads-up + 3 long buzzes"
+      },
+      "fidelity": "real",
+      "hint": "A bank-fraud caller speaks into the emulator mic (you'll hear it on the Mac). Hang up when you're done.",
+      "steps": [
+        {
+          "do": "mock-call",
+          "script": "bank-fraud",
+          "from": "8335550142",
+          "hold": true
+        }
+      ],
+      "done": [
+        "call-ended"
+      ],
+      "autoSeconds": 40
+    },
+    {
+      "id": "call-at-ear",
+      "group": "Calls",
+      "title": "At your ear: buzz, then a card",
+      "mock": {
+        "ref": "moments",
+        "name": "At your ear: buzz, then a card"
+      },
+      "trigger": "Live call: score ≥ 5",
+      "expect": {
+        "level": "danger",
+        "pip": "Card waiting centre-screen when the phone comes down",
+        "surface": "3 long buzzes while the screen is dark"
+      },
+      "fidelity": "real",
+      "hint": "The IRS caller talks; after 14 s the proximity sensor says 'at your ear' for 8 s (screen goes dark), then the phone comes down. Hang up to continue.",
+      "steps": [
+        {
+          "do": "mock-call",
+          "script": "irs",
+          "from": "2025550143",
+          "hold": true
+        },
+        {
+          "do": "proximity",
+          "after": 14,
+          "for": 8
+        }
+      ],
+      "done": [
+        "call-ended"
+      ],
+      "shotAt": 24,
+      "autoSeconds": 34
+    },
+    {
+      "id": "call-after-summary",
+      "group": "Calls",
+      "title": "After the call: summary",
+      "mock": {
+        "ref": "moments",
+        "name": "After the call: summary"
+      },
+      "trigger": "Call ends after danger",
+      "expect": {
+        "level": "danger",
+        "pip": "Concerned, then happy; summary screen with reasons",
+        "surface": "Notification → summary"
+      },
+      "fidelity": "approximated",
+      "why": "The app has no summary screen yet; the shade shows Pip's warning notification and tapping it opens today's playground.",
+      "hint": "A short grandson scam call plays and hangs up, then the notification shade opens. Tap Pip's notification, then press Home (or Enter here).",
+      "steps": [
+        {
+          "do": "mock-call",
+          "script": "grandson",
+          "from": "3105550177",
+          "wait": true
+        },
+        {
+          "do": "shade"
+        }
+      ],
+      "done": [
+        "visited-then-left:dev.playground.pip"
+      ],
+      "seam": "A call summary screen fed by the call's combined rule hits, opened from the danger notification.",
+      "autoSeconds": 8
+    },
+    {
+      "id": "call-harmless",
+      "group": "Calls",
+      "title": "Harmless call: the pharmacy",
+      "mock": {
+        "ref": "moments",
+        "name": "Known caller: quiet thumbs-up"
+      },
+      "trigger": "Anything scoring 0",
+      "expect": {
+        "level": "info",
+        "pip": "Nothing",
+        "surface": "Logged as checked"
+      },
+      "fidelity": "real",
+      "hint": "The pharmacy calls about a refill. Pip should stay quiet. Hang up to continue.",
+      "steps": [
+        {
+          "do": "mock-call",
+          "script": "pharmacy",
+          "from": "4085550160",
+          "hold": true
+        }
+      ],
+      "done": [
+        "call-ended"
+      ],
+      "autoSeconds": 36
+    },
+    {
+      "id": "protect-mute-call",
+      "group": "Protective actions",
+      "title": "Pip mutes you on a live scam call",
+      "mock": {
+        "ref": "actions",
+        "name": "Live call: Pip mutes you"
+      },
+      "trigger": "Gift-card or code ask on a call, rule on",
+      "expect": {
+        "level": "act",
+        "pip": "Mutes you, says why, \"Unmute\"",
+        "surface": "One long buzz"
+      },
+      "fidelity": "real",
+      "hint": "The IRS caller asks for gift cards. With the mute rule on, Pip should mute you and say why. Hang up to continue.",
+      "steps": [
+        {
+          "do": "mock-call",
+          "script": "irs",
+          "from": "2025550188",
+          "hold": true
+        }
+      ],
+      "done": [
+        "call-ended"
+      ],
+      "seam": "Act rules: a per-rule opt-in, then AudioManager.setMicrophoneMute (MODIFY_AUDIO_SETTINGS) on the structured warning, with Unmute as the undo. Hold isn't possible (InCallService is default-dialer only).",
+      "autoSeconds": 36
+    },
+    {
+      "id": "protect-decline-ringing",
+      "group": "Protective actions",
+      "title": "Pip silences a failed-check caller before it rings",
+      "mock": {
+        "ref": "actions",
+        "name": "Silenced before it rang"
+      },
+      "trigger": "Failed-check caller, rule on",
+      "expect": {
+        "level": "act",
+        "pip": "Silenced before it rang",
+        "surface": "Quiet notification"
+      },
+      "fidelity": "approximated",
+      "why": "The emulator can't fail the carrier check, so the caller is only unknown and the silence rule has nothing to act on.",
+      "hint": "An unknown caller rings. With the silence rule on, a failed-check caller should never ring. Decline, or answer and hang up, to continue.",
+      "steps": [
+        {
+          "do": "ring",
+          "from": "8335550142"
+        }
+      ],
+      "done": [
+        "call-ended"
+      ],
+      "seam": "Screening verdict → CallResponse.setSilenceCall / setRejectCall from the spoof result, plus Pip's quiet \"I silenced a call\" notification."
+    },
+    {
+      "id": "protect-cover-payment",
+      "group": "Protective actions",
+      "title": "Pip pauses a payment screen during a call",
+      "mock": {
+        "ref": "actions",
+        "name": "Gift-card form, paused"
+      },
+      "trigger": "Payment screen on a call, rule on",
+      "expect": {
+        "level": "act",
+        "pip": "Covers Buy; hold 3 s to go on",
+        "surface": "One long buzz"
+      },
+      "fidelity": "real",
+      "hint": "You're on a call and a form asks you to move your savings. Pip should cover it. Hang up or press Home to continue.",
+      "steps": [
+        {
+          "do": "ring",
+          "from": "8335550142"
+        },
+        {
+          "do": "accept",
+          "from": "8335550142"
+        },
+        {
+          "do": "wait",
+          "s": 2
+        },
+        {
+          "do": "fixture",
+          "activity": "FormActivity",
+          "extras": {
+            "title": "Move your savings to a safe account"
+          }
+        }
+      ],
+      "done": [
+        "call-ended",
+        "home"
+      ],
+      "seam": "Call state + a payment-screen detector, and a touchable accessibility overlay over the button with a hold-to-continue undo."
+    },
+    {
+      "id": "sms-scam-arrives",
+      "group": "Texts and notifications",
+      "title": "Scam text arrives",
+      "mock": {
+        "ref": "moments",
+        "name": "Scam text arrives"
+      },
+      "trigger": "Text or notification ≥ 5",
+      "expect": {
+        "level": "danger",
+        "pip": "Reason + \"Don't reply\"",
+        "surface": "Heads-up; alert tone + one buzz"
+      },
+      "fidelity": "real",
+      "hint": "A scam text arrives. Open it or swipe the notification away to continue.",
+      "steps": [
+        {
+          "do": "home"
+        },
+        {
+          "do": "sms",
+          "from": "8335550142",
+          "text": "Bank of Example: We stopped a $892 payment. Reply with the 6-digit verification code we just sent to cancel it."
+        }
+      ],
+      "done": [
+        "notification-gone:com.google.android.apps.messaging"
+      ]
+    },
+    {
+      "id": "sms-scam-thread",
+      "group": "Texts and notifications",
+      "title": "Scam thread open in Messages",
+      "mock": {
+        "ref": "incontext",
+        "name": "A · Scam thread open in Messages"
+      },
+      "trigger": "Text or notification ≥ 5",
+      "expect": {
+        "level": "danger",
+        "pip": "Rings the risky bubble; \"Don't tap it\"",
+        "surface": "—"
+      },
+      "fidelity": "real",
+      "hint": "The thread with the risky link is open. Press Home or Back to continue.",
+      "steps": [
+        {
+          "do": "sms",
+          "from": "2025550143",
+          "text": "Hi, it's Example Health. Your new member card is ready."
+        },
+        {
+          "do": "wait",
+          "s": 2
+        },
+        {
+          "do": "sms",
+          "from": "2025550143",
+          "text": "Confirm your details here: http://examplehealth-card-renew.example/verify"
+        },
+        {
+          "do": "wait",
+          "s": 2
+        },
+        {
+          "do": "thread",
+          "number": "2025550143"
+        }
+      ],
+      "done": [
+        "home"
+      ]
+    },
+    {
+      "id": "sms-harmless",
+      "group": "Texts and notifications",
+      "title": "Normal text: Pip stays quiet",
+      "mock": {
+        "ref": "moments",
+        "name": "Normal text: Pip stays quiet"
+      },
+      "trigger": "Anything scoring 0",
+      "expect": {
+        "level": "info",
+        "pip": "Nothing",
+        "surface": "Logged as checked"
+      },
+      "fidelity": "real",
+      "hint": "Sam texts about dinner. Pip should stay quiet. Press Home to continue.",
+      "steps": [
+        {
+          "do": "sms",
+          "from": "6505550123",
+          "text": "Dinner at 6? I'll pick you up :)"
+        },
+        {
+          "do": "wait",
+          "s": 2
+        },
+        {
+          "do": "thread",
+          "number": "6505550123"
+        }
+      ],
+      "done": [
+        "home"
+      ]
+    },
+    {
+      "id": "notif-hi-mum",
+      "group": "Texts and notifications",
+      "title": "Suspicious \"Hi Mum\" message",
+      "mock": {
+        "ref": "moments",
+        "name": "Suspicious WhatsApp message"
+      },
+      "trigger": "Text 1–4, \"new number\"",
+      "expect": {
+        "level": "caution",
+        "pip": "Wary peek: \"Is this really Sam? Call his usual number\"",
+        "surface": "Two soft taps"
+      },
+      "fidelity": "real",
+      "hint": "ExampleChat posts a 'new number' message. Open it or swipe it away to continue.",
+      "steps": [
+        {
+          "do": "home"
+        },
+        {
+          "do": "notify",
+          "title": "+44 7700 900xxx",
+          "text": "Hi Mum, I dropped my phone, this is my new number. Can you help me pay a bill today?"
+        }
+      ],
+      "done": [
+        "notification-gone:dev.playground.pipfixtures"
+      ],
+      "seam": "A \"new number\" rule and a caution level with its own peek; today the message scores 0. The listener also skips a title and text it saw before, with no time limit."
+    },
+    {
+      "id": "web-phishing-login",
+      "group": "Browser",
+      "title": "Phishing login in Chrome",
+      "mock": {
+        "ref": "incontext",
+        "name": "A · Fake bank login in Chrome"
+      },
+      "trigger": "Phishing page or fake virus warning",
+      "expect": {
+        "level": "danger",
+        "pip": "\"This isn't ExampleMail. Don't sign in here\" + \"Leave this page\"",
+        "surface": "—"
+      },
+      "fidelity": "approximated",
+      "why": "Served from localhost through adb reverse, so the address bar shows localhost, not a lookalike domain.",
+      "hint": "A fake ExampleMail sign-in is open in Chrome. Scroll the page; press Home to continue.",
+      "steps": [
+        {
+          "do": "url",
+          "path": "/mail-login.html"
+        }
+      ],
+      "done": [
+        "home"
+      ],
+      "auto": [
+        {
+          "do": "wait",
+          "s": 3
+        },
+        {
+          "do": "scroll"
+        }
+      ],
+      "seam": "Screen reading drops the last change inside its 1.5 s debounce, so a page that settles right after an earlier read isn't scored until something else changes (a scroll)."
+    },
+    {
+      "id": "web-virus-popup",
+      "group": "Browser",
+      "title": "\"Virus detected\" page with a support number",
+      "mock": {
+        "ref": "incontext",
+        "name": "A · “Virus detected” page"
+      },
+      "trigger": "Phishing page or fake virus warning",
+      "expect": {
+        "level": "danger",
+        "pip": "\"Phones don't show warnings like this. Don't call that number\" + \"Go back\"",
+        "surface": "—"
+      },
+      "fidelity": "approximated",
+      "why": "Served from localhost through adb reverse, so the address bar shows localhost.",
+      "hint": "A fake virus warning with a phone number is open in Chrome. Scroll the page; press Home to continue.",
+      "steps": [
+        {
+          "do": "url",
+          "path": "/virus.html"
+        }
+      ],
+      "done": [
+        "home"
+      ],
+      "seam": "A tech-support-scare rule (fake virus counts, \"call support\" numbers); today the page only trips urgency. Screen reading drops the last change inside its 1.5 s debounce, so a page that settles right after an earlier read isn't scored until something else changes (a scroll).",
+      "auto": [
+        {
+          "do": "wait",
+          "s": 3
+        },
+        {
+          "do": "scroll"
+        }
+      ]
+    },
+    {
+      "id": "web-fake-bank",
+      "group": "Browser",
+      "title": "Fake bank page",
+      "mock": {
+        "ref": "incontext",
+        "name": "A · Fake bank login in Chrome"
+      },
+      "trigger": "Phishing page or fake virus warning",
+      "expect": {
+        "level": "danger",
+        "pip": "\"This isn't Bank of Example's website\" + \"Leave this page\"",
+        "surface": "—"
+      },
+      "fidelity": "approximated",
+      "why": "Served from localhost through adb reverse, so the address bar shows localhost, not a lookalike domain.",
+      "hint": "A fake Bank of Example sign-in asking for a card number is open. Scroll the page; press Home to continue.",
+      "steps": [
+        {
+          "do": "url",
+          "path": "/bank-login.html"
+        }
+      ],
+      "done": [
+        "home"
+      ],
+      "seam": "A URL check (Safe Browsing hash prefixes) so Pip judges the site, not only the page text. Screen reading drops the last change inside its 1.5 s debounce, so a page that settles right after an earlier read isn't scored until something else changes (a scroll).",
+      "auto": [
+        {
+          "do": "wait",
+          "s": 3
+        },
+        {
+          "do": "scroll"
+        }
+      ]
+    },
+    {
+      "id": "email-scam-open",
+      "group": "Apps",
+      "title": "Scam email open in an email app",
+      "mock": {
+        "ref": "incontext",
+        "name": "A · Scam email open in Gmail"
+      },
+      "trigger": "Scam email or thread open",
+      "expect": {
+        "level": "caution",
+        "pip": "\"Not really ExamplePay\" label by the subject + bubble",
+        "surface": "—"
+      },
+      "fidelity": "real",
+      "hint": "ExampleMail shows a fake payment-hold email. Scroll the page; press Home or Back to continue.",
+      "steps": [
+        {
+          "do": "fixture",
+          "activity": "MailActivity"
+        }
+      ],
+      "done": [
+        "home"
+      ],
+      "seam": "Sender-domain and call-back-number rules for email; the label needs node bounds from the accessibility tree. Screen reading drops the last change inside its 1.5 s debounce, so a page that settles right after an earlier read isn't scored until something else changes (a scroll).",
+      "auto": [
+        {
+          "do": "wait",
+          "s": 3
+        },
+        {
+          "do": "scroll"
+        }
+      ]
+    },
+    {
+      "id": "giftcard-during-call",
+      "group": "Apps",
+      "title": "Gift-card screen during a call",
+      "mock": {
+        "ref": "moments",
+        "name": "Gift-card screen during a call"
+      },
+      "trigger": "Gift-card or payment screen on a call",
+      "expect": {
+        "level": "danger",
+        "pip": "Over the Buy button: \"Stop. Don't buy this.\"",
+        "surface": "Heads-up"
+      },
+      "fidelity": "real",
+      "hint": "You're on a call and a $500 gift card is in the cart. Hang up or press Home to continue.",
+      "steps": [
+        {
+          "do": "ring",
+          "from": "8335550142"
+        },
+        {
+          "do": "accept",
+          "from": "8335550142"
+        },
+        {
+          "do": "wait",
+          "s": 2
+        },
+        {
+          "do": "fixture",
+          "activity": "GiftCardActivity"
+        }
+      ],
+      "done": [
+        "call-ended",
+        "home"
+      ],
+      "seam": "Combine call state with the screen: a gift-card page alone isn't danger, on a call it is."
+    },
+    {
+      "id": "type-giftcard-code",
+      "group": "Keyboard",
+      "title": "Typing a gift-card code into a scammer's chat",
+      "mock": {
+        "ref": "incontext",
+        "name": "A · Typing a gift-card code"
+      },
+      "trigger": "Typing a code while flagged",
+      "expect": {
+        "level": "danger",
+        "pip": "Bubble above the keyboard: \"That looks like a gift-card code\" + \"Don't send\"",
+        "surface": "—"
+      },
+      "fidelity": "real",
+      "hint": "Type a gift-card code (e.g. X4K9-7PQ2-M8R) into the chat. Press Home to continue.",
+      "steps": [
+        {
+          "do": "fixture",
+          "activity": "ChatActivity"
+        }
+      ],
+      "auto": [
+        {
+          "do": "wait",
+          "s": 2
+        },
+        {
+          "do": "type",
+          "text": "X4K9-7PQ2-M8R"
+        }
+      ],
+      "done": [
+        "home"
+      ],
+      "seam": "A typed-code detector on TYPE_VIEW_TEXT_CHANGED (not subscribed today); today only the chat's own words score."
+    },
+    {
+      "id": "type-otp-code",
+      "group": "Keyboard",
+      "title": "Typing a one-time code into a scammer's chat",
+      "mock": {
+        "ref": "incontext",
+        "name": "A · Typing a gift-card code"
+      },
+      "trigger": "Typing a code while flagged",
+      "expect": {
+        "level": "danger",
+        "pip": "Bubble above the keyboard: \"Never share a code\" + \"Don't send\"",
+        "surface": "—"
+      },
+      "fidelity": "real",
+      "hint": "Type a 6-digit code into the chat. Press Home to continue.",
+      "steps": [
+        {
+          "do": "fixture",
+          "activity": "ChatActivity",
+          "extras": {
+            "contact": "Bank of Example Fraud Team",
+            "message": "We sent you a 6-digit code.\\nReply with it here to cancel the $892 payment."
+          }
+        }
+      ],
+      "auto": [
+        {
+          "do": "wait",
+          "s": 2
+        },
+        {
+          "do": "type",
+          "text": "482913"
+        }
+      ],
+      "done": [
+        "home"
+      ],
+      "seam": "Typed-code detection (digits while the thread asks for a code)."
+    },
+    {
+      "id": "type-bank-number",
+      "group": "Keyboard",
+      "title": "Typing a bank account number into a form",
+      "mock": {
+        "ref": "incontext",
+        "name": "A · Typing a gift-card code"
+      },
+      "trigger": "Typing a code while flagged",
+      "expect": {
+        "level": "danger",
+        "pip": "Bubble above the keyboard: \"Don't give your account number\"",
+        "surface": "—"
+      },
+      "fidelity": "real",
+      "hint": "Type an account number into the refund form. Press Home to continue.",
+      "steps": [
+        {
+          "do": "fixture",
+          "activity": "FormActivity"
+        }
+      ],
+      "auto": [
+        {
+          "do": "wait",
+          "s": 2
+        },
+        {
+          "do": "type",
+          "text": "000123456789"
+        }
+      ],
+      "done": [
+        "home"
+      ],
+      "seam": "Typed-number detection in a flagged form."
+    },
+    {
+      "id": "buddy-after-danger",
+      "group": "Buddy",
+      "title": "Pip tells your Buddy, with 30 s to undo",
+      "mock": {
+        "ref": "actions",
+        "name": "“I'm letting Sam know”"
+      },
+      "trigger": "Danger or act, Buddy on",
+      "expect": {
+        "level": "danger",
+        "pip": "\"I'm letting Sam know\", 30 s undo",
+        "surface": "Twilio SMS to the Buddy"
+      },
+      "fidelity": "approximated",
+      "why": "The app has no Buddy or server delivery yet, so nothing can be sent; the scenario stages the danger text that should start the undo window.",
+      "hint": "A danger-level text arrives. Watch for \"I'm letting Sam know\" with a 30 s undo. Open or swipe the notification to continue.",
+      "steps": [
+        {
+          "do": "home"
+        },
+        {
+          "do": "sms",
+          "from": "8885550170",
+          "text": "Grandma its me, Im in jail and need bail money right now. Dont tell mom. Buy Example Play gift cards and read me the code."
+        }
+      ],
+      "done": [
+        "notification-gone:com.google.android.apps.messaging"
+      ],
+      "seam": "A Buddy setting (contact pick), the 30 s undo overlay, and a server endpoint that texts the Buddy through Twilio after it."
+    },
+    {
+      "id": "buddy-checks-in",
+      "group": "Buddy",
+      "title": "Your Buddy calls to check in",
+      "mock": {
+        "ref": "actions",
+        "name": "Sam calls to check in"
+      },
+      "trigger": "Call from a contact",
+      "expect": {
+        "level": "info",
+        "pip": "Chip: \"Your Buddy, checking in\"",
+        "surface": "—"
+      },
+      "fidelity": "real",
+      "hint": "Sam (the Buddy, a temporary contact) calls. Pip should say why. Answer or decline; hang up to continue.",
+      "steps": [
+        {
+          "do": "contact",
+          "name": "Sam",
+          "number": "4155550108"
+        },
+        {
+          "do": "ring",
+          "from": "4155550108"
+        }
+      ],
+      "done": [
+        "call-ended"
+      ],
+      "seam": "A Buddy setting the screening service can match, and the info chip."
+    },
+    {
+      "id": "voicemail-share",
+      "group": "Voicemail",
+      "title": "Voicemail: share to Pip",
+      "mock": {
+        "ref": "incontext",
+        "name": "A · Voicemail: share to Pip"
+      },
+      "trigger": "Voicemail shared to Pip",
+      "expect": {
+        "level": "caution",
+        "pip": "Verdict in the app: \"Police don't do that by voicemail\"",
+        "surface": "—"
+      },
+      "fidelity": "approximated",
+      "why": "Phone's voicemail is unreadable (READ_VOICEMAIL is privileged), so a fixture voicemail app shares the audio; Pip isn't a share target yet.",
+      "hint": "Tap Share and look for Pip in the share sheet (Play hears the warrant voicemail). Press Home to continue.",
+      "steps": [
+        {
+          "do": "fixture",
+          "activity": "VoicemailActivity"
+        }
+      ],
+      "auto": [
+        {
+          "do": "fixture",
+          "activity": "VoicemailActivity",
+          "extras": {
+            "share": true
+          }
+        }
+      ],
+      "done": [
+        "home"
+      ],
+      "seam": "An ACTION_SEND audio/* share target that transcribes on device and shows a verdict."
+    },
+    {
+      "id": "voice-in-app",
+      "group": "Voice",
+      "title": "Talk while Pip is visible (in the app)",
+      "mock": {
+        "ref": "voice",
+        "name": "2 · Talk while Pip is visible"
+      },
+      "trigger": "You tap Pip, or Pip is on screen",
+      "expect": {
+        "level": "none",
+        "pip": "Listening rings; mic opens while Pip is on screen",
+        "surface": "Mic dot"
+      },
+      "fidelity": "approximated",
+      "why": "Today's app is the developer playground; there's no talk screen or agent to answer.",
+      "hint": "Pip's app is open. Try talking to him. Press Home to continue.",
+      "steps": [
+        {
+          "do": "pip-app"
+        }
+      ],
+      "done": [
+        "home"
+      ],
+      "seam": "A talk screen on SpeechRecognizer with a stub agent."
+    },
+    {
+      "id": "voice-tap-overlay",
+      "group": "Voice",
+      "title": "Tap Pip to talk over another app",
+      "mock": {
+        "ref": "voice",
+        "name": "1 · Tap Pip to talk"
+      },
+      "trigger": "You tap Pip, or Pip is on screen",
+      "expect": {
+        "level": "none",
+        "pip": "Listening rings + bubble with what you said",
+        "surface": "Mic dot"
+      },
+      "fidelity": "real",
+      "hint": "A photo of a scam text is on screen. Tap Pip and ask about it. Press Home to continue.",
+      "steps": [
+        {
+          "do": "fixture",
+          "activity": "GalleryActivity"
+        }
+      ],
+      "auto": [
+        {
+          "do": "tap-pip"
+        }
+      ],
+      "done": [
+        "home"
+      ],
+      "seam": "A tap on the overlay that starts listening in the accessibility service."
+    }
+  ]
+}

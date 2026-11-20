@@ -1,0 +1,66 @@
+{
+ "piece": "set-d90s-banner",
+ "origin": [540, 400],
+ "clips": [
+  {
+   "name": "triangle-spin",
+   "duration": 3.0,
+   "loop": true,
+   "tracks": [
+    {
+     "target": "triangle",
+     "property": "rotation",
+     "keys": [
+      [0, 0],
+      [3, 120]
+     ],
+     "ease": "linear"
+    }
+   ],
+   "note": "40 deg/s; 3-fold symmetric"
+  },
+  {
+   "name": "pop",
+   "duration": 1.4,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "scale",
+     "keys": [
+      [0.0, 0.3],
+      [0.308, 1],
+      [1.12, 1],
+      [1.4, 0.4]
+     ],
+     "ease": "easeInOut"
+    },
+    {
+     "target": "root",
+     "property": "rotation",
+     "keys": [
+      [0.0, -12],
+      [0.308, 3],
+      [0.56, -2],
+      [0.84, 1],
+      [1.12, 0],
+      [1.4, 8]
+     ],
+     "ease": "easeInOut"
+    },
+    {
+     "target": "root",
+     "property": "opacity",
+     "keys": [
+      [0.0, 1],
+      [1.12, 1],
+      [1.4, 0]
+     ],
+     "ease": "inBack"
+    }
+   ]
+  }
+ ],
+ "notes": "Lettering outlined from Helvetica Neue Bold (Roboto Bold in Kotlin), skewed -0.22.",
+ "size": [760, 320]
+}

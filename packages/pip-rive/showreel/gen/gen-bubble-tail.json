@@ -1,0 +1,10 @@
+{
+    "artboard": {
+        "name": "gen-bubble-tail",
+        "width": 80.0,
+        "height": 55.0
+    },
+    "art": {
+        "svg": "gen-bubble-tail.svg"
+    }
+}

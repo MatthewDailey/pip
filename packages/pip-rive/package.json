@@ -1,0 +1,11 @@
+{
+  "name": "@shady-pip/pip-rive",
+  "private": true,
+  "description": "Pip's Rive sources (rig, showreel, set pieces) and their compiled .riv files, built by rivc",
+  "scripts": {
+    "build": ". ../../scripts/env.sh && bash build.sh",
+    "rive:rig": ". ../../scripts/env.sh && node pip/build-pip.mjs",
+    "rive:roam": "node roam/build-roam.mjs",
+    "rive:greet": ". ../../scripts/env.sh && \"$SHADY_PIP_ROOT/tools/.venv/bin/python\" ../../tools/pip-art/first-run/hello_install.py && node stories/hello-install/build.mjs"
+  }
+}

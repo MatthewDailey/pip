@@ -1,0 +1,48 @@
+{
+  "piece": "peace-bg",
+  "svg": "fx-peace-bg.svg",
+  "origin": [490.0, 490.0],
+  "size": [980, 980],
+  "notes": [
+    "Not used by the current showreel scenes; redrawn from BackdropDrawer.peaceBg.",
+    "Kotlin's tie-dye is a sweep gradient masked by a radial alpha gradient (ComposeShader DST_IN). Rive has neither, so the dye is 60 overlapping wedges 12 degrees wide every 6 degrees, so every point is covered by exactly two (this hides anti-aliasing seams and blends neighbouring hues). Each is a radial gradient of its hue at 100% -> 55% at 0.55 -> 0% at the rim; two such layers composite to Kotlin's 100/80/0% profile. Group opacity 47% matches the Kotlin paint alpha 120.",
+    "Five spiral arms widen as they curl, filled with a white radial band gradient; a second copy turned 36 degrees and scaled 0.7 at 59% opacity, then a soft centre glow (inside the scaled group, as in Kotlin)."
+  ],
+  "clips": [
+    {
+      "name": "turn",
+      "timeline": "progress",
+      "duration": 1.0,
+      "loop": true,
+      "ease": "linear",
+      "tracks": [
+        {
+          "target": "swirl",
+          "property": "rotation",
+          "keys": [[0, 0], [1, 360]]
+        }
+      ]
+    },
+    {
+      "name": "breathe",
+      "timeline": "time",
+      "duration": 4.189,
+      "loop": true,
+      "ease": "linear",
+      "tracks": [
+        {
+          "target": "swirl",
+          "property": "scale",
+          "keys": [[0.0, 1.0], [0.131, 1.004], [0.262, 1.008], [0.393, 1.011], [0.524, 1.014], [0.654, 1.017], [0.785, 1.018], [0.916, 1.02], [1.047, 1.02], [1.178, 1.02], [1.309, 1.018], [1.44, 1.017], [1.571, 1.014], [1.702, 1.011], [1.833, 1.008], [1.963, 1.004], [2.094, 1.0], [2.225, 0.996], [2.356, 0.992], [2.487, 0.989], [2.618, 0.986], [2.749, 0.983], [2.88, 0.982], [3.011, 0.98], [3.142, 0.98], [3.272, 0.98], [3.403, 0.982], [3.534, 0.983], [3.665, 0.986], [3.796, 0.989], [3.927, 0.992], [4.058, 0.996], [4.189, 1.0]]
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "progress",
+      "type": "number",
+      "drives": "swirl rotation, one turn per 1.0"
+    }
+  ]
+}

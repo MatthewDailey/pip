@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-900 -430 1800 860" width="1800" height="860">
+<!-- Whip-pan speed streaks across the panel (shared by d80s and d90s); (0,0) = panel centre. Drawn at progress 0. -->
+<g id="streaks">
+<g id="streak-0" transform="translate(697.85 157.5)">
+<path d="M0 0L445.59 0" fill="none" stroke="#3A2A26" stroke-width="3.79" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.333"/>
+</g>
+<g id="streak-1" transform="translate(-411.33 -190.31)">
+<path d="M0 0L595.7 0" fill="none" stroke="#FFFFFF" stroke-width="9.26" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.851"/>
+</g>
+<g id="streak-2" transform="translate(-10.55 191.95)">
+<path d="M0 0L397.7 0" fill="none" stroke="#FFFFFF" stroke-width="5.75" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.851"/>
+</g>
+<g id="streak-3" transform="translate(-569.53 -90.23)">
+<path d="M0 0L493.98 0" fill="none" stroke="#3A2A26" stroke-width="7.31" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.333"/>
+</g>
+<g id="streak-4" transform="translate(7.03 -131.25)">
+<path d="M0 0L432.46 0" fill="none" stroke="#FFFFFF" stroke-width="4.12" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.851"/>
+</g>
+<g id="streak-5" transform="translate(-428.91 -100.49)">
+<path d="M0 0L265.94 0" fill="none" stroke="#FFFFFF" stroke-width="3.11" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.851"/>
+</g>
+<g id="streak-6" transform="translate(-787.5 111.56)">
+<path d="M0 0L287.27 0" fill="none" stroke="#3A2A26" stroke-width="4.82" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.333"/>
+</g>
+<g id="streak-7" transform="translate(801.56 -183.75)">
+<path d="M0 0L304.29 0" fill="none" stroke="#FFFFFF" stroke-width="8.17" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.851"/>
+</g>
+<g id="streak-8" transform="translate(-435.94 -406.88)">
+<path d="M0 0L562.89 0" fill="none" stroke="#FFFFFF" stroke-width="8.03" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.851"/>
+</g>
+<g id="streak-9" transform="translate(576.56 -3.28)">
+<path d="M0 0L328.28 0" fill="none" stroke="#3A2A26" stroke-width="8.08" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.333"/>
+</g>
+<g id="streak-10" transform="translate(-35.16 -269.88)">
+<path d="M0 0L562.07 0" fill="none" stroke="#FFFFFF" stroke-width="5.3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.851"/>
+</g>
+<g id="streak-11" transform="translate(-773.44 3.28)">
+<path d="M0 0L530.08 0" fill="none" stroke="#FFFFFF" stroke-width="8.88" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.851"/>
+</g>
+<g id="streak-12" transform="translate(73.83 69.73)">
+<path d="M0 0L565.45 0" fill="none" stroke="#3A2A26" stroke-width="8.27" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.333"/>
+</g>
+<g id="streak-13" transform="translate(376.17 183.75)">
+<path d="M0 0L239.69 0" fill="none" stroke="#FFFFFF" stroke-width="4.15" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.851"/>
+</g>
+<g id="streak-14" transform="translate(151.17 -229.69)">
+<path d="M0 0L332.38 0" fill="none" stroke="#FFFFFF" stroke-width="6.64" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.851"/>
+</g>
+<g id="streak-15" transform="translate(551.95 410.98)">
+<path d="M0 0L257.73 0" fill="none" stroke="#3A2A26" stroke-width="6.95" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.333"/>
+</g>
+<g id="streak-16" transform="translate(-612.49 -374.06)">
+<path d="M0 0L357.81 0" fill="none" stroke="#FFFFFF" stroke-width="8.82" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.851"/>
+</g>
+<g id="streak-17" transform="translate(619.63 331.41)">
+<path d="M0 0L533.56 0" fill="none" stroke="#FFFFFF" stroke-width="5.02" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.851"/>
+</g>
+<g id="streak-18" transform="translate(-657.42 285.47)">
+<path d="M0 0L531.72 0" fill="none" stroke="#3A2A26" stroke-width="5.87" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.333"/>
+</g>
+<g id="streak-19" transform="translate(-857.81 -82.03)">
+<path d="M0 0L468.55 0" fill="none" stroke="#FFFFFF" stroke-width="8.93" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.851"/>
+</g>
+<g id="streak-20" transform="translate(706.64 142.73)">
+<path d="M0 0L371.76 0" fill="none" stroke="#FFFFFF" stroke-width="8.28" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.851"/>
+</g>
+<g id="streak-21" transform="translate(323.44 -301.88)">
+<path d="M0 0L288.91 0" fill="none" stroke="#3A2A26" stroke-width="4.35" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.333"/>
+</g>
+</g>
+</svg>

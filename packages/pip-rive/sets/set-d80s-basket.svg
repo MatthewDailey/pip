@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-220 -80 440 160" width="440" height="160">
+<!-- Handlebar basket Pip rides in (drawn in front of Pip); same origin as set-d80s-bike. -->
+<path id="stem" d="M104 -60L92 -52" fill="none" stroke="#0A0E22" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="basket" d="M104 -68L206 -68L196 -22L114 -22Z" fill="#0A0E22"/>
+<g id="weave">
+<path d="M109.61 -56L200.39 -56" fill="none" stroke="#1E2750" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M112.22 -44L197.78 -44" fill="none" stroke="#1E2750" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M114.83 -32L195.17 -32" fill="none" stroke="#1E2750" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M126 -64L128.32 -26" fill="none" stroke="#1E2750" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M146 -64L146.72 -26" fill="none" stroke="#1E2750" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M166 -64L165.12 -26" fill="none" stroke="#1E2750" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M186 -64L183.52 -26" fill="none" stroke="#1E2750" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<path id="rim" d="M100 -68L210 -68" fill="none" stroke="#0A0E22" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

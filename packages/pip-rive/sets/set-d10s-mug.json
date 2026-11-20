@@ -1,0 +1,61 @@
+{
+  "piece": "set-d10s-mug",
+  "scene": "d10s",
+  "painter": "paintMug",
+  "origin": [701.0,1272.0],
+  "origin_note": "screen px (1080 x 2424 stage) where the SVG's (0, 0) sits when the actor is at rest",
+  "viewBox": [-60.0,-150.0,140.0,170.0],
+  "size": [140.0,170.0],
+  "pose": "time 0, origin at the fist that holds it",
+  "format": "Draft motion format for rivc. Every track targets a <g id> in the SVG; a group's pivot is its translate() origin. Properties: x, y (absolute, in the parent's units), rotation (degrees, clockwise), scaleX, scaleY, opacity, strokeWidth, fillColor ('#RRGGBB'). Keys are [time s, value]; 'ease' applies between keys (linear, hold, sine, quadIn). driver 'time' clips play on the clock; driver 'input:<name>' clips are scrubbed, clip time = input value. mixBy names an input whose value (0..1) is the clip's blend weight. The SVG's own transforms are each group's setup pose.",
+  "clips": [
+    {
+      "name": "steam",
+      "duration": 1.8182,
+      "loop": true,
+      "driver": "time",
+      "note": "three wisps rise 50 px and fade in and out, a third of a cycle apart",
+      "tracks": [
+        {
+          "target": "steam-0",
+          "property": "y",
+          "ease": "linear",
+          "keys": [[0.0,-80.0],[1.8182,-80.0]]
+        },
+        {
+          "target": "steam-0",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0.0,0.0],[0.101,0.0955],[0.202,0.1881],[0.303,0.275],[0.404,0.3535],[0.5051,0.4213],[0.6061,0.4763],[0.7071,0.5168],[0.8081,0.5416],[0.9091,0.55],[1.0101,0.5416],[1.1111,0.5168],[1.2121,0.4763],[1.3131,0.4213],[1.4141,0.3535],[1.5152,0.275],[1.6162,0.1881],[1.7172,0.0955],[1.8182,0.0]]
+        },
+        {
+          "target": "steam-1",
+          "property": "y",
+          "ease": "linear",
+          "keys": [[0.0,-96.6667],[1.2111,-130.0],[1.2121,-80.0],[1.8182,-96.6667]]
+        },
+        {
+          "target": "steam-1",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0.0,0.4763],[0.101,0.5168],[0.202,0.5416],[0.303,0.55],[0.404,0.5416],[0.5051,0.5168],[0.6061,0.4763],[0.7071,0.4213],[0.8081,0.3535],[0.9091,0.275],[1.0101,0.1881],[1.1111,0.0955],[1.2121,0.0],[1.3131,0.0955],[1.4141,0.1881],[1.5152,0.275],[1.6162,0.3535],[1.7172,0.4213],[1.8182,0.4763]]
+        },
+        {
+          "target": "steam-2",
+          "property": "y",
+          "ease": "linear",
+          "keys": [[0.0,-113.3333],[0.6051,-130.0],[0.6061,-80.0],[1.8182,-113.3333]]
+        },
+        {
+          "target": "steam-2",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0.0,0.4763],[0.101,0.4213],[0.202,0.3535],[0.303,0.275],[0.404,0.1881],[0.5051,0.0955],[0.6061,0.0],[0.7071,0.0955],[0.8081,0.1881],[0.9091,0.275],[1.0101,0.3535],[1.1111,0.4213],[1.2121,0.4763],[1.3131,0.5168],[1.4141,0.5416],[1.5152,0.55],[1.6162,0.5416],[1.7172,0.5168],[1.8182,0.4763]]
+        }
+      ]
+    }
+  ],
+  "inputs": [],
+  "layers": ["mug-body","steam/steam-0..2"],
+  "scene_motion": "rises to the lips (470, 500 box units, -26 deg) for a sip at 0.55 s; trembles from 2.3 s"
+}

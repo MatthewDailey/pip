@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-260 -380 520 760" width="520" height="760">
+<title>slash</title>
+<defs>
+<linearGradient id="slash-trail-grad" gradientUnits="userSpaceOnUse" x1="-181.87" y1="-105" x2="210" y2="0"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.000"/><stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.333"/><stop offset="0.92" stop-color="#FFFFFF" stop-opacity="1.000"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="1.000"/></linearGradient><linearGradient id="slash-edge-grad" gradientUnits="userSpaceOnUse" x1="-181.87" y1="-105" x2="210" y2="0"><stop offset="0" stop-color="#36D6FF" stop-opacity="0.000"/><stop offset="0.5" stop-color="#36D6FF" stop-opacity="0.376"/><stop offset="1" stop-color="#36D6FF" stop-opacity="1.000"/></linearGradient>
+</defs>
+<g id="slash" transform="translate(0,100)">
+  <g id="slash-sweep" transform="rotate(365.92)">
+    <g id="slash-trail" opacity="1"><path id="slash-trail-path" d="M-181.87,-105 L-172.68,-119.51 L-162.33,-133.22 L-150.9,-146.04 L-138.46,-157.89 L-125.1,-168.67 L-110.89,-178.33 L-95.95,-186.8 L-80.36,-194.01 L-64.24,-199.93 L-47.69,-204.51 L-30.81,-207.73 L-13.73,-209.55 L3.44,-209.97 L20.58,-208.99 L37.59,-206.61 L54.35,-202.84 L70.75,-197.72 L86.67,-191.28 L102.01,-183.56 L116.67,-174.61 L130.55,-164.49 L143.55,-153.27 L155.6,-141.03 L166.6,-127.84 L176.49,-113.8 L185.2,-98.99 L192.67,-83.53 L198.86,-67.5 L203.71,-51.03 L207.2,-34.21 L209.3,-17.16 L210,0 L210,0 L199.95,-16.4 L189.2,-31.24 L178.13,-44.62 L167.05,-56.71 L156.19,-67.71 L145.66,-77.86 L135.51,-87.37 L125.69,-96.44 L116.12,-105.24 L106.66,-113.88 L97.14,-122.4 L87.41,-130.82 L77.29,-139.08 L66.66,-147.11 L55.38,-154.77 L43.39,-161.92 L30.64,-168.38 L17.14,-173.98 L2.92,-178.56 L-11.93,-181.96 L-27.3,-184.03 L-43.06,-184.66 L-59.04,-183.75 L-75.07,-181.23 L-90.96,-177.08 L-106.51,-171.28 L-121.53,-163.86 L-135.82,-154.87 L-149.18,-144.38 L-161.44,-132.49 L-172.4,-119.32 L-181.87,-105 Z" fill="url(#slash-trail-grad)"/></g>
+    <g id="slash-edge" opacity="1"><path id="slash-edge-path" d="M-181.87,-105 L-172.68,-119.51 L-162.33,-133.22 L-150.9,-146.04 L-138.46,-157.89 L-125.1,-168.67 L-110.89,-178.33 L-95.95,-186.8 L-80.36,-194.01 L-64.24,-199.93 L-47.69,-204.51 L-30.81,-207.73 L-13.73,-209.55 L3.44,-209.97 L20.58,-208.99 L37.59,-206.61 L54.35,-202.84 L70.75,-197.72 L86.67,-191.28 L102.01,-183.56 L116.67,-174.61 L130.55,-164.49 L143.55,-153.27 L155.6,-141.03 L166.6,-127.84 L176.49,-113.8 L185.2,-98.99 L192.67,-83.53 L198.86,-67.5 L203.71,-51.03 L207.2,-34.21 L209.3,-17.16 L210,0" fill="none" stroke="url(#slash-edge-grad)" stroke-width="6" stroke-linecap="round"/></g>
+    <g id="slash-glint" transform="translate(204,0) scale(1)" opacity="1">
+      <path d="M0,-30 Q4.8,-4.8 30,0 Q4.8,4.8 0,30 Q-4.8,4.8 -30,0 Q-4.8,-4.8 0,-30 Z" fill="#FFFFFF"/><path d="M9.9,-9.9 Q3.17,0 9.9,9.9 Q0,3.17 -9.9,9.9 Q-3.17,0 -9.9,-9.9 Q0,-3.17 9.9,-9.9 Z" fill="#B8F2FF"/>
+    </g>
+  </g>
+</g>
+</svg>

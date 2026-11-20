@@ -1,0 +1,19 @@
+{
+  "alertThreshold": 5,
+  "rules": [
+    { "id": "gift-card", "label": "Asks for gift cards", "weight": 5, "pattern": "gift ?cards?|google play cards?|itunes cards?|apple cards?|steam cards?|scratch (off )?the (back|code)" },
+    { "id": "wire-crypto", "label": "Asks for wire, crypto or cash transfer", "weight": 4, "pattern": "wire (the )?(money|transfer|funds)|bitcoin|crypto(currency)?|btc atm|bitcoin atm|zelle|western union|moneygram|cash ?app|venmo|courier will (pick|come)" },
+    { "id": "secrecy", "label": "Tells them to keep it secret", "weight": 4, "pattern": "don'?t tell (anyone|your (family|kids|son|daughter|bank))|keep (this|it) (between us|secret|confidential)|do not (tell|discuss)|gag order" },
+    { "id": "urgency", "label": "Creates urgency or threat", "weight": 2, "pattern": "right now|immediately|within (the next )?(\\d+|one|two|24) (minutes|hours)|before it'?s too late|last (chance|warning)|final notice|act now" },
+    { "id": "arrest", "label": "Threatens arrest or legal action", "weight": 4, "pattern": "warrant (for|out)|arrest(ed)?|police (will|are)|lawsuit|legal action|deport(ed|ation)|jail" },
+    { "id": "gov-impersonation", "label": "Claims to be government or agency", "weight": 3, "pattern": "\\birs\\b|social security (administration|number is suspended)|medicare|\\bfbi\\b|\\bdea\\b|federal (agent|officer)|sheriff'?s office|customs and border" },
+    { "id": "bank-impersonation", "label": "Claims to be bank or fraud department", "weight": 2, "pattern": "fraud (department|team)|your (bank )?account (has been|is) (compromised|locked|suspended)|suspicious (activity|transaction)|amazon (security|support)|apple support|microsoft (support|technician)" },
+    { "id": "code-request", "label": "Asks for a verification code", "weight": 5, "pattern": "(read|tell|give) me the (code|number) (we|i|that was|you) (just )?(sent|received|got)|verification code|one[- ]time (code|password|passcode)|\\b(otp|2fa) code" },
+    { "id": "remote-access", "label": "Asks to install remote access", "weight": 5, "pattern": "anydesk|teamviewer|any ?desk|remote (access|desktop)|download (this|the) app (so|and) (i|we) can|screen ?share" },
+    { "id": "grandparent", "label": "Family-emergency pattern", "weight": 3, "pattern": "grand(ma|pa|mother|father),? it'?s me|i'?m in (jail|trouble|the hospital)|bail (money)?|i (was|got) in an? (car )?accident|don'?t tell mom|don'?t tell dad" },
+    { "id": "prize", "label": "Prize, lottery or refund lure", "weight": 3, "pattern": "you('ve| have)? won|lottery|sweepstakes|prize|claim your (reward|refund)|overpaid|refund (department|of \\$)" },
+    { "id": "personal-data", "label": "Asks for SSN or account details", "weight": 4, "pattern": "social security number|\\bssn\\b|(bank|routing|account) number|card number|pin number|mother'?s maiden name|date of birth" },
+    { "id": "romance", "label": "Romance or friendship money ask", "weight": 2, "pattern": "my (love|darling|dear)|i need (money|help) to (come|visit|fly)|stuck (overseas|abroad)|customs fee" },
+    { "id": "link-lure", "label": "Urgent link in a message", "weight": 2, "pattern": "(click|tap|visit) (the |this )?link|https?://\\S+|bit\\.ly|tinyurl|verify your (account|identity)|package (could not|couldn'?t) be delivered|unpaid toll" }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "piece": "heart",
+  "svg": "fx-heart.svg",
+  "origin": [130.0, 100.0],
+  "size": [260, 200],
+  "notes": [
+    "Tint: heart-body takes the actor colour (white means hat red #F05248); heart-rim is that colour * 0.82."
+  ],
+  "clips": [
+    {
+      "name": "beat",
+      "timeline": "time",
+      "duration": 0.898,
+      "loop": true,
+      "ease": "linear",
+      "tracks": [
+        {
+          "target": "heart",
+          "property": "scale",
+          "keys": [[0.0, 1.0], [0.037, 1.005], [0.075, 1.018], [0.112, 1.035], [0.15, 1.052], [0.187, 1.065], [0.224, 1.07], [0.262, 1.065], [0.299, 1.052], [0.337, 1.035], [0.374, 1.018], [0.411, 1.005], [0.449, 1.0], [0.486, 1.0], [0.524, 1.0], [0.561, 1.0], [0.598, 1.0], [0.636, 1.0], [0.673, 1.0], [0.711, 1.0], [0.748, 1.0], [0.785, 1.0], [0.823, 1.0], [0.86, 1.0], [0.898, 1.0]]
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "tint",
+      "type": "color",
+      "drives": "heart-body fill; heart-rim = tint * 0.82"
+    }
+  ]
+}

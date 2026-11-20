@@ -1,0 +1,3550 @@
+{
+  "format": 1,
+  "artboards": [
+    {
+      "artboard": {"name":"Roam","width":1080,"height":2424},
+      "viewModel": {
+        "name": "Roam",
+        "properties": [
+          {"name":"anchorX","type":"number","default":540},
+          {"name":"anchorY","type":"number","default":1500},
+          {"name":"armAngle","type":"number","default":0},
+          {"name":"bodyAngle","type":"number","default":0},
+          {"name":"armLength","type":"number","default":0},
+          {"name":"webScale","type":"number","default":0},
+          {"name":"grip","type":"number","default":0},
+          {"name":"sweep","type":"number","default":0},
+          {"name":"reel","type":"number","default":0},
+          {"name":"dx","type":"number","default":0},
+          {"name":"dy","type":"number","default":0},
+          {"name":"lift","type":"number","default":0},
+          {"name":"iconD","type":"number","default":0},
+          {"name":"face","type":"number","default":1},
+          {"name":"holeX","type":"number","default":540},
+          {"name":"holeY","type":"number","default":1212},
+          {"name":"holeW","type":"number","default":0},
+          {"name":"holeH","type":"number","default":0},
+          {"name":"icon0X","type":"number","default":0},
+          {"name":"icon0Y","type":"number","default":0},
+          {"name":"icon0D","type":"number","default":0},
+          {"name":"label0Y","type":"number","default":0},
+          {"name":"label0W","type":"number","default":0},
+          {"name":"label0H","type":"number","default":0},
+          {"name":"icon1X","type":"number","default":0},
+          {"name":"icon1Y","type":"number","default":0},
+          {"name":"icon1D","type":"number","default":0},
+          {"name":"label1Y","type":"number","default":0},
+          {"name":"label1W","type":"number","default":0},
+          {"name":"label1H","type":"number","default":0},
+          {"name":"icon2X","type":"number","default":0},
+          {"name":"icon2Y","type":"number","default":0},
+          {"name":"icon2D","type":"number","default":0},
+          {"name":"label2Y","type":"number","default":0},
+          {"name":"label2W","type":"number","default":0},
+          {"name":"label2H","type":"number","default":0},
+          {"name":"icon3X","type":"number","default":0},
+          {"name":"icon3Y","type":"number","default":0},
+          {"name":"icon3D","type":"number","default":0},
+          {"name":"label3Y","type":"number","default":0},
+          {"name":"label3W","type":"number","default":0},
+          {"name":"label3H","type":"number","default":0},
+          {"name":"icon4X","type":"number","default":0},
+          {"name":"icon4Y","type":"number","default":0},
+          {"name":"icon4D","type":"number","default":0},
+          {"name":"label4Y","type":"number","default":0},
+          {"name":"label4W","type":"number","default":0},
+          {"name":"label4H","type":"number","default":0},
+          {"name":"icon5X","type":"number","default":0},
+          {"name":"icon5Y","type":"number","default":0},
+          {"name":"icon5D","type":"number","default":0},
+          {"name":"label5Y","type":"number","default":0},
+          {"name":"label5W","type":"number","default":0},
+          {"name":"label5H","type":"number","default":0},
+          {"name":"icon6X","type":"number","default":0},
+          {"name":"icon6Y","type":"number","default":0},
+          {"name":"icon6D","type":"number","default":0},
+          {"name":"label6Y","type":"number","default":0},
+          {"name":"label6W","type":"number","default":0},
+          {"name":"label6H","type":"number","default":0},
+          {"name":"icon7X","type":"number","default":0},
+          {"name":"icon7Y","type":"number","default":0},
+          {"name":"icon7D","type":"number","default":0},
+          {"name":"label7Y","type":"number","default":0},
+          {"name":"label7W","type":"number","default":0},
+          {"name":"label7H","type":"number","default":0},
+          {"name":"icon8X","type":"number","default":0},
+          {"name":"icon8Y","type":"number","default":0},
+          {"name":"icon8D","type":"number","default":0},
+          {"name":"label8Y","type":"number","default":0},
+          {"name":"label8W","type":"number","default":0},
+          {"name":"label8H","type":"number","default":0},
+          {"name":"icon9X","type":"number","default":0},
+          {"name":"icon9Y","type":"number","default":0},
+          {"name":"icon9D","type":"number","default":0},
+          {"name":"label9Y","type":"number","default":0},
+          {"name":"label9W","type":"number","default":0},
+          {"name":"label9H","type":"number","default":0},
+          {"name":"icon10X","type":"number","default":0},
+          {"name":"icon10Y","type":"number","default":0},
+          {"name":"icon10D","type":"number","default":0},
+          {"name":"label10Y","type":"number","default":0},
+          {"name":"label10W","type":"number","default":0},
+          {"name":"label10H","type":"number","default":0},
+          {"name":"icon11X","type":"number","default":0},
+          {"name":"icon11Y","type":"number","default":0},
+          {"name":"icon11D","type":"number","default":0},
+          {"name":"label11Y","type":"number","default":0},
+          {"name":"label11W","type":"number","default":0},
+          {"name":"label11H","type":"number","default":0},
+          {"name":"icon12X","type":"number","default":0},
+          {"name":"icon12Y","type":"number","default":0},
+          {"name":"icon12D","type":"number","default":0},
+          {"name":"label12Y","type":"number","default":0},
+          {"name":"label12W","type":"number","default":0},
+          {"name":"label12H","type":"number","default":0},
+          {"name":"icon13X","type":"number","default":0},
+          {"name":"icon13Y","type":"number","default":0},
+          {"name":"icon13D","type":"number","default":0},
+          {"name":"label13Y","type":"number","default":0},
+          {"name":"label13W","type":"number","default":0},
+          {"name":"label13H","type":"number","default":0},
+          {"name":"icon14X","type":"number","default":0},
+          {"name":"icon14Y","type":"number","default":0},
+          {"name":"icon14D","type":"number","default":0},
+          {"name":"label14Y","type":"number","default":0},
+          {"name":"label14W","type":"number","default":0},
+          {"name":"label14H","type":"number","default":0},
+          {"name":"icon15X","type":"number","default":0},
+          {"name":"icon15Y","type":"number","default":0},
+          {"name":"icon15D","type":"number","default":0},
+          {"name":"label15Y","type":"number","default":0},
+          {"name":"label15W","type":"number","default":0},
+          {"name":"label15H","type":"number","default":0},
+          {"name":"icon16X","type":"number","default":0},
+          {"name":"icon16Y","type":"number","default":0},
+          {"name":"icon16D","type":"number","default":0},
+          {"name":"label16Y","type":"number","default":0},
+          {"name":"label16W","type":"number","default":0},
+          {"name":"label16H","type":"number","default":0},
+          {"name":"icon17X","type":"number","default":0},
+          {"name":"icon17Y","type":"number","default":0},
+          {"name":"icon17D","type":"number","default":0},
+          {"name":"label17Y","type":"number","default":0},
+          {"name":"label17W","type":"number","default":0},
+          {"name":"label17H","type":"number","default":0},
+          {"name":"icon18X","type":"number","default":0},
+          {"name":"icon18Y","type":"number","default":0},
+          {"name":"icon18D","type":"number","default":0},
+          {"name":"label18Y","type":"number","default":0},
+          {"name":"label18W","type":"number","default":0},
+          {"name":"label18H","type":"number","default":0},
+          {"name":"icon19X","type":"number","default":0},
+          {"name":"icon19Y","type":"number","default":0},
+          {"name":"icon19D","type":"number","default":0},
+          {"name":"label19Y","type":"number","default":0},
+          {"name":"label19W","type":"number","default":0},
+          {"name":"label19H","type":"number","default":0},
+          {"name":"icon20X","type":"number","default":0},
+          {"name":"icon20Y","type":"number","default":0},
+          {"name":"icon20D","type":"number","default":0},
+          {"name":"label20Y","type":"number","default":0},
+          {"name":"label20W","type":"number","default":0},
+          {"name":"label20H","type":"number","default":0},
+          {"name":"icon21X","type":"number","default":0},
+          {"name":"icon21Y","type":"number","default":0},
+          {"name":"icon21D","type":"number","default":0},
+          {"name":"label21Y","type":"number","default":0},
+          {"name":"label21W","type":"number","default":0},
+          {"name":"label21H","type":"number","default":0},
+          {"name":"icon22X","type":"number","default":0},
+          {"name":"icon22Y","type":"number","default":0},
+          {"name":"icon22D","type":"number","default":0},
+          {"name":"label22Y","type":"number","default":0},
+          {"name":"label22W","type":"number","default":0},
+          {"name":"label22H","type":"number","default":0},
+          {"name":"icon23X","type":"number","default":0},
+          {"name":"icon23Y","type":"number","default":0},
+          {"name":"icon23D","type":"number","default":0},
+          {"name":"label23Y","type":"number","default":0},
+          {"name":"label23W","type":"number","default":0},
+          {"name":"label23H","type":"number","default":0},
+          {"name":"icon24X","type":"number","default":0},
+          {"name":"icon24Y","type":"number","default":0},
+          {"name":"icon24D","type":"number","default":0},
+          {"name":"label24Y","type":"number","default":0},
+          {"name":"label24W","type":"number","default":0},
+          {"name":"label24H","type":"number","default":0},
+          {"name":"icon25X","type":"number","default":0},
+          {"name":"icon25Y","type":"number","default":0},
+          {"name":"icon25D","type":"number","default":0},
+          {"name":"label25Y","type":"number","default":0},
+          {"name":"label25W","type":"number","default":0},
+          {"name":"label25H","type":"number","default":0},
+          {"name":"icon26X","type":"number","default":0},
+          {"name":"icon26Y","type":"number","default":0},
+          {"name":"icon26D","type":"number","default":0},
+          {"name":"label26Y","type":"number","default":0},
+          {"name":"label26W","type":"number","default":0},
+          {"name":"label26H","type":"number","default":0},
+          {"name":"icon27X","type":"number","default":0},
+          {"name":"icon27Y","type":"number","default":0},
+          {"name":"icon27D","type":"number","default":0},
+          {"name":"label27Y","type":"number","default":0},
+          {"name":"label27W","type":"number","default":0},
+          {"name":"label27H","type":"number","default":0},
+          {"name":"icon28X","type":"number","default":0},
+          {"name":"icon28Y","type":"number","default":0},
+          {"name":"icon28D","type":"number","default":0},
+          {"name":"label28Y","type":"number","default":0},
+          {"name":"label28W","type":"number","default":0},
+          {"name":"label28H","type":"number","default":0},
+          {"name":"icon29X","type":"number","default":0},
+          {"name":"icon29Y","type":"number","default":0},
+          {"name":"icon29D","type":"number","default":0},
+          {"name":"label29Y","type":"number","default":0},
+          {"name":"label29W","type":"number","default":0},
+          {"name":"label29H","type":"number","default":0},
+          {"name":"icon30X","type":"number","default":0},
+          {"name":"icon30Y","type":"number","default":0},
+          {"name":"icon30D","type":"number","default":0},
+          {"name":"label30Y","type":"number","default":0},
+          {"name":"label30W","type":"number","default":0},
+          {"name":"label30H","type":"number","default":0},
+          {"name":"icon31X","type":"number","default":0},
+          {"name":"icon31Y","type":"number","default":0},
+          {"name":"icon31D","type":"number","default":0},
+          {"name":"label31Y","type":"number","default":0},
+          {"name":"label31W","type":"number","default":0},
+          {"name":"label31H","type":"number","default":0},
+          {"name":"icon32X","type":"number","default":0},
+          {"name":"icon32Y","type":"number","default":0},
+          {"name":"icon32D","type":"number","default":0},
+          {"name":"label32Y","type":"number","default":0},
+          {"name":"label32W","type":"number","default":0},
+          {"name":"label32H","type":"number","default":0},
+          {"name":"icon33X","type":"number","default":0},
+          {"name":"icon33Y","type":"number","default":0},
+          {"name":"icon33D","type":"number","default":0},
+          {"name":"label33Y","type":"number","default":0},
+          {"name":"label33W","type":"number","default":0},
+          {"name":"label33H","type":"number","default":0},
+          {"name":"icon34X","type":"number","default":0},
+          {"name":"icon34Y","type":"number","default":0},
+          {"name":"icon34D","type":"number","default":0},
+          {"name":"label34Y","type":"number","default":0},
+          {"name":"label34W","type":"number","default":0},
+          {"name":"label34H","type":"number","default":0},
+          {"name":"icon35X","type":"number","default":0},
+          {"name":"icon35Y","type":"number","default":0},
+          {"name":"icon35D","type":"number","default":0},
+          {"name":"label35Y","type":"number","default":0},
+          {"name":"label35W","type":"number","default":0},
+          {"name":"label35H","type":"number","default":0},
+          {"name":"icon36X","type":"number","default":0},
+          {"name":"icon36Y","type":"number","default":0},
+          {"name":"icon36D","type":"number","default":0},
+          {"name":"label36Y","type":"number","default":0},
+          {"name":"label36W","type":"number","default":0},
+          {"name":"label36H","type":"number","default":0},
+          {"name":"icon37X","type":"number","default":0},
+          {"name":"icon37Y","type":"number","default":0},
+          {"name":"icon37D","type":"number","default":0},
+          {"name":"label37Y","type":"number","default":0},
+          {"name":"label37W","type":"number","default":0},
+          {"name":"label37H","type":"number","default":0},
+          {"name":"icon38X","type":"number","default":0},
+          {"name":"icon38Y","type":"number","default":0},
+          {"name":"icon38D","type":"number","default":0},
+          {"name":"label38Y","type":"number","default":0},
+          {"name":"label38W","type":"number","default":0},
+          {"name":"label38H","type":"number","default":0},
+          {"name":"icon39X","type":"number","default":0},
+          {"name":"icon39Y","type":"number","default":0},
+          {"name":"icon39D","type":"number","default":0},
+          {"name":"label39Y","type":"number","default":0},
+          {"name":"label39W","type":"number","default":0},
+          {"name":"label39H","type":"number","default":0},
+          {"name":"hop","type":"trigger"},
+          {"name":"peekLeft","type":"trigger"},
+          {"name":"peekRight","type":"trigger"},
+          {"name":"peekTop","type":"trigger"},
+          {"name":"lurk","type":"trigger"},
+          {"name":"swing","type":"trigger"},
+          {"name":"look","type":"trigger"},
+          {"name":"settle","type":"trigger"}
+        ]
+      },
+      "nodes": [
+        {"id":"anchor","bind":{"x":"anchorX","y":"anchorY"}},
+        {"id":"armBase","parent":"anchor","bind":{"rotation":"armAngle"}},
+        {"id":"armSwing","parent":"armBase"},
+        {"id":"armEnd","parent":"armSwing","bind":{"y":"armLength"}},
+        {"id":"web","parent":"armEnd","bind":{"scaleY":"webScale"}},
+        {"id":"webShoot","parent":"web","scaleY":0},
+        {"id":"reel","parent":"armEnd"},
+        {"id":"bodyBase","parent":"reel","bind":{"rotation":"bodyAngle"}},
+        {"id":"bodySwing","parent":"bodyBase"},
+        {"id":"hang","parent":"bodySwing","bind":{"y":"grip"}},
+        {"id":"hopX","parent":"hang"},
+        {"id":"hopY","parent":"hopX"},
+        {"id":"arc","parent":"hopY"},
+        {"id":"peek","parent":"arc"},
+        {"id":"squash","parent":"peek"},
+        {"id":"splatNode","parent":"anchor","scaleX":0,"scaleY":0}
+      ],
+      "instances": [
+        {"id":"splat","artboard":"Splat","parent":"splatNode","x":-40,"y":-40},
+        {"id":"webLine","artboard":"Web","parent":"webShoot","x":-8,"y":-1000},
+        {"id":"pip","artboard":"Pip","parent":"squash","x":-113.4,"y":-242.55,"scale":0.315,"masks":["icons","hole"]}
+      ],
+      "masks": [
+        {
+          "id": "icons",
+          "x": 0,
+          "y": 0,
+          "width": 1,
+          "height": 1,
+          "invert": true,
+          "disjoint": true,
+          "parts": [
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon0X","y":"icon0Y","width":"icon0D","height":"icon0D"}
+            },
+            {"width":100,"height":40,"originY":0,"bind":{"x":"icon0X","y":"label0Y","width":"label0W","height":"label0H"}},
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon1X","y":"icon1Y","width":"icon1D","height":"icon1D"}
+            },
+            {"width":100,"height":40,"originY":0,"bind":{"x":"icon1X","y":"label1Y","width":"label1W","height":"label1H"}},
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon2X","y":"icon2Y","width":"icon2D","height":"icon2D"}
+            },
+            {"width":100,"height":40,"originY":0,"bind":{"x":"icon2X","y":"label2Y","width":"label2W","height":"label2H"}},
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon3X","y":"icon3Y","width":"icon3D","height":"icon3D"}
+            },
+            {"width":100,"height":40,"originY":0,"bind":{"x":"icon3X","y":"label3Y","width":"label3W","height":"label3H"}},
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon4X","y":"icon4Y","width":"icon4D","height":"icon4D"}
+            },
+            {"width":100,"height":40,"originY":0,"bind":{"x":"icon4X","y":"label4Y","width":"label4W","height":"label4H"}},
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon5X","y":"icon5Y","width":"icon5D","height":"icon5D"}
+            },
+            {"width":100,"height":40,"originY":0,"bind":{"x":"icon5X","y":"label5Y","width":"label5W","height":"label5H"}},
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon6X","y":"icon6Y","width":"icon6D","height":"icon6D"}
+            },
+            {"width":100,"height":40,"originY":0,"bind":{"x":"icon6X","y":"label6Y","width":"label6W","height":"label6H"}},
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon7X","y":"icon7Y","width":"icon7D","height":"icon7D"}
+            },
+            {"width":100,"height":40,"originY":0,"bind":{"x":"icon7X","y":"label7Y","width":"label7W","height":"label7H"}},
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon8X","y":"icon8Y","width":"icon8D","height":"icon8D"}
+            },
+            {"width":100,"height":40,"originY":0,"bind":{"x":"icon8X","y":"label8Y","width":"label8W","height":"label8H"}},
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon9X","y":"icon9Y","width":"icon9D","height":"icon9D"}
+            },
+            {"width":100,"height":40,"originY":0,"bind":{"x":"icon9X","y":"label9Y","width":"label9W","height":"label9H"}},
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon10X","y":"icon10Y","width":"icon10D","height":"icon10D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon10X","y":"label10Y","width":"label10W","height":"label10H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon11X","y":"icon11Y","width":"icon11D","height":"icon11D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon11X","y":"label11Y","width":"label11W","height":"label11H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon12X","y":"icon12Y","width":"icon12D","height":"icon12D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon12X","y":"label12Y","width":"label12W","height":"label12H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon13X","y":"icon13Y","width":"icon13D","height":"icon13D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon13X","y":"label13Y","width":"label13W","height":"label13H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon14X","y":"icon14Y","width":"icon14D","height":"icon14D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon14X","y":"label14Y","width":"label14W","height":"label14H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon15X","y":"icon15Y","width":"icon15D","height":"icon15D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon15X","y":"label15Y","width":"label15W","height":"label15H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon16X","y":"icon16Y","width":"icon16D","height":"icon16D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon16X","y":"label16Y","width":"label16W","height":"label16H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon17X","y":"icon17Y","width":"icon17D","height":"icon17D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon17X","y":"label17Y","width":"label17W","height":"label17H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon18X","y":"icon18Y","width":"icon18D","height":"icon18D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon18X","y":"label18Y","width":"label18W","height":"label18H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon19X","y":"icon19Y","width":"icon19D","height":"icon19D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon19X","y":"label19Y","width":"label19W","height":"label19H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon20X","y":"icon20Y","width":"icon20D","height":"icon20D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon20X","y":"label20Y","width":"label20W","height":"label20H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon21X","y":"icon21Y","width":"icon21D","height":"icon21D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon21X","y":"label21Y","width":"label21W","height":"label21H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon22X","y":"icon22Y","width":"icon22D","height":"icon22D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon22X","y":"label22Y","width":"label22W","height":"label22H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon23X","y":"icon23Y","width":"icon23D","height":"icon23D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon23X","y":"label23Y","width":"label23W","height":"label23H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon24X","y":"icon24Y","width":"icon24D","height":"icon24D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon24X","y":"label24Y","width":"label24W","height":"label24H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon25X","y":"icon25Y","width":"icon25D","height":"icon25D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon25X","y":"label25Y","width":"label25W","height":"label25H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon26X","y":"icon26Y","width":"icon26D","height":"icon26D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon26X","y":"label26Y","width":"label26W","height":"label26H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon27X","y":"icon27Y","width":"icon27D","height":"icon27D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon27X","y":"label27Y","width":"label27W","height":"label27H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon28X","y":"icon28Y","width":"icon28D","height":"icon28D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon28X","y":"label28Y","width":"label28W","height":"label28H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon29X","y":"icon29Y","width":"icon29D","height":"icon29D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon29X","y":"label29Y","width":"label29W","height":"label29H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon30X","y":"icon30Y","width":"icon30D","height":"icon30D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon30X","y":"label30Y","width":"label30W","height":"label30H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon31X","y":"icon31Y","width":"icon31D","height":"icon31D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon31X","y":"label31Y","width":"label31W","height":"label31H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon32X","y":"icon32Y","width":"icon32D","height":"icon32D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon32X","y":"label32Y","width":"label32W","height":"label32H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon33X","y":"icon33Y","width":"icon33D","height":"icon33D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon33X","y":"label33Y","width":"label33W","height":"label33H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon34X","y":"icon34Y","width":"icon34D","height":"icon34D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon34X","y":"label34Y","width":"label34W","height":"label34H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon35X","y":"icon35Y","width":"icon35D","height":"icon35D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon35X","y":"label35Y","width":"label35W","height":"label35H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon36X","y":"icon36Y","width":"icon36D","height":"icon36D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon36X","y":"label36Y","width":"label36W","height":"label36H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon37X","y":"icon37Y","width":"icon37D","height":"icon37D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon37X","y":"label37Y","width":"label37W","height":"label37H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon38X","y":"icon38Y","width":"icon38D","height":"icon38D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon38X","y":"label38Y","width":"label38W","height":"label38H"}
+            },
+            {
+              "shape": "ellipse",
+              "width": 160,
+              "height": 160,
+              "bind": {"x":"icon39X","y":"icon39Y","width":"icon39D","height":"icon39D"}
+            },
+            {
+              "width": 100,
+              "height": 40,
+              "originY": 0,
+              "bind": {"x":"icon39X","y":"label39Y","width":"label39W","height":"label39H"}
+            }
+          ]
+        },
+        {
+          "id": "hole",
+          "x": 540,
+          "y": 1212,
+          "shape": "rectangle",
+          "width": 216,
+          "height": 220,
+          "invert": true,
+          "bind": {"x":"holeX","y":"holeY","width":"holeW","height":"holeH"}
+        }
+      ],
+      "clips": [
+        {
+          "name": "rest",
+          "frames": 1,
+          "tracks": [
+            {"target":"squash","property":"scaleX","keys":[{"frame":0,"value":1}]},
+            {"target":"squash","property":"scaleY","keys":[{"frame":0,"value":1}]},
+            {"target":"webShoot","property":"scaleY","keys":[{"frame":0,"value":0}]},
+            {"target":"splatNode","property":"scaleX","keys":[{"frame":0,"value":0}]},
+            {"target":"splatNode","property":"scaleY","keys":[{"frame":0,"value":0}]},
+            {"target":"pip/mood","property":"nestedValue","keys":[{"frame":0,"value":0,"ease":"hold"}]},
+            {"target":"pip/mouth","property":"nestedValue","keys":[{"frame":0,"value":-1,"ease":"hold"}]},
+            {"target":"pip/eyesOpen","property":"nestedValue","keys":[{"frame":0,"value":1}]},
+            {"target":"pip/lookY","property":"nestedValue","keys":[{"frame":0,"value":0}]},
+            {"target":"pip/lidTop","property":"nestedValue","keys":[{"frame":0,"value":0}]},
+            {"target":"pip/squint","property":"nestedValue","keys":[{"frame":0,"value":0}]},
+            {"target":"pip/browRaise","property":"nestedValue","keys":[{"frame":0,"value":0}]},
+            {"target":"pip/eyeScale","property":"nestedValue","keys":[{"frame":0,"value":1}]},
+            {"target":"pip/handR","property":"nestedValue","keys":[{"frame":0,"value":0,"ease":"hold"}]},
+            {"target":"pip/handRX","property":"nestedValue","keys":[{"frame":0,"value":500}]},
+            {"target":"pip/handRY","property":"nestedValue","keys":[{"frame":0,"value":560}]},
+            {"target":"pip/handRAngle","property":"nestedValue","keys":[{"frame":0,"value":0}]}
+          ]
+        },
+        {
+          "name": "hop",
+          "frames": 45,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "scaleX",
+              "keys": [
+                {"frame":0,"value":1,"ease":"easeOut"},
+                {"frame":6,"value":1.14,"ease":"easeIn"},
+                {"frame":9,"value":0.86,"ease":"easeOut"},
+                {"frame":20,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":33,"value":0.92,"ease":"easeIn"},
+                {"frame":37,"value":1.22,"ease":"easeOut"},
+                {"frame":42,"value":0.95,"ease":"easeInOut"},
+                {"frame":45,"value":1}
+              ]
+            },
+            {
+              "target": "squash",
+              "property": "scaleY",
+              "keys": [
+                {"frame":0,"value":1,"ease":"easeOut"},
+                {"frame":6,"value":0.86,"ease":"easeIn"},
+                {"frame":9,"value":1.18,"ease":"easeOut"},
+                {"frame":20,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":33,"value":1.1,"ease":"easeIn"},
+                {"frame":37,"value":0.8,"ease":"easeOut"},
+                {"frame":42,"value":1.05,"ease":"easeInOut"},
+                {"frame":45,"value":1}
+              ]
+            },
+            {
+              "target": "pip/lookY",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeOut"},
+                {"frame":6,"value":-0.3,"ease":"easeInOut"},
+                {"frame":22,"value":-0.3,"ease":"easeInOut"},
+                {"frame":28,"value":0.4,"ease":"easeInOut"},
+                {"frame":40,"value":0.4,"ease":"easeInOut"},
+                {"frame":45,"value":0}
+              ]
+            },
+            {
+              "target": "pip/eyesOpen",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":2,"value":1,"ease":"easeIn"},
+                {"frame":5,"value":0.05,"ease":"hold"},
+                {"frame":7,"value":0.05,"ease":"easeOut"},
+                {"frame":12,"value":1}
+              ]
+            },
+            {
+              "target": "pip/mood",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"hold"},
+                {"frame":12,"value":1,"ease":"hold"},
+                {"frame":40,"value":0,"ease":"hold"}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "peekLeft",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "scaleX",
+              "keys": [
+                {"frame":0,"value":1,"ease":"easeOut"},
+                {"frame":6,"value":1.14,"ease":"easeIn"},
+                {"frame":9,"value":0.86,"ease":"easeOut"},
+                {"frame":20,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":33,"value":0.92,"ease":"easeIn"},
+                {"frame":37,"value":1.22,"ease":"easeOut"},
+                {"frame":46,"value":0.93,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":136,"value":0.96,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":1.06,"ease":"easeOut"},
+                {"frame":180,"value":0.9,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":0.97,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":0.95,"ease":"easeIn"},
+                {"frame":204,"value":0.84,"ease":"easeOut"},
+                {"frame":208,"value":1.26,"ease":"easeOut"},
+                {"frame":218,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":222,"value":1.15,"ease":"easeOut"},
+                {"frame":230,"value":0.85,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":246,"value":1,"ease":"easeIn"},
+                {"frame":252,"value":1.22,"ease":"easeOut"},
+                {"frame":258,"value":0.95,"ease":"easeInOut"},
+                {"frame":264,"value":1}
+              ]
+            },
+            {
+              "target": "squash",
+              "property": "scaleY",
+              "keys": [
+                {"frame":0,"value":1,"ease":"easeOut"},
+                {"frame":6,"value":0.86,"ease":"easeIn"},
+                {"frame":9,"value":1.18,"ease":"easeOut"},
+                {"frame":20,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":33,"value":1.1,"ease":"easeIn"},
+                {"frame":37,"value":0.8,"ease":"easeOut"},
+                {"frame":46,"value":1.07,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":136,"value":1.04,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":0.94,"ease":"easeOut"},
+                {"frame":180,"value":1.12,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":1.03,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":1.05,"ease":"easeIn"},
+                {"frame":204,"value":1.2,"ease":"easeOut"},
+                {"frame":208,"value":0.8,"ease":"easeOut"},
+                {"frame":218,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":222,"value":0.85,"ease":"easeOut"},
+                {"frame":230,"value":1.2,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":246,"value":1,"ease":"easeIn"},
+                {"frame":252,"value":0.8,"ease":"easeOut"},
+                {"frame":258,"value":1.05,"ease":"easeInOut"},
+                {"frame":264,"value":1}
+              ]
+            },
+            {
+              "target": "pip/lidTop",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":50,"value":0.32,"ease":"hold"},
+                {"frame":150,"value":0.32,"ease":"easeOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/squint",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":50,"value":0.15,"ease":"hold"},
+                {"frame":150,"value":0.15,"ease":"easeOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookY",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeOut"},
+                {"frame":8,"value":0.5,"ease":"easeInOut"},
+                {"frame":36,"value":0.5,"ease":"easeInOut"},
+                {"frame":50,"value":-0.4,"ease":"hold"},
+                {"frame":150,"value":-0.4,"ease":"easeInOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/browRaise",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":164,"value":0,"ease":"easeOut"},
+                {"frame":170,"value":0.8,"ease":"hold"},
+                {"frame":194,"value":0.8,"ease":"easeInOut"},
+                {"frame":202,"value":0}
+              ]
+            },
+            {
+              "target": "pip/eyeScale",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":164,"value":1,"ease":"easeOut"},
+                {"frame":170,"value":1.15,"ease":"hold"},
+                {"frame":194,"value":1.15,"ease":"easeInOut"},
+                {"frame":202,"value":1}
+              ]
+            },
+            {
+              "target": "pip/eyesOpen",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":2,"value":1,"ease":"easeIn"},
+                {"frame":5,"value":0.05,"ease":"hold"},
+                {"frame":7,"value":0.05,"ease":"easeOut"},
+                {"frame":12,"value":1},
+                {"frame":150,"value":1,"ease":"easeIn"},
+                {"frame":153,"value":0.05,"ease":"hold"},
+                {"frame":155,"value":0.05,"ease":"easeOut"},
+                {"frame":160,"value":1}
+              ]
+            },
+            {
+              "target": "pip/mood",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"hold"},
+                {"frame":166,"value":1,"ease":"hold"},
+                {"frame":260,"value":0,"ease":"hold"}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "peekRight",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "scaleX",
+              "keys": [
+                {"frame":0,"value":1,"ease":"easeOut"},
+                {"frame":6,"value":1.14,"ease":"easeIn"},
+                {"frame":9,"value":0.86,"ease":"easeOut"},
+                {"frame":20,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":33,"value":0.92,"ease":"easeIn"},
+                {"frame":37,"value":1.22,"ease":"easeOut"},
+                {"frame":46,"value":0.93,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":136,"value":0.96,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":1.06,"ease":"easeOut"},
+                {"frame":180,"value":0.9,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":0.97,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":0.95,"ease":"easeIn"},
+                {"frame":204,"value":0.84,"ease":"easeOut"},
+                {"frame":208,"value":1.26,"ease":"easeOut"},
+                {"frame":218,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":222,"value":1.15,"ease":"easeOut"},
+                {"frame":230,"value":0.85,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":246,"value":1,"ease":"easeIn"},
+                {"frame":252,"value":1.22,"ease":"easeOut"},
+                {"frame":258,"value":0.95,"ease":"easeInOut"},
+                {"frame":264,"value":1}
+              ]
+            },
+            {
+              "target": "squash",
+              "property": "scaleY",
+              "keys": [
+                {"frame":0,"value":1,"ease":"easeOut"},
+                {"frame":6,"value":0.86,"ease":"easeIn"},
+                {"frame":9,"value":1.18,"ease":"easeOut"},
+                {"frame":20,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":33,"value":1.1,"ease":"easeIn"},
+                {"frame":37,"value":0.8,"ease":"easeOut"},
+                {"frame":46,"value":1.07,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":136,"value":1.04,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":0.94,"ease":"easeOut"},
+                {"frame":180,"value":1.12,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":1.03,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":1.05,"ease":"easeIn"},
+                {"frame":204,"value":1.2,"ease":"easeOut"},
+                {"frame":208,"value":0.8,"ease":"easeOut"},
+                {"frame":218,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":222,"value":0.85,"ease":"easeOut"},
+                {"frame":230,"value":1.2,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":246,"value":1,"ease":"easeIn"},
+                {"frame":252,"value":0.8,"ease":"easeOut"},
+                {"frame":258,"value":1.05,"ease":"easeInOut"},
+                {"frame":264,"value":1}
+              ]
+            },
+            {
+              "target": "pip/lidTop",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":50,"value":0.32,"ease":"hold"},
+                {"frame":150,"value":0.32,"ease":"easeOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/squint",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":50,"value":0.15,"ease":"hold"},
+                {"frame":150,"value":0.15,"ease":"easeOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookY",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeOut"},
+                {"frame":8,"value":0.5,"ease":"easeInOut"},
+                {"frame":36,"value":0.5,"ease":"easeInOut"},
+                {"frame":50,"value":-0.4,"ease":"hold"},
+                {"frame":150,"value":-0.4,"ease":"easeInOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/browRaise",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":164,"value":0,"ease":"easeOut"},
+                {"frame":170,"value":0.8,"ease":"hold"},
+                {"frame":194,"value":0.8,"ease":"easeInOut"},
+                {"frame":202,"value":0}
+              ]
+            },
+            {
+              "target": "pip/eyeScale",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":164,"value":1,"ease":"easeOut"},
+                {"frame":170,"value":1.15,"ease":"hold"},
+                {"frame":194,"value":1.15,"ease":"easeInOut"},
+                {"frame":202,"value":1}
+              ]
+            },
+            {
+              "target": "pip/eyesOpen",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":2,"value":1,"ease":"easeIn"},
+                {"frame":5,"value":0.05,"ease":"hold"},
+                {"frame":7,"value":0.05,"ease":"easeOut"},
+                {"frame":12,"value":1},
+                {"frame":150,"value":1,"ease":"easeIn"},
+                {"frame":153,"value":0.05,"ease":"hold"},
+                {"frame":155,"value":0.05,"ease":"easeOut"},
+                {"frame":160,"value":1}
+              ]
+            },
+            {
+              "target": "pip/mood",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"hold"},
+                {"frame":166,"value":1,"ease":"hold"},
+                {"frame":260,"value":0,"ease":"hold"}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "peekTop",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "scaleX",
+              "keys": [
+                {"frame":0,"value":1,"ease":"easeOut"},
+                {"frame":6,"value":1.14,"ease":"easeIn"},
+                {"frame":9,"value":0.86,"ease":"easeOut"},
+                {"frame":20,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":33,"value":0.92,"ease":"easeIn"},
+                {"frame":37,"value":1.22,"ease":"easeOut"},
+                {"frame":46,"value":0.93,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":136,"value":0.96,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":1.06,"ease":"easeOut"},
+                {"frame":180,"value":0.9,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":0.97,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":0.95,"ease":"easeIn"},
+                {"frame":204,"value":0.84,"ease":"easeOut"},
+                {"frame":208,"value":1.26,"ease":"easeOut"},
+                {"frame":218,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":222,"value":1.15,"ease":"easeOut"},
+                {"frame":230,"value":0.85,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":246,"value":1,"ease":"easeIn"},
+                {"frame":252,"value":1.22,"ease":"easeOut"},
+                {"frame":258,"value":0.95,"ease":"easeInOut"},
+                {"frame":264,"value":1}
+              ]
+            },
+            {
+              "target": "squash",
+              "property": "scaleY",
+              "keys": [
+                {"frame":0,"value":1,"ease":"easeOut"},
+                {"frame":6,"value":0.86,"ease":"easeIn"},
+                {"frame":9,"value":1.18,"ease":"easeOut"},
+                {"frame":20,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":33,"value":1.1,"ease":"easeIn"},
+                {"frame":37,"value":0.8,"ease":"easeOut"},
+                {"frame":46,"value":1.07,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":136,"value":1.04,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":0.94,"ease":"easeOut"},
+                {"frame":180,"value":1.12,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":1.03,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":1.05,"ease":"easeIn"},
+                {"frame":204,"value":1.2,"ease":"easeOut"},
+                {"frame":208,"value":0.8,"ease":"easeOut"},
+                {"frame":218,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":222,"value":0.85,"ease":"easeOut"},
+                {"frame":230,"value":1.2,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":246,"value":1,"ease":"easeIn"},
+                {"frame":252,"value":0.8,"ease":"easeOut"},
+                {"frame":258,"value":1.05,"ease":"easeInOut"},
+                {"frame":264,"value":1}
+              ]
+            },
+            {
+              "target": "pip/lidTop",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":50,"value":0.32,"ease":"hold"},
+                {"frame":150,"value":0.32,"ease":"easeOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/squint",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":50,"value":0.15,"ease":"hold"},
+                {"frame":150,"value":0.15,"ease":"easeOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookY",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeOut"},
+                {"frame":8,"value":0.5,"ease":"easeInOut"},
+                {"frame":36,"value":0.5,"ease":"easeInOut"},
+                {"frame":50,"value":-0.4,"ease":"hold"},
+                {"frame":150,"value":-0.4,"ease":"easeInOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/browRaise",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":164,"value":0,"ease":"easeOut"},
+                {"frame":170,"value":0.8,"ease":"hold"},
+                {"frame":194,"value":0.8,"ease":"easeInOut"},
+                {"frame":202,"value":0}
+              ]
+            },
+            {
+              "target": "pip/eyeScale",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":164,"value":1,"ease":"easeOut"},
+                {"frame":170,"value":1.15,"ease":"hold"},
+                {"frame":194,"value":1.15,"ease":"easeInOut"},
+                {"frame":202,"value":1}
+              ]
+            },
+            {
+              "target": "pip/eyesOpen",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":2,"value":1,"ease":"easeIn"},
+                {"frame":5,"value":0.05,"ease":"hold"},
+                {"frame":7,"value":0.05,"ease":"easeOut"},
+                {"frame":12,"value":1},
+                {"frame":150,"value":1,"ease":"easeIn"},
+                {"frame":153,"value":0.05,"ease":"hold"},
+                {"frame":155,"value":0.05,"ease":"easeOut"},
+                {"frame":160,"value":1}
+              ]
+            },
+            {
+              "target": "pip/mood",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"hold"},
+                {"frame":166,"value":1,"ease":"hold"},
+                {"frame":260,"value":0,"ease":"hold"}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "lurk",
+          "frames": 496,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "scaleX",
+              "keys": [
+                {"frame":0,"value":1,"ease":"easeOut"},
+                {"frame":6,"value":1.14,"ease":"easeIn"},
+                {"frame":9,"value":0.86,"ease":"easeOut"},
+                {"frame":20,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":33,"value":0.92,"ease":"easeIn"},
+                {"frame":37,"value":1.22,"ease":"easeOut"},
+                {"frame":46,"value":0.93,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":368,"value":0.96,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":398,"value":1.06,"ease":"easeOut"},
+                {"frame":412,"value":0.9,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":418,"value":0.97,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":430,"value":0.95,"ease":"easeIn"},
+                {"frame":436,"value":0.84,"ease":"easeOut"},
+                {"frame":440,"value":1.26,"ease":"easeOut"},
+                {"frame":450,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":454,"value":1.15,"ease":"easeOut"},
+                {"frame":462,"value":0.85,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":478,"value":1,"ease":"easeIn"},
+                {"frame":484,"value":1.22,"ease":"easeOut"},
+                {"frame":490,"value":0.95,"ease":"easeInOut"},
+                {"frame":496,"value":1}
+              ]
+            },
+            {
+              "target": "squash",
+              "property": "scaleY",
+              "keys": [
+                {"frame":0,"value":1,"ease":"easeOut"},
+                {"frame":6,"value":0.86,"ease":"easeIn"},
+                {"frame":9,"value":1.18,"ease":"easeOut"},
+                {"frame":20,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":33,"value":1.1,"ease":"easeIn"},
+                {"frame":37,"value":0.8,"ease":"easeOut"},
+                {"frame":46,"value":1.07,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":368,"value":1.04,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":398,"value":0.94,"ease":"easeOut"},
+                {"frame":412,"value":1.12,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":418,"value":1.03,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":430,"value":1.05,"ease":"easeIn"},
+                {"frame":436,"value":1.2,"ease":"easeOut"},
+                {"frame":440,"value":0.8,"ease":"easeOut"},
+                {"frame":450,"value":1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":454,"value":0.85,"ease":"easeOut"},
+                {"frame":462,"value":1.2,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":478,"value":1,"ease":"easeIn"},
+                {"frame":484,"value":0.8,"ease":"easeOut"},
+                {"frame":490,"value":1.05,"ease":"easeInOut"},
+                {"frame":496,"value":1}
+              ]
+            },
+            {
+              "target": "pip/lidTop",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":50,"value":0.32,"ease":"hold"},
+                {"frame":382,"value":0.32,"ease":"easeOut"},
+                {"frame":398,"value":0}
+              ]
+            },
+            {
+              "target": "pip/squint",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":50,"value":0.15,"ease":"hold"},
+                {"frame":382,"value":0.15,"ease":"easeOut"},
+                {"frame":398,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookY",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeOut"},
+                {"frame":8,"value":0.5,"ease":"easeInOut"},
+                {"frame":36,"value":0.5,"ease":"easeInOut"},
+                {"frame":50,"value":-0.4,"ease":"hold"},
+                {"frame":382,"value":-0.4,"ease":"easeInOut"},
+                {"frame":398,"value":0}
+              ]
+            },
+            {
+              "target": "pip/browRaise",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":396,"value":0,"ease":"easeOut"},
+                {"frame":402,"value":0.8,"ease":"hold"},
+                {"frame":426,"value":0.8,"ease":"easeInOut"},
+                {"frame":434,"value":0}
+              ]
+            },
+            {
+              "target": "pip/eyeScale",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":396,"value":1,"ease":"easeOut"},
+                {"frame":402,"value":1.15,"ease":"hold"},
+                {"frame":426,"value":1.15,"ease":"easeInOut"},
+                {"frame":434,"value":1}
+              ]
+            },
+            {
+              "target": "pip/eyesOpen",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":2,"value":1,"ease":"easeIn"},
+                {"frame":5,"value":0.05,"ease":"hold"},
+                {"frame":7,"value":0.05,"ease":"easeOut"},
+                {"frame":12,"value":1},
+                {"frame":382,"value":1,"ease":"easeIn"},
+                {"frame":385,"value":0.05,"ease":"hold"},
+                {"frame":387,"value":0.05,"ease":"easeOut"},
+                {"frame":392,"value":1}
+              ]
+            },
+            {
+              "target": "pip/mood",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"hold"},
+                {"frame":398,"value":1,"ease":"hold"},
+                {"frame":492,"value":0,"ease":"hold"}
+              ]
+            },
+            {
+              "target": "pip/hatDroop",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":166,"value":0,"ease":"easeInOut"},
+                {"frame":178,"value":0.5,"ease":"hold"},
+                {"frame":382,"value":0.5,"ease":"easeInOut"},
+                {"frame":398,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "swing",
+          "frames": 138,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "scaleX",
+              "keys": [
+                {"frame":0,"value":1,"ease":"easeOut"},
+                {"frame":8,"value":1.1,"ease":"easeOut"},
+                {"frame":14,"value":0.92,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":22,"value":0.9,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":60,"value":0.95,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":96,"value":0.9,"ease":"easeOut"},
+                {"frame":104,"value":1,"ease":"easeIn"},
+                {"frame":118,"value":0.92,"ease":"easeIn"},
+                {"frame":121,"value":1.24,"ease":"easeOut"},
+                {"frame":128,"value":0.95,"ease":"easeInOut"},
+                {"frame":138,"value":1}
+              ]
+            },
+            {
+              "target": "squash",
+              "property": "scaleY",
+              "keys": [
+                {"frame":0,"value":1,"ease":"easeOut"},
+                {"frame":8,"value":0.9,"ease":"easeOut"},
+                {"frame":14,"value":1.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":22,"value":1.14,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":60,"value":1.06,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":96,"value":1.12,"ease":"easeOut"},
+                {"frame":104,"value":1,"ease":"easeIn"},
+                {"frame":118,"value":1.1,"ease":"easeIn"},
+                {"frame":121,"value":0.8,"ease":"easeOut"},
+                {"frame":128,"value":1.05,"ease":"easeInOut"},
+                {"frame":138,"value":1}
+              ]
+            },
+            {
+              "target": "webShoot",
+              "property": "scaleY",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":10,"value":0,"ease":"easeOut"},
+                {"frame":20,"value":1,"ease":"hold"},
+                {"frame":96,"value":1,"ease":"easeIn"},
+                {"frame":104,"value":0}
+              ]
+            },
+            {
+              "target": "splatNode",
+              "property": "scaleX",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":18,"value":0,"ease":"easeOut"},
+                {"frame":22,"value":1.3,"ease":"easeInOut"},
+                {"frame":27,"value":1,"ease":"hold"},
+                {"frame":98,"value":1,"ease":"easeIn"},
+                {"frame":110,"value":0}
+              ]
+            },
+            {
+              "target": "splatNode",
+              "property": "scaleY",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":18,"value":0,"ease":"easeOut"},
+                {"frame":22,"value":1.3,"ease":"easeInOut"},
+                {"frame":27,"value":1,"ease":"hold"},
+                {"frame":98,"value":1,"ease":"easeIn"},
+                {"frame":110,"value":0}
+              ]
+            },
+            {
+              "target": "pip/handR",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"hold"},
+                {"frame":3,"value":1,"ease":"hold"},
+                {"frame":126,"value":0,"ease":"hold"}
+              ]
+            },
+            {
+              "target": "pip/handRX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":500,"ease":"hold"},
+                {"frame":3,"value":500,"ease":"easeOut"},
+                {"frame":12,"value":270,"ease":"hold"},
+                {"frame":118,"value":270,"ease":"easeInOut"},
+                {"frame":126,"value":500}
+              ]
+            },
+            {
+              "target": "pip/handRY",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":560,"ease":"hold"},
+                {"frame":3,"value":560,"ease":"easeOut"},
+                {"frame":12,"value":0,"ease":"hold"},
+                {"frame":118,"value":0,"ease":"easeInOut"},
+                {"frame":126,"value":560}
+              ]
+            },
+            {
+              "target": "pip/handRAngle",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":3,"value":0,"ease":"easeOut"},
+                {"frame":12,"value":-12,"ease":"hold"},
+                {"frame":118,"value":-12,"ease":"easeInOut"},
+                {"frame":126,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookY",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeOut"},
+                {"frame":6,"value":-1,"ease":"hold"},
+                {"frame":22,"value":-1,"ease":"easeInOut"},
+                {"frame":40,"value":0.2,"ease":"hold"},
+                {"frame":100,"value":0.2,"ease":"easeInOut"},
+                {"frame":110,"value":0.6,"ease":"easeInOut"},
+                {"frame":138,"value":0}
+              ]
+            },
+            {
+              "target": "pip/eyesOpen",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":17,"value":1,"ease":"easeIn"},
+                {"frame":20,"value":0.05,"ease":"hold"},
+                {"frame":22,"value":0.05,"ease":"easeOut"},
+                {"frame":27,"value":1}
+              ]
+            },
+            {
+              "target": "pip/mood",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"hold"},
+                {"frame":20,"value":1,"ease":"hold"},
+                {"frame":130,"value":0,"ease":"hold"}
+              ]
+            },
+            {
+              "target": "pip/mouth",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":-1,"ease":"hold"},
+                {"frame":24,"value":3,"ease":"hold"},
+                {"frame":100,"value":-1,"ease":"hold"}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "look",
+          "frames": 150,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "scaleX",
+              "keys": [
+                {"frame":0,"value":1},
+                {"frame":116,"value":1,"ease":"easeOut"},
+                {"frame":120,"value":1.08,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":126,"value":0.95,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":132,"value":1}
+              ]
+            },
+            {
+              "target": "squash",
+              "property": "scaleY",
+              "keys": [
+                {"frame":0,"value":1},
+                {"frame":116,"value":1,"ease":"easeOut"},
+                {"frame":120,"value":0.92,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":126,"value":1.06,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":132,"value":1}
+              ]
+            },
+            {
+              "target": "pip/lookY",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":12,"value":-0.3,"ease":"hold"},
+                {"frame":100,"value":-0.3,"ease":"easeInOut"},
+                {"frame":112,"value":0}
+              ]
+            },
+            {
+              "target": "pip/eyesOpen",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":52,"value":1,"ease":"easeIn"},
+                {"frame":55,"value":0.05,"ease":"hold"},
+                {"frame":57,"value":0.05,"ease":"easeOut"},
+                {"frame":62,"value":1}
+              ]
+            },
+            {
+              "target": "pip/browRaise",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":96,"value":0,"ease":"easeOut"},
+                {"frame":104,"value":0.7,"ease":"hold"},
+                {"frame":124,"value":0.7,"ease":"easeInOut"},
+                {"frame":134,"value":0}
+              ]
+            },
+            {
+              "target": "pip/mood",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"hold"},
+                {"frame":104,"value":1,"ease":"hold"},
+                {"frame":140,"value":0,"ease":"hold"}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-rest",
+          "frames": 1,
+          "tracks": [
+            {"target":"squash","property":"rotation","keys":[{"frame":0,"value":0}]},
+            {"target":"pip/lookX","property":"nestedValue","keys":[{"frame":0,"value":0}]},
+            {"target":"pip/hatSway","property":"nestedValue","keys":[{"frame":0,"value":0}]}
+          ]
+        },
+        {
+          "name": "face-hop@lo",
+          "frames": 45,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":8,"value":0,"ease":"easeOut"},
+                {"frame":16,"value":-0.12,"ease":"easeInOut"},
+                {"frame":33,"value":-0.04,"ease":"easeOut"},
+                {"frame":38,"value":0.05,"ease":"easeInOut"},
+                {"frame":45,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeOut"},
+                {"frame":5,"value":-0.8,"ease":"hold"},
+                {"frame":30,"value":-0.8,"ease":"easeInOut"},
+                {"frame":42,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":8,"value":0,"ease":"easeOut"},
+                {"frame":16,"value":0.6,"ease":"easeInOut"},
+                {"frame":36,"value":0.2,"ease":"easeOut"},
+                {"frame":40,"value":-0.5,"ease":"easeInOut"},
+                {"frame":45,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-hop@0",
+          "frames": 45,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":8,"value":0,"ease":"easeOut"},
+                {"frame":16,"value":0,"ease":"easeInOut"},
+                {"frame":33,"value":0,"ease":"easeOut"},
+                {"frame":38,"value":0,"ease":"easeInOut"},
+                {"frame":45,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeOut"},
+                {"frame":5,"value":0,"ease":"hold"},
+                {"frame":30,"value":0,"ease":"easeInOut"},
+                {"frame":42,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":8,"value":0,"ease":"easeOut"},
+                {"frame":16,"value":0,"ease":"easeInOut"},
+                {"frame":36,"value":0,"ease":"easeOut"},
+                {"frame":40,"value":0,"ease":"easeInOut"},
+                {"frame":45,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-hop@hi",
+          "frames": 45,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":8,"value":0,"ease":"easeOut"},
+                {"frame":16,"value":0.12,"ease":"easeInOut"},
+                {"frame":33,"value":0.04,"ease":"easeOut"},
+                {"frame":38,"value":-0.05,"ease":"easeInOut"},
+                {"frame":45,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeOut"},
+                {"frame":5,"value":0.8,"ease":"hold"},
+                {"frame":30,"value":0.8,"ease":"easeInOut"},
+                {"frame":42,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":8,"value":0,"ease":"easeOut"},
+                {"frame":16,"value":-0.6,"ease":"easeInOut"},
+                {"frame":36,"value":-0.2,"ease":"easeOut"},
+                {"frame":40,"value":0.5,"ease":"easeInOut"},
+                {"frame":45,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-peekLeft@lo",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":72,"value":-0.03,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":88,"value":-0.05,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":102,"value":-0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":118,"value":-0.7,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":-0.77,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":180,"value":-0.6,"ease":"hold"},
+                {"frame":198,"value":-0.6,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":118,"value":0,"ease":"easeOut"},
+                {"frame":122,"value":-1,"ease":"hold"},
+                {"frame":132,"value":-1,"ease":"easeOut"},
+                {"frame":136,"value":0.3,"ease":"hold"},
+                {"frame":160,"value":0.3,"ease":"easeInOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":222,"value":0,"ease":"easeInOut"},
+                {"frame":234,"value":0.5,"ease":"easeInOut"},
+                {"frame":248,"value":-0.4,"ease":"easeInOut"},
+                {"frame":262,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-peekLeft@0",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":72,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":88,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":102,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":118,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":180,"value":0,"ease":"hold"},
+                {"frame":198,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":118,"value":0,"ease":"easeOut"},
+                {"frame":122,"value":0,"ease":"hold"},
+                {"frame":132,"value":0,"ease":"easeOut"},
+                {"frame":136,"value":0,"ease":"hold"},
+                {"frame":160,"value":0,"ease":"easeInOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":222,"value":0,"ease":"easeInOut"},
+                {"frame":234,"value":0,"ease":"easeInOut"},
+                {"frame":248,"value":0,"ease":"easeInOut"},
+                {"frame":262,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-peekLeft@hi",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":72,"value":0.03,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":88,"value":0.05,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":102,"value":0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":118,"value":0.7,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":0.77,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":180,"value":0.6,"ease":"hold"},
+                {"frame":198,"value":0.6,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":118,"value":0,"ease":"easeOut"},
+                {"frame":122,"value":1,"ease":"hold"},
+                {"frame":132,"value":1,"ease":"easeOut"},
+                {"frame":136,"value":-0.3,"ease":"hold"},
+                {"frame":160,"value":-0.3,"ease":"easeInOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":222,"value":0,"ease":"easeInOut"},
+                {"frame":234,"value":-0.5,"ease":"easeInOut"},
+                {"frame":248,"value":0.4,"ease":"easeInOut"},
+                {"frame":262,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-peekRight@lo",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":72,"value":-0.03,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":88,"value":-0.05,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":102,"value":-0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":118,"value":-0.7,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":-0.77,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":180,"value":-0.6,"ease":"hold"},
+                {"frame":198,"value":-0.6,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":118,"value":0,"ease":"easeOut"},
+                {"frame":122,"value":-1,"ease":"hold"},
+                {"frame":132,"value":-1,"ease":"easeOut"},
+                {"frame":136,"value":0.3,"ease":"hold"},
+                {"frame":160,"value":0.3,"ease":"easeInOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":222,"value":0,"ease":"easeInOut"},
+                {"frame":234,"value":0.5,"ease":"easeInOut"},
+                {"frame":248,"value":-0.4,"ease":"easeInOut"},
+                {"frame":262,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-peekRight@0",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":72,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":88,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":102,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":118,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":180,"value":0,"ease":"hold"},
+                {"frame":198,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":118,"value":0,"ease":"easeOut"},
+                {"frame":122,"value":0,"ease":"hold"},
+                {"frame":132,"value":0,"ease":"easeOut"},
+                {"frame":136,"value":0,"ease":"hold"},
+                {"frame":160,"value":0,"ease":"easeInOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":222,"value":0,"ease":"easeInOut"},
+                {"frame":234,"value":0,"ease":"easeInOut"},
+                {"frame":248,"value":0,"ease":"easeInOut"},
+                {"frame":262,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-peekRight@hi",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":72,"value":0.03,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":88,"value":0.05,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":102,"value":0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":118,"value":0.7,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":0.77,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":180,"value":0.6,"ease":"hold"},
+                {"frame":198,"value":0.6,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":118,"value":0,"ease":"easeOut"},
+                {"frame":122,"value":1,"ease":"hold"},
+                {"frame":132,"value":1,"ease":"easeOut"},
+                {"frame":136,"value":-0.3,"ease":"hold"},
+                {"frame":160,"value":-0.3,"ease":"easeInOut"},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":222,"value":0,"ease":"easeInOut"},
+                {"frame":234,"value":-0.5,"ease":"easeInOut"},
+                {"frame":248,"value":0.4,"ease":"easeInOut"},
+                {"frame":262,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-peekTop@lo",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":112,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":122,"value":0.1,"ease":"hold"},
+                {"frame":140,"value":0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":148,"value":-0.1,"ease":"hold"},
+                {"frame":158,"value":-0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":112,"value":0,"ease":"easeOut"},
+                {"frame":118,"value":1,"ease":"hold"},
+                {"frame":136,"value":1,"ease":"easeOut"},
+                {"frame":142,"value":-1,"ease":"hold"},
+                {"frame":156,"value":-1,"ease":"easeInOut"},
+                {"frame":162,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":222,"value":0,"ease":"easeInOut"},
+                {"frame":234,"value":0.5,"ease":"easeInOut"},
+                {"frame":248,"value":-0.4,"ease":"easeInOut"},
+                {"frame":262,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-peekTop@0",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":112,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":122,"value":0,"ease":"hold"},
+                {"frame":140,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":148,"value":0,"ease":"hold"},
+                {"frame":158,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":112,"value":0,"ease":"easeOut"},
+                {"frame":118,"value":0,"ease":"hold"},
+                {"frame":136,"value":0,"ease":"easeOut"},
+                {"frame":142,"value":0,"ease":"hold"},
+                {"frame":156,"value":0,"ease":"easeInOut"},
+                {"frame":162,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":222,"value":0,"ease":"easeInOut"},
+                {"frame":234,"value":0,"ease":"easeInOut"},
+                {"frame":248,"value":0,"ease":"easeInOut"},
+                {"frame":262,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-peekTop@hi",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":112,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":122,"value":-0.1,"ease":"hold"},
+                {"frame":140,"value":-0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":148,"value":0.1,"ease":"hold"},
+                {"frame":158,"value":0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":112,"value":0,"ease":"easeOut"},
+                {"frame":118,"value":-1,"ease":"hold"},
+                {"frame":136,"value":-1,"ease":"easeOut"},
+                {"frame":142,"value":1,"ease":"hold"},
+                {"frame":156,"value":1,"ease":"easeInOut"},
+                {"frame":162,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":222,"value":0,"ease":"easeInOut"},
+                {"frame":234,"value":-0.5,"ease":"easeInOut"},
+                {"frame":248,"value":0.4,"ease":"easeInOut"},
+                {"frame":262,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-lurk@lo",
+          "frames": 496,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":112,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":122,"value":0.1,"ease":"hold"},
+                {"frame":140,"value":0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":148,"value":-0.1,"ease":"hold"},
+                {"frame":158,"value":-0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":0},
+                {"frame":180,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":202,"value":0.03,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":218,"value":0.05,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":232,"value":0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":248,"value":0.7,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":274,"value":0.77,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":288,"value":0.6,"ease":"hold"},
+                {"frame":290,"value":0.6,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":295,"value":0},
+                {"frame":304,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":326,"value":-0.03,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":342,"value":-0.05,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":356,"value":-0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":372,"value":-0.7,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":398,"value":-0.77,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":412,"value":-0.6,"ease":"hold"},
+                {"frame":430,"value":-0.6,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":435,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":112,"value":0,"ease":"easeOut"},
+                {"frame":118,"value":1,"ease":"hold"},
+                {"frame":136,"value":1,"ease":"easeOut"},
+                {"frame":142,"value":-1,"ease":"hold"},
+                {"frame":156,"value":-1,"ease":"easeInOut"},
+                {"frame":162,"value":0},
+                {"frame":248,"value":0,"ease":"easeOut"},
+                {"frame":252,"value":1,"ease":"hold"},
+                {"frame":262,"value":1,"ease":"easeOut"},
+                {"frame":266,"value":-0.3,"ease":"hold"},
+                {"frame":268,"value":-0.3,"ease":"easeInOut"},
+                {"frame":274,"value":0},
+                {"frame":372,"value":0,"ease":"easeOut"},
+                {"frame":376,"value":-1,"ease":"hold"},
+                {"frame":386,"value":-1,"ease":"easeOut"},
+                {"frame":390,"value":0.3,"ease":"hold"},
+                {"frame":392,"value":0.3,"ease":"easeInOut"},
+                {"frame":398,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":454,"value":0,"ease":"easeInOut"},
+                {"frame":466,"value":0.5,"ease":"easeInOut"},
+                {"frame":480,"value":-0.4,"ease":"easeInOut"},
+                {"frame":494,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-lurk@0",
+          "frames": 496,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":112,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":122,"value":0,"ease":"hold"},
+                {"frame":140,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":148,"value":0,"ease":"hold"},
+                {"frame":158,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":0},
+                {"frame":180,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":202,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":218,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":232,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":248,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":274,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":288,"value":0,"ease":"hold"},
+                {"frame":290,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":295,"value":0},
+                {"frame":304,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":326,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":342,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":356,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":372,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":398,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":412,"value":0,"ease":"hold"},
+                {"frame":430,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":435,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":112,"value":0,"ease":"easeOut"},
+                {"frame":118,"value":0,"ease":"hold"},
+                {"frame":136,"value":0,"ease":"easeOut"},
+                {"frame":142,"value":0,"ease":"hold"},
+                {"frame":156,"value":0,"ease":"easeInOut"},
+                {"frame":162,"value":0},
+                {"frame":248,"value":0,"ease":"easeOut"},
+                {"frame":252,"value":0,"ease":"hold"},
+                {"frame":262,"value":0,"ease":"easeOut"},
+                {"frame":266,"value":0,"ease":"hold"},
+                {"frame":268,"value":0,"ease":"easeInOut"},
+                {"frame":274,"value":0},
+                {"frame":372,"value":0,"ease":"easeOut"},
+                {"frame":376,"value":0,"ease":"hold"},
+                {"frame":386,"value":0,"ease":"easeOut"},
+                {"frame":390,"value":0,"ease":"hold"},
+                {"frame":392,"value":0,"ease":"easeInOut"},
+                {"frame":398,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":454,"value":0,"ease":"easeInOut"},
+                {"frame":466,"value":0,"ease":"easeInOut"},
+                {"frame":480,"value":0,"ease":"easeInOut"},
+                {"frame":494,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-lurk@hi",
+          "frames": 496,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":112,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":122,"value":-0.1,"ease":"hold"},
+                {"frame":140,"value":-0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":148,"value":0.1,"ease":"hold"},
+                {"frame":158,"value":0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":166,"value":0},
+                {"frame":180,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":202,"value":-0.03,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":218,"value":-0.05,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":232,"value":-0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":248,"value":-0.7,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":274,"value":-0.77,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":288,"value":-0.6,"ease":"hold"},
+                {"frame":290,"value":-0.6,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":295,"value":0},
+                {"frame":304,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":326,"value":0.03,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":342,"value":0.05,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":356,"value":0.1,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":372,"value":0.7,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":398,"value":0.77,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":412,"value":0.6,"ease":"hold"},
+                {"frame":430,"value":0.6,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":435,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":112,"value":0,"ease":"easeOut"},
+                {"frame":118,"value":-1,"ease":"hold"},
+                {"frame":136,"value":-1,"ease":"easeOut"},
+                {"frame":142,"value":1,"ease":"hold"},
+                {"frame":156,"value":1,"ease":"easeInOut"},
+                {"frame":162,"value":0},
+                {"frame":248,"value":0,"ease":"easeOut"},
+                {"frame":252,"value":-1,"ease":"hold"},
+                {"frame":262,"value":-1,"ease":"easeOut"},
+                {"frame":266,"value":0.3,"ease":"hold"},
+                {"frame":268,"value":0.3,"ease":"easeInOut"},
+                {"frame":274,"value":0},
+                {"frame":372,"value":0,"ease":"easeOut"},
+                {"frame":376,"value":1,"ease":"hold"},
+                {"frame":386,"value":1,"ease":"easeOut"},
+                {"frame":390,"value":-0.3,"ease":"hold"},
+                {"frame":392,"value":-0.3,"ease":"easeInOut"},
+                {"frame":398,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":454,"value":0,"ease":"easeInOut"},
+                {"frame":466,"value":-0.5,"ease":"easeInOut"},
+                {"frame":480,"value":0.4,"ease":"easeInOut"},
+                {"frame":494,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-swing@lo",
+          "frames": 138,
+          "tracks": [
+            {"target":"squash","property":"rotation","keys":[{"frame":0,"value":0}]},
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeOut"},
+                {"frame":10,"value":-0.3,"ease":"easeInOut"},
+                {"frame":30,"value":-0.8,"ease":"hold"},
+                {"frame":110,"value":-0.8,"ease":"easeInOut"},
+                {"frame":130,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":22,"value":0,"ease":"easeInOut"},
+                {"frame":60,"value":0.8,"ease":"easeInOut"},
+                {"frame":100,"value":-0.6,"ease":"easeInOut"},
+                {"frame":124,"value":0.3,"ease":"easeInOut"},
+                {"frame":138,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-swing@0",
+          "frames": 138,
+          "tracks": [
+            {"target":"squash","property":"rotation","keys":[{"frame":0,"value":0}]},
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeOut"},
+                {"frame":10,"value":0,"ease":"easeInOut"},
+                {"frame":30,"value":0,"ease":"hold"},
+                {"frame":110,"value":0,"ease":"easeInOut"},
+                {"frame":130,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":22,"value":0,"ease":"easeInOut"},
+                {"frame":60,"value":0,"ease":"easeInOut"},
+                {"frame":100,"value":0,"ease":"easeInOut"},
+                {"frame":124,"value":0,"ease":"easeInOut"},
+                {"frame":138,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-swing@hi",
+          "frames": 138,
+          "tracks": [
+            {"target":"squash","property":"rotation","keys":[{"frame":0,"value":0}]},
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeOut"},
+                {"frame":10,"value":0.3,"ease":"easeInOut"},
+                {"frame":30,"value":0.8,"ease":"hold"},
+                {"frame":110,"value":0.8,"ease":"easeInOut"},
+                {"frame":130,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":22,"value":0,"ease":"easeInOut"},
+                {"frame":60,"value":-0.8,"ease":"easeInOut"},
+                {"frame":100,"value":0.6,"ease":"easeInOut"},
+                {"frame":124,"value":-0.3,"ease":"easeInOut"},
+                {"frame":138,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-look@lo",
+          "frames": 150,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":14,"value":-0.06,"ease":"hold"},
+                {"frame":50,"value":-0.06,"ease":"easeInOut"},
+                {"frame":64,"value":0.06,"ease":"hold"},
+                {"frame":96,"value":0.06,"ease":"easeInOut"},
+                {"frame":110,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":10,"value":-1,"ease":"hold"},
+                {"frame":50,"value":-1,"ease":"easeInOut"},
+                {"frame":60,"value":1,"ease":"hold"},
+                {"frame":96,"value":1,"ease":"easeInOut"},
+                {"frame":106,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":10,"value":0,"ease":"easeInOut"},
+                {"frame":24,"value":0.4,"ease":"easeInOut"},
+                {"frame":60,"value":-0.4,"ease":"easeInOut"},
+                {"frame":74,"value":0.2,"ease":"easeInOut"},
+                {"frame":110,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-look@0",
+          "frames": 150,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":14,"value":0,"ease":"hold"},
+                {"frame":50,"value":0,"ease":"easeInOut"},
+                {"frame":64,"value":0,"ease":"hold"},
+                {"frame":96,"value":0,"ease":"easeInOut"},
+                {"frame":110,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":10,"value":0,"ease":"hold"},
+                {"frame":50,"value":0,"ease":"easeInOut"},
+                {"frame":60,"value":0,"ease":"hold"},
+                {"frame":96,"value":0,"ease":"easeInOut"},
+                {"frame":106,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":10,"value":0,"ease":"easeInOut"},
+                {"frame":24,"value":0,"ease":"easeInOut"},
+                {"frame":60,"value":0,"ease":"easeInOut"},
+                {"frame":74,"value":0,"ease":"easeInOut"},
+                {"frame":110,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "face-look@hi",
+          "frames": 150,
+          "tracks": [
+            {
+              "target": "squash",
+              "property": "rotation",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":14,"value":0.06,"ease":"hold"},
+                {"frame":50,"value":0.06,"ease":"easeInOut"},
+                {"frame":64,"value":-0.06,"ease":"hold"},
+                {"frame":96,"value":-0.06,"ease":"easeInOut"},
+                {"frame":110,"value":0}
+              ]
+            },
+            {
+              "target": "pip/lookX",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":0,"value":0,"ease":"easeInOut"},
+                {"frame":10,"value":1,"ease":"hold"},
+                {"frame":50,"value":1,"ease":"easeInOut"},
+                {"frame":60,"value":-1,"ease":"hold"},
+                {"frame":96,"value":-1,"ease":"easeInOut"},
+                {"frame":106,"value":0}
+              ]
+            },
+            {
+              "target": "pip/hatSway",
+              "property": "nestedValue",
+              "keys": [
+                {"frame":10,"value":0,"ease":"easeInOut"},
+                {"frame":24,"value":-0.4,"ease":"easeInOut"},
+                {"frame":60,"value":0.4,"ease":"easeInOut"},
+                {"frame":74,"value":-0.2,"ease":"easeInOut"},
+                {"frame":110,"value":0}
+              ]
+            }
+          ]
+        },
+        {"name":"x-rest","frames":1,"tracks":[{"target":"hopX","property":"x","keys":[{"frame":0,"value":0}]}]},
+        {
+          "name": "x-travel@lo",
+          "frames": 36,
+          "tracks": [
+            {
+              "target": "hopX",
+              "property": "x",
+              "keys": [{"frame":0,"value":0},{"frame":8,"value":0,"ease":"linear"},{"frame":36,"value":-4000}]
+            }
+          ]
+        },
+        {
+          "name": "x-travel@0",
+          "frames": 36,
+          "tracks": [
+            {
+              "target": "hopX",
+              "property": "x",
+              "keys": [{"frame":0,"value":0},{"frame":8,"value":0,"ease":"linear"},{"frame":36,"value":0}]
+            }
+          ]
+        },
+        {
+          "name": "x-travel@hi",
+          "frames": 36,
+          "tracks": [
+            {
+              "target": "hopX",
+              "property": "x",
+              "keys": [{"frame":0,"value":0},{"frame":8,"value":0,"ease":"linear"},{"frame":36,"value":4000}]
+            }
+          ]
+        },
+        {"name":"y-rest","frames":1,"tracks":[{"target":"hopY","property":"y","keys":[{"frame":0,"value":0}]}]},
+        {
+          "name": "y-travel@lo",
+          "frames": 36,
+          "tracks": [
+            {
+              "target": "hopY",
+              "property": "y",
+              "keys": [{"frame":0,"value":0},{"frame":8,"value":0,"ease":"linear"},{"frame":36,"value":-4000}]
+            }
+          ]
+        },
+        {
+          "name": "y-travel@0",
+          "frames": 36,
+          "tracks": [
+            {
+              "target": "hopY",
+              "property": "y",
+              "keys": [{"frame":0,"value":0},{"frame":8,"value":0,"ease":"linear"},{"frame":36,"value":0}]
+            }
+          ]
+        },
+        {
+          "name": "y-travel@hi",
+          "frames": 36,
+          "tracks": [
+            {
+              "target": "hopY",
+              "property": "y",
+              "keys": [{"frame":0,"value":0},{"frame":8,"value":0,"ease":"linear"},{"frame":36,"value":4000}]
+            }
+          ]
+        },
+        {"name":"lift-rest","frames":1,"tracks":[{"target":"arc","property":"y","keys":[{"frame":0,"value":0}]}]},
+        {
+          "name": "lift-travel@0",
+          "frames": 36,
+          "tracks": [
+            {
+              "target": "arc",
+              "property": "y",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"easeOut"},
+                {"frame":22,"value":0,"ease":"easeIn"},
+                {"frame":36,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "lift-travel@hi",
+          "frames": 36,
+          "tracks": [
+            {
+              "target": "arc",
+              "property": "y",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"easeOut"},
+                {"frame":22,"value":-2000,"ease":"easeIn"},
+                {"frame":36,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "lift-swing@0",
+          "frames": 138,
+          "tracks": [
+            {
+              "target": "arc",
+              "property": "y",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":96,"value":0,"ease":"easeOut"},
+                {"frame":108,"value":0,"ease":"easeIn"},
+                {"frame":120,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "lift-swing@hi",
+          "frames": 138,
+          "tracks": [
+            {
+              "target": "arc",
+              "property": "y",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":96,"value":0,"ease":"easeOut"},
+                {"frame":108,"value":-2000,"ease":"easeIn"},
+                {"frame":120,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "size-rest",
+          "frames": 1,
+          "tracks": [
+            {"target":"peek","property":"x","keys":[{"frame":0,"value":0}]},
+            {"target":"peek","property":"y","keys":[{"frame":0,"value":0}]}
+          ]
+        },
+        {
+          "name": "size-peekLeft@0",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "peek",
+              "property": "x",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":0,"ease":"easeOut"},
+                {"frame":44,"value":0,"ease":"easeIn"},
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":72,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":88,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":102,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":118,"value":0,"ease":"hold"},
+                {"frame":166,"value":0,"ease":"easeOut"},
+                {"frame":180,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":210,"value":0,"ease":"hold"},
+                {"frame":222,"value":0,"ease":"easeOut"},
+                {"frame":240,"value":0,"ease":"easeIn"},
+                {"frame":252,"value":0}
+              ]
+            },
+            {
+              "target": "peek",
+              "property": "y",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":0,"ease":"easeOut"},
+                {"frame":44,"value":0,"ease":"easeIn"},
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":72,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":88,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":102,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":118,"value":0,"ease":"hold"},
+                {"frame":166,"value":0,"ease":"easeOut"},
+                {"frame":180,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":210,"value":0,"ease":"hold"},
+                {"frame":222,"value":0,"ease":"easeOut"},
+                {"frame":240,"value":0,"ease":"easeIn"},
+                {"frame":252,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "size-peekLeft@hi",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "peek",
+              "property": "x",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":0,"ease":"easeOut"},
+                {"frame":44,"value":0,"ease":"easeIn"},
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":72,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":88,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":102,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":118,"value":-170,"ease":"hold"},
+                {"frame":166,"value":-170,"ease":"easeOut"},
+                {"frame":180,"value":-170,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":-170,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":-170,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":210,"value":0,"ease":"hold"},
+                {"frame":222,"value":0,"ease":"easeOut"},
+                {"frame":240,"value":0,"ease":"easeIn"},
+                {"frame":252,"value":0}
+              ]
+            },
+            {
+              "target": "peek",
+              "property": "y",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":-550,"ease":"easeOut"},
+                {"frame":44,"value":1220,"ease":"easeIn"},
+                {"frame":50,"value":1220,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":72,"value":660,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":88,"value":680,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":102,"value":-50,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":118,"value":-150,"ease":"hold"},
+                {"frame":166,"value":-150,"ease":"easeOut"},
+                {"frame":180,"value":-250,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":-170,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":-150,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":-50,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":210,"value":1220,"ease":"hold"},
+                {"frame":222,"value":1220,"ease":"easeOut"},
+                {"frame":240,"value":-880,"ease":"easeIn"},
+                {"frame":252,"value":-500}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "size-peekRight@0",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "peek",
+              "property": "x",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":0,"ease":"easeOut"},
+                {"frame":44,"value":0,"ease":"easeIn"},
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":72,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":88,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":102,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":118,"value":0,"ease":"hold"},
+                {"frame":166,"value":0,"ease":"easeOut"},
+                {"frame":180,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":210,"value":0,"ease":"hold"},
+                {"frame":222,"value":0,"ease":"easeOut"},
+                {"frame":240,"value":0,"ease":"easeIn"},
+                {"frame":252,"value":0}
+              ]
+            },
+            {
+              "target": "peek",
+              "property": "y",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":0,"ease":"easeOut"},
+                {"frame":44,"value":0,"ease":"easeIn"},
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":72,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":88,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":102,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":118,"value":0,"ease":"hold"},
+                {"frame":166,"value":0,"ease":"easeOut"},
+                {"frame":180,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":210,"value":0,"ease":"hold"},
+                {"frame":222,"value":0,"ease":"easeOut"},
+                {"frame":240,"value":0,"ease":"easeIn"},
+                {"frame":252,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "size-peekRight@hi",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "peek",
+              "property": "x",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":0,"ease":"easeOut"},
+                {"frame":44,"value":0,"ease":"easeIn"},
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":72,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":88,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":102,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":118,"value":170,"ease":"hold"},
+                {"frame":166,"value":170,"ease":"easeOut"},
+                {"frame":180,"value":170,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":170,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":170,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":210,"value":0,"ease":"hold"},
+                {"frame":222,"value":0,"ease":"easeOut"},
+                {"frame":240,"value":0,"ease":"easeIn"},
+                {"frame":252,"value":0}
+              ]
+            },
+            {
+              "target": "peek",
+              "property": "y",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":-550,"ease":"easeOut"},
+                {"frame":44,"value":1220,"ease":"easeIn"},
+                {"frame":50,"value":1220,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":72,"value":660,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":88,"value":680,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":102,"value":-50,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":118,"value":-150,"ease":"hold"},
+                {"frame":166,"value":-150,"ease":"easeOut"},
+                {"frame":180,"value":-250,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":-170,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":-150,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":-50,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":210,"value":1220,"ease":"hold"},
+                {"frame":222,"value":1220,"ease":"easeOut"},
+                {"frame":240,"value":-880,"ease":"easeIn"},
+                {"frame":252,"value":-500}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "size-peekTop@0",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "peek",
+              "property": "x",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":0,"ease":"easeOut"},
+                {"frame":44,"value":0,"ease":"easeIn"},
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":68,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":84,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":112,"value":0,"ease":"hold"},
+                {"frame":166,"value":0,"ease":"easeOut"},
+                {"frame":180,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":210,"value":0,"ease":"hold"},
+                {"frame":222,"value":0,"ease":"easeOut"},
+                {"frame":240,"value":0,"ease":"easeIn"},
+                {"frame":252,"value":0}
+              ]
+            },
+            {
+              "target": "peek",
+              "property": "y",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":0,"ease":"easeOut"},
+                {"frame":44,"value":0,"ease":"easeIn"},
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":68,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":84,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":112,"value":0,"ease":"hold"},
+                {"frame":166,"value":0,"ease":"easeOut"},
+                {"frame":180,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":210,"value":0,"ease":"hold"},
+                {"frame":222,"value":0,"ease":"easeOut"},
+                {"frame":240,"value":0,"ease":"easeIn"},
+                {"frame":252,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "size-peekTop@hi",
+          "frames": 264,
+          "tracks": [
+            {
+              "target": "peek",
+              "property": "x",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":0,"ease":"easeOut"},
+                {"frame":44,"value":0,"ease":"easeIn"},
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":68,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":84,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":112,"value":0,"ease":"hold"},
+                {"frame":166,"value":0,"ease":"easeOut"},
+                {"frame":180,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":210,"value":0,"ease":"hold"},
+                {"frame":222,"value":0,"ease":"easeOut"},
+                {"frame":240,"value":0,"ease":"easeIn"},
+                {"frame":252,"value":0}
+              ]
+            },
+            {
+              "target": "peek",
+              "property": "y",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":-550,"ease":"easeOut"},
+                {"frame":44,"value":1220,"ease":"easeIn"},
+                {"frame":50,"value":1220,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":68,"value":660,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":84,"value":680,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":112,"value":-120,"ease":"hold"},
+                {"frame":166,"value":-120,"ease":"easeOut"},
+                {"frame":180,"value":-220,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":186,"value":-140,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":198,"value":-120,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":203,"value":-50,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":210,"value":1220,"ease":"hold"},
+                {"frame":222,"value":1220,"ease":"easeOut"},
+                {"frame":240,"value":-880,"ease":"easeIn"},
+                {"frame":252,"value":-500}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "size-lurk@0",
+          "frames": 496,
+          "tracks": [
+            {
+              "target": "peek",
+              "property": "x",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":0,"ease":"easeOut"},
+                {"frame":44,"value":0,"ease":"easeIn"},
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":68,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":84,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":112,"value":0,"ease":"hold"},
+                {"frame":166,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":178,"value":0,"ease":"hold"},
+                {"frame":180,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":202,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":218,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":232,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":248,"value":0,"ease":"hold"},
+                {"frame":290,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":295,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":302,"value":0,"ease":"hold"},
+                {"frame":304,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":326,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":342,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":356,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":372,"value":0,"ease":"hold"},
+                {"frame":398,"value":0,"ease":"easeOut"},
+                {"frame":412,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":418,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":430,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":435,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":442,"value":0,"ease":"hold"},
+                {"frame":454,"value":0,"ease":"easeOut"},
+                {"frame":472,"value":0,"ease":"easeIn"},
+                {"frame":484,"value":0}
+              ]
+            },
+            {
+              "target": "peek",
+              "property": "y",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":0,"ease":"easeOut"},
+                {"frame":44,"value":0,"ease":"easeIn"},
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":68,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":84,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":112,"value":0,"ease":"hold"},
+                {"frame":166,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":178,"value":0,"ease":"hold"},
+                {"frame":180,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":202,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":218,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":232,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":248,"value":0,"ease":"hold"},
+                {"frame":290,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":295,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":302,"value":0,"ease":"hold"},
+                {"frame":304,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":326,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":342,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":356,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":372,"value":0,"ease":"hold"},
+                {"frame":398,"value":0,"ease":"easeOut"},
+                {"frame":412,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":418,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":430,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":435,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":442,"value":0,"ease":"hold"},
+                {"frame":454,"value":0,"ease":"easeOut"},
+                {"frame":472,"value":0,"ease":"easeIn"},
+                {"frame":484,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "size-lurk@hi",
+          "frames": 496,
+          "tracks": [
+            {
+              "target": "peek",
+              "property": "x",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":0,"ease":"easeOut"},
+                {"frame":44,"value":0,"ease":"easeIn"},
+                {"frame":50,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":68,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":84,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":112,"value":0,"ease":"hold"},
+                {"frame":166,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":178,"value":0,"ease":"hold"},
+                {"frame":180,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":202,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":218,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":232,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":248,"value":-170,"ease":"hold"},
+                {"frame":290,"value":-170,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":295,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":302,"value":0,"ease":"hold"},
+                {"frame":304,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":326,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":342,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":356,"value":0,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":372,"value":170,"ease":"hold"},
+                {"frame":398,"value":170,"ease":"easeOut"},
+                {"frame":412,"value":170,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":418,"value":170,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":430,"value":170,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":435,"value":0,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":442,"value":0,"ease":"hold"},
+                {"frame":454,"value":0,"ease":"easeOut"},
+                {"frame":472,"value":0,"ease":"easeIn"},
+                {"frame":484,"value":0}
+              ]
+            },
+            {
+              "target": "peek",
+              "property": "y",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":8,"value":0,"ease":"linear"},
+                {"frame":30,"value":-550,"ease":"easeOut"},
+                {"frame":44,"value":1220,"ease":"easeIn"},
+                {"frame":50,"value":1220,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":68,"value":660,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":84,"value":680,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":112,"value":-120,"ease":"hold"},
+                {"frame":166,"value":-120,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":178,"value":1220,"ease":"hold"},
+                {"frame":180,"value":1220,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":202,"value":660,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":218,"value":680,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":232,"value":-50,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":248,"value":-150,"ease":"hold"},
+                {"frame":290,"value":-150,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":295,"value":-50,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":302,"value":1220,"ease":"hold"},
+                {"frame":304,"value":1220,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":326,"value":660,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":342,"value":680,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":356,"value":-50,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":372,"value":-150,"ease":"hold"},
+                {"frame":398,"value":-150,"ease":"easeOut"},
+                {"frame":412,"value":-250,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":418,"value":-170,"ease":{"cubic":[0.37,0,0.63,1]}},
+                {"frame":430,"value":-150,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":435,"value":-50,"ease":{"cubic":[0.55,0,0.9,0.4]}},
+                {"frame":442,"value":1220,"ease":"hold"},
+                {"frame":454,"value":1220,"ease":"easeOut"},
+                {"frame":472,"value":-880,"ease":"easeIn"},
+                {"frame":484,"value":-500}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sweep-rest",
+          "frames": 1,
+          "tracks": [
+            {"target":"armSwing","property":"rotation","keys":[{"frame":0,"value":0}]},
+            {"target":"bodySwing","property":"rotation","keys":[{"frame":0,"value":0}]}
+          ]
+        },
+        {
+          "name": "sweep-swing@lo",
+          "frames": 138,
+          "tracks": [
+            {
+              "target": "armSwing",
+              "property": "rotation",
+              "keys": [{"frame":0,"value":0},{"frame":22,"value":0,"ease":{"cubic":[0.45,0,0.4,1]}},{"frame":96,"value":-7}]
+            },
+            {
+              "target": "bodySwing",
+              "property": "rotation",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":22,"value":0,"ease":"easeInOut"},
+                {"frame":74,"value":2.1,"ease":"easeInOut"},
+                {"frame":112,"value":7}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sweep-swing@0",
+          "frames": 138,
+          "tracks": [
+            {
+              "target": "armSwing",
+              "property": "rotation",
+              "keys": [{"frame":0,"value":0},{"frame":22,"value":0,"ease":{"cubic":[0.45,0,0.4,1]}},{"frame":96,"value":0}]
+            },
+            {
+              "target": "bodySwing",
+              "property": "rotation",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":22,"value":0,"ease":"easeInOut"},
+                {"frame":74,"value":0,"ease":"easeInOut"},
+                {"frame":112,"value":0}
+              ]
+            }
+          ]
+        },
+        {
+          "name": "sweep-swing@hi",
+          "frames": 138,
+          "tracks": [
+            {
+              "target": "armSwing",
+              "property": "rotation",
+              "keys": [{"frame":0,"value":0},{"frame":22,"value":0,"ease":{"cubic":[0.45,0,0.4,1]}},{"frame":96,"value":7}]
+            },
+            {
+              "target": "bodySwing",
+              "property": "rotation",
+              "keys": [
+                {"frame":0,"value":0},
+                {"frame":22,"value":0,"ease":"easeInOut"},
+                {"frame":74,"value":-2.1,"ease":"easeInOut"},
+                {"frame":112,"value":-7}
+              ]
+            }
+          ]
+        },
+        {"name":"reel-rest","frames":1,"tracks":[{"target":"reel","property":"y","keys":[{"frame":0,"value":0}]}]},
+        {
+          "name": "reel-swing@lo",
+          "frames": 138,
+          "tracks": [
+            {
+              "target": "reel",
+              "property": "y",
+              "keys": [{"frame":0,"value":0},{"frame":96,"value":0,"ease":"easeOut"},{"frame":120,"value":-4000}]
+            }
+          ]
+        },
+        {
+          "name": "reel-swing@0",
+          "frames": 138,
+          "tracks": [
+            {
+              "target": "reel",
+              "property": "y",
+              "keys": [{"frame":0,"value":0},{"frame":96,"value":0,"ease":"easeOut"},{"frame":120,"value":0}]
+            }
+          ]
+        },
+        {
+          "name": "reel-swing@hi",
+          "frames": 138,
+          "tracks": [
+            {
+              "target": "reel",
+              "property": "y",
+              "keys": [{"frame":0,"value":0},{"frame":96,"value":0,"ease":"easeOut"},{"frame":120,"value":4000}]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {"name":"hop","clip":"hop","frames":[8]},
+        {"name":"land","clip":"hop","frames":[36]},
+        {"name":"moveEnd","clip":"hop","frames":[44]},
+        {"name":"hop","clip":"peekLeft","frames":[8]},
+        {"name":"peek","clip":"peekLeft","frames":[166]},
+        {"name":"pop","clip":"peekLeft","frames":[224]},
+        {"name":"land","clip":"peekLeft","frames":[252]},
+        {"name":"moveEnd","clip":"peekLeft","frames":[263]},
+        {"name":"hop","clip":"peekRight","frames":[8]},
+        {"name":"peek","clip":"peekRight","frames":[166]},
+        {"name":"pop","clip":"peekRight","frames":[224]},
+        {"name":"land","clip":"peekRight","frames":[252]},
+        {"name":"moveEnd","clip":"peekRight","frames":[263]},
+        {"name":"hop","clip":"peekTop","frames":[8]},
+        {"name":"peek","clip":"peekTop","frames":[166]},
+        {"name":"pop","clip":"peekTop","frames":[224]},
+        {"name":"land","clip":"peekTop","frames":[252]},
+        {"name":"moveEnd","clip":"peekTop","frames":[263]},
+        {"name":"hop","clip":"lurk","frames":[8]},
+        {"name":"peek","clip":"lurk","frames":[398]},
+        {"name":"pop","clip":"lurk","frames":[456]},
+        {"name":"land","clip":"lurk","frames":[484]},
+        {"name":"moveEnd","clip":"lurk","frames":[495]},
+        {"name":"whoosh","clip":"swing","frames":[10]},
+        {"name":"pop","clip":"swing","frames":[20]},
+        {"name":"whoosh","clip":"swing","frames":[96]},
+        {"name":"land","clip":"swing","frames":[121]},
+        {"name":"moveEnd","clip":"swing","frames":[137]},
+        {"name":"moveEnd","clip":"look","frames":[149]}
+      ],
+      "stateMachine": {
+        "name": "Main",
+        "control": "viewModel",
+        "layers": [
+          {
+            "name": "Main",
+            "states": [
+              {"name":"rest","clip":"rest"},
+              {"name":"hop","clip":"hop"},
+              {"name":"peekLeft","clip":"peekLeft"},
+              {"name":"peekRight","clip":"peekRight"},
+              {"name":"peekTop","clip":"peekTop"},
+              {"name":"lurk","clip":"lurk"},
+              {"name":"swing","clip":"swing"},
+              {"name":"look","clip":"look"}
+            ],
+            "transitions": [
+              {"from":"entry","to":"rest"},
+              {"from":"any","to":"rest","conditions":[{"on":"settle"}]},
+              {"from":"any","to":"hop","conditions":[{"on":"hop"}]},
+              {"from":"any","to":"peekLeft","conditions":[{"on":"peekLeft"}]},
+              {"from":"any","to":"peekRight","conditions":[{"on":"peekRight"}]},
+              {"from":"any","to":"peekTop","conditions":[{"on":"peekTop"}]},
+              {"from":"any","to":"lurk","conditions":[{"on":"lurk"}]},
+              {"from":"any","to":"swing","conditions":[{"on":"swing"}]},
+              {"from":"any","to":"look","conditions":[{"on":"look"}]}
+            ]
+          },
+          {
+            "name": "Face",
+            "states": [
+              {"name":"rest","clip":"face-rest"},
+              {
+                "name": "hop",
+                "blend": {
+                  "by": "face",
+                  "clips": [{"clip":"face-hop@lo","value":-1},{"clip":"face-hop@0","value":0},{"clip":"face-hop@hi","value":1}]
+                }
+              },
+              {
+                "name": "peekLeft",
+                "blend": {
+                  "by": "face",
+                  "clips": [
+                    {"clip":"face-peekLeft@lo","value":-1},
+                    {"clip":"face-peekLeft@0","value":0},
+                    {"clip":"face-peekLeft@hi","value":1}
+                  ]
+                }
+              },
+              {
+                "name": "peekRight",
+                "blend": {
+                  "by": "face",
+                  "clips": [
+                    {"clip":"face-peekRight@lo","value":-1},
+                    {"clip":"face-peekRight@0","value":0},
+                    {"clip":"face-peekRight@hi","value":1}
+                  ]
+                }
+              },
+              {
+                "name": "peekTop",
+                "blend": {
+                  "by": "face",
+                  "clips": [
+                    {"clip":"face-peekTop@lo","value":-1},
+                    {"clip":"face-peekTop@0","value":0},
+                    {"clip":"face-peekTop@hi","value":1}
+                  ]
+                }
+              },
+              {
+                "name": "lurk",
+                "blend": {
+                  "by": "face",
+                  "clips": [{"clip":"face-lurk@lo","value":-1},{"clip":"face-lurk@0","value":0},{"clip":"face-lurk@hi","value":1}]
+                }
+              },
+              {
+                "name": "swing",
+                "blend": {
+                  "by": "face",
+                  "clips": [{"clip":"face-swing@lo","value":-1},{"clip":"face-swing@0","value":0},{"clip":"face-swing@hi","value":1}]
+                }
+              },
+              {
+                "name": "look",
+                "blend": {
+                  "by": "face",
+                  "clips": [{"clip":"face-look@lo","value":-1},{"clip":"face-look@0","value":0},{"clip":"face-look@hi","value":1}]
+                }
+              }
+            ],
+            "transitions": [
+              {"from":"entry","to":"rest"},
+              {"from":"any","to":"rest","conditions":[{"on":"settle"}]},
+              {"from":"any","to":"hop","conditions":[{"on":"hop"}]},
+              {"from":"any","to":"peekLeft","conditions":[{"on":"peekLeft"}]},
+              {"from":"any","to":"peekRight","conditions":[{"on":"peekRight"}]},
+              {"from":"any","to":"peekTop","conditions":[{"on":"peekTop"}]},
+              {"from":"any","to":"lurk","conditions":[{"on":"lurk"}]},
+              {"from":"any","to":"swing","conditions":[{"on":"swing"}]},
+              {"from":"any","to":"look","conditions":[{"on":"look"}]}
+            ]
+          },
+          {
+            "name": "X",
+            "states": [
+              {"name":"rest","clip":"x-rest"},
+              {
+                "name": "travel",
+                "blend": {
+                  "by": "dx",
+                  "clips": [{"clip":"x-travel@lo","value":-4000},{"clip":"x-travel@0","value":0},{"clip":"x-travel@hi","value":4000}]
+                }
+              }
+            ],
+            "transitions": [
+              {"from":"entry","to":"rest"},
+              {"from":"any","to":"rest","conditions":[{"on":"settle"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"hop"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"peekLeft"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"peekRight"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"peekTop"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"lurk"}]}
+            ]
+          },
+          {
+            "name": "Y",
+            "states": [
+              {"name":"rest","clip":"y-rest"},
+              {
+                "name": "travel",
+                "blend": {
+                  "by": "dy",
+                  "clips": [{"clip":"y-travel@lo","value":-4000},{"clip":"y-travel@0","value":0},{"clip":"y-travel@hi","value":4000}]
+                }
+              }
+            ],
+            "transitions": [
+              {"from":"entry","to":"rest"},
+              {"from":"any","to":"rest","conditions":[{"on":"settle"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"hop"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"peekLeft"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"peekRight"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"peekTop"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"lurk"}]}
+            ]
+          },
+          {
+            "name": "Lift",
+            "states": [
+              {"name":"rest","clip":"lift-rest"},
+              {
+                "name": "travel",
+                "blend": {"by":"lift","clips":[{"clip":"lift-travel@0","value":0},{"clip":"lift-travel@hi","value":2000}]}
+              },
+              {
+                "name": "swing",
+                "blend": {"by":"lift","clips":[{"clip":"lift-swing@0","value":0},{"clip":"lift-swing@hi","value":2000}]}
+              }
+            ],
+            "transitions": [
+              {"from":"entry","to":"rest"},
+              {"from":"any","to":"rest","conditions":[{"on":"settle"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"hop"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"peekLeft"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"peekRight"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"peekTop"}]},
+              {"from":"any","to":"travel","conditions":[{"on":"lurk"}]},
+              {"from":"any","to":"swing","conditions":[{"on":"swing"}]}
+            ]
+          },
+          {
+            "name": "Size",
+            "states": [
+              {"name":"rest","clip":"size-rest"},
+              {
+                "name": "peekLeft",
+                "blend": {"by":"iconD","clips":[{"clip":"size-peekLeft@0","value":0},{"clip":"size-peekLeft@hi","value":1000}]}
+              },
+              {
+                "name": "peekRight",
+                "blend": {"by":"iconD","clips":[{"clip":"size-peekRight@0","value":0},{"clip":"size-peekRight@hi","value":1000}]}
+              },
+              {
+                "name": "peekTop",
+                "blend": {"by":"iconD","clips":[{"clip":"size-peekTop@0","value":0},{"clip":"size-peekTop@hi","value":1000}]}
+              },
+              {
+                "name": "lurk",
+                "blend": {"by":"iconD","clips":[{"clip":"size-lurk@0","value":0},{"clip":"size-lurk@hi","value":1000}]}
+              }
+            ],
+            "transitions": [
+              {"from":"entry","to":"rest"},
+              {"from":"any","to":"rest","conditions":[{"on":"settle"}]},
+              {"from":"any","to":"peekLeft","conditions":[{"on":"peekLeft"}]},
+              {"from":"any","to":"peekRight","conditions":[{"on":"peekRight"}]},
+              {"from":"any","to":"peekTop","conditions":[{"on":"peekTop"}]},
+              {"from":"any","to":"lurk","conditions":[{"on":"lurk"}]}
+            ]
+          },
+          {
+            "name": "Sweep",
+            "states": [
+              {"name":"rest","clip":"sweep-rest"},
+              {
+                "name": "swing",
+                "blend": {
+                  "by": "sweep",
+                  "clips": [{"clip":"sweep-swing@lo","value":-7},{"clip":"sweep-swing@0","value":0},{"clip":"sweep-swing@hi","value":7}]
+                }
+              }
+            ],
+            "transitions": [
+              {"from":"entry","to":"rest"},
+              {"from":"any","to":"rest","conditions":[{"on":"settle"}]},
+              {"from":"any","to":"swing","conditions":[{"on":"swing"}]}
+            ]
+          },
+          {
+            "name": "Reel",
+            "states": [
+              {"name":"rest","clip":"reel-rest"},
+              {
+                "name": "swing",
+                "blend": {
+                  "by": "reel",
+                  "clips": [
+                    {"clip":"reel-swing@lo","value":-4000},
+                    {"clip":"reel-swing@0","value":0},
+                    {"clip":"reel-swing@hi","value":4000}
+                  ]
+                }
+              }
+            ],
+            "transitions": [
+              {"from":"entry","to":"rest"},
+              {"from":"any","to":"rest","conditions":[{"on":"settle"}]},
+              {"from":"any","to":"swing","conditions":[{"on":"swing"}]}
+            ]
+          }
+        ]
+      }
+    },
+    {"source":"../pip/pip-inputs.json","control":"inputs"},
+    {"artboard":{"name":"Web","width":16,"height":1000},"art":{"svg":"web.svg"}},
+    {"artboard":{"name":"Splat","width":80,"height":80},"art":{"svg":"splat.svg"}}
+  ]
+}
