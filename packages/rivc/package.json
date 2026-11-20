@@ -1,0 +1,16 @@
+{
+  "name": "@shady-pip/rivc",
+  "private": true,
+  "description": "rivc: compiles Pip's JSON + SVG sources into Rive .riv files (Kotlin/JVM)",
+  "bin": {
+    "rivc": "./rivc"
+  },
+  "scripts": {
+    "build": ". ../../scripts/env.sh && ./gradlew -q installDist && echo \"rivc installed: packages/rivc/build/install/rivc/bin/rivc\"",
+    "test": ". ../../scripts/env.sh && ./gradlew test",
+    "rivc:test": ". ../../scripts/env.sh && ./gradlew cleanTest test",
+    "compile": ". ../../scripts/env.sh && cd \"${INIT_CWD:-.}\" && \"$OLDPWD/rivc\" compile",
+    "dump": ". ../../scripts/env.sh && cd \"${INIT_CWD:-.}\" && \"$OLDPWD/rivc\" dump",
+    "diff": ". ../../scripts/env.sh && cd \"${INIT_CWD:-.}\" && \"$OLDPWD/rivc\" diff"
+  }
+}

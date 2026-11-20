@@ -1,0 +1,110 @@
+{
+    "artboard": {
+        "name": "set-d70s-steps",
+        "width": 940.0,
+        "height": 760.0
+    },
+    "art": {
+        "svg": "set-d70s-steps.svg"
+    },
+    "clips": [
+        {
+            "name": "rays-turn",
+            "frames": 2570,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "rays",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 2570,
+                            "value": 0.4485496177625427
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "bloom",
+            "frames": 480,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "rays",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.417,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 480,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "sun-glow",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 480,
+                            "value": 1.35,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "sun-glow",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 480,
+                            "value": 1.35,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "rays-turn",
+                "states": [
+                    {
+                        "name": "rays-turn",
+                        "clip": "rays-turn"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rays-turn"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,5517 @@
+{
+    "artboard": {
+        "name": "set-d70s-splash",
+        "width": 700.0,
+        "height": 560.0
+    },
+    "art": {
+        "svg": "set-d70s-splash.svg"
+    },
+    "clips": [
+        {
+            "name": "splash",
+            "frames": 420,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "ring",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.199
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.37
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.515
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.636
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.734
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.813
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.875
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.921
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.977
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.99
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.997
+                        },
+                        {
+                            "frame": 390,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ring",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.199
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.37
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.515
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.636
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.734
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.813
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.875
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.921
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.977
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.99
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.997
+                        },
+                        {
+                            "frame": 390,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ring",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.5
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.429
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.357
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.286
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.214
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.143
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.071
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-0",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -20.868
+                        },
+                        {
+                            "frame": 60,
+                            "value": -41.736
+                        },
+                        {
+                            "frame": 90,
+                            "value": -62.604
+                        },
+                        {
+                            "frame": 120,
+                            "value": -83.473
+                        },
+                        {
+                            "frame": 150,
+                            "value": -104.341
+                        },
+                        {
+                            "frame": 180,
+                            "value": -125.209
+                        },
+                        {
+                            "frame": 210,
+                            "value": -146.077
+                        },
+                        {
+                            "frame": 240,
+                            "value": -166.945
+                        },
+                        {
+                            "frame": 270,
+                            "value": -187.813
+                        },
+                        {
+                            "frame": 300,
+                            "value": -208.681
+                        },
+                        {
+                            "frame": 330,
+                            "value": -229.55
+                        },
+                        {
+                            "frame": 360,
+                            "value": -250.418
+                        },
+                        {
+                            "frame": 390,
+                            "value": -271.286
+                        },
+                        {
+                            "frame": 420,
+                            "value": -292.154
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-0",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.273
+                        },
+                        {
+                            "frame": 60,
+                            "value": 8.914
+                        },
+                        {
+                            "frame": 90,
+                            "value": 25.922
+                        },
+                        {
+                            "frame": 120,
+                            "value": 51.298
+                        },
+                        {
+                            "frame": 150,
+                            "value": 85.041
+                        },
+                        {
+                            "frame": 180,
+                            "value": 127.151
+                        },
+                        {
+                            "frame": 210,
+                            "value": 177.628
+                        },
+                        {
+                            "frame": 240,
+                            "value": 236.473
+                        },
+                        {
+                            "frame": 270,
+                            "value": 303.686
+                        },
+                        {
+                            "frame": 300,
+                            "value": 379.265
+                        },
+                        {
+                            "frame": 330,
+                            "value": 463.212
+                        },
+                        {
+                            "frame": 360,
+                            "value": 555.526
+                        },
+                        {
+                            "frame": 390,
+                            "value": 656.208
+                        },
+                        {
+                            "frame": 420,
+                            "value": 765.257
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-0",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-0",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-0",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-1",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -20.905
+                        },
+                        {
+                            "frame": 60,
+                            "value": -41.81
+                        },
+                        {
+                            "frame": 90,
+                            "value": -62.715
+                        },
+                        {
+                            "frame": 120,
+                            "value": -83.62
+                        },
+                        {
+                            "frame": 150,
+                            "value": -104.525
+                        },
+                        {
+                            "frame": 180,
+                            "value": -125.43
+                        },
+                        {
+                            "frame": 210,
+                            "value": -146.336
+                        },
+                        {
+                            "frame": 240,
+                            "value": -167.241
+                        },
+                        {
+                            "frame": 270,
+                            "value": -188.146
+                        },
+                        {
+                            "frame": 300,
+                            "value": -209.051
+                        },
+                        {
+                            "frame": 330,
+                            "value": -229.956
+                        },
+                        {
+                            "frame": 360,
+                            "value": -250.861
+                        },
+                        {
+                            "frame": 390,
+                            "value": -271.766
+                        },
+                        {
+                            "frame": 420,
+                            "value": -292.671
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-1",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -7.972
+                        },
+                        {
+                            "frame": 60,
+                            "value": -7.578
+                        },
+                        {
+                            "frame": 90,
+                            "value": 1.185
+                        },
+                        {
+                            "frame": 120,
+                            "value": 18.314
+                        },
+                        {
+                            "frame": 150,
+                            "value": 43.811
+                        },
+                        {
+                            "frame": 180,
+                            "value": 77.675
+                        },
+                        {
+                            "frame": 210,
+                            "value": 119.907
+                        },
+                        {
+                            "frame": 240,
+                            "value": 170.506
+                        },
+                        {
+                            "frame": 270,
+                            "value": 229.472
+                        },
+                        {
+                            "frame": 300,
+                            "value": 296.806
+                        },
+                        {
+                            "frame": 330,
+                            "value": 372.507
+                        },
+                        {
+                            "frame": 360,
+                            "value": 456.575
+                        },
+                        {
+                            "frame": 390,
+                            "value": 549.011
+                        },
+                        {
+                            "frame": 420,
+                            "value": 649.814
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-1",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-1",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-1",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-2",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -17.397
+                        },
+                        {
+                            "frame": 60,
+                            "value": -34.795
+                        },
+                        {
+                            "frame": 90,
+                            "value": -52.192
+                        },
+                        {
+                            "frame": 120,
+                            "value": -69.59
+                        },
+                        {
+                            "frame": 150,
+                            "value": -86.987
+                        },
+                        {
+                            "frame": 180,
+                            "value": -104.385
+                        },
+                        {
+                            "frame": 210,
+                            "value": -121.782
+                        },
+                        {
+                            "frame": 240,
+                            "value": -139.18
+                        },
+                        {
+                            "frame": 270,
+                            "value": -156.577
+                        },
+                        {
+                            "frame": 300,
+                            "value": -173.975
+                        },
+                        {
+                            "frame": 330,
+                            "value": -191.372
+                        },
+                        {
+                            "frame": 360,
+                            "value": -208.77
+                        },
+                        {
+                            "frame": 390,
+                            "value": -226.167
+                        },
+                        {
+                            "frame": 420,
+                            "value": -243.565
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-2",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -9.615
+                        },
+                        {
+                            "frame": 60,
+                            "value": -10.862
+                        },
+                        {
+                            "frame": 90,
+                            "value": -3.742
+                        },
+                        {
+                            "frame": 120,
+                            "value": 11.746
+                        },
+                        {
+                            "frame": 150,
+                            "value": 35.6
+                        },
+                        {
+                            "frame": 180,
+                            "value": 67.823
+                        },
+                        {
+                            "frame": 210,
+                            "value": 108.412
+                        },
+                        {
+                            "frame": 240,
+                            "value": 157.369
+                        },
+                        {
+                            "frame": 270,
+                            "value": 214.693
+                        },
+                        {
+                            "frame": 300,
+                            "value": 280.384
+                        },
+                        {
+                            "frame": 330,
+                            "value": 354.443
+                        },
+                        {
+                            "frame": 360,
+                            "value": 436.87
+                        },
+                        {
+                            "frame": 390,
+                            "value": 527.663
+                        },
+                        {
+                            "frame": 420,
+                            "value": 626.824
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-2",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-2",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-2",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-3",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -23.414
+                        },
+                        {
+                            "frame": 60,
+                            "value": -46.828
+                        },
+                        {
+                            "frame": 90,
+                            "value": -70.243
+                        },
+                        {
+                            "frame": 120,
+                            "value": -93.657
+                        },
+                        {
+                            "frame": 150,
+                            "value": -117.071
+                        },
+                        {
+                            "frame": 180,
+                            "value": -140.485
+                        },
+                        {
+                            "frame": 210,
+                            "value": -163.9
+                        },
+                        {
+                            "frame": 240,
+                            "value": -187.314
+                        },
+                        {
+                            "frame": 270,
+                            "value": -210.728
+                        },
+                        {
+                            "frame": 300,
+                            "value": -234.142
+                        },
+                        {
+                            "frame": 330,
+                            "value": -257.556
+                        },
+                        {
+                            "frame": 360,
+                            "value": -280.971
+                        },
+                        {
+                            "frame": 390,
+                            "value": -304.385
+                        },
+                        {
+                            "frame": 420,
+                            "value": -327.799
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-3",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -18.922
+                        },
+                        {
+                            "frame": 60,
+                            "value": -29.476
+                        },
+                        {
+                            "frame": 90,
+                            "value": -31.663
+                        },
+                        {
+                            "frame": 120,
+                            "value": -25.483
+                        },
+                        {
+                            "frame": 150,
+                            "value": -10.936
+                        },
+                        {
+                            "frame": 180,
+                            "value": 11.979
+                        },
+                        {
+                            "frame": 210,
+                            "value": 43.261
+                        },
+                        {
+                            "frame": 240,
+                            "value": 82.911
+                        },
+                        {
+                            "frame": 270,
+                            "value": 130.928
+                        },
+                        {
+                            "frame": 300,
+                            "value": 187.312
+                        },
+                        {
+                            "frame": 330,
+                            "value": 252.064
+                        },
+                        {
+                            "frame": 360,
+                            "value": 325.183
+                        },
+                        {
+                            "frame": 390,
+                            "value": 406.669
+                        },
+                        {
+                            "frame": 420,
+                            "value": 496.523
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-3",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-3",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-3",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.918
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.872
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-4",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -17.931
+                        },
+                        {
+                            "frame": 60,
+                            "value": -35.863
+                        },
+                        {
+                            "frame": 90,
+                            "value": -53.794
+                        },
+                        {
+                            "frame": 120,
+                            "value": -71.725
+                        },
+                        {
+                            "frame": 150,
+                            "value": -89.656
+                        },
+                        {
+                            "frame": 180,
+                            "value": -107.588
+                        },
+                        {
+                            "frame": 210,
+                            "value": -125.519
+                        },
+                        {
+                            "frame": 240,
+                            "value": -143.45
+                        },
+                        {
+                            "frame": 270,
+                            "value": -161.381
+                        },
+                        {
+                            "frame": 300,
+                            "value": -179.313
+                        },
+                        {
+                            "frame": 330,
+                            "value": -197.244
+                        },
+                        {
+                            "frame": 360,
+                            "value": -215.175
+                        },
+                        {
+                            "frame": 390,
+                            "value": -233.107
+                        },
+                        {
+                            "frame": 420,
+                            "value": -251.038
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-4",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -21.16
+                        },
+                        {
+                            "frame": 60,
+                            "value": -33.953
+                        },
+                        {
+                            "frame": 90,
+                            "value": -38.379
+                        },
+                        {
+                            "frame": 120,
+                            "value": -34.437
+                        },
+                        {
+                            "frame": 150,
+                            "value": -22.128
+                        },
+                        {
+                            "frame": 180,
+                            "value": -1.452
+                        },
+                        {
+                            "frame": 210,
+                            "value": 27.592
+                        },
+                        {
+                            "frame": 240,
+                            "value": 65.003
+                        },
+                        {
+                            "frame": 270,
+                            "value": 110.781
+                        },
+                        {
+                            "frame": 300,
+                            "value": 164.927
+                        },
+                        {
+                            "frame": 330,
+                            "value": 227.44
+                        },
+                        {
+                            "frame": 360,
+                            "value": 298.321
+                        },
+                        {
+                            "frame": 390,
+                            "value": 377.569
+                        },
+                        {
+                            "frame": 420,
+                            "value": 465.184
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-4",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-4",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-4",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.918
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.872
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.816
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-5",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -9.859
+                        },
+                        {
+                            "frame": 60,
+                            "value": -19.718
+                        },
+                        {
+                            "frame": 90,
+                            "value": -29.577
+                        },
+                        {
+                            "frame": 120,
+                            "value": -39.436
+                        },
+                        {
+                            "frame": 150,
+                            "value": -49.295
+                        },
+                        {
+                            "frame": 180,
+                            "value": -59.153
+                        },
+                        {
+                            "frame": 210,
+                            "value": -69.012
+                        },
+                        {
+                            "frame": 240,
+                            "value": -78.871
+                        },
+                        {
+                            "frame": 270,
+                            "value": -88.73
+                        },
+                        {
+                            "frame": 300,
+                            "value": -98.589
+                        },
+                        {
+                            "frame": 330,
+                            "value": -108.448
+                        },
+                        {
+                            "frame": 360,
+                            "value": -118.307
+                        },
+                        {
+                            "frame": 390,
+                            "value": -128.166
+                        },
+                        {
+                            "frame": 420,
+                            "value": -138.025
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-5",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -26.791
+                        },
+                        {
+                            "frame": 60,
+                            "value": -45.214
+                        },
+                        {
+                            "frame": 90,
+                            "value": -55.27
+                        },
+                        {
+                            "frame": 120,
+                            "value": -56.959
+                        },
+                        {
+                            "frame": 150,
+                            "value": -50.28
+                        },
+                        {
+                            "frame": 180,
+                            "value": -35.234
+                        },
+                        {
+                            "frame": 210,
+                            "value": -11.821
+                        },
+                        {
+                            "frame": 240,
+                            "value": 19.96
+                        },
+                        {
+                            "frame": 270,
+                            "value": 60.108
+                        },
+                        {
+                            "frame": 300,
+                            "value": 108.624
+                        },
+                        {
+                            "frame": 330,
+                            "value": 165.507
+                        },
+                        {
+                            "frame": 360,
+                            "value": 230.757
+                        },
+                        {
+                            "frame": 390,
+                            "value": 304.374
+                        },
+                        {
+                            "frame": 420,
+                            "value": 386.359
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-5",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-5",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-5",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.918
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.872
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.816
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-6",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -11.353
+                        },
+                        {
+                            "frame": 60,
+                            "value": -22.706
+                        },
+                        {
+                            "frame": 90,
+                            "value": -34.059
+                        },
+                        {
+                            "frame": 120,
+                            "value": -45.412
+                        },
+                        {
+                            "frame": 150,
+                            "value": -56.765
+                        },
+                        {
+                            "frame": 180,
+                            "value": -68.117
+                        },
+                        {
+                            "frame": 210,
+                            "value": -79.47
+                        },
+                        {
+                            "frame": 240,
+                            "value": -90.823
+                        },
+                        {
+                            "frame": 270,
+                            "value": -102.176
+                        },
+                        {
+                            "frame": 300,
+                            "value": -113.529
+                        },
+                        {
+                            "frame": 330,
+                            "value": -124.882
+                        },
+                        {
+                            "frame": 360,
+                            "value": -136.235
+                        },
+                        {
+                            "frame": 390,
+                            "value": -147.588
+                        },
+                        {
+                            "frame": 420,
+                            "value": -158.941
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-6",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -30.009
+                        },
+                        {
+                            "frame": 60,
+                            "value": -51.651
+                        },
+                        {
+                            "frame": 90,
+                            "value": -64.925
+                        },
+                        {
+                            "frame": 120,
+                            "value": -69.832
+                        },
+                        {
+                            "frame": 150,
+                            "value": -66.372
+                        },
+                        {
+                            "frame": 180,
+                            "value": -54.544
+                        },
+                        {
+                            "frame": 210,
+                            "value": -34.349
+                        },
+                        {
+                            "frame": 240,
+                            "value": -5.786
+                        },
+                        {
+                            "frame": 270,
+                            "value": 31.143
+                        },
+                        {
+                            "frame": 300,
+                            "value": 76.441
+                        },
+                        {
+                            "frame": 330,
+                            "value": 130.105
+                        },
+                        {
+                            "frame": 360,
+                            "value": 192.137
+                        },
+                        {
+                            "frame": 390,
+                            "value": 262.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 341.303
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-6",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-6",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-6",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.918
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.872
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.816
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.673
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-7",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -1.035
+                        },
+                        {
+                            "frame": 60,
+                            "value": -2.07
+                        },
+                        {
+                            "frame": 90,
+                            "value": -3.105
+                        },
+                        {
+                            "frame": 120,
+                            "value": -4.139
+                        },
+                        {
+                            "frame": 150,
+                            "value": -5.174
+                        },
+                        {
+                            "frame": 180,
+                            "value": -6.209
+                        },
+                        {
+                            "frame": 210,
+                            "value": -7.244
+                        },
+                        {
+                            "frame": 240,
+                            "value": -8.279
+                        },
+                        {
+                            "frame": 270,
+                            "value": -9.314
+                        },
+                        {
+                            "frame": 300,
+                            "value": -10.348
+                        },
+                        {
+                            "frame": 330,
+                            "value": -11.383
+                        },
+                        {
+                            "frame": 360,
+                            "value": -12.418
+                        },
+                        {
+                            "frame": 390,
+                            "value": -13.453
+                        },
+                        {
+                            "frame": 420,
+                            "value": -14.488
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-7",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -32.389
+                        },
+                        {
+                            "frame": 60,
+                            "value": -56.41
+                        },
+                        {
+                            "frame": 90,
+                            "value": -72.064
+                        },
+                        {
+                            "frame": 120,
+                            "value": -79.351
+                        },
+                        {
+                            "frame": 150,
+                            "value": -78.27
+                        },
+                        {
+                            "frame": 180,
+                            "value": -68.822
+                        },
+                        {
+                            "frame": 210,
+                            "value": -51.006
+                        },
+                        {
+                            "frame": 240,
+                            "value": -24.824
+                        },
+                        {
+                            "frame": 270,
+                            "value": 9.727
+                        },
+                        {
+                            "frame": 300,
+                            "value": 52.644
+                        },
+                        {
+                            "frame": 330,
+                            "value": 103.929
+                        },
+                        {
+                            "frame": 360,
+                            "value": 163.581
+                        },
+                        {
+                            "frame": 390,
+                            "value": 231.601
+                        },
+                        {
+                            "frame": 420,
+                            "value": 307.987
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-7",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-7",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-7",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.918
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.872
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.816
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.673
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-8",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 2.164
+                        },
+                        {
+                            "frame": 60,
+                            "value": 4.328
+                        },
+                        {
+                            "frame": 90,
+                            "value": 6.492
+                        },
+                        {
+                            "frame": 120,
+                            "value": 8.655
+                        },
+                        {
+                            "frame": 150,
+                            "value": 10.819
+                        },
+                        {
+                            "frame": 180,
+                            "value": 12.983
+                        },
+                        {
+                            "frame": 210,
+                            "value": 15.147
+                        },
+                        {
+                            "frame": 240,
+                            "value": 17.311
+                        },
+                        {
+                            "frame": 270,
+                            "value": 19.475
+                        },
+                        {
+                            "frame": 300,
+                            "value": 21.639
+                        },
+                        {
+                            "frame": 330,
+                            "value": 23.803
+                        },
+                        {
+                            "frame": 360,
+                            "value": 25.966
+                        },
+                        {
+                            "frame": 390,
+                            "value": 28.13
+                        },
+                        {
+                            "frame": 420,
+                            "value": 30.294
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-8",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -30.873
+                        },
+                        {
+                            "frame": 60,
+                            "value": -53.38
+                        },
+                        {
+                            "frame": 90,
+                            "value": -67.518
+                        },
+                        {
+                            "frame": 120,
+                            "value": -73.29
+                        },
+                        {
+                            "frame": 150,
+                            "value": -70.694
+                        },
+                        {
+                            "frame": 180,
+                            "value": -59.731
+                        },
+                        {
+                            "frame": 210,
+                            "value": -40.4
+                        },
+                        {
+                            "frame": 240,
+                            "value": -12.702
+                        },
+                        {
+                            "frame": 270,
+                            "value": 23.363
+                        },
+                        {
+                            "frame": 300,
+                            "value": 67.796
+                        },
+                        {
+                            "frame": 330,
+                            "value": 120.596
+                        },
+                        {
+                            "frame": 360,
+                            "value": 181.763
+                        },
+                        {
+                            "frame": 390,
+                            "value": 251.298
+                        },
+                        {
+                            "frame": 420,
+                            "value": 329.2
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-8",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-8",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-8",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.918
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.872
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.816
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.673
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-9",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 6.47
+                        },
+                        {
+                            "frame": 60,
+                            "value": 12.94
+                        },
+                        {
+                            "frame": 90,
+                            "value": 19.411
+                        },
+                        {
+                            "frame": 120,
+                            "value": 25.881
+                        },
+                        {
+                            "frame": 150,
+                            "value": 32.351
+                        },
+                        {
+                            "frame": 180,
+                            "value": 38.821
+                        },
+                        {
+                            "frame": 210,
+                            "value": 45.291
+                        },
+                        {
+                            "frame": 240,
+                            "value": 51.762
+                        },
+                        {
+                            "frame": 270,
+                            "value": 58.232
+                        },
+                        {
+                            "frame": 300,
+                            "value": 64.702
+                        },
+                        {
+                            "frame": 330,
+                            "value": 71.172
+                        },
+                        {
+                            "frame": 360,
+                            "value": 77.642
+                        },
+                        {
+                            "frame": 390,
+                            "value": 84.112
+                        },
+                        {
+                            "frame": 420,
+                            "value": 90.583
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-9",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -17.842
+                        },
+                        {
+                            "frame": 60,
+                            "value": -27.318
+                        },
+                        {
+                            "frame": 90,
+                            "value": -28.425
+                        },
+                        {
+                            "frame": 120,
+                            "value": -21.166
+                        },
+                        {
+                            "frame": 150,
+                            "value": -5.539
+                        },
+                        {
+                            "frame": 180,
+                            "value": 18.456
+                        },
+                        {
+                            "frame": 210,
+                            "value": 50.817
+                        },
+                        {
+                            "frame": 240,
+                            "value": 91.546
+                        },
+                        {
+                            "frame": 270,
+                            "value": 140.643
+                        },
+                        {
+                            "frame": 300,
+                            "value": 198.106
+                        },
+                        {
+                            "frame": 330,
+                            "value": 263.937
+                        },
+                        {
+                            "frame": 360,
+                            "value": 338.136
+                        },
+                        {
+                            "frame": 390,
+                            "value": 420.701
+                        },
+                        {
+                            "frame": 420,
+                            "value": 511.635
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-9",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-9",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-9",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.918
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.872
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-10",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 9.42
+                        },
+                        {
+                            "frame": 60,
+                            "value": 18.84
+                        },
+                        {
+                            "frame": 90,
+                            "value": 28.26
+                        },
+                        {
+                            "frame": 120,
+                            "value": 37.68
+                        },
+                        {
+                            "frame": 150,
+                            "value": 47.1
+                        },
+                        {
+                            "frame": 180,
+                            "value": 56.52
+                        },
+                        {
+                            "frame": 210,
+                            "value": 65.94
+                        },
+                        {
+                            "frame": 240,
+                            "value": 75.36
+                        },
+                        {
+                            "frame": 270,
+                            "value": 84.78
+                        },
+                        {
+                            "frame": 300,
+                            "value": 94.2
+                        },
+                        {
+                            "frame": 330,
+                            "value": 103.62
+                        },
+                        {
+                            "frame": 360,
+                            "value": 113.04
+                        },
+                        {
+                            "frame": 390,
+                            "value": 122.46
+                        },
+                        {
+                            "frame": 420,
+                            "value": 131.88
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-10",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -19.892
+                        },
+                        {
+                            "frame": 60,
+                            "value": -31.418
+                        },
+                        {
+                            "frame": 90,
+                            "value": -34.575
+                        },
+                        {
+                            "frame": 120,
+                            "value": -29.366
+                        },
+                        {
+                            "frame": 150,
+                            "value": -15.789
+                        },
+                        {
+                            "frame": 180,
+                            "value": 6.156
+                        },
+                        {
+                            "frame": 210,
+                            "value": 36.467
+                        },
+                        {
+                            "frame": 240,
+                            "value": 75.146
+                        },
+                        {
+                            "frame": 270,
+                            "value": 122.193
+                        },
+                        {
+                            "frame": 300,
+                            "value": 177.606
+                        },
+                        {
+                            "frame": 330,
+                            "value": 241.387
+                        },
+                        {
+                            "frame": 360,
+                            "value": 313.536
+                        },
+                        {
+                            "frame": 390,
+                            "value": 394.052
+                        },
+                        {
+                            "frame": 420,
+                            "value": 482.935
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-10",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-10",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-10",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.918
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.872
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-11",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 21.101
+                        },
+                        {
+                            "frame": 60,
+                            "value": 42.203
+                        },
+                        {
+                            "frame": 90,
+                            "value": 63.304
+                        },
+                        {
+                            "frame": 120,
+                            "value": 84.405
+                        },
+                        {
+                            "frame": 150,
+                            "value": 105.507
+                        },
+                        {
+                            "frame": 180,
+                            "value": 126.608
+                        },
+                        {
+                            "frame": 210,
+                            "value": 147.709
+                        },
+                        {
+                            "frame": 240,
+                            "value": 168.811
+                        },
+                        {
+                            "frame": 270,
+                            "value": 189.912
+                        },
+                        {
+                            "frame": 300,
+                            "value": 211.013
+                        },
+                        {
+                            "frame": 330,
+                            "value": 232.114
+                        },
+                        {
+                            "frame": 360,
+                            "value": 253.216
+                        },
+                        {
+                            "frame": 390,
+                            "value": 274.317
+                        },
+                        {
+                            "frame": 420,
+                            "value": 295.418
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-11",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -26.78
+                        },
+                        {
+                            "frame": 60,
+                            "value": -45.194
+                        },
+                        {
+                            "frame": 90,
+                            "value": -55.239
+                        },
+                        {
+                            "frame": 120,
+                            "value": -56.918
+                        },
+                        {
+                            "frame": 150,
+                            "value": -50.229
+                        },
+                        {
+                            "frame": 180,
+                            "value": -35.173
+                        },
+                        {
+                            "frame": 210,
+                            "value": -11.749
+                        },
+                        {
+                            "frame": 240,
+                            "value": 20.042
+                        },
+                        {
+                            "frame": 270,
+                            "value": 60.2
+                        },
+                        {
+                            "frame": 300,
+                            "value": 108.726
+                        },
+                        {
+                            "frame": 330,
+                            "value": 165.619
+                        },
+                        {
+                            "frame": 360,
+                            "value": 230.879
+                        },
+                        {
+                            "frame": 390,
+                            "value": 304.507
+                        },
+                        {
+                            "frame": 420,
+                            "value": 386.502
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-11",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-11",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-11",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.918
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.872
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.816
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-12",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 14.402
+                        },
+                        {
+                            "frame": 60,
+                            "value": 28.804
+                        },
+                        {
+                            "frame": 90,
+                            "value": 43.206
+                        },
+                        {
+                            "frame": 120,
+                            "value": 57.608
+                        },
+                        {
+                            "frame": 150,
+                            "value": 72.01
+                        },
+                        {
+                            "frame": 180,
+                            "value": 86.412
+                        },
+                        {
+                            "frame": 210,
+                            "value": 100.814
+                        },
+                        {
+                            "frame": 240,
+                            "value": 115.216
+                        },
+                        {
+                            "frame": 270,
+                            "value": 129.618
+                        },
+                        {
+                            "frame": 300,
+                            "value": 144.02
+                        },
+                        {
+                            "frame": 330,
+                            "value": 158.422
+                        },
+                        {
+                            "frame": 360,
+                            "value": 172.824
+                        },
+                        {
+                            "frame": 390,
+                            "value": 187.226
+                        },
+                        {
+                            "frame": 420,
+                            "value": 201.628
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-12",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -11.19
+                        },
+                        {
+                            "frame": 60,
+                            "value": -14.012
+                        },
+                        {
+                            "frame": 90,
+                            "value": -8.467
+                        },
+                        {
+                            "frame": 120,
+                            "value": 5.446
+                        },
+                        {
+                            "frame": 150,
+                            "value": 27.726
+                        },
+                        {
+                            "frame": 180,
+                            "value": 58.373
+                        },
+                        {
+                            "frame": 210,
+                            "value": 97.387
+                        },
+                        {
+                            "frame": 240,
+                            "value": 144.769
+                        },
+                        {
+                            "frame": 270,
+                            "value": 200.518
+                        },
+                        {
+                            "frame": 300,
+                            "value": 264.635
+                        },
+                        {
+                            "frame": 330,
+                            "value": 337.119
+                        },
+                        {
+                            "frame": 360,
+                            "value": 417.97
+                        },
+                        {
+                            "frame": 390,
+                            "value": 507.188
+                        },
+                        {
+                            "frame": 420,
+                            "value": 604.774
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-12",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-12",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-12",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.918
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-13",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 21.45
+                        },
+                        {
+                            "frame": 60,
+                            "value": 42.9
+                        },
+                        {
+                            "frame": 90,
+                            "value": 64.35
+                        },
+                        {
+                            "frame": 120,
+                            "value": 85.799
+                        },
+                        {
+                            "frame": 150,
+                            "value": 107.249
+                        },
+                        {
+                            "frame": 180,
+                            "value": 128.699
+                        },
+                        {
+                            "frame": 210,
+                            "value": 150.149
+                        },
+                        {
+                            "frame": 240,
+                            "value": 171.599
+                        },
+                        {
+                            "frame": 270,
+                            "value": 193.049
+                        },
+                        {
+                            "frame": 300,
+                            "value": 214.499
+                        },
+                        {
+                            "frame": 330,
+                            "value": 235.948
+                        },
+                        {
+                            "frame": 360,
+                            "value": 257.398
+                        },
+                        {
+                            "frame": 390,
+                            "value": 278.848
+                        },
+                        {
+                            "frame": 420,
+                            "value": 300.298
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-13",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -13.898
+                        },
+                        {
+                            "frame": 60,
+                            "value": -19.43
+                        },
+                        {
+                            "frame": 90,
+                            "value": -16.593
+                        },
+                        {
+                            "frame": 120,
+                            "value": -5.39
+                        },
+                        {
+                            "frame": 150,
+                            "value": 14.181
+                        },
+                        {
+                            "frame": 180,
+                            "value": 42.119
+                        },
+                        {
+                            "frame": 210,
+                            "value": 78.425
+                        },
+                        {
+                            "frame": 240,
+                            "value": 123.098
+                        },
+                        {
+                            "frame": 270,
+                            "value": 176.138
+                        },
+                        {
+                            "frame": 300,
+                            "value": 237.546
+                        },
+                        {
+                            "frame": 330,
+                            "value": 307.321
+                        },
+                        {
+                            "frame": 360,
+                            "value": 385.463
+                        },
+                        {
+                            "frame": 390,
+                            "value": 471.973
+                        },
+                        {
+                            "frame": 420,
+                            "value": 566.85
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-13",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-13",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-13",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.918
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-14",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 31.701
+                        },
+                        {
+                            "frame": 60,
+                            "value": 63.403
+                        },
+                        {
+                            "frame": 90,
+                            "value": 95.104
+                        },
+                        {
+                            "frame": 120,
+                            "value": 126.806
+                        },
+                        {
+                            "frame": 150,
+                            "value": 158.507
+                        },
+                        {
+                            "frame": 180,
+                            "value": 190.209
+                        },
+                        {
+                            "frame": 210,
+                            "value": 221.91
+                        },
+                        {
+                            "frame": 240,
+                            "value": 253.611
+                        },
+                        {
+                            "frame": 270,
+                            "value": 285.313
+                        },
+                        {
+                            "frame": 300,
+                            "value": 317.014
+                        },
+                        {
+                            "frame": 330,
+                            "value": 348.716
+                        },
+                        {
+                            "frame": 360,
+                            "value": 380.417
+                        },
+                        {
+                            "frame": 390,
+                            "value": 412.119
+                        },
+                        {
+                            "frame": 420,
+                            "value": 443.82
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-14",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -12.18
+                        },
+                        {
+                            "frame": 60,
+                            "value": -15.993
+                        },
+                        {
+                            "frame": 90,
+                            "value": -11.438
+                        },
+                        {
+                            "frame": 120,
+                            "value": 1.484
+                        },
+                        {
+                            "frame": 150,
+                            "value": 22.773
+                        },
+                        {
+                            "frame": 180,
+                            "value": 52.43
+                        },
+                        {
+                            "frame": 210,
+                            "value": 90.454
+                        },
+                        {
+                            "frame": 240,
+                            "value": 136.845
+                        },
+                        {
+                            "frame": 270,
+                            "value": 191.604
+                        },
+                        {
+                            "frame": 300,
+                            "value": 254.73
+                        },
+                        {
+                            "frame": 330,
+                            "value": 326.223
+                        },
+                        {
+                            "frame": 360,
+                            "value": 406.084
+                        },
+                        {
+                            "frame": 390,
+                            "value": 494.312
+                        },
+                        {
+                            "frame": 420,
+                            "value": 590.907
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-14",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-14",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-14",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.954
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.918
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-15",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 30.56
+                        },
+                        {
+                            "frame": 60,
+                            "value": 61.12
+                        },
+                        {
+                            "frame": 90,
+                            "value": 91.68
+                        },
+                        {
+                            "frame": 120,
+                            "value": 122.239
+                        },
+                        {
+                            "frame": 150,
+                            "value": 152.799
+                        },
+                        {
+                            "frame": 180,
+                            "value": 183.359
+                        },
+                        {
+                            "frame": 210,
+                            "value": 213.919
+                        },
+                        {
+                            "frame": 240,
+                            "value": 244.479
+                        },
+                        {
+                            "frame": 270,
+                            "value": 275.039
+                        },
+                        {
+                            "frame": 300,
+                            "value": 305.599
+                        },
+                        {
+                            "frame": 330,
+                            "value": 336.158
+                        },
+                        {
+                            "frame": 360,
+                            "value": 366.718
+                        },
+                        {
+                            "frame": 390,
+                            "value": 397.278
+                        },
+                        {
+                            "frame": 420,
+                            "value": 427.838
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-15",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": -3.897
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.573
+                        },
+                        {
+                            "frame": 90,
+                            "value": 13.41
+                        },
+                        {
+                            "frame": 120,
+                            "value": 34.615
+                        },
+                        {
+                            "frame": 150,
+                            "value": 64.187
+                        },
+                        {
+                            "frame": 180,
+                            "value": 102.126
+                        },
+                        {
+                            "frame": 210,
+                            "value": 148.433
+                        },
+                        {
+                            "frame": 240,
+                            "value": 203.107
+                        },
+                        {
+                            "frame": 270,
+                            "value": 266.149
+                        },
+                        {
+                            "frame": 300,
+                            "value": 337.557
+                        },
+                        {
+                            "frame": 330,
+                            "value": 417.334
+                        },
+                        {
+                            "frame": 360,
+                            "value": 505.477
+                        },
+                        {
+                            "frame": 390,
+                            "value": 601.988
+                        },
+                        {
+                            "frame": 420,
+                            "value": 706.866
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-15",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-15",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.929
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.893
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.857
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.821
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.786
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.714
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.679
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.643
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.607
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.571
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.536
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.5
+                        }
+                    ]
+                },
+                {
+                    "target": "drop-15",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.995
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

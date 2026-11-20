@@ -1,0 +1,11528 @@
+{
+ "format": 1,
+ "artboard": {
+  "name": "Pip",
+  "width": 540,
+  "height": 660,
+  "padding": {
+   "top": 110,
+   "right": 90,
+   "bottom": 50,
+   "left": 90
+  }
+ },
+ "art": {
+  "svg": "pip.svg",
+  "groups": [
+   {
+    "id": "shadow-poke",
+    "pivot": {
+     "x": 270,
+     "y": 664.5
+    }
+   },
+   {
+    "id": "shadow-alert",
+    "pivot": {
+     "x": 270,
+     "y": 664.5
+    }
+   },
+   {
+    "id": "shadow",
+    "pivot": {
+     "x": 270,
+     "y": 664.5
+    }
+   },
+   {
+    "id": "hat-shade-level",
+    "pivot": {
+     "x": 300,
+     "y": 430
+    }
+   },
+   {
+    "id": "hat-shade"
+   },
+   {
+    "id": "hat-life-b",
+    "pivot": {
+     "x": 300,
+     "y": 445
+    }
+   },
+   {
+    "id": "hat-life-a",
+    "pivot": {
+     "x": 300,
+     "y": 445
+    }
+   },
+   {
+    "id": "hat-poke",
+    "pivot": {
+     "x": 300,
+     "y": 430
+    }
+   },
+   {
+    "id": "hat-react",
+    "pivot": {
+     "x": 300,
+     "y": 430
+    }
+   },
+   {
+    "id": "hat-droop",
+    "pivot": {
+     "x": 300,
+     "y": 430
+    }
+   },
+   {
+    "id": "face-bands"
+   },
+   {
+    "id": "lidTop-L-tilt2"
+   },
+   {
+    "id": "lidTop-L-tilt"
+   },
+   {
+    "id": "lidTop-L-blink-c"
+   },
+   {
+    "id": "lidTop-L-blink-b"
+   },
+   {
+    "id": "lidTop-L-blink-a"
+   },
+   {
+    "id": "lidTop-L-look"
+   },
+   {
+    "id": "lidTop-L-open"
+   },
+   {
+    "id": "lidTop-L-chan"
+   },
+   {
+    "id": "lidTop-L-mood"
+   },
+   {
+    "id": "squint-L-blink-c"
+   },
+   {
+    "id": "squint-L-blink-b"
+   },
+   {
+    "id": "squint-L-blink-a"
+   },
+   {
+    "id": "squint-L-open"
+   },
+   {
+    "id": "squint-L-chan"
+   },
+   {
+    "id": "squint-L-mood"
+   },
+   {
+    "id": "eyeL-hl"
+   },
+   {
+    "id": "eyeL-hl2"
+   },
+   {
+    "id": "eyeL-hl-look"
+   },
+   {
+    "id": "eyeL-lids"
+   },
+   {
+    "id": "eyeL-react"
+   },
+   {
+    "id": "eyeL-scale"
+   },
+   {
+    "id": "eyeL"
+   },
+   {
+    "id": "lidTop-R-tilt2"
+   },
+   {
+    "id": "lidTop-R-tilt"
+   },
+   {
+    "id": "lidTop-R-blink-c"
+   },
+   {
+    "id": "lidTop-R-blink-b"
+   },
+   {
+    "id": "lidTop-R-blink-a"
+   },
+   {
+    "id": "lidTop-R-look"
+   },
+   {
+    "id": "lidTop-R-open"
+   },
+   {
+    "id": "lidTop-R-chan"
+   },
+   {
+    "id": "lidTop-R-mood"
+   },
+   {
+    "id": "squint-R-blink-c"
+   },
+   {
+    "id": "squint-R-blink-b"
+   },
+   {
+    "id": "squint-R-blink-a"
+   },
+   {
+    "id": "squint-R-open"
+   },
+   {
+    "id": "squint-R-chan"
+   },
+   {
+    "id": "squint-R-mood"
+   },
+   {
+    "id": "eyeR-hl"
+   },
+   {
+    "id": "eyeR-hl2"
+   },
+   {
+    "id": "eyeR-hl-look"
+   },
+   {
+    "id": "eyeR-lids"
+   },
+   {
+    "id": "eyeR-react"
+   },
+   {
+    "id": "eyeR-scale"
+   },
+   {
+    "id": "eyeR"
+   },
+   {
+    "id": "eyes-poke"
+   },
+   {
+    "id": "eyes-giggle"
+   },
+   {
+    "id": "eyes-dart-c"
+   },
+   {
+    "id": "eyes-dart-b"
+   },
+   {
+    "id": "eyes-dart-a"
+   },
+   {
+    "id": "eyes-look"
+   },
+   {
+    "id": "browL-gate"
+   },
+   {
+    "id": "browL-life"
+   },
+   {
+    "id": "browL-chan"
+   },
+   {
+    "id": "browL-mood"
+   },
+   {
+    "id": "browL"
+   },
+   {
+    "id": "browR-gate"
+   },
+   {
+    "id": "browR-life"
+   },
+   {
+    "id": "browR-chan"
+   },
+   {
+    "id": "browR-mood"
+   },
+   {
+    "id": "browR"
+   },
+   {
+    "id": "brows-look"
+   },
+   {
+    "id": "mouth-mood-smile"
+   },
+   {
+    "id": "mouth-mood-o"
+   },
+   {
+    "id": "mouth-mood-shout"
+   },
+   {
+    "id": "mouth-mood-gate"
+   },
+   {
+    "id": "mouth-chan-smile"
+   },
+   {
+    "id": "mouth-chan-o"
+   },
+   {
+    "id": "mouth-chan-shout"
+   },
+   {
+    "id": "mouth-chan-gate"
+   },
+   {
+    "id": "mouth-talk-gate"
+   },
+   {
+    "id": "mouth-poke-gate"
+   },
+   {
+    "id": "mouth-talk-flap",
+    "pivot": {
+     "x": 322,
+     "y": 505
+    }
+   },
+   {
+    "id": "mouth-talk"
+   },
+   {
+    "id": "mouth-giggle"
+   },
+   {
+    "id": "mouth-look"
+   },
+   {
+    "id": "headwear-ninja"
+   },
+   {
+    "id": "headwear-flowers"
+   },
+   {
+    "id": "headwear-sweatband"
+   },
+   {
+    "id": "headwear-droop",
+    "pivot": {
+     "x": 300,
+     "y": 430
+    }
+   },
+   {
+    "id": "headwear"
+   },
+   {
+    "id": "prop-L-sword"
+   },
+   {
+    "id": "prop-L-phone"
+   },
+   {
+    "id": "hand-L-fist"
+   },
+   {
+    "id": "hand-L-point"
+   },
+   {
+    "id": "hand-L-peace"
+   },
+   {
+    "id": "hand-L-palm"
+   },
+   {
+    "id": "hand-L-turn"
+   },
+   {
+    "id": "hand-L"
+   },
+   {
+    "id": "prop-R-sword"
+   },
+   {
+    "id": "prop-R-phone"
+   },
+   {
+    "id": "hand-R-fist"
+   },
+   {
+    "id": "hand-R-point"
+   },
+   {
+    "id": "hand-R-peace"
+   },
+   {
+    "id": "hand-R-palm"
+   },
+   {
+    "id": "hand-R-turn"
+   },
+   {
+    "id": "hand-R"
+   },
+   {
+    "id": "body-breath",
+    "pivot": {
+     "x": 270,
+     "y": 660
+    }
+   },
+   {
+    "id": "body-poke",
+    "pivot": {
+     "x": 270,
+     "y": 660
+    }
+   },
+   {
+    "id": "body-alert",
+    "pivot": {
+     "x": 270,
+     "y": 660
+    }
+   }
+  ],
+  "shapes": [
+   {
+    "id": "shadow-blob"
+   },
+   {
+    "id": "hat"
+   },
+   {
+    "id": "hat-shade-wide"
+   },
+   {
+    "id": "hat-shade-near"
+   },
+   {
+    "id": "face"
+   },
+   {
+    "id": "face-chin"
+   },
+   {
+    "id": "face-band0"
+   },
+   {
+    "id": "face-band1"
+   },
+   {
+    "id": "face-band2"
+   },
+   {
+    "id": "blush-L"
+   },
+   {
+    "id": "blush-R"
+   },
+   {
+    "id": "blush-L-mood"
+   },
+   {
+    "id": "blush-R-mood"
+   },
+   {
+    "id": "blush-L-poke"
+   },
+   {
+    "id": "blush-R-poke"
+   },
+   {
+    "id": "lidTop-L"
+   },
+   {
+    "id": "lidTop-L-lash"
+   },
+   {
+    "id": "squint-L"
+   },
+   {
+    "id": "eyeL-ball"
+   },
+   {
+    "id": "eyeL-hl-dot"
+   },
+   {
+    "id": "eyeL-hl2-dot"
+   },
+   {
+    "id": "closed-L-a"
+   },
+   {
+    "id": "closed-L-b"
+   },
+   {
+    "id": "closed-L-c"
+   },
+   {
+    "id": "closed-L-open"
+   },
+   {
+    "id": "lidTop-R"
+   },
+   {
+    "id": "lidTop-R-lash"
+   },
+   {
+    "id": "squint-R"
+   },
+   {
+    "id": "eyeR-ball"
+   },
+   {
+    "id": "eyeR-hl-dot"
+   },
+   {
+    "id": "eyeR-hl2-dot"
+   },
+   {
+    "id": "closed-R-a"
+   },
+   {
+    "id": "closed-R-b"
+   },
+   {
+    "id": "closed-R-c"
+   },
+   {
+    "id": "closed-R-open"
+   },
+   {
+    "id": "giggle-L"
+   },
+   {
+    "id": "giggle-R"
+   },
+   {
+    "id": "browL-a"
+   },
+   {
+    "id": "browL-b"
+   },
+   {
+    "id": "browR-a"
+   },
+   {
+    "id": "browR-b"
+   },
+   {
+    "id": "mouth-mood"
+   },
+   {
+    "id": "mouth-mood-ticks"
+   },
+   {
+    "id": "mouth-mood-o-inner"
+   },
+   {
+    "id": "mouth-mood-o-tongue"
+   },
+   {
+    "id": "mouth-mood-o-shine"
+   },
+   {
+    "id": "mouth-mood-shout-teeth"
+   },
+   {
+    "id": "mouth-mood-shout-tongue"
+   },
+   {
+    "id": "mouth-mood-shout-groove"
+   },
+   {
+    "id": "mouth"
+   },
+   {
+    "id": "mouth-chan-ticks"
+   },
+   {
+    "id": "mouth-chan-o-inner"
+   },
+   {
+    "id": "mouth-chan-o-tongue"
+   },
+   {
+    "id": "mouth-chan-o-shine"
+   },
+   {
+    "id": "mouth-chan-shout-teeth"
+   },
+   {
+    "id": "mouth-chan-shout-tongue"
+   },
+   {
+    "id": "mouth-chan-shout-groove"
+   },
+   {
+    "id": "mouth-talk-shape"
+   },
+   {
+    "id": "mouth-talk-tongue"
+   },
+   {
+    "id": "mouth-giggle-shape"
+   },
+   {
+    "id": "mouth-giggle-tongue"
+   },
+   {
+    "id": "ninja-tail-a"
+   },
+   {
+    "id": "ninja-tail-b"
+   },
+   {
+    "id": "ninja-band"
+   },
+   {
+    "id": "ninja-band-top"
+   },
+   {
+    "id": "ninja-band-low"
+   },
+   {
+    "id": "ninja-knot"
+   },
+   {
+    "id": "ninja-knot-shine"
+   },
+   {
+    "id": "ninja-plate"
+   },
+   {
+    "id": "ninja-plate-mark"
+   },
+   {
+    "id": "ninja-plate-rivets"
+   },
+   {
+    "id": "ninja-plate-shine"
+   },
+   {
+    "id": "flowers-leaves"
+   },
+   {
+    "id": "flowers-veins"
+   },
+   {
+    "id": "flower0-back"
+   },
+   {
+    "id": "flower0-front"
+   },
+   {
+    "id": "flower0-light"
+   },
+   {
+    "id": "flower0-heart"
+   },
+   {
+    "id": "flower0-dots"
+   },
+   {
+    "id": "flower0-shine"
+   },
+   {
+    "id": "flower1-back"
+   },
+   {
+    "id": "flower1-front"
+   },
+   {
+    "id": "flower1-light"
+   },
+   {
+    "id": "flower1-heart"
+   },
+   {
+    "id": "flower1-dots"
+   },
+   {
+    "id": "flower1-shine"
+   },
+   {
+    "id": "flower2-back"
+   },
+   {
+    "id": "flower2-front"
+   },
+   {
+    "id": "flower2-light"
+   },
+   {
+    "id": "flower2-heart"
+   },
+   {
+    "id": "flower2-dots"
+   },
+   {
+    "id": "flower2-shine"
+   },
+   {
+    "id": "flower3-back"
+   },
+   {
+    "id": "flower3-front"
+   },
+   {
+    "id": "flower3-light"
+   },
+   {
+    "id": "flower3-heart"
+   },
+   {
+    "id": "flower3-dots"
+   },
+   {
+    "id": "flower3-shine"
+   },
+   {
+    "id": "flower4-back"
+   },
+   {
+    "id": "flower4-front"
+   },
+   {
+    "id": "flower4-light"
+   },
+   {
+    "id": "flower4-heart"
+   },
+   {
+    "id": "flower4-dots"
+   },
+   {
+    "id": "flower4-shine"
+   },
+   {
+    "id": "flower5-back"
+   },
+   {
+    "id": "flower5-front"
+   },
+   {
+    "id": "flower5-light"
+   },
+   {
+    "id": "flower5-heart"
+   },
+   {
+    "id": "flower5-dots"
+   },
+   {
+    "id": "flower5-shine"
+   },
+   {
+    "id": "flower6-back"
+   },
+   {
+    "id": "flower6-front"
+   },
+   {
+    "id": "flower6-light"
+   },
+   {
+    "id": "flower6-heart"
+   },
+   {
+    "id": "flower6-dots"
+   },
+   {
+    "id": "flower6-shine"
+   },
+   {
+    "id": "sweatband-band"
+   },
+   {
+    "id": "sweatband-top"
+   },
+   {
+    "id": "sweatband-low"
+   },
+   {
+    "id": "sweatband-stripe"
+   },
+   {
+    "id": "sweatband-stitch0"
+   },
+   {
+    "id": "sweatband-stitch1"
+   },
+   {
+    "id": "prop-L-sword-blade"
+   },
+   {
+    "id": "prop-L-sword-edge"
+   },
+   {
+    "id": "prop-L-sword-grip"
+   },
+   {
+    "id": "prop-L-sword-guard"
+   },
+   {
+    "id": "prop-L-sword-guard-l"
+   },
+   {
+    "id": "prop-L-sword-guard-r"
+   },
+   {
+    "id": "prop-L-sword-pommel"
+   },
+   {
+    "id": "prop-L-sword-gem"
+   },
+   {
+    "id": "prop-L-phone-antenna"
+   },
+   {
+    "id": "prop-L-phone-base"
+   },
+   {
+    "id": "prop-L-phone-lid"
+   },
+   {
+    "id": "prop-L-phone-hinge"
+   },
+   {
+    "id": "prop-L-phone-bezel"
+   },
+   {
+    "id": "prop-L-phone-screen"
+   },
+   {
+    "id": "prop-L-phone-key00"
+   },
+   {
+    "id": "prop-L-phone-key01"
+   },
+   {
+    "id": "prop-L-phone-key02"
+   },
+   {
+    "id": "prop-L-phone-key10"
+   },
+   {
+    "id": "prop-L-phone-key11"
+   },
+   {
+    "id": "prop-L-phone-key12"
+   },
+   {
+    "id": "prop-L-phone-key20"
+   },
+   {
+    "id": "prop-L-phone-key21"
+   },
+   {
+    "id": "prop-L-phone-key22"
+   },
+   {
+    "id": "hand-L-fist-line0"
+   },
+   {
+    "id": "hand-L-fist-skin0"
+   },
+   {
+    "id": "hand-L-fist-fingers"
+   },
+   {
+    "id": "hand-L-point-line0"
+   },
+   {
+    "id": "hand-L-point-line1"
+   },
+   {
+    "id": "hand-L-point-skin0"
+   },
+   {
+    "id": "hand-L-point-skin1"
+   },
+   {
+    "id": "hand-L-peace-line0"
+   },
+   {
+    "id": "hand-L-peace-line1"
+   },
+   {
+    "id": "hand-L-peace-line2"
+   },
+   {
+    "id": "hand-L-peace-skin0"
+   },
+   {
+    "id": "hand-L-peace-skin1"
+   },
+   {
+    "id": "hand-L-peace-skin2"
+   },
+   {
+    "id": "hand-L-palm-line0"
+   },
+   {
+    "id": "hand-L-palm-line1"
+   },
+   {
+    "id": "hand-L-palm-line2"
+   },
+   {
+    "id": "hand-L-palm-line3"
+   },
+   {
+    "id": "hand-L-palm-line4"
+   },
+   {
+    "id": "hand-L-palm-line5"
+   },
+   {
+    "id": "hand-L-palm-skin0"
+   },
+   {
+    "id": "hand-L-palm-skin1"
+   },
+   {
+    "id": "hand-L-palm-skin2"
+   },
+   {
+    "id": "hand-L-palm-skin3"
+   },
+   {
+    "id": "hand-L-palm-skin4"
+   },
+   {
+    "id": "hand-L-palm-skin5"
+   },
+   {
+    "id": "prop-R-sword-blade"
+   },
+   {
+    "id": "prop-R-sword-edge"
+   },
+   {
+    "id": "prop-R-sword-grip"
+   },
+   {
+    "id": "prop-R-sword-guard"
+   },
+   {
+    "id": "prop-R-sword-guard-l"
+   },
+   {
+    "id": "prop-R-sword-guard-r"
+   },
+   {
+    "id": "prop-R-sword-pommel"
+   },
+   {
+    "id": "prop-R-sword-gem"
+   },
+   {
+    "id": "prop-R-phone-antenna"
+   },
+   {
+    "id": "prop-R-phone-base"
+   },
+   {
+    "id": "prop-R-phone-lid"
+   },
+   {
+    "id": "prop-R-phone-hinge"
+   },
+   {
+    "id": "prop-R-phone-bezel"
+   },
+   {
+    "id": "prop-R-phone-screen"
+   },
+   {
+    "id": "prop-R-phone-key00"
+   },
+   {
+    "id": "prop-R-phone-key01"
+   },
+   {
+    "id": "prop-R-phone-key02"
+   },
+   {
+    "id": "prop-R-phone-key10"
+   },
+   {
+    "id": "prop-R-phone-key11"
+   },
+   {
+    "id": "prop-R-phone-key12"
+   },
+   {
+    "id": "prop-R-phone-key20"
+   },
+   {
+    "id": "prop-R-phone-key21"
+   },
+   {
+    "id": "prop-R-phone-key22"
+   },
+   {
+    "id": "hand-R-fist-line0"
+   },
+   {
+    "id": "hand-R-fist-skin0"
+   },
+   {
+    "id": "hand-R-fist-fingers"
+   },
+   {
+    "id": "hand-R-point-line0"
+   },
+   {
+    "id": "hand-R-point-line1"
+   },
+   {
+    "id": "hand-R-point-skin0"
+   },
+   {
+    "id": "hand-R-point-skin1"
+   },
+   {
+    "id": "hand-R-peace-line0"
+   },
+   {
+    "id": "hand-R-peace-line1"
+   },
+   {
+    "id": "hand-R-peace-line2"
+   },
+   {
+    "id": "hand-R-peace-skin0"
+   },
+   {
+    "id": "hand-R-peace-skin1"
+   },
+   {
+    "id": "hand-R-peace-skin2"
+   },
+   {
+    "id": "hand-R-palm-line0"
+   },
+   {
+    "id": "hand-R-palm-line1"
+   },
+   {
+    "id": "hand-R-palm-line2"
+   },
+   {
+    "id": "hand-R-palm-line3"
+   },
+   {
+    "id": "hand-R-palm-line4"
+   },
+   {
+    "id": "hand-R-palm-line5"
+   },
+   {
+    "id": "hand-R-palm-skin0"
+   },
+   {
+    "id": "hand-R-palm-skin1"
+   },
+   {
+    "id": "hand-R-palm-skin2"
+   },
+   {
+    "id": "hand-R-palm-skin3"
+   },
+   {
+    "id": "hand-R-palm-skin4"
+   },
+   {
+    "id": "hand-R-palm-skin5"
+   }
+  ]
+ },
+ "clips": [
+  {
+   "name": "life-blink-a",
+   "frames": 318,
+   "loop": "loop",
+   "tracks": [
+    {
+     "target": "lidTop-L-blink-a",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 184,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 188,
+       "value": 56
+      },
+      {
+       "frame": 190,
+       "value": 56,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 198,
+       "value": 0
+      },
+      {
+       "frame": 318,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-L-blink-a",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 184,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 188,
+       "value": -25
+      },
+      {
+       "frame": 190,
+       "value": -25,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 198,
+       "value": 0
+      },
+      {
+       "frame": 318,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "closed-L-a",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 187,
+       "value": 0,
+       "ease": "hold"
+      },
+      {
+       "frame": 188,
+       "value": 1
+      },
+      {
+       "frame": 190,
+       "value": 1
+      },
+      {
+       "frame": 192,
+       "value": 0
+      },
+      {
+       "frame": 318,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-blink-a",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 184,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 188,
+       "value": 56
+      },
+      {
+       "frame": 190,
+       "value": 56,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 198,
+       "value": 0
+      },
+      {
+       "frame": 318,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-R-blink-a",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 184,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 188,
+       "value": -25
+      },
+      {
+       "frame": 190,
+       "value": -25,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 198,
+       "value": 0
+      },
+      {
+       "frame": 318,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "closed-R-a",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 187,
+       "value": 0,
+       "ease": "hold"
+      },
+      {
+       "frame": 188,
+       "value": 1
+      },
+      {
+       "frame": 190,
+       "value": 1
+      },
+      {
+       "frame": 192,
+       "value": 0
+      },
+      {
+       "frame": 318,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-blink-a-rest",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "closed-L-a",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-blink-a",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-L-blink-a",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "closed-R-a",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-blink-a",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-R-blink-a",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-blink-b",
+   "frames": 702,
+   "loop": "loop",
+   "tracks": [
+    {
+     "target": "lidTop-L-blink-b",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 161,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 165,
+       "value": 56
+      },
+      {
+       "frame": 167,
+       "value": 56,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 175,
+       "value": 0
+      },
+      {
+       "frame": 179,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 183,
+       "value": 50.4,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 190,
+       "value": 0
+      },
+      {
+       "frame": 702,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-L-blink-b",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 161,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 165,
+       "value": -25
+      },
+      {
+       "frame": 167,
+       "value": -25,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 175,
+       "value": 0
+      },
+      {
+       "frame": 179,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 183,
+       "value": -22.5,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 190,
+       "value": 0
+      },
+      {
+       "frame": 702,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "closed-L-b",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 164,
+       "value": 0,
+       "ease": "hold"
+      },
+      {
+       "frame": 165,
+       "value": 1
+      },
+      {
+       "frame": 167,
+       "value": 1
+      },
+      {
+       "frame": 169,
+       "value": 0
+      },
+      {
+       "frame": 182,
+       "value": 0,
+       "ease": "hold"
+      },
+      {
+       "frame": 183,
+       "value": 0.75
+      },
+      {
+       "frame": 185,
+       "value": 0
+      },
+      {
+       "frame": 702,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-blink-b",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 161,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 165,
+       "value": 56
+      },
+      {
+       "frame": 167,
+       "value": 56,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 175,
+       "value": 0
+      },
+      {
+       "frame": 179,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 183,
+       "value": 50.4,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 190,
+       "value": 0
+      },
+      {
+       "frame": 702,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-R-blink-b",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 161,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 165,
+       "value": -25
+      },
+      {
+       "frame": 167,
+       "value": -25,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 175,
+       "value": 0
+      },
+      {
+       "frame": 179,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 183,
+       "value": -22.5,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 190,
+       "value": 0
+      },
+      {
+       "frame": 702,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "closed-R-b",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 164,
+       "value": 0,
+       "ease": "hold"
+      },
+      {
+       "frame": 165,
+       "value": 1
+      },
+      {
+       "frame": 167,
+       "value": 1
+      },
+      {
+       "frame": 169,
+       "value": 0
+      },
+      {
+       "frame": 182,
+       "value": 0,
+       "ease": "hold"
+      },
+      {
+       "frame": 183,
+       "value": 0.75
+      },
+      {
+       "frame": 185,
+       "value": 0
+      },
+      {
+       "frame": 702,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-blink-b-rest",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "closed-L-b",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-blink-b",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-L-blink-b",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "closed-R-b",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-blink-b",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-R-blink-b",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-blink-c",
+   "frames": 534,
+   "loop": "loop",
+   "tracks": [
+    {
+     "target": "lidTop-L-blink-c",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 433,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 438,
+       "value": 56
+      },
+      {
+       "frame": 441,
+       "value": 56,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 454,
+       "value": 0
+      },
+      {
+       "frame": 534,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-L-blink-c",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 433,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 438,
+       "value": -25
+      },
+      {
+       "frame": 441,
+       "value": -25,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 454,
+       "value": 0
+      },
+      {
+       "frame": 534,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "closed-L-c",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 437,
+       "value": 0,
+       "ease": "hold"
+      },
+      {
+       "frame": 438,
+       "value": 1
+      },
+      {
+       "frame": 441,
+       "value": 1
+      },
+      {
+       "frame": 443,
+       "value": 0
+      },
+      {
+       "frame": 534,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-blink-c",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 433,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 438,
+       "value": 56
+      },
+      {
+       "frame": 441,
+       "value": 56,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 454,
+       "value": 0
+      },
+      {
+       "frame": 534,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-R-blink-c",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 433,
+       "value": 0,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 438,
+       "value": -25
+      },
+      {
+       "frame": 441,
+       "value": -25,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 454,
+       "value": 0
+      },
+      {
+       "frame": 534,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "closed-R-c",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 437,
+       "value": 0,
+       "ease": "hold"
+      },
+      {
+       "frame": 438,
+       "value": 1
+      },
+      {
+       "frame": 441,
+       "value": 1
+      },
+      {
+       "frame": 443,
+       "value": 0
+      },
+      {
+       "frame": 534,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-blink-c-rest",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "closed-L-c",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-blink-c",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-L-blink-c",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "closed-R-c",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-blink-c",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-R-blink-c",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-dart-a-rest",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyes-dart-a",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyes-dart-a",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-dart-a@1",
+   "frames": 174,
+   "loop": "loop",
+   "tracks": [
+    {
+     "target": "eyes-dart-a",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 54,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 61,
+       "value": 3.2
+      },
+      {
+       "frame": 115,
+       "value": 3.2,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 122,
+       "value": 0
+      },
+      {
+       "frame": 174,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyes-dart-a",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 54,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 61,
+       "value": -0.84
+      },
+      {
+       "frame": 115,
+       "value": -0.84,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 122,
+       "value": 0
+      },
+      {
+       "frame": 174,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-dart-a@0.6",
+   "frames": 174,
+   "loop": "loop",
+   "tracks": [
+    {
+     "target": "eyes-dart-a",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 54,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 61,
+       "value": 1.92
+      },
+      {
+       "frame": 115,
+       "value": 1.92,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 122,
+       "value": 0
+      },
+      {
+       "frame": 174,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyes-dart-a",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 54,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 61,
+       "value": -0.504
+      },
+      {
+       "frame": 115,
+       "value": -0.504,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 122,
+       "value": 0
+      },
+      {
+       "frame": 174,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-dart-a@0.3",
+   "frames": 174,
+   "loop": "loop",
+   "tracks": [
+    {
+     "target": "eyes-dart-a",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 54,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 61,
+       "value": 0.96
+      },
+      {
+       "frame": 115,
+       "value": 0.96,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 122,
+       "value": 0
+      },
+      {
+       "frame": 174,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyes-dart-a",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 54,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 61,
+       "value": -0.252
+      },
+      {
+       "frame": 115,
+       "value": -0.252,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 122,
+       "value": 0
+      },
+      {
+       "frame": 174,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-dart-b-rest",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyes-dart-b",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyes-dart-b",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-dart-b@1",
+   "frames": 426,
+   "loop": "loop",
+   "tracks": [
+    {
+     "target": "eyes-dart-b",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 51,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 58,
+       "value": -4.8
+      },
+      {
+       "frame": 166,
+       "value": -4.8,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 173,
+       "value": -1.92
+      },
+      {
+       "frame": 243,
+       "value": -1.92,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 250,
+       "value": 2.56
+      },
+      {
+       "frame": 358,
+       "value": 2.56,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 365,
+       "value": 0
+      },
+      {
+       "frame": 426,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyes-dart-b",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 51,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 58,
+       "value": 0.7
+      },
+      {
+       "frame": 166,
+       "value": 0.7,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 173,
+       "value": 1.96
+      },
+      {
+       "frame": 243,
+       "value": 1.96,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 250,
+       "value": -0.42
+      },
+      {
+       "frame": 358,
+       "value": -0.42,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 365,
+       "value": 0
+      },
+      {
+       "frame": 426,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-dart-b@0.6",
+   "frames": 426,
+   "loop": "loop",
+   "tracks": [
+    {
+     "target": "eyes-dart-b",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 51,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 58,
+       "value": -2.88
+      },
+      {
+       "frame": 166,
+       "value": -2.88,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 173,
+       "value": -1.152
+      },
+      {
+       "frame": 243,
+       "value": -1.152,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 250,
+       "value": 1.536
+      },
+      {
+       "frame": 358,
+       "value": 1.536,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 365,
+       "value": 0
+      },
+      {
+       "frame": 426,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyes-dart-b",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 51,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 58,
+       "value": 0.42
+      },
+      {
+       "frame": 166,
+       "value": 0.42,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 173,
+       "value": 1.176
+      },
+      {
+       "frame": 243,
+       "value": 1.176,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 250,
+       "value": -0.252
+      },
+      {
+       "frame": 358,
+       "value": -0.252,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 365,
+       "value": 0
+      },
+      {
+       "frame": 426,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-dart-b@0.3",
+   "frames": 426,
+   "loop": "loop",
+   "tracks": [
+    {
+     "target": "eyes-dart-b",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 51,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 58,
+       "value": -1.44
+      },
+      {
+       "frame": 166,
+       "value": -1.44,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 173,
+       "value": -0.576
+      },
+      {
+       "frame": 243,
+       "value": -0.576,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 250,
+       "value": 0.768
+      },
+      {
+       "frame": 358,
+       "value": 0.768,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 365,
+       "value": 0
+      },
+      {
+       "frame": 426,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyes-dart-b",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 51,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 58,
+       "value": 0.21
+      },
+      {
+       "frame": 166,
+       "value": 0.21,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 173,
+       "value": 0.588
+      },
+      {
+       "frame": 243,
+       "value": 0.588,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 250,
+       "value": -0.126
+      },
+      {
+       "frame": 358,
+       "value": -0.126,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 365,
+       "value": 0
+      },
+      {
+       "frame": 426,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-dart-c-rest",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyes-dart-c",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyes-dart-c",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-dart-c@1",
+   "frames": 798,
+   "loop": "loop",
+   "tracks": [
+    {
+     "target": "eyes-dart-c",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 144,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 151,
+       "value": 1.28
+      },
+      {
+       "frame": 215,
+       "value": 1.28,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 222,
+       "value": 0
+      },
+      {
+       "frame": 487,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 494,
+       "value": -1.6
+      },
+      {
+       "frame": 559,
+       "value": -1.6,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 566,
+       "value": 0
+      },
+      {
+       "frame": 798,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyes-dart-c",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 144,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 151,
+       "value": 2.8
+      },
+      {
+       "frame": 215,
+       "value": 2.8,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 222,
+       "value": 0
+      },
+      {
+       "frame": 487,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 494,
+       "value": -2.24
+      },
+      {
+       "frame": 559,
+       "value": -2.24,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 566,
+       "value": 0
+      },
+      {
+       "frame": 798,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-dart-c@0.6",
+   "frames": 798,
+   "loop": "loop",
+   "tracks": [
+    {
+     "target": "eyes-dart-c",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 144,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 151,
+       "value": 0.768
+      },
+      {
+       "frame": 215,
+       "value": 0.768,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 222,
+       "value": 0
+      },
+      {
+       "frame": 487,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 494,
+       "value": -0.96
+      },
+      {
+       "frame": 559,
+       "value": -0.96,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 566,
+       "value": 0
+      },
+      {
+       "frame": 798,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyes-dart-c",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 144,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 151,
+       "value": 1.68
+      },
+      {
+       "frame": 215,
+       "value": 1.68,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 222,
+       "value": 0
+      },
+      {
+       "frame": 487,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 494,
+       "value": -1.344
+      },
+      {
+       "frame": 559,
+       "value": -1.344,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 566,
+       "value": 0
+      },
+      {
+       "frame": 798,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-dart-c@0.3",
+   "frames": 798,
+   "loop": "loop",
+   "tracks": [
+    {
+     "target": "eyes-dart-c",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 144,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 151,
+       "value": 0.384
+      },
+      {
+       "frame": 215,
+       "value": 0.384,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 222,
+       "value": 0
+      },
+      {
+       "frame": 487,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 494,
+       "value": -0.48
+      },
+      {
+       "frame": 559,
+       "value": -0.48,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 566,
+       "value": 0
+      },
+      {
+       "frame": 798,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyes-dart-c",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 144,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 151,
+       "value": 0.84
+      },
+      {
+       "frame": 215,
+       "value": 0.84,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 222,
+       "value": 0
+      },
+      {
+       "frame": 487,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 494,
+       "value": -0.672
+      },
+      {
+       "frame": 559,
+       "value": -0.672,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 566,
+       "value": 0
+      },
+      {
+       "frame": 798,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-breath",
+   "frames": 186,
+   "loop": "pingPong",
+   "tracks": [
+    {
+     "target": "body-breath",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1,
+       "ease": {
+        "cubic": [
+         0.37,
+         0,
+         0.63,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 186,
+       "value": 1.014
+      }
+     ]
+    },
+    {
+     "target": "body-breath",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1,
+       "ease": {
+        "cubic": [
+         0.37,
+         0,
+         0.63,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 186,
+       "value": 0.992
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-breath-rest",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "body-breath",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "body-breath",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-sway-a",
+   "frames": 114,
+   "loop": "pingPong",
+   "tracks": [
+    {
+     "target": "hat-life-a",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.014,
+       "ease": {
+        "cubic": [
+         0.37,
+         0,
+         0.63,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 114,
+       "value": 0.014
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-sway-a-rest",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hat-life-a",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-sway-b",
+   "frames": 354,
+   "loop": "pingPong",
+   "tracks": [
+    {
+     "target": "hat-life-b",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.009,
+       "ease": {
+        "cubic": [
+         0.37,
+         0,
+         0.63,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 354,
+       "value": 0.009
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-sway-b-rest",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hat-life-b",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-brow",
+   "frames": 582,
+   "loop": "loop",
+   "tracks": [
+    {
+     "target": "browL-life",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 198,
+       "value": 0,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 215,
+       "value": -1.92,
+       "ease": {
+        "cubic": [
+         0.37,
+         0,
+         0.63,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 303,
+       "value": -1.6,
+       "ease": {
+        "cubic": [
+         0.37,
+         0,
+         0.63,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 338,
+       "value": 0
+      },
+      {
+       "frame": 582,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browR-life",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 198,
+       "value": 0,
+       "ease": {
+        "cubic": [
+         0.61,
+         1,
+         0.88,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 215,
+       "value": -1.92,
+       "ease": {
+        "cubic": [
+         0.37,
+         0,
+         0.63,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 303,
+       "value": -1.6,
+       "ease": {
+        "cubic": [
+         0.37,
+         0,
+         0.63,
+         1
+        ]
+       }
+      },
+      {
+       "frame": 338,
+       "value": 0
+      },
+      {
+       "frame": 582,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "life-brow-rest",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "browL-life",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browR-life",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Look X@1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyes-look",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -254
+      }
+     ]
+    },
+    {
+     "target": "brows-look",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -265
+      }
+     ]
+    },
+    {
+     "target": "mouth-look",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -264
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl-look",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -2.5
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl-look",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -2.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Look X@-1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyes-look",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -286
+      }
+     ]
+    },
+    {
+     "target": "brows-look",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -275
+      }
+     ]
+    },
+    {
+     "target": "mouth-look",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -276
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl-look",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 2.5
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl-look",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 2.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Look Y@0",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyes-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -660
+      }
+     ]
+    },
+    {
+     "target": "brows-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -660
+      }
+     ]
+    },
+    {
+     "target": "mouth-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -660
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Look Y@1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyes-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -646
+      }
+     ]
+    },
+    {
+     "target": "brows-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -657
+      }
+     ]
+    },
+    {
+     "target": "mouth-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -656
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -2.5
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -2.5
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 6.72
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 6.72
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Look Y@-1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyes-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -674
+      }
+     ]
+    },
+    {
+     "target": "brows-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -663
+      }
+     ]
+    },
+    {
+     "target": "mouth-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -664
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 2.5
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 2.5
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-look",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "mood-neutral",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyeL",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -40.5
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-tilt",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-L-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-L/path",
+     "property": "width",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 100.8
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -7
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -14.5
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl2",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browL-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browL-mood",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browL-a",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browL-b",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "blush-L-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyeR",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -40.5
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-tilt",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-R-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-R/path",
+     "property": "width",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 100.8
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -7
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -14.5
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl2",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browR-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browR-mood",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browR-a",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browR-b",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "blush-R-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "mouth-is-none"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood/fill",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#8B3F37"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood/stroke",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#006E2B26"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-smile",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-o",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-shout",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "mood-happy",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyeL",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1.12
+      }
+     ]
+    },
+    {
+     "target": "eyeL",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1.12
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -40.5
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-tilt",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-L-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -51.426
+      }
+     ]
+    },
+    {
+     "target": "squint-L/path",
+     "property": "width",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 52.5
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -6
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -23.46
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.645
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.645
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl2",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browL-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.54
+      }
+     ]
+    },
+    {
+     "target": "browL-mood",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browL-a",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browL-b",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "blush-L-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.4
+      }
+     ]
+    },
+    {
+     "target": "eyeR",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1.12
+      }
+     ]
+    },
+    {
+     "target": "eyeR",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1.12
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -40.5
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-tilt",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-R-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -51.426
+      }
+     ]
+    },
+    {
+     "target": "squint-R/path",
+     "property": "width",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 52.5
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -6
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -23.46
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.645
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.645
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl2",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browR-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.54
+      }
+     ]
+    },
+    {
+     "target": "browR-mood",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browR-a",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browR-b",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "blush-R-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.4
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "mouth-is-smile"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood/fill",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#8B3F37"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood/stroke",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#006E2B26"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-smile",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-o",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-shout",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "mood-sad",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyeL",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -21.46
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-tilt",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.266
+      }
+     ]
+    },
+    {
+     "target": "squint-L-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-L/path",
+     "property": "width",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 100.8
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -7
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -14.5
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl2",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browL-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -1.5
+      }
+     ]
+    },
+    {
+     "target": "browL-mood",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.297
+      }
+     ]
+    },
+    {
+     "target": "browL-a",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browL-b",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "blush-L-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyeR",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -21.46
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-tilt",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.266
+      }
+     ]
+    },
+    {
+     "target": "squint-R-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-R/path",
+     "property": "width",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 100.8
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -7
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -14.5
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl2",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browR-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -1.5
+      }
+     ]
+    },
+    {
+     "target": "browR-mood",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.297
+      }
+     ]
+    },
+    {
+     "target": "browR-a",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browR-b",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "blush-R-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "mouth-is-frown"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood/fill",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#8B3F37"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood/stroke",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#006E2B26"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-smile",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-o",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-shout",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "mood-angry",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyeL",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -29.3
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-tilt",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.28
+      }
+     ]
+    },
+    {
+     "target": "squint-L-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-L/path",
+     "property": "width",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 100.8
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -7
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -14.5
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl2",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browL-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 8.2
+      }
+     ]
+    },
+    {
+     "target": "browL-mood",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.314
+      }
+     ]
+    },
+    {
+     "target": "browL-a",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browL-b",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "blush-L-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyeR",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -29.3
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-tilt",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.28
+      }
+     ]
+    },
+    {
+     "target": "squint-R-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-R/path",
+     "property": "width",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 100.8
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -7
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -14.5
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl2",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browR-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 8.2
+      }
+     ]
+    },
+    {
+     "target": "browR-mood",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.314
+      }
+     ]
+    },
+    {
+     "target": "browR-a",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browR-b",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "blush-R-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "mouth-is-flat"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood/fill",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#8B3F37"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood/stroke",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#006E2B26"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-smile",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-o",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-shout",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "mood-surprised",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyeL",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1.3
+      }
+     ]
+    },
+    {
+     "target": "eyeL",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1.3
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -40.5
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-tilt",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.048
+      }
+     ]
+    },
+    {
+     "target": "squint-L-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-L/path",
+     "property": "width",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 100.8
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -7
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -14.5
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL-hl2",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browL-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -26.35
+      }
+     ]
+    },
+    {
+     "target": "browL-mood",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.052
+      }
+     ]
+    },
+    {
+     "target": "browL-a",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browL-b",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "blush-L-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyeR",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1.3
+      }
+     ]
+    },
+    {
+     "target": "eyeR",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1.3
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -40.5
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-tilt",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.048
+      }
+     ]
+    },
+    {
+     "target": "squint-R-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-R/path",
+     "property": "width",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 100.8
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -7
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -14.5
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR-hl2",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browR-mood",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -26.35
+      }
+     ]
+    },
+    {
+     "target": "browR-mood",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.052
+      }
+     ]
+    },
+    {
+     "target": "browR-a",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browR-b",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "blush-R-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "mouth-is-o"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood/fill",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#8B3F37"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood/stroke",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#006E2B26"
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-smile",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-o",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth-mood-shout",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "eyesOpen@0",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "lidTop-L-open",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 56
+      }
+     ]
+    },
+    {
+     "target": "squint-L-open",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -25
+      }
+     ]
+    },
+    {
+     "target": "closed-L-open",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-open",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 56
+      }
+     ]
+    },
+    {
+     "target": "squint-R-open",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -25
+      }
+     ]
+    },
+    {
+     "target": "closed-R-open",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "eyesOpen@1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "lidTop-L-open",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-L-open",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "closed-L-open",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-open",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-R-open",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "closed-R-open",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "eyesOpen@0.15",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "lidTop-L-open",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 47.6
+      }
+     ]
+    },
+    {
+     "target": "squint-L-open",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -21.25
+      }
+     ]
+    },
+    {
+     "target": "closed-L-open",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-open",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 47.6
+      }
+     ]
+    },
+    {
+     "target": "squint-R-open",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -21.25
+      }
+     ]
+    },
+    {
+     "target": "closed-R-open",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "lidTop@0",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "lidTop-L-chan",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-chan",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "lidTop@1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "lidTop-L-chan",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 56
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-chan",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 56
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "squint@0",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "squint-L-chan",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "squint-R-chan",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "squint@1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "squint-L-chan",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -42.675
+      }
+     ]
+    },
+    {
+     "target": "squint-R-chan",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -42.675
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "eyeScale@0",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyeL-scale",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyeL-scale",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyeR-scale",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "eyeR-scale",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "eyeScale@2",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "eyeL-scale",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 2
+      }
+     ]
+    },
+    {
+     "target": "eyeL-scale",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 2
+      }
+     ]
+    },
+    {
+     "target": "eyeR-scale",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 2
+      }
+     ]
+    },
+    {
+     "target": "eyeR-scale",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "browRaise@-1.2",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "browL-chan",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 19.2
+      }
+     ]
+    },
+    {
+     "target": "browR-chan",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 19.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "browRaise@1.2",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "browL-chan",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -19.2
+      }
+     ]
+    },
+    {
+     "target": "browR-chan",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -19.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "browTilt@1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "browL-chan",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.349
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-tilt2",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.31
+      }
+     ]
+    },
+    {
+     "target": "browR-chan",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.349
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-tilt2",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.31
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "browTilt@-1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "browL-chan",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.349
+      }
+     ]
+    },
+    {
+     "target": "lidTop-L-tilt2",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.31
+      }
+     ]
+    },
+    {
+     "target": "browR-chan",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.349
+      }
+     ]
+    },
+    {
+     "target": "lidTop-R-tilt2",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.31
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "brows@0",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "browL-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "browR-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "brows@1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "browL-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "browR-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "blush@0",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "blush-L",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "blush-R",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "blush@1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "blush-L",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "blush-R",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "hatSway@0",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hat",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "hat"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "hatSway@1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hat",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "hat-sway-right"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "hatSway@-1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hat",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "hat-sway-left"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "hatDroop@0",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hat-droop",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hat-shade-level",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "headwear-droop",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "hatDroop@1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hat-droop",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.244
+      }
+     ]
+    },
+    {
+     "target": "hat-shade-level",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.244
+      }
+     ]
+    },
+    {
+     "target": "headwear-droop",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -0.244
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "mouth@0",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "mouth-mood-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "mouth-is-none"
+      }
+     ]
+    },
+    {
+     "target": "mouth",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth/fill",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#8B3F37"
+      }
+     ]
+    },
+    {
+     "target": "mouth/stroke",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#006E2B26"
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-smile",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-o",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-shout",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "mouth@1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "mouth-mood-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "mouth-is-smile"
+      }
+     ]
+    },
+    {
+     "target": "mouth",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth/fill",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#8B3F37"
+      }
+     ]
+    },
+    {
+     "target": "mouth/stroke",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#006E2B26"
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-smile",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-o",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-shout",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "mouth@2",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "mouth-mood-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "mouth-is-frown"
+      }
+     ]
+    },
+    {
+     "target": "mouth",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth/fill",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#8B3F37"
+      }
+     ]
+    },
+    {
+     "target": "mouth/stroke",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#006E2B26"
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-smile",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-o",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-shout",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "mouth@3",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "mouth-mood-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "mouth-is-o"
+      }
+     ]
+    },
+    {
+     "target": "mouth",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth/fill",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#8B3F37"
+      }
+     ]
+    },
+    {
+     "target": "mouth/stroke",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#006E2B26"
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-smile",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-o",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-shout",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "mouth@4",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "mouth-mood-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "mouth-is-shout"
+      }
+     ]
+    },
+    {
+     "target": "mouth",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth/fill",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#5A211D"
+      }
+     ]
+    },
+    {
+     "target": "mouth/stroke",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#FF6E2B26"
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-smile",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-o",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-shout",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "mouth@5",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "mouth-mood-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "mouth-is-flat"
+      }
+     ]
+    },
+    {
+     "target": "mouth",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth/fill",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#8B3F37"
+      }
+     ]
+    },
+    {
+     "target": "mouth/stroke",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#006E2B26"
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-smile",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-o",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-shout",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "mouth@-1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "mouth-mood-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth",
+     "property": "vertices",
+     "keys": [
+      {
+       "frame": 0,
+       "morph": "mouth-is-none"
+      }
+     ]
+    },
+    {
+     "target": "mouth",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth/fill",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#8B3F37"
+      }
+     ]
+    },
+    {
+     "target": "mouth/stroke",
+     "property": "colorValue",
+     "keys": [
+      {
+       "frame": 0,
+       "color": "#006E2B26"
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-smile",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-o",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-chan-shout",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handL@0",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L-fist",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-point",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-peace",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-palm",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-L-sword",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-L-phone",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handL@1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L-fist",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "hand-L-point",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-peace",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-palm",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-L-sword",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-L-phone",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handL@2",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L-fist",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-point",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "hand-L-peace",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-palm",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-L-sword",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-L-phone",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handL@3",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L-fist",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-point",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-peace",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "hand-L-palm",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-L-sword",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-L-phone",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handL@4",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L-fist",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-point",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-peace",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-palm",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "prop-L-sword",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-L-phone",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handL@5",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L-fist",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "hand-L-point",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-peace",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-palm",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-L-sword",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "prop-L-phone",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handL@6",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L-fist",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "hand-L-point",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-peace",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-palm",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-L-sword",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-L-phone",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handLX@2000",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1730
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handLX@-1000",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -1270
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handLY@2000",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1340
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handLY@-1000",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -1660
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handLAngle@360",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L-turn",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 6.283
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handLAngle@-360",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L-turn",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -6.283
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handLScale@0",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L-turn",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-L-turn",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handLScale@4",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-L-turn",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 4
+      }
+     ]
+    },
+    {
+     "target": "hand-L-turn",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handR@0",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R-fist",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-point",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-peace",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-palm",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-R-sword",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-R-phone",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handR@1",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R-fist",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "hand-R-point",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-peace",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-palm",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-R-sword",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-R-phone",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handR@2",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R-fist",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-point",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "hand-R-peace",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-palm",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-R-sword",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-R-phone",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handR@3",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R-fist",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-point",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-peace",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "hand-R-palm",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-R-sword",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-R-phone",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handR@4",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R-fist",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-point",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-peace",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-palm",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "prop-R-sword",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-R-phone",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handR@5",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R-fist",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "hand-R-point",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-peace",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-palm",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-R-sword",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "prop-R-phone",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handR@6",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R-fist",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "hand-R-point",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-peace",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-palm",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-R-sword",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "prop-R-phone",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handRX@2000",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1730
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handRX@-1000",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R",
+     "property": "x",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -1270
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handRY@2000",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1340
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handRY@-1000",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -1660
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handRAngle@360",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R-turn",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 6.283
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handRAngle@-360",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R-turn",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": -6.283
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handRScale@0",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R-turn",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hand-R-turn",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "handRScale@4",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "hand-R-turn",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 4
+      }
+     ]
+    },
+    {
+     "target": "hand-R-turn",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "headwear-none",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "headwear-ninja",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "headwear-flowers",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "headwear-sweatband",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "headwear-ninja",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "headwear-ninja",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "headwear-flowers",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "headwear-sweatband",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "headwear-flowers",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "headwear-ninja",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "headwear-flowers",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "headwear-sweatband",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "headwear-sweatband",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "headwear-ninja",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "headwear-flowers",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "headwear-sweatband",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "alert-rest",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "body-alert",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 660
+      }
+     ]
+    },
+    {
+     "target": "body-alert",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "body-alert",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "body-alert",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "shadow-alert",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "shadow-alert",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "shadow-alert",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL-react",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL-react",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR-react",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR-react",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "hat-react",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "alert",
+   "frames": 66,
+   "tracks": [
+    {
+     "target": "body-alert",
+     "property": "y",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 660
+      },
+      {
+       "frame": 6,
+       "value": 664,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 18,
+       "value": 596,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 27,
+       "value": 660
+      },
+      {
+       "frame": 66,
+       "value": 660
+      }
+     ]
+    },
+    {
+     "target": "body-alert",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 6,
+       "value": 1.12,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 11,
+       "value": 0.88,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 18,
+       "value": 0.97,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 27,
+       "value": 1.15,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 31,
+       "value": 0.96,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 36,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "body-alert",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 6,
+       "value": 0.88,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 11,
+       "value": 1.14,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 18,
+       "value": 1.03,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 27,
+       "value": 0.86,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 31,
+       "value": 1.04,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 36,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "body-alert",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 30,
+       "value": 0,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 34,
+       "value": 0.105,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 38,
+       "value": -0.105,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 42,
+       "value": 0.079,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 46,
+       "value": -0.052,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 51,
+       "value": 0.026,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 57,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "shadow-alert",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      },
+      {
+       "frame": 6,
+       "value": 1.08,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 18,
+       "value": 0.62,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 27,
+       "value": 1.1,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 34,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "shadow-alert",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      },
+      {
+       "frame": 6,
+       "value": 1.08,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 18,
+       "value": 0.62,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 27,
+       "value": 1.1,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 34,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "shadow-alert",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      },
+      {
+       "frame": 18,
+       "value": 0.45,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 27,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL-react",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      },
+      {
+       "frame": 8,
+       "value": 1.25,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 44,
+       "value": 1.22,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 62,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR-react",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      },
+      {
+       "frame": 8,
+       "value": 1.25,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 44,
+       "value": 1.22,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 62,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeL-react",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      },
+      {
+       "frame": 5,
+       "value": 0.85,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 10,
+       "value": 1.28,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 44,
+       "value": 1.24,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 62,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyeR-react",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      },
+      {
+       "frame": 5,
+       "value": 0.85,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 10,
+       "value": 1.28,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 44,
+       "value": 1.24,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 62,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "hat-react",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 10,
+       "value": 0.035,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 21,
+       "value": -0.07,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 31,
+       "value": 0.122,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 38,
+       "value": -0.07,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 45,
+       "value": 0.044,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 52,
+       "value": -0.017,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 60,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "poke-rest",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "body-poke",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "body-poke",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "body-poke",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "shadow-poke",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyes-poke",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyes-giggle",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-poke-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth-giggle",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "blush-L-poke",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "blush-R-poke",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hat-poke",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "poke",
+   "frames": 66,
+   "tracks": [
+    {
+     "target": "body-poke",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 4,
+       "value": 1.2,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 10,
+       "value": 0.9,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 16,
+       "value": 1.06,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 22,
+       "value": 0.98,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 28,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "body-poke",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 4,
+       "value": 0.8,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 10,
+       "value": 1.12,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 16,
+       "value": 0.95,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 22,
+       "value": 1.02,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 28,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "body-poke",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 8,
+       "value": 0,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 13,
+       "value": 0.07,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 18,
+       "value": -0.061,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 23,
+       "value": 0.052,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 28,
+       "value": -0.044,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 33,
+       "value": 0.035,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 38,
+       "value": -0.026,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 43,
+       "value": 0.017,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 48,
+       "value": -0.009,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 53,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "shadow-poke",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 4,
+       "value": 1.18,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 10,
+       "value": 0.92,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 16,
+       "value": 1.04,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 24,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyes-poke",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      },
+      {
+       "frame": 2,
+       "value": 0
+      },
+      {
+       "frame": 56,
+       "value": 0
+      },
+      {
+       "frame": 60,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "eyes-giggle",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 2,
+       "value": 1
+      },
+      {
+       "frame": 56,
+       "value": 1
+      },
+      {
+       "frame": 60,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-poke-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      },
+      {
+       "frame": 2,
+       "value": 0
+      },
+      {
+       "frame": 56,
+       "value": 0
+      },
+      {
+       "frame": 60,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth-giggle",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 2,
+       "value": 1
+      },
+      {
+       "frame": 56,
+       "value": 1
+      },
+      {
+       "frame": 60,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "blush-L-poke",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 2,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 10,
+       "value": 1
+      },
+      {
+       "frame": 50,
+       "value": 1,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 64,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "blush-R-poke",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 2,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 10,
+       "value": 1
+      },
+      {
+       "frame": 50,
+       "value": 1,
+       "ease": "easeIn"
+      },
+      {
+       "frame": 64,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "hat-poke",
+     "property": "rotation",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      },
+      {
+       "frame": 3,
+       "value": 0,
+       "ease": "easeOut"
+      },
+      {
+       "frame": 8,
+       "value": -0.105,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 19,
+       "value": 0.087,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 24,
+       "value": -0.076,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 29,
+       "value": 0.065,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 34,
+       "value": -0.055,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 39,
+       "value": 0.044,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 44,
+       "value": -0.033,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 49,
+       "value": 0.022,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 54,
+       "value": -0.011,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 59,
+       "value": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "talk-rest",
+   "frames": 1,
+   "tracks": [
+    {
+     "target": "mouth-talk",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-talk-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth-talk-flap",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth-talk-flap",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "talk",
+   "frames": 92,
+   "loop": "loop",
+   "tracks": [
+    {
+     "target": "mouth-talk",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 1
+      }
+     ]
+    },
+    {
+     "target": "mouth-talk-gate",
+     "property": "opacity",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0
+      }
+     ]
+    },
+    {
+     "target": "mouth-talk-flap",
+     "property": "scaleY",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.4,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 5,
+       "value": 0.92,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 10,
+       "value": 0.48,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 14,
+       "value": 0.8,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 19,
+       "value": 0.36,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 25,
+       "value": 1,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 31,
+       "value": 0.52,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 35,
+       "value": 0.68,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 40,
+       "value": 0.32,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 47,
+       "value": 0.88,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 52,
+       "value": 0.44,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 57,
+       "value": 0.76,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 62,
+       "value": 0.56,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 67,
+       "value": 0.96,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 73,
+       "value": 0.36,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 80,
+       "value": 0.64,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 86,
+       "value": 0.4,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 92,
+       "value": 0.4,
+       "ease": "easeInOut"
+      }
+     ]
+    },
+    {
+     "target": "mouth-talk-flap",
+     "property": "scaleX",
+     "keys": [
+      {
+       "frame": 0,
+       "value": 0.9,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 5,
+       "value": 1.03,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 10,
+       "value": 0.92,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 14,
+       "value": 1,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 19,
+       "value": 0.89,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 25,
+       "value": 1.05,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 31,
+       "value": 0.93,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 35,
+       "value": 0.97,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 40,
+       "value": 0.88,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 47,
+       "value": 1.02,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 52,
+       "value": 0.91,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 57,
+       "value": 0.99,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 62,
+       "value": 0.94,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 67,
+       "value": 1.04,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 73,
+       "value": 0.89,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 80,
+       "value": 0.96,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 86,
+       "value": 0.9,
+       "ease": "easeInOut"
+      },
+      {
+       "frame": 92,
+       "value": 0.9,
+       "ease": "easeInOut"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "viewModel": {
+  "name": "Pip",
+  "instance": "Default",
+  "properties": [
+   {
+    "name": "mood",
+    "type": "enum",
+    "values": [
+     "neutral",
+     "happy",
+     "sad",
+     "angry",
+     "surprised"
+    ],
+    "defaultValue": "neutral"
+   },
+   {
+    "name": "lookX",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "lookY",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "talking",
+    "type": "boolean",
+    "defaultBool": false
+   },
+   {
+    "name": "alert",
+    "type": "trigger"
+   },
+   {
+    "name": "poke",
+    "type": "trigger"
+   },
+   {
+    "name": "eyesOpen",
+    "type": "number",
+    "default": 1
+   },
+   {
+    "name": "lidTop",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "squint",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "eyeScale",
+    "type": "number",
+    "default": 1
+   },
+   {
+    "name": "browRaise",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "browTilt",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "brows",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "blush",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "hatSway",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "hatDroop",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "mouth",
+    "type": "number",
+    "default": -1
+   },
+   {
+    "name": "headwear",
+    "type": "enum",
+    "values": [
+     "none",
+     "ninja",
+     "flowers",
+     "sweatband"
+    ],
+    "defaultValue": "none"
+   },
+   {
+    "name": "life",
+    "type": "number",
+    "default": 1
+   },
+   {
+    "name": "handL",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "handLX",
+    "type": "number",
+    "default": 40
+   },
+   {
+    "name": "handLY",
+    "type": "number",
+    "default": 560
+   },
+   {
+    "name": "handLAngle",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "handLScale",
+    "type": "number",
+    "default": 1
+   },
+   {
+    "name": "handR",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "handRX",
+    "type": "number",
+    "default": 500
+   },
+   {
+    "name": "handRY",
+    "type": "number",
+    "default": 560
+   },
+   {
+    "name": "handRAngle",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "handRScale",
+    "type": "number",
+    "default": 1
+   }
+  ]
+ },
+ "stateMachine": {
+  "name": "Pip",
+  "control": "inputs",
+  "inputs": [
+   {
+    "name": "mood",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "lookX",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "lookY",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "talking",
+    "type": "boolean",
+    "defaultBool": false
+   },
+   {
+    "name": "alert",
+    "type": "trigger"
+   },
+   {
+    "name": "poke",
+    "type": "trigger"
+   },
+   {
+    "name": "eyesOpen",
+    "type": "number",
+    "default": 1
+   },
+   {
+    "name": "lidTop",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "squint",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "eyeScale",
+    "type": "number",
+    "default": 1
+   },
+   {
+    "name": "browRaise",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "browTilt",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "brows",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "blush",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "hatSway",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "hatDroop",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "mouth",
+    "type": "number",
+    "default": -1
+   },
+   {
+    "name": "headwear",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "life",
+    "type": "number",
+    "default": 1
+   },
+   {
+    "name": "handL",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "handLX",
+    "type": "number",
+    "default": 40
+   },
+   {
+    "name": "handLY",
+    "type": "number",
+    "default": 560
+   },
+   {
+    "name": "handLAngle",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "handLScale",
+    "type": "number",
+    "default": 1
+   },
+   {
+    "name": "handR",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "handRX",
+    "type": "number",
+    "default": 500
+   },
+   {
+    "name": "handRY",
+    "type": "number",
+    "default": 560
+   },
+   {
+    "name": "handRAngle",
+    "type": "number",
+    "default": 0
+   },
+   {
+    "name": "handRScale",
+    "type": "number",
+    "default": 1
+   }
+  ],
+  "layers": [
+   {
+    "name": "Life blink-a",
+    "states": [
+     {
+      "name": "blink-a",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-blink-a-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-blink-a",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "blink-a"
+     }
+    ]
+   },
+   {
+    "name": "Life blink-b",
+    "states": [
+     {
+      "name": "blink-b",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-blink-b-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-blink-b",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "blink-b"
+     }
+    ]
+   },
+   {
+    "name": "Life blink-c",
+    "states": [
+     {
+      "name": "blink-c",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-blink-c-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-blink-c",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "blink-c"
+     }
+    ]
+   },
+   {
+    "name": "Life dart-a",
+    "states": [
+     {
+      "name": "dart-a@1",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-dart-a-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-dart-a@1",
+         "value": 1
+        }
+       ]
+      }
+     },
+     {
+      "name": "dart-a@0.6",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-dart-a-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-dart-a@0.6",
+         "value": 1
+        }
+       ]
+      }
+     },
+     {
+      "name": "dart-a@0.3",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-dart-a-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-dart-a@0.3",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "dart-a@1"
+     },
+     {
+      "from": "any",
+      "to": "dart-a@1",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 0
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "dart-a@1",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "dart-a@1",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 4
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "dart-a@0.6",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 2
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "dart-a@0.3",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 3
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Life dart-b",
+    "states": [
+     {
+      "name": "dart-b@1",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-dart-b-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-dart-b@1",
+         "value": 1
+        }
+       ]
+      }
+     },
+     {
+      "name": "dart-b@0.6",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-dart-b-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-dart-b@0.6",
+         "value": 1
+        }
+       ]
+      }
+     },
+     {
+      "name": "dart-b@0.3",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-dart-b-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-dart-b@0.3",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "dart-b@1"
+     },
+     {
+      "from": "any",
+      "to": "dart-b@1",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 0
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "dart-b@1",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "dart-b@1",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 4
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "dart-b@0.6",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 2
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "dart-b@0.3",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 3
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Life dart-c",
+    "states": [
+     {
+      "name": "dart-c@1",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-dart-c-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-dart-c@1",
+         "value": 1
+        }
+       ]
+      }
+     },
+     {
+      "name": "dart-c@0.6",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-dart-c-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-dart-c@0.6",
+         "value": 1
+        }
+       ]
+      }
+     },
+     {
+      "name": "dart-c@0.3",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-dart-c-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-dart-c@0.3",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "dart-c@1"
+     },
+     {
+      "from": "any",
+      "to": "dart-c@1",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 0
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "dart-c@1",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "dart-c@1",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 4
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "dart-c@0.6",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 2
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "dart-c@0.3",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 3
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Life breath",
+    "states": [
+     {
+      "name": "breath",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-breath-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-breath",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "breath"
+     }
+    ]
+   },
+   {
+    "name": "Life sway-a",
+    "states": [
+     {
+      "name": "sway-a",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-sway-a-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-sway-a",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "sway-a"
+     }
+    ]
+   },
+   {
+    "name": "Life sway-b",
+    "states": [
+     {
+      "name": "sway-b",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-sway-b-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-sway-b",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "sway-b"
+     }
+    ]
+   },
+   {
+    "name": "Life brow",
+    "states": [
+     {
+      "name": "brow",
+      "blend": {
+       "by": "life",
+       "clips": [
+        {
+         "clip": "life-brow-rest",
+         "value": 0
+        },
+        {
+         "clip": "life-brow",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "brow"
+     }
+    ]
+   },
+   {
+    "name": "Look X",
+    "states": [
+     {
+      "name": "Look X",
+      "blend": {
+       "by": "lookX",
+       "clips": [
+        {
+         "clip": "Look X@1",
+         "value": 1
+        },
+        {
+         "clip": "Look X@-1",
+         "value": -1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "Look X"
+     }
+    ]
+   },
+   {
+    "name": "Look Y",
+    "states": [
+     {
+      "name": "Look Y",
+      "blend": {
+       "by": "lookY",
+       "clips": [
+        {
+         "clip": "Look Y@0",
+         "value": 0
+        },
+        {
+         "clip": "Look Y@1",
+         "value": 1
+        },
+        {
+         "clip": "Look Y@-1",
+         "value": -1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "Look Y"
+     }
+    ]
+   },
+   {
+    "name": "Mood",
+    "states": [
+     {
+      "name": "neutral",
+      "clip": "mood-neutral"
+     },
+     {
+      "name": "happy",
+      "clip": "mood-happy"
+     },
+     {
+      "name": "sad",
+      "clip": "mood-sad"
+     },
+     {
+      "name": "angry",
+      "clip": "mood-angry"
+     },
+     {
+      "name": "surprised",
+      "clip": "mood-surprised"
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "neutral"
+     },
+     {
+      "from": "any",
+      "to": "neutral",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "earlyExit": true,
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 0
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "happy",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "earlyExit": true,
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "sad",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "earlyExit": true,
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 2
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "angry",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "earlyExit": true,
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 3
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "surprised",
+      "durationMs": 220,
+      "ease": "easeInOut",
+      "earlyExit": true,
+      "conditions": [
+       {
+        "on": "mood",
+        "op": "==",
+        "value": 4
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "eyesOpen",
+    "states": [
+     {
+      "name": "eyesOpen",
+      "blend": {
+       "by": "eyesOpen",
+       "clips": [
+        {
+         "clip": "eyesOpen@0",
+         "value": 0
+        },
+        {
+         "clip": "eyesOpen@1",
+         "value": 1
+        },
+        {
+         "clip": "eyesOpen@0.15",
+         "value": 0.15
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "eyesOpen"
+     }
+    ]
+   },
+   {
+    "name": "lidTop",
+    "states": [
+     {
+      "name": "lidTop",
+      "blend": {
+       "by": "lidTop",
+       "clips": [
+        {
+         "clip": "lidTop@0",
+         "value": 0
+        },
+        {
+         "clip": "lidTop@1",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "lidTop"
+     }
+    ]
+   },
+   {
+    "name": "squint",
+    "states": [
+     {
+      "name": "squint",
+      "blend": {
+       "by": "squint",
+       "clips": [
+        {
+         "clip": "squint@0",
+         "value": 0
+        },
+        {
+         "clip": "squint@1",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "squint"
+     }
+    ]
+   },
+   {
+    "name": "eyeScale",
+    "states": [
+     {
+      "name": "eyeScale",
+      "blend": {
+       "by": "eyeScale",
+       "clips": [
+        {
+         "clip": "eyeScale@0",
+         "value": 0
+        },
+        {
+         "clip": "eyeScale@2",
+         "value": 2
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "eyeScale"
+     }
+    ]
+   },
+   {
+    "name": "browRaise",
+    "states": [
+     {
+      "name": "browRaise",
+      "blend": {
+       "by": "browRaise",
+       "clips": [
+        {
+         "clip": "browRaise@-1.2",
+         "value": -1.2
+        },
+        {
+         "clip": "browRaise@1.2",
+         "value": 1.2
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "browRaise"
+     }
+    ]
+   },
+   {
+    "name": "browTilt",
+    "states": [
+     {
+      "name": "browTilt",
+      "blend": {
+       "by": "browTilt",
+       "clips": [
+        {
+         "clip": "browTilt@1",
+         "value": 1
+        },
+        {
+         "clip": "browTilt@-1",
+         "value": -1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "browTilt"
+     }
+    ]
+   },
+   {
+    "name": "brows",
+    "states": [
+     {
+      "name": "brows",
+      "blend": {
+       "by": "brows",
+       "clips": [
+        {
+         "clip": "brows@0",
+         "value": 0
+        },
+        {
+         "clip": "brows@1",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "brows"
+     }
+    ]
+   },
+   {
+    "name": "blush",
+    "states": [
+     {
+      "name": "blush",
+      "blend": {
+       "by": "blush",
+       "clips": [
+        {
+         "clip": "blush@0",
+         "value": 0
+        },
+        {
+         "clip": "blush@1",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "blush"
+     }
+    ]
+   },
+   {
+    "name": "hatSway",
+    "states": [
+     {
+      "name": "hatSway",
+      "blend": {
+       "by": "hatSway",
+       "clips": [
+        {
+         "clip": "hatSway@0",
+         "value": 0
+        },
+        {
+         "clip": "hatSway@1",
+         "value": 1
+        },
+        {
+         "clip": "hatSway@-1",
+         "value": -1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "hatSway"
+     }
+    ]
+   },
+   {
+    "name": "hatDroop",
+    "states": [
+     {
+      "name": "hatDroop",
+      "blend": {
+       "by": "hatDroop",
+       "clips": [
+        {
+         "clip": "hatDroop@0",
+         "value": 0
+        },
+        {
+         "clip": "hatDroop@1",
+         "value": 1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "hatDroop"
+     }
+    ]
+   },
+   {
+    "name": "mouth",
+    "states": [
+     {
+      "name": "mouth",
+      "blend": {
+       "by": "mouth",
+       "clips": [
+        {
+         "clip": "mouth@0",
+         "value": 0
+        },
+        {
+         "clip": "mouth@1",
+         "value": 1
+        },
+        {
+         "clip": "mouth@2",
+         "value": 2
+        },
+        {
+         "clip": "mouth@3",
+         "value": 3
+        },
+        {
+         "clip": "mouth@4",
+         "value": 4
+        },
+        {
+         "clip": "mouth@5",
+         "value": 5
+        },
+        {
+         "clip": "mouth@-1",
+         "value": -1
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "mouth"
+     }
+    ]
+   },
+   {
+    "name": "handL",
+    "states": [
+     {
+      "name": "handL",
+      "blend": {
+       "by": "handL",
+       "clips": [
+        {
+         "clip": "handL@0",
+         "value": 0
+        },
+        {
+         "clip": "handL@1",
+         "value": 1
+        },
+        {
+         "clip": "handL@2",
+         "value": 2
+        },
+        {
+         "clip": "handL@3",
+         "value": 3
+        },
+        {
+         "clip": "handL@4",
+         "value": 4
+        },
+        {
+         "clip": "handL@5",
+         "value": 5
+        },
+        {
+         "clip": "handL@6",
+         "value": 6
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "handL"
+     }
+    ]
+   },
+   {
+    "name": "handLX",
+    "states": [
+     {
+      "name": "handLX",
+      "blend": {
+       "by": "handLX",
+       "clips": [
+        {
+         "clip": "handLX@2000",
+         "value": 2000
+        },
+        {
+         "clip": "handLX@-1000",
+         "value": -1000
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "handLX"
+     }
+    ]
+   },
+   {
+    "name": "handLY",
+    "states": [
+     {
+      "name": "handLY",
+      "blend": {
+       "by": "handLY",
+       "clips": [
+        {
+         "clip": "handLY@2000",
+         "value": 2000
+        },
+        {
+         "clip": "handLY@-1000",
+         "value": -1000
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "handLY"
+     }
+    ]
+   },
+   {
+    "name": "handLAngle",
+    "states": [
+     {
+      "name": "handLAngle",
+      "blend": {
+       "by": "handLAngle",
+       "clips": [
+        {
+         "clip": "handLAngle@360",
+         "value": 360
+        },
+        {
+         "clip": "handLAngle@-360",
+         "value": -360
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "handLAngle"
+     }
+    ]
+   },
+   {
+    "name": "handLScale",
+    "states": [
+     {
+      "name": "handLScale",
+      "blend": {
+       "by": "handLScale",
+       "clips": [
+        {
+         "clip": "handLScale@0",
+         "value": 0
+        },
+        {
+         "clip": "handLScale@4",
+         "value": 4
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "handLScale"
+     }
+    ]
+   },
+   {
+    "name": "handR",
+    "states": [
+     {
+      "name": "handR",
+      "blend": {
+       "by": "handR",
+       "clips": [
+        {
+         "clip": "handR@0",
+         "value": 0
+        },
+        {
+         "clip": "handR@1",
+         "value": 1
+        },
+        {
+         "clip": "handR@2",
+         "value": 2
+        },
+        {
+         "clip": "handR@3",
+         "value": 3
+        },
+        {
+         "clip": "handR@4",
+         "value": 4
+        },
+        {
+         "clip": "handR@5",
+         "value": 5
+        },
+        {
+         "clip": "handR@6",
+         "value": 6
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "handR"
+     }
+    ]
+   },
+   {
+    "name": "handRX",
+    "states": [
+     {
+      "name": "handRX",
+      "blend": {
+       "by": "handRX",
+       "clips": [
+        {
+         "clip": "handRX@2000",
+         "value": 2000
+        },
+        {
+         "clip": "handRX@-1000",
+         "value": -1000
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "handRX"
+     }
+    ]
+   },
+   {
+    "name": "handRY",
+    "states": [
+     {
+      "name": "handRY",
+      "blend": {
+       "by": "handRY",
+       "clips": [
+        {
+         "clip": "handRY@2000",
+         "value": 2000
+        },
+        {
+         "clip": "handRY@-1000",
+         "value": -1000
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "handRY"
+     }
+    ]
+   },
+   {
+    "name": "handRAngle",
+    "states": [
+     {
+      "name": "handRAngle",
+      "blend": {
+       "by": "handRAngle",
+       "clips": [
+        {
+         "clip": "handRAngle@360",
+         "value": 360
+        },
+        {
+         "clip": "handRAngle@-360",
+         "value": -360
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "handRAngle"
+     }
+    ]
+   },
+   {
+    "name": "handRScale",
+    "states": [
+     {
+      "name": "handRScale",
+      "blend": {
+       "by": "handRScale",
+       "clips": [
+        {
+         "clip": "handRScale@0",
+         "value": 0
+        },
+        {
+         "clip": "handRScale@4",
+         "value": 4
+        }
+       ]
+      }
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "handRScale"
+     }
+    ]
+   },
+   {
+    "name": "Headwear",
+    "states": [
+     {
+      "name": "none",
+      "clip": "headwear-none"
+     },
+     {
+      "name": "ninja",
+      "clip": "headwear-ninja"
+     },
+     {
+      "name": "flowers",
+      "clip": "headwear-flowers"
+     },
+     {
+      "name": "sweatband",
+      "clip": "headwear-sweatband"
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "none"
+     },
+     {
+      "from": "any",
+      "to": "none",
+      "durationMs": 120,
+      "conditions": [
+       {
+        "on": "headwear",
+        "op": "==",
+        "value": 0
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "ninja",
+      "durationMs": 120,
+      "conditions": [
+       {
+        "on": "headwear",
+        "op": "==",
+        "value": 1
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "flowers",
+      "durationMs": 120,
+      "conditions": [
+       {
+        "on": "headwear",
+        "op": "==",
+        "value": 2
+       }
+      ]
+     },
+     {
+      "from": "any",
+      "to": "sweatband",
+      "durationMs": 120,
+      "conditions": [
+       {
+        "on": "headwear",
+        "op": "==",
+        "value": 3
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "name": "Alert",
+    "states": [
+     {
+      "name": "calm",
+      "clip": "alert-rest"
+     },
+     {
+      "name": "alert",
+      "clip": "alert"
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "calm"
+     },
+     {
+      "from": "any",
+      "to": "alert",
+      "durationMs": 60,
+      "earlyExit": true,
+      "conditions": [
+       {
+        "on": "alert"
+       }
+      ]
+     },
+     {
+      "from": "alert",
+      "to": "calm",
+      "exitTimePercent": 100,
+      "durationMs": 120,
+      "ease": "easeInOut"
+     }
+    ]
+   },
+   {
+    "name": "Poke",
+    "states": [
+     {
+      "name": "still",
+      "clip": "poke-rest"
+     },
+     {
+      "name": "poke",
+      "clip": "poke"
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "still"
+     },
+     {
+      "from": "any",
+      "to": "poke",
+      "durationMs": 40,
+      "earlyExit": true,
+      "conditions": [
+       {
+        "on": "poke"
+       }
+      ]
+     },
+     {
+      "from": "poke",
+      "to": "still",
+      "exitTimePercent": 100,
+      "durationMs": 120,
+      "ease": "easeInOut"
+     }
+    ]
+   },
+   {
+    "name": "Talk",
+    "states": [
+     {
+      "name": "quiet",
+      "clip": "talk-rest"
+     },
+     {
+      "name": "talking",
+      "clip": "talk"
+     }
+    ],
+    "transitions": [
+     {
+      "from": "entry",
+      "to": "quiet"
+     },
+     {
+      "from": "quiet",
+      "to": "talking",
+      "durationMs": 100,
+      "conditions": [
+       {
+        "on": "talking",
+        "bool": true
+       }
+      ]
+     },
+     {
+      "from": "talking",
+      "to": "quiet",
+      "durationMs": 150,
+      "conditions": [
+       {
+        "on": "talking",
+        "bool": false
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

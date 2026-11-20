@@ -1,0 +1,55 @@
+{
+    "artboard": {
+        "name": "set-d70s-sea-front",
+        "width": 940.0,
+        "height": 760.0
+    },
+    "art": {
+        "svg": "set-d70s-sea-front.svg"
+    },
+    "clips": [
+        {
+            "name": "swell",
+            "frames": 1450,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "waves",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1450,
+                            "value": -349.066
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "swell",
+                "states": [
+                    {
+                        "name": "swell",
+                        "clip": "swell"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "swell"
+                    }
+                ]
+            }
+        ]
+    }
+}

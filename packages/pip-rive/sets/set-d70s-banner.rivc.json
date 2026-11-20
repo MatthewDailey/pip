@@ -1,0 +1,47 @@
+{
+    "artboard": {
+        "name": "set-d70s-banner",
+        "width": 560.0,
+        "height": 300.0
+    },
+    "art": {
+        "svg": "set-d70s-banner.svg"
+    },
+    "clips": [
+        {
+            "name": "drop-in",
+            "frames": 330,
+            "fps": 600
+        },
+        {
+            "name": "hold",
+            "frames": 330,
+            "fps": 600
+        },
+        {
+            "name": "lift-out",
+            "frames": 180,
+            "fps": 600
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

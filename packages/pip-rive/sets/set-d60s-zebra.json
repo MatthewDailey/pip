@@ -1,0 +1,98 @@
+{
+ "piece": "set-d60s-zebra",
+ "origin": [540, 1150],
+ "clips": [
+  {
+   "name": "belisha-blink",
+   "duration": 0.982,
+   "loop": true,
+   "tracks": [
+    {
+     "target": "beacon-left-glow",
+     "property": "opacity",
+     "keys": [
+      [0.0, 0.5],
+      [0.245, 1.0],
+      [0.736, 0.0],
+      [0.982, 0.5]
+     ],
+     "ease": "easeInOut"
+    },
+    {
+     "target": "beacon-left-shine",
+     "property": "opacity",
+     "keys": [
+      [0.0, 0.7],
+      [0.245, 0.9],
+      [0.736, 0.5],
+      [0.982, 0.7]
+     ],
+     "ease": "easeInOut"
+    },
+    {
+     "target": "beacon-left-globe",
+     "property": "fillColor",
+     "keys": [
+      [0.0, "#E39D34"],
+      [0.123, "#F6B545"],
+      [0.245, "#FFC04D"],
+      [0.368, "#F6B545"],
+      [0.491, "#E39D34"],
+      [0.614, "#CF8423"],
+      [0.736, "#C77A1C"],
+      [0.859, "#CF8423"],
+      [0.982, "#E39D34"]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "beacon-right-glow",
+     "property": "opacity",
+     "keys": [
+      [0.0, 0.5],
+      [0.245, 0.0],
+      [0.736, 1.0],
+      [0.982, 0.5]
+     ],
+     "ease": "easeInOut"
+    },
+    {
+     "target": "beacon-right-shine",
+     "property": "opacity",
+     "keys": [
+      [0.0, 0.7],
+      [0.245, 0.5],
+      [0.736, 0.9],
+      [0.982, 0.7]
+     ],
+     "ease": "easeInOut"
+    },
+    {
+     "target": "beacon-right-globe",
+     "property": "fillColor",
+     "keys": [
+      [0.0, "#E39D34"],
+      [0.123, "#CF8423"],
+      [0.245, "#C77A1C"],
+      [0.368, "#CF8423"],
+      [0.491, "#E39D34"],
+      [0.614, "#F6B545"],
+      [0.736, "#FFC04D"],
+      [0.859, "#F6B545"],
+      [0.982, "#E39D34"]
+     ],
+     "ease": "linear"
+    }
+   ],
+   "note": "the two amber globes blink in antiphase"
+  }
+ ],
+ "inputs": [
+  {
+   "name": "progress",
+   "type": "number",
+   "drives": "Scene-level: n.f slides set n out and set n+1 in (a whip pan). The set itself is static at its own origin; the host translates it by -f*940 (horizontal) or +f*760 (vertical)."
+  }
+ ],
+ "size": [940, 760]
+}

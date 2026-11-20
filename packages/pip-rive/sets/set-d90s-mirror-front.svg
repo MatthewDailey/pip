@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-380 -430 760 860" width="760" height="860">
+<!-- Vanity mirror frame, bulbs, sheen and counter in front of Pip; (0,0) at screen (540,1150). -->
+<defs>
+<linearGradient id="lg1" gradientUnits="userSpaceOnUse" x1="-262" y1="-332" x2="262" y2="212"><stop offset="0" stop-color="#F4F6F8"/><stop offset="0.33" stop-color="#9AA6AE"/><stop offset="0.67" stop-color="#E6ECF0"/><stop offset="1" stop-color="#8C98A0"/></linearGradient>
+<linearGradient id="lg2" gradientUnits="userSpaceOnUse" x1="0" y1="196" x2="0" y2="262"><stop offset="0" stop-color="#FBF8F4"/><stop offset="1" stop-color="#E6DDD4"/></linearGradient>
+<clipPath id="glass-clip"><path d="M-232 -332L232 -332L232 -332C248.57 -332 262 -318.57 262 -302L262 182L262 182C262 198.57 248.57 212 232 212L-232 212L-232 212C-248.57 212 -262 198.57 -262 182L-262 -302L-262 -302C-262 -318.57 -248.57 -332 -232 -332Z"/></clipPath>
+<radialGradient id="rg3" gradientUnits="userSpaceOnUse" cx="-180" cy="-362" r="52"><stop offset="0" stop-color="#FFE9A8" stop-opacity="0.400"/><stop offset="0.38" stop-color="#FFE9A8" stop-opacity="0.400"/><stop offset="1" stop-color="#FFE9A8" stop-opacity="0.000"/></radialGradient>
+<radialGradient id="rg4" gradientUnits="userSpaceOnUse" cx="-90" cy="-362" r="52"><stop offset="0" stop-color="#FFE9A8" stop-opacity="0.400"/><stop offset="0.38" stop-color="#FFE9A8" stop-opacity="0.400"/><stop offset="1" stop-color="#FFE9A8" stop-opacity="0.000"/></radialGradient>
+<radialGradient id="rg5" gradientUnits="userSpaceOnUse" cx="0" cy="-362" r="52"><stop offset="0" stop-color="#FFE9A8" stop-opacity="0.400"/><stop offset="0.38" stop-color="#FFE9A8" stop-opacity="0.400"/><stop offset="1" stop-color="#FFE9A8" stop-opacity="0.000"/></radialGradient>
+<radialGradient id="rg6" gradientUnits="userSpaceOnUse" cx="90" cy="-362" r="52"><stop offset="0" stop-color="#FFE9A8" stop-opacity="0.400"/><stop offset="0.38" stop-color="#FFE9A8" stop-opacity="0.400"/><stop offset="1" stop-color="#FFE9A8" stop-opacity="0.000"/></radialGradient>
+<radialGradient id="rg7" gradientUnits="userSpaceOnUse" cx="180" cy="-362" r="52"><stop offset="0" stop-color="#FFE9A8" stop-opacity="0.400"/><stop offset="0.38" stop-color="#FFE9A8" stop-opacity="0.400"/><stop offset="1" stop-color="#FFE9A8" stop-opacity="0.000"/></radialGradient>
+</defs>
+<g clip-path="url(#glass-clip)">
+<g id="sheen">
+<path d="M-40 240L40 240L220 -360L140 -360Z" fill="#FFFFFF" fill-opacity="0.278"/>
+<path d="M70 240L96 240L276 -360L250 -360Z" fill="#FFFFFF" fill-opacity="0.180"/>
+</g>
+</g>
+<path id="chrome" d="M-232 -332L232 -332L232 -332C248.57 -332 262 -318.57 262 -302L262 182L262 182C262 198.57 248.57 212 232 212L-232 212L-232 212C-248.57 212 -262 198.57 -262 182L-262 -302L-262 -302C-262 -318.57 -248.57 -332 -232 -332Z" fill="none" stroke="url(#lg1)" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="frame-outline" d="M-233 -345L233 -345L233 -345C256.2 -345 275 -326.2 275 -303L275 183L275 183C275 206.2 256.2 225 233 225L-233 225L-233 225C-256.2 225 -275 206.2 -275 183L-275 -303L-275 -303C-275 -326.2 -256.2 -345 -233 -345Z" fill="none" stroke="#3A2A26" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="frame-inner" d="M-231 -319L231 -319L231 -319C240.94 -319 249 -310.94 249 -301L249 181L249 181C249 190.94 240.94 199 231 199L-231 199L-231 199C-240.94 199 -249 190.94 -249 181L-249 -301L-249 -301C-249 -310.94 -240.94 -319 -231 -319Z" fill="none" stroke="#3A2A26" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.502"/>
+<g id="bulb-bar">
+<path d="M-221 -378L221 -378L221 -378C231.49 -378 240 -369.49 240 -359L240 -359L240 -359C240 -348.51 231.49 -340 221 -340L-221 -340L-221 -340C-231.49 -340 -240 -348.51 -240 -359L-240 -359L-240 -359C-240 -369.49 -231.49 -378 -221 -378Z" fill="url(#lg1)"/>
+<path d="M-221 -378L221 -378L221 -378C231.49 -378 240 -369.49 240 -359L240 -359L240 -359C240 -348.51 231.49 -340 221 -340L-221 -340L-221 -340C-231.49 -340 -240 -348.51 -240 -359L-240 -359L-240 -359C-240 -369.49 -231.49 -378 -221 -378Z" fill="none" stroke="#3A2A26" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="bulbs">
+<g id="bulb-0">
+<circle cx="-180" cy="-362" r="52" fill="url(#rg3)"/>
+<circle cx="-180" cy="-362" r="19" fill="#FFF6D6"/>
+<circle cx="-180" cy="-362" r="19" fill="none" stroke="#E2B85C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="-186" cy="-368" r="5" fill="#FFFFFF"/>
+</g>
+<g id="bulb-1">
+<circle cx="-90" cy="-362" r="52" fill="url(#rg4)"/>
+<circle cx="-90" cy="-362" r="19" fill="#FFF6D6"/>
+<circle cx="-90" cy="-362" r="19" fill="none" stroke="#E2B85C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="-96" cy="-368" r="5" fill="#FFFFFF"/>
+</g>
+<g id="bulb-2">
+<circle cx="0" cy="-362" r="52" fill="url(#rg5)"/>
+<circle cx="0" cy="-362" r="19" fill="#FFF6D6"/>
+<circle cx="0" cy="-362" r="19" fill="none" stroke="#E2B85C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="-6" cy="-368" r="5" fill="#FFFFFF"/>
+</g>
+<g id="bulb-3">
+<circle cx="90" cy="-362" r="52" fill="url(#rg6)"/>
+<circle cx="90" cy="-362" r="19" fill="#FFF6D6"/>
+<circle cx="90" cy="-362" r="19" fill="none" stroke="#E2B85C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="84" cy="-368" r="5" fill="#FFFFFF"/>
+</g>
+<g id="bulb-4">
+<circle cx="180" cy="-362" r="52" fill="url(#rg7)"/>
+<circle cx="180" cy="-362" r="19" fill="#FFF6D6"/>
+<circle cx="180" cy="-362" r="19" fill="none" stroke="#E2B85C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="174" cy="-368" r="5" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="counter-shadow">
+<path d="M-324 218.4L324 218.4L324 218.4C324.88 218.4 325.6 219.12 325.6 220L325.6 260L325.6 260C325.6 260.88 324.88 261.6 324 261.6L-324 261.6L-324 261.6C-324.88 261.6 -325.6 260.88 -325.6 260L-325.6 220L-325.6 220C-325.6 219.12 -324.88 218.4 -324 218.4Z" fill="#3A2A26" fill-opacity="0.047"/>
+<path d="M-324 212.64L324 212.64L324 212.64C328.06 212.64 331.36 215.94 331.36 220L331.36 260L331.36 260C331.36 264.06 328.06 267.36 324 267.36L-324 267.36L-324 267.36C-328.06 267.36 -331.36 264.06 -331.36 260L-331.36 220L-331.36 220C-331.36 215.94 -328.06 212.64 -324 212.64Z" fill="#3A2A26" fill-opacity="0.047"/>
+<path d="M-324 206.88L324 206.88L324 206.88C331.25 206.88 337.12 212.75 337.12 220L337.12 260L337.12 260C337.12 267.25 331.25 273.12 324 273.12L-324 273.12L-324 273.12C-331.25 273.12 -337.12 267.25 -337.12 260L-337.12 220L-337.12 220C-337.12 212.75 -331.25 206.88 -324 206.88Z" fill="#3A2A26" fill-opacity="0.047"/>
+<path d="M-324 201.12L324 201.12L324 201.12C334.43 201.12 342.88 209.57 342.88 220L342.88 260L342.88 260C342.88 270.43 334.43 278.88 324 278.88L-324 278.88L-324 278.88C-334.43 278.88 -342.88 270.43 -342.88 260L-342.88 220L-342.88 220C-342.88 209.57 -334.43 201.12 -324 201.12Z" fill="#3A2A26" fill-opacity="0.047"/>
+<path d="M-324 195.36L324 195.36L324 195.36C337.61 195.36 348.64 206.39 348.64 220L348.64 260L348.64 260C348.64 273.61 337.61 284.64 324 284.64L-324 284.64L-324 284.64C-337.61 284.64 -348.64 273.61 -348.64 260L-348.64 220L-348.64 220C-348.64 206.39 -337.61 195.36 -324 195.36Z" fill="#3A2A26" fill-opacity="0.047"/>
+<path d="M-324 189.6L324 189.6L324 189.6C340.79 189.6 354.4 203.21 354.4 220L354.4 260L354.4 260C354.4 276.79 340.79 290.4 324 290.4L-324 290.4L-324 290.4C-340.79 290.4 -354.4 276.79 -354.4 260L-354.4 220L-354.4 220C-354.4 203.21 -340.79 189.6 -324 189.6Z" fill="#3A2A26" fill-opacity="0.047"/>
+</g>
+<g id="faucet">
+<path d="M-200 196L-200 152Q-200 136 -182 136L-150 136L-150 156" fill="none" stroke="#9AA6AE" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-200 196L-200 152Q-200 136 -182 136L-150 136L-150 156" fill="none" stroke="#E6ECF0" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="counter">
+<path d="M-326 196L326 196L326 196C333.73 196 340 202.27 340 210L340 248L340 248C340 255.73 333.73 262 326 262L-326 262L-326 262C-333.73 262 -340 255.73 -340 248L-340 210L-340 210C-340 202.27 -333.73 196 -326 196Z" fill="url(#lg2)"/>
+<path d="M-326 200L326 200" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.800"/>
+<path d="M-260 228L-150 246" fill="none" stroke="#A0968C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.149"/>
+<path d="M80 214L220 240" fill="none" stroke="#A0968C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.149"/>
+<path d="M-326 196L326 196L326 196C333.73 196 340 202.27 340 210L340 248L340 248C340 255.73 333.73 262 326 262L-326 262L-326 262C-333.73 262 -340 255.73 -340 248L-340 210L-340 210C-340 202.27 -333.73 196 -326 196Z" fill="none" stroke="#3A2A26" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

@@ -1,0 +1,134 @@
+{
+    "artboard": {
+        "name": "set-d80s-maze",
+        "width": 1060.0,
+        "height": 960.0
+    },
+    "art": {
+        "svg": "set-d80s-maze.svg"
+    },
+    "clips": [
+        {
+            "name": "pellet-pulse",
+            "frames": 377,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "pellet-glow",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.5,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 94,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 283,
+                            "value": 0.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 0.5,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "pellet",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 94,
+                            "value": 1.086,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 283,
+                            "value": 0.914,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "pellet",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 94,
+                            "value": 1.086,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 283,
+                            "value": 0.914,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "whip-in",
+            "frames": 204,
+            "fps": 600
+        },
+        {
+            "name": "whip-out",
+            "frames": 156,
+            "fps": 600
+        },
+        {
+            "name": "pop-in",
+            "frames": 270,
+            "fps": 600
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "pellet-pulse",
+                "states": [
+                    {
+                        "name": "pellet-pulse",
+                        "clip": "pellet-pulse"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "pellet-pulse"
+                    }
+                ]
+            }
+        ]
+    }
+}

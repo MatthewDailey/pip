@@ -1,0 +1,30 @@
+{
+  "piece": "bubble",
+  "svg": "fx-bubble.svg",
+  "origin": [198.25, 188.604],
+  "size": [396.5, 377.207],
+  "notes": [
+    "(0,0) is the tail tip. The box sits 14dp (36.75px) above it; tail half-width 10dp.",
+    "Box size follows the text: width = textWidth + 2*36.75 (text wraps at 260dp = 682.5px, min 40dp), height = textHeight + 73.5. Corner radius 47.25, stroke 7.875 #F05248.",
+    "The shadow is the box offset (+5.25, +10.5) at #3A2A26 18%.",
+    "The Kotlin bubble also clamps the box horizontally to stay 12dp inside the screen; drive that with the boxShift input (the tail stays put)."
+  ],
+  "clips": [],
+  "inputs": [
+    {
+      "name": "textWidth",
+      "type": "number",
+      "drives": "bubble-box/bubble-shadow width and x (centred) and text-bubble wrap width"
+    },
+    {
+      "name": "textHeight",
+      "type": "number",
+      "drives": "bubble-box/bubble-shadow height and y (grows upward from the tail)"
+    },
+    {
+      "name": "boxShift",
+      "type": "number",
+      "drives": "x offset of bubble-box, bubble-shadow and text-bubble that keeps the box on screen; tail does not move"
+    }
+  ]
+}

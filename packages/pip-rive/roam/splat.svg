@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+  <g id="splat">
+    <path id="splatShade" d="M40 12 L47 28 L66 20 L54 37 L70 46 L51 49 L56 68 L42 54 L28 69 L31 50 L11 47 L27 37 L15 19 L33 28 Z" fill="#2E2A3A" fill-opacity="0.55"/>
+    <path id="splatSilk" d="M40 17 L46 31 L61 25 L51 38 L64 45 L49 47 L53 62 L41 51 L30 63 L33 48 L16 45 L30 38 L20 24 L34 31 Z" fill="#F7F5FF"/>
+  </g>
+</svg>

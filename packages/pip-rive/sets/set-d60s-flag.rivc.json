@@ -1,0 +1,77 @@
+{
+    "artboard": {
+        "name": "set-d60s-flag",
+        "width": 300.0,
+        "height": 680.0
+    },
+    "art": {
+        "svg": "set-d60s-flag.svg"
+    },
+    "clips": [
+        {
+            "name": "ripple",
+            "frames": 3427,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "cloth",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 857,
+                            "value": 1.025,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 1714,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 2570,
+                            "value": 0.975,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 3427,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "plant-wobble",
+            "frames": 420,
+            "fps": 600
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "ripple",
+                "states": [
+                    {
+                        "name": "ripple",
+                        "clip": "ripple"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "ripple"
+                    }
+                ]
+            }
+        ]
+    }
+}

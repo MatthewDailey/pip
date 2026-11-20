@@ -1,0 +1,36 @@
+RIVE 7.5 fileId=0 toc=[]
+#0 Backboard
+#1 Artboard [0] name="G" width=100.0 height=100.0
+#2 Shape [1] name="orb" parentId=0
+#3 Ellipse [2] parentId=1 width=40.0 height=40.0
+#4 Fill [3] parentId=1
+#5 RadialGradient [4] parentId=3 endX=20.0
+#6 GradientStop [5] parentId=4 colorValue=#FFFFFFFF position=0.0
+#7 GradientStop [6] parentId=4 colorValue=#FF0000FF position=1.0
+#8 CubicEaseInterpolator [7] x1=0.0 y1=0.0 x2=0.58 y2=1.0
+#9 CubicEaseInterpolator [8] x1=0.3 y1=0.0 x2=0.7 y2=1.0
+#10 LinearAnimation name="glow" fps=60 duration=30 loopValue=2
+#11 KeyedObject objectId=6
+#12 KeyedProperty propertyKey=38
+#13 KeyFrameColor frame=0 interpolationType=1 value=#FF0000FF
+#14 KeyFrameColor frame=30 interpolationType=2 value=#80FF8000 interpolatorId=7
+#15 KeyedObject objectId=5
+#16 KeyedProperty propertyKey=39
+#17 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#18 KeyFrameDouble frame=30 interpolationType=0 value=0.4
+#19 KeyedObject objectId=4
+#20 KeyedProperty propertyKey=46
+#21 KeyFrameDouble frame=0 interpolationType=1 value=1.0
+#22 KeyFrameDouble frame=15 interpolationType=1 value=0.5
+#23 KeyedObject objectId=2
+#24 KeyedProperty propertyKey=20
+#25 KeyFrameDouble frame=0 interpolationType=1 value=40.0
+#26 KeyFrameDouble frame=30 interpolationType=2 value=48.0 interpolatorId=8
+#27 KeyedObject objectId=3
+#28 KeyedProperty propertyKey=41
+#29 KeyFrameBool frame=0 interpolationType=0 value=true
+#30 KeyFrameBool frame=20 interpolationType=0 value=false
+#31 KeyedObject objectId=1
+#32 KeyedProperty propertyKey=15
+#33 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#34 KeyFrameDouble frame=30 interpolationType=1 value=3.14159

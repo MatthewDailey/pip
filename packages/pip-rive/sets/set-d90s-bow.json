@@ -1,0 +1,59 @@
+{
+ "piece": "set-d90s-bow",
+ "origin": [540, 1170],
+ "clips": [
+  {
+   "name": "bob",
+   "duration": 1.25,
+   "loop": true,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "y",
+     "keys": [
+      [0, 0],
+      [0.3125, -9],
+      [0.9375, 9],
+      [1.25, 0]
+     ],
+     "ease": "easeInOut"
+    }
+   ]
+  },
+  {
+   "name": "whip-in",
+   "duration": 0.34,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "x",
+     "keys": [
+      [0, 1410],
+      [0.265, -16],
+      [0.34, 0]
+     ],
+     "ease": "easeOut"
+    }
+   ],
+   "note": "x relative to home (540): flies in from screen x 1950, overshoots 16 px, settles"
+  },
+  {
+   "name": "whip-out",
+   "duration": 0.26,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "x",
+     "keys": [
+      [0, 0],
+      [0.26, -1440]
+     ],
+     "ease": "easeIn"
+    }
+   ]
+  }
+ ],
+ "size": [1060, 960]
+}

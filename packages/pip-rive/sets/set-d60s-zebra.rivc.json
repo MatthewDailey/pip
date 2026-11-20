@@ -1,0 +1,229 @@
+{
+    "artboard": {
+        "name": "set-d60s-zebra",
+        "width": 940.0,
+        "height": 760.0
+    },
+    "art": {
+        "svg": "set-d60s-zebra.svg"
+    },
+    "clips": [
+        {
+            "name": "belisha-blink",
+            "frames": 589,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "beacon-left-glow",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.5,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 147,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 442,
+                            "value": 0.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 589,
+                            "value": 0.5,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "beacon-left-shine",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.7,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 147,
+                            "value": 0.9,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 442,
+                            "value": 0.5,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 589,
+                            "value": 0.7,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "beacon-left-globe/fill",
+                    "property": "colorValue",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "color": "#E39D34"
+                        },
+                        {
+                            "frame": 74,
+                            "color": "#F6B545"
+                        },
+                        {
+                            "frame": 147,
+                            "color": "#FFC04D"
+                        },
+                        {
+                            "frame": 221,
+                            "color": "#F6B545"
+                        },
+                        {
+                            "frame": 295,
+                            "color": "#E39D34"
+                        },
+                        {
+                            "frame": 368,
+                            "color": "#CF8423"
+                        },
+                        {
+                            "frame": 442,
+                            "color": "#C77A1C"
+                        },
+                        {
+                            "frame": 515,
+                            "color": "#CF8423"
+                        },
+                        {
+                            "frame": 589,
+                            "color": "#E39D34"
+                        }
+                    ]
+                },
+                {
+                    "target": "beacon-right-glow",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.5,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 147,
+                            "value": 0.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 442,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 589,
+                            "value": 0.5,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "beacon-right-shine",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.7,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 147,
+                            "value": 0.5,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 442,
+                            "value": 0.9,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 589,
+                            "value": 0.7,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "beacon-right-globe/fill",
+                    "property": "colorValue",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "color": "#E39D34"
+                        },
+                        {
+                            "frame": 74,
+                            "color": "#CF8423"
+                        },
+                        {
+                            "frame": 147,
+                            "color": "#C77A1C"
+                        },
+                        {
+                            "frame": 221,
+                            "color": "#CF8423"
+                        },
+                        {
+                            "frame": 295,
+                            "color": "#E39D34"
+                        },
+                        {
+                            "frame": 368,
+                            "color": "#F6B545"
+                        },
+                        {
+                            "frame": 442,
+                            "color": "#FFC04D"
+                        },
+                        {
+                            "frame": 515,
+                            "color": "#F6B545"
+                        },
+                        {
+                            "frame": 589,
+                            "color": "#E39D34"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "belisha-blink",
+                "states": [
+                    {
+                        "name": "belisha-blink",
+                        "clip": "belisha-blink"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "belisha-blink"
+                    }
+                ]
+            }
+        ]
+    }
+}

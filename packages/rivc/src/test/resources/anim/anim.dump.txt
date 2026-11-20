@@ -1,0 +1,245 @@
+RIVE 7.5 fileId=0 toc=[]
+#0 Backboard
+#1 DataEnumCustom name="mood"
+#2 DataEnumValue key="calm"
+#3 DataEnumValue key="upset"
+#4 ViewModel name="Anim"
+#5 ViewModelPropertyEnumCustom name="mood" enumId=0
+#6 ViewModelPropertyTrigger name="alert"
+#7 ViewModelPropertyNumber name="lookX"
+#8 ViewModelPropertyNumber name="smile"
+#9 ViewModelPropertyBoolean name="sleepy"
+#10 ViewModelPropertyString name="label"
+#11 ViewModelPropertyColor name="tint"
+#12 ViewModelInstance name="Default" viewModelId=0
+#13 ViewModelInstanceEnum viewModelPropertyId=0 propertyValue=0
+#14 ViewModelInstanceTrigger viewModelPropertyId=1
+#15 ViewModelInstanceNumber viewModelPropertyId=2 propertyValue=0.0
+#16 ViewModelInstanceNumber viewModelPropertyId=3 propertyValue=0.0
+#17 ViewModelInstanceBoolean viewModelPropertyId=4 propertyValue=false
+#18 ViewModelInstanceString viewModelPropertyId=5 propertyValue="Pip"
+#19 ViewModelInstanceColor viewModelPropertyId=6 propertyValue=#FF88CC88
+#20 Artboard [0] name="Anim" width=200.0 height=200.0 clip=false defaultStateMachineId=0 viewModelId=0
+#21 Node [1] name="bobber" parentId=0
+#22 Node [2] name="eyes" parentId=0
+#23 Shape [3] name="flash" parentId=0
+#24 Ellipse [4] parentId=3 x=180.0 y=20.0 width=24.0 height=24.0
+#25 Fill [5] parentId=3
+#26 SolidColor [6] parentId=5 colorValue=#FFFFFF00
+#27 Shape [7] name="dot" parentId=1
+#28 Ellipse [8] parentId=7 x=20.0 y=20.0 width=16.0 height=16.0
+#29 Fill [9] parentId=7
+#30 SolidColor [10] parentId=9 colorValue=#FFFF0000
+#31 Shape [11] name="mouth" parentId=0
+#32 PointsPath [12] parentId=11 isClosed=true
+#33 CubicDetachedVertex [13] parentId=12 x=80.0 y=140.0 inRotation=0.7853982 inDistance=14.142136 outRotation=0.4636476 outDistance=11.18034
+#34 CubicDetachedVertex [14] parentId=12 x=120.0 y=140.0 inRotation=2.6779451 inDistance=11.18034 outRotation=2.3561945 outDistance=14.142136
+#35 Fill [15] parentId=11
+#36 SolidColor [16] parentId=15 colorValue=#FF802040
+#37 Shape [17] name="eyeR" parentId=2 x=120.0 y=105.0
+#38 Ellipse [18] parentId=17 width=16.0 height=20.0
+#39 Fill [19] parentId=17
+#40 SolidColor [20] parentId=19 colorValue=#FF202020
+#41 Shape [21] name="eyeL" parentId=2 x=80.0 y=105.0
+#42 Ellipse [22] parentId=21 width=16.0 height=20.0
+#43 Fill [23] parentId=21
+#44 SolidColor [24] parentId=23 colorValue=#FF202020
+#45 Shape [25] name="face" parentId=0
+#46 Ellipse [26] parentId=25 x=100.0 y=120.0 width=120.0 height=100.0
+#47 Fill [27] parentId=25
+#48 SolidColor [28] parentId=27 colorValue=#FF88CC88
+#49 Event [29] name="alerted" parentId=0
+#50 Event [30] name="alertStarted" parentId=0
+#51 CubicEaseInterpolator [31] x1=0.42 y1=0.0 x2=0.58 y2=1.0
+#52 CubicEaseInterpolator [32] x1=0.0 y1=0.0 x2=0.58 y2=1.0
+#53 CubicEaseInterpolator [33] x1=0.25 y1=0.1 x2=0.25 y2=1.0
+#54 LinearAnimation name="bob" fps=60 duration=120 loopValue=1
+#55 KeyedObject objectId=1
+#56 KeyedProperty propertyKey=14
+#57 KeyFrameDouble frame=0 interpolationType=2 value=0.0 interpolatorId=31
+#58 KeyFrameDouble frame=60 interpolationType=2 value=100.0 interpolatorId=31
+#59 KeyFrameDouble frame=120 interpolationType=1 value=0.0
+#60 LinearAnimation name="calm" fps=60 duration=1 loopValue=0
+#61 KeyedObject objectId=28
+#62 KeyedProperty propertyKey=37
+#63 KeyFrameColor frame=0 interpolationType=1 value=#FF88CC88
+#64 LinearAnimation name="upset" fps=60 duration=1 loopValue=0
+#65 KeyedObject objectId=28
+#66 KeyedProperty propertyKey=37
+#67 KeyFrameColor frame=0 interpolationType=1 value=#FF3366FF
+#68 LinearAnimation name="quiet" fps=60 duration=1 loopValue=0
+#69 KeyedObject objectId=3
+#70 KeyedProperty propertyKey=18
+#71 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#72 LinearAnimation name="alert" fps=60 duration=30 loopValue=0
+#73 KeyedObject objectId=3
+#74 KeyedProperty propertyKey=18
+#75 KeyFrameDouble frame=0 interpolationType=1 value=1.0
+#76 KeyFrameDouble frame=30 interpolationType=1 value=1.0
+#77 KeyedObject objectId=4
+#78 KeyedProperty propertyKey=20
+#79 KeyFrameDouble frame=0 interpolationType=1 value=24.0
+#80 KeyFrameDouble frame=15 interpolationType=2 value=36.0 interpolatorId=32
+#81 KeyFrameDouble frame=30 interpolationType=1 value=24.0
+#82 KeyedObject objectId=29
+#83 KeyedProperty propertyKey=395
+#84 KeyFrameCallback frame=10
+#85 LinearAnimation name="look_left" fps=60 duration=1 loopValue=0
+#86 KeyedObject objectId=2
+#87 KeyedProperty propertyKey=13
+#88 KeyFrameDouble frame=0 interpolationType=1 value=-30.0
+#89 LinearAnimation name="look_right" fps=60 duration=1 loopValue=0
+#90 KeyedObject objectId=2
+#91 KeyedProperty propertyKey=13
+#92 KeyFrameDouble frame=0 interpolationType=1 value=30.0
+#93 LinearAnimation name="mouth_rest" fps=60 duration=1 loopValue=0
+#94 KeyedObject objectId=13
+#95 KeyedProperty propertyKey=24
+#96 KeyFrameDouble frame=0 interpolationType=1 value=80.0
+#97 KeyedProperty propertyKey=25
+#98 KeyFrameDouble frame=0 interpolationType=1 value=140.0
+#99 KeyedProperty propertyKey=84
+#100 KeyFrameDouble frame=0 interpolationType=1 value=0.7853982
+#101 KeyedProperty propertyKey=85
+#102 KeyFrameDouble frame=0 interpolationType=1 value=14.142136
+#103 KeyedProperty propertyKey=86
+#104 KeyFrameDouble frame=0 interpolationType=1 value=0.4636476
+#105 KeyedProperty propertyKey=87
+#106 KeyFrameDouble frame=0 interpolationType=1 value=11.18034
+#107 KeyedObject objectId=14
+#108 KeyedProperty propertyKey=24
+#109 KeyFrameDouble frame=0 interpolationType=1 value=120.0
+#110 KeyedProperty propertyKey=25
+#111 KeyFrameDouble frame=0 interpolationType=1 value=140.0
+#112 KeyedProperty propertyKey=84
+#113 KeyFrameDouble frame=0 interpolationType=1 value=2.6779451
+#114 KeyedProperty propertyKey=85
+#115 KeyFrameDouble frame=0 interpolationType=1 value=11.18034
+#116 KeyedProperty propertyKey=86
+#117 KeyFrameDouble frame=0 interpolationType=1 value=2.3561945
+#118 KeyedProperty propertyKey=87
+#119 KeyFrameDouble frame=0 interpolationType=1 value=14.142136
+#120 LinearAnimation name="smile" fps=60 duration=1 loopValue=0
+#121 KeyedObject objectId=13
+#122 KeyedProperty propertyKey=24
+#123 KeyFrameDouble frame=0 interpolationType=1 value=78.0
+#124 KeyedProperty propertyKey=25
+#125 KeyFrameDouble frame=0 interpolationType=1 value=136.0
+#126 KeyedProperty propertyKey=84
+#127 KeyFrameDouble frame=0 interpolationType=1 value=1.19029
+#128 KeyedProperty propertyKey=85
+#129 KeyFrameDouble frame=0 interpolationType=1 value=32.31099
+#130 KeyedProperty propertyKey=86
+#131 KeyFrameDouble frame=0 interpolationType=1 value=1.0303768
+#132 KeyedProperty propertyKey=87
+#133 KeyFrameDouble frame=0 interpolationType=1 value=23.323807
+#134 KeyedObject objectId=14
+#135 KeyedProperty propertyKey=24
+#136 KeyFrameDouble frame=0 interpolationType=1 value=122.0
+#137 KeyedProperty propertyKey=25
+#138 KeyFrameDouble frame=0 interpolationType=1 value=136.0
+#139 KeyedProperty propertyKey=84
+#140 KeyFrameDouble frame=0 interpolationType=1 value=2.1112158
+#141 KeyedProperty propertyKey=85
+#142 KeyFrameDouble frame=0 interpolationType=1 value=23.323807
+#143 KeyedProperty propertyKey=86
+#144 KeyFrameDouble frame=0 interpolationType=1 value=1.9513026
+#145 KeyedProperty propertyKey=87
+#146 KeyFrameDouble frame=0 interpolationType=1 value=32.31099
+#147 LinearAnimation name="doze" fps=60 duration=40 loopValue=2 enableWorkArea=true workStart=10 workEnd=40
+#148 KeyedObject objectId=21
+#149 KeyedProperty propertyKey=17
+#150 KeyFrameDouble frame=0 interpolationType=1 value=1.0
+#151 KeyFrameDouble frame=40 interpolationType=2 value=0.2 interpolatorId=33
+#152 KeyedObject objectId=17
+#153 KeyedProperty propertyKey=17
+#154 KeyFrameDouble frame=0 interpolationType=1 value=1.0
+#155 KeyFrameDouble frame=40 interpolationType=1 value=0.2
+#156 KeyedObject objectId=15
+#157 KeyedProperty propertyKey=41
+#158 KeyFrameBool frame=0 interpolationType=0 value=true
+#159 KeyFrameBool frame=20 interpolationType=0 value=false
+#160 LinearAnimation name="awake" fps=60 duration=1 loopValue=0
+#161 KeyedObject objectId=15
+#162 KeyedProperty propertyKey=41
+#163 KeyFrameBool frame=0 interpolationType=0 value=true
+#164 StateMachine name="Anim"
+#165 StateMachineLayer name="Bob"
+#166 AnyState
+#167 EntryState
+#168 StateTransition stateToId=3 flags=0 duration=0 exitTime=0
+#169 ExitState
+#170 AnimationState animationId=0
+#171 StateMachineLayer name="Mood"
+#172 AnyState
+#173 StateTransition stateToId=3 flags=32 duration=500 exitTime=0
+#174 TransitionViewModelCondition opValue=0
+#175 BindablePropertyEnum
+#176 DataBindContext propertyKey=637 flags=0 sourcePathIds=[0,0]
+#177 TransitionPropertyViewModelComparator
+#178 TransitionValueEnumComparator value=0
+#179 StateTransition stateToId=4 flags=32 duration=500 exitTime=0
+#180 TransitionViewModelCondition opValue=0
+#181 BindablePropertyEnum
+#182 DataBindContext propertyKey=637 flags=0 sourcePathIds=[0,0]
+#183 TransitionPropertyViewModelComparator
+#184 TransitionValueEnumComparator value=1
+#185 EntryState
+#186 StateTransition stateToId=3 flags=0 duration=0 exitTime=0
+#187 ExitState
+#188 AnimationState animationId=1
+#189 AnimationState animationId=2
+#190 StateMachineLayer name="Alert"
+#191 AnyState
+#192 StateTransition stateToId=4 flags=0 duration=200 exitTime=0
+#193 TransitionViewModelCondition opValue=0
+#194 BindablePropertyTrigger
+#195 DataBindContext propertyKey=686 flags=0 sourcePathIds=[0,1]
+#196 TransitionPropertyViewModelComparator
+#197 TransitionValueTriggerComparator
+#198 EntryState
+#199 StateTransition stateToId=3 flags=0 duration=0 exitTime=0
+#200 ExitState
+#201 AnimationState animationId=3
+#202 AnimationState animationId=4
+#203 StateMachineFireEvent occursValue=0 eventId=30
+#204 StateTransition stateToId=3 flags=12 duration=100 exitTime=100 interpolationType=2 interpolatorId=31
+#205 StateMachineLayer name="Look"
+#206 AnyState
+#207 EntryState
+#208 StateTransition stateToId=3 flags=0 duration=0 exitTime=0
+#209 ExitState
+#210 BindablePropertyNumber
+#211 DataBindContext propertyKey=636 flags=0 sourcePathIds=[0,2]
+#212 BlendState1DViewModel flags=2
+#213 BlendAnimation1D animationId=5 value=-1.0
+#214 BlendAnimation1D animationId=6 value=1.0
+#215 StateMachineLayer name="Mouth"
+#216 AnyState
+#217 EntryState
+#218 StateTransition stateToId=3 flags=0 duration=0 exitTime=0
+#219 ExitState
+#220 BlendStateDirect
+#221 BlendAnimationDirect animationId=7 blendSource=1 mixValue=100.0
+#222 BindablePropertyNumber
+#223 DataBindContext propertyKey=636 flags=0 sourcePathIds=[0,3]
+#224 BlendAnimationDirect animationId=8 blendSource=2
+#225 StateMachineLayer name="Sleep"
+#226 AnyState
+#227 EntryState
+#228 StateTransition stateToId=3 flags=0 duration=0 exitTime=0
+#229 ExitState
+#230 AnimationState animationId=10
+#231 StateTransition stateToId=4 flags=0 duration=300 exitTime=0
+#232 TransitionViewModelCondition opValue=0
+#233 BindablePropertyBoolean
+#234 DataBindContext propertyKey=634 flags=0 sourcePathIds=[0,4]
+#235 TransitionPropertyViewModelComparator
+#236 TransitionValueBooleanComparator value=true
+#237 AnimationState animationId=9 speed=0.5
+#238 StateTransition stateToId=3 flags=16 duration=300 exitTime=0
+#239 TransitionViewModelCondition opValue=1
+#240 BindablePropertyBoolean
+#241 DataBindContext propertyKey=634 flags=0 sourcePathIds=[0,4]
+#242 TransitionPropertyViewModelComparator
+#243 TransitionValueBooleanComparator value=true

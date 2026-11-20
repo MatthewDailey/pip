@@ -1,0 +1,76 @@
+{
+ "piece": "set-d90s-mirror-back",
+ "origin": [540, 1150],
+ "clips": [
+  {
+   "name": "pop-in",
+   "duration": 0.45,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "scale",
+     "keys": [
+      [0, 0.86],
+      [0.45, 1]
+     ],
+     "ease": "outBack"
+    },
+    {
+     "target": "root",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.25, 1]
+     ],
+     "ease": "easeOut"
+    }
+   ]
+  },
+  {
+   "name": "rattle",
+   "duration": 0.08,
+   "loop": true,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "rotation",
+     "keys": [
+      [0, 0],
+      [0.02, -1.4],
+      [0.06, 1.4],
+      [0.08, 0]
+     ],
+     "ease": "linear"
+    }
+   ],
+   "note": "the scream shakes the mirror (scene loops it 9 times)"
+  },
+  {
+   "name": "pop-out",
+   "duration": 0.28,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "scale",
+     "keys": [
+      [0, 1],
+      [0.28, 0.72]
+     ],
+     "ease": "inBack"
+    },
+    {
+     "target": "root",
+     "property": "opacity",
+     "keys": [
+      [0, 1],
+      [0.28, 0]
+     ],
+     "ease": "easeIn"
+    }
+   ]
+  }
+ ],
+ "size": [700, 800]
+}

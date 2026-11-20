@@ -1,0 +1,49 @@
+.DS_Store
+*.iml
+.idea/
+
+# Secrets and machine state
+.env
+.env.*
+!.env.example
+local.properties
+
+# Build output and caches
+build/
+.gradle/
+.kotlin/
+.turbo/
+node_modules/
+__pycache__/
+*.pyc
+.externalNativeBuild
+.cxx
+/captures
+
+# Python venv (shared by tools/*) and generated helpers
+tools/.venv/
+.gen/
+.mock-audio/
+
+# Evidence (screenshots, recordings): large, local only
+.proof/
+
+# Generated reference renders from tools/pip-art (compare sheets)
+packages/pip-rive/sets/reference/
+
+# rivc-preview build outputs and failed-golden artifacts
+packages/rivc-preview/pip.riv
+packages/rivc-preview/build.json
+packages/rivc-preview/.pip.*.riv
+packages/rivc-preview/goldens/*.actual.png
+packages/rivc-preview/goldens/*.diff.png
+
+# Soundtrack test renders
+tools/pip-show/*.wav
+
+# Local setup state written by scripts/setup.sh
+.pip/
+
+# pip-rive compiles its .riv files here; the app reads them as assets
+packages/pip-rive/dist/
+packages/pip-rive/showreel/*.riv

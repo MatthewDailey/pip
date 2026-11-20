@@ -1,0 +1,156 @@
+{
+    "artboard": {
+        "name": "set-d80s-neon",
+        "width": 760.0,
+        "height": 300.0
+    },
+    "art": {
+        "svg": "set-d80s-neon.svg"
+    },
+    "clips": [
+        {
+            "name": "flicker-on",
+            "frames": 810,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "glow",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 41,
+                            "value": 0.5,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 65,
+                            "value": 0.1,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 97,
+                            "value": 1.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "core",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 41,
+                            "value": 0.5,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 65,
+                            "value": 0.1,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 97,
+                            "value": 1.0,
+                            "ease": "hold"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "hum",
+            "frames": 265,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "glow",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.9,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 17,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 50,
+                            "value": 0.8,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 83,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 116,
+                            "value": 0.8,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 149,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 182,
+                            "value": 0.8,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 215,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 248,
+                            "value": 0.8,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 265,
+                            "value": 0.9,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "hum",
+                "states": [
+                    {
+                        "name": "hum",
+                        "clip": "hum"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "hum"
+                    }
+                ]
+            }
+        ]
+    }
+}

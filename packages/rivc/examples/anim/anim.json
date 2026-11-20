@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "artboard": { "name": "Anim", "width": 200, "height": 200 },
+  "art": {
+    "svg": "anim.svg",
+    "nodes": [{ "id": "bobber" }, { "id": "eyes" }],
+    "shapes": [
+      { "id": "face" },
+      { "id": "eyeL", "parent": "eyes", "pivot": "center" },
+      { "id": "eyeR", "parent": "eyes", "pivot": "center" },
+      { "id": "mouth" },
+      { "id": "dot", "parent": "bobber" },
+      { "id": "flash" }
+    ]
+  },
+  "clips": [
+    {
+      "name": "bob", "frames": 120, "loop": "loop",
+      "tracks": [
+        { "target": "bobber", "property": "y", "keys": [
+          { "frame": 0, "value": 0, "ease": "easeInOut" },
+          { "frame": 60, "value": 100, "ease": "easeInOut" },
+          { "frame": 120, "value": 0 }
+        ] }
+      ]
+    },
+    { "name": "calm", "frames": 1, "tracks": [{ "target": "face/fill", "property": "colorValue", "keys": [{ "frame": 0, "color": "#88CC88" }] }] },
+    { "name": "upset", "frames": 1, "tracks": [{ "target": "face/fill", "property": "colorValue", "keys": [{ "frame": 0, "color": "#3366FF" }] }] },
+    { "name": "quiet", "frames": 1, "tracks": [{ "target": "flash", "property": "opacity", "keys": [{ "frame": 0, "value": 0 }] }] },
+    {
+      "name": "alert", "frames": 30,
+      "tracks": [
+        { "target": "flash", "property": "opacity", "keys": [{ "frame": 0, "value": 1 }, { "frame": 30, "value": 1 }] },
+        { "target": "flash/path", "property": "width", "keys": [{ "frame": 0, "value": 24 }, { "frame": 15, "value": 36, "ease": "easeOut" }, { "frame": 30, "value": 24 }] }
+      ]
+    },
+    { "name": "look_left", "frames": 1, "tracks": [{ "target": "eyes", "property": "x", "keys": [{ "frame": 0, "value": -30 }] }] },
+    { "name": "look_right", "frames": 1, "tracks": [{ "target": "eyes", "property": "x", "keys": [{ "frame": 0, "value": 30 }] }] },
+    {
+      "name": "mouth_rest", "frames": 1,
+      "tracks": [{ "target": "mouth", "property": "vertices", "keys": [{ "frame": 0, "morph": "mouth" }] }]
+    },
+    {
+      "name": "smile", "frames": 1,
+      "tracks": [{ "target": "mouth", "property": "vertices", "keys": [{ "frame": 0, "morph": "mouth_smile" }] }]
+    },
+    {
+      "name": "doze", "frames": 40, "loop": "pingPong", "workStart": 10, "workEnd": 40,
+      "tracks": [
+        { "target": "eyeL", "property": "scaleY", "keys": [{ "frame": 0, "value": 1 }, { "frame": 40, "value": 0.2, "ease": { "cubic": [0.25, 0.1, 0.25, 1] } }] },
+        { "target": "eyeR", "property": "scaleY", "keys": [{ "frame": 0, "value": 1 }, { "frame": 40, "value": 0.2 }] },
+        { "target": "mouth/fill/paint", "property": "isVisible", "keys": [{ "frame": 0, "bool": true }, { "frame": 20, "bool": false }] }
+      ]
+    },
+    { "name": "awake", "frames": 1, "tracks": [{ "target": "mouth/fill/paint", "property": "isVisible", "keys": [{ "frame": 0, "bool": true }] }] }
+  ],
+  "viewModel": {
+    "name": "Anim",
+    "properties": [
+      { "name": "mood", "type": "enum", "values": ["calm", "upset"], "defaultValue": "calm" },
+      { "name": "alert", "type": "trigger" },
+      { "name": "lookX", "type": "number", "default": 0 },
+      { "name": "smile", "type": "number", "default": 0 },
+      { "name": "sleepy", "type": "boolean", "defaultBool": false },
+      { "name": "label", "type": "string", "defaultValue": "Pip" },
+      { "name": "tint", "type": "color", "defaultValue": "#FF88CC88" }
+    ]
+  },
+  "stateMachine": {
+    "name": "Anim",
+    "events": [
+      { "name": "alerted", "clip": "alert", "frame": 10 },
+      { "name": "alertStarted", "onEnterState": "alert", "layer": "Alert" }
+    ],
+    "layers": [
+      {
+        "name": "Bob",
+        "states": [{ "name": "bob", "clip": "bob" }],
+        "transitions": [{ "from": "entry", "to": "bob" }]
+      },
+      {
+        "name": "Mood",
+        "states": [{ "name": "calm", "clip": "calm" }, { "name": "upset", "clip": "upset" }],
+        "transitions": [
+          { "from": "entry", "to": "calm" },
+          { "from": "any", "to": "calm", "durationMs": 500, "earlyExit": true, "conditions": [{ "on": "mood", "is": "calm" }] },
+          { "from": "any", "to": "upset", "durationMs": 500, "earlyExit": true, "conditions": [{ "on": "mood", "is": "upset" }] }
+        ]
+      },
+      {
+        "name": "Alert",
+        "states": [{ "name": "quiet", "clip": "quiet" }, { "name": "alert", "clip": "alert" }],
+        "transitions": [
+          { "from": "entry", "to": "quiet" },
+          { "from": "any", "to": "alert", "durationMs": 200, "conditions": [{ "on": "alert" }] },
+          { "from": "alert", "to": "quiet", "exitTimePercent": 100, "durationMs": 100, "ease": "easeInOut" }
+        ]
+      },
+      {
+        "name": "Look",
+        "states": [{ "name": "look", "blend": { "by": "lookX", "clips": [{ "clip": "look_right", "value": 1 }, { "clip": "look_left", "value": -1 }] } }],
+        "transitions": [{ "from": "entry", "to": "look" }]
+      },
+      {
+        "name": "Mouth",
+        "states": [{ "name": "mouth", "direct": [{ "clip": "mouth_rest", "mix": 100 }, { "clip": "smile", "by": "smile" }] }],
+        "transitions": [{ "from": "entry", "to": "mouth" }]
+      },
+      {
+        "name": "Sleep",
+        "states": [{ "name": "awake", "clip": "awake" }, { "name": "doze", "clip": "doze", "speed": 0.5 }],
+        "transitions": [
+          { "from": "entry", "to": "awake" },
+          { "from": "awake", "to": "doze", "durationMs": 300, "conditions": [{ "on": "sleepy", "bool": true }] },
+          { "from": "doze", "to": "awake", "durationMs": 300, "pauseOnExit": true, "conditions": [{ "on": "sleepy", "op": "!=", "bool": true }] }
+        ]
+      }
+    ]
+  }
+}

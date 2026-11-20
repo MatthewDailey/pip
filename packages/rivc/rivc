@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+# Launcher for rivc, the Pip .riv compiler.
+#   rivc compile <pip.json> -o <out.riv>
+#   rivc dump <file.riv>
+#   rivc diff <a.riv> <b.riv>
+# Rebuilds the tool (gradle installDist) when its sources are newer than the last build.
+set -euo pipefail
+
+here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export JAVA_HOME="${JAVA_HOME:-/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home}"
+bin="$here/build/install/rivc/bin/rivc"
+
+stale() {
+  [[ ! -x "$bin" ]] && return 0
+  [[ -n "$(find "$here/src/main" "$here/schema/schema.json" "$here/build.gradle.kts" "$here/settings.gradle.kts" \
+    -newer "$bin" -type f -print -quit)" ]]
+}
+
+if stale; then
+  gradle="${RIVC_GRADLE:-}"
+  if [[ -z "$gradle" ]]; then
+    gradle="$(command -v gradle || true)"
+  fi
+  if [[ -z "$gradle" ]]; then
+    gradle="$(/bin/ls -d "$HOME"/.gradle/wrapper/dists/gradle-9.1.0-bin/*/gradle-9.1.0/bin/gradle 2>/dev/null | head -1)"
+  fi
+  if [[ -z "$gradle" ]]; then
+    echo "rivc: no Gradle found; set RIVC_GRADLE to a gradle binary" >&2
+    exit 2
+  fi
+  "$gradle" -q -p "$here" installDist >&2
+  touch "$bin"
+fi
+
+exec "$bin" "$@"

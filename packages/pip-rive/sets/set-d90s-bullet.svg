@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-650 -80 1300 160" width="1300" height="160">
+<!-- A bullet flying left with its ripple rings; (0,0) is the bullet. Drawn at 420 px travelled. -->
+<defs>
+<linearGradient id="lg1" gradientUnits="userSpaceOnUse" x1="0" y1="-11" x2="0" y2="11"><stop offset="0" stop-color="#FFE3A1"/><stop offset="0.5" stop-color="#C98B2E"/><stop offset="1" stop-color="#8A5A1A"/></linearGradient>
+<linearGradient id="lg2" gradientUnits="userSpaceOnUse" x1="0" y1="-11" x2="0" y2="11"><stop offset="0" stop-color="#FFC09A"/><stop offset="0.5" stop-color="#B8653A"/><stop offset="1" stop-color="#7A3A1E"/></linearGradient>
+</defs>
+<g id="trail">
+<path d="M0 0L420 0" fill="none" stroke="#CFFFE0" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.200"/>
+</g>
+<g id="ripple-0" transform="translate(420 0) scale(3.7)" opacity="0.300">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-1" transform="translate(340 0) scale(3.19)" opacity="0.433">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-2" transform="translate(260 0) scale(2.67)" opacity="0.567">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-3" transform="translate(180 0) scale(2.16)" opacity="0.700">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-4" transform="translate(100 0) scale(1.64)" opacity="0.833">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-5" transform="translate(20 0) scale(1.13)" opacity="0.967">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-6" opacity="0.000">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-7" opacity="0.000">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-8" opacity="0.000">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-9" opacity="0.000">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-10" opacity="0.000">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-11" opacity="0.000">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-12" opacity="0.000">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-13" opacity="0.000">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-14" opacity="0.000">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-15" opacity="0.000">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="ripple-16" opacity="0.000">
+<ellipse cx="0" cy="0" rx="4.48" ry="14" fill="none" stroke="#CFFFE0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.700" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="bullet">
+<path d="M-3 -11L43 -11L43 -11C44.66 -11 46 -9.66 46 -8L46 8L46 8C46 9.66 44.66 11 43 11L-3 11L-3 11C-4.66 11 -6 9.66 -6 8L-6 -8L-6 -8C-6 -9.66 -4.66 -11 -3 -11Z" fill="url(#lg1)"/>
+<path d="M-6 -11Q-30 -9 -32 0Q-30 9 -6 11Z" fill="url(#lg2)"/>
+<path d="M-20 -5L40 -5" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.667"/>
+<path d="M46 -11L46 11" fill="none" stroke="#3A2A26" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

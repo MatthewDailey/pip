@@ -1,0 +1,64 @@
+{
+  "piece": "set-d00s-staff",
+  "scene": "d00s",
+  "painter": "paintStaff",
+  "origin": [729.0,1233.0],
+  "origin_note": "screen px (1080 x 2424 stage) where the SVG's (0, 0) sits when the actor is at rest",
+  "viewBox": [-200.0,-560.0,400.0,700.0],
+  "size": [400.0,700.0],
+  "pose": "progress 0.3 (in hand)",
+  "format": "Draft motion format for rivc. Every track targets a <g id> in the SVG; a group's pivot is its translate() origin. Properties: x, y (absolute, in the parent's units), rotation (degrees, clockwise), scaleX, scaleY, opacity, strokeWidth, fillColor ('#RRGGBB'). Keys are [time s, value]; 'ease' applies between keys (linear, hold, sine, quadIn). driver 'time' clips play on the clock; driver 'input:<name>' clips are scrubbed, clip time = input value. mixBy names an input whose value (0..1) is the clip's blend weight. The SVG's own transforms are each group's setup pose.",
+  "clips": [
+    {
+      "name": "crystal-pulse",
+      "duration": 0.6981,
+      "loop": true,
+      "driver": "time",
+      "note": "0.85 + 0.15 sin(9t)",
+      "tracks": [
+        {
+          "target": "crystal-pulse",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0.0,0.85],[0.0582,0.925],[0.1164,0.9799],[0.1745,1.0],[0.2327,0.9799],[0.2909,0.925],[0.3491,0.85],[0.4072,0.775],[0.4654,0.7201],[0.5236,0.7],[0.5818,0.7201],[0.64,0.775],[0.6981,0.85]]
+        }
+      ]
+    },
+    {
+      "name": "charge",
+      "duration": 1.0,
+      "loop": false,
+      "driver": "input:progress",
+      "tracks": [
+        {
+          "target": "crystal-glow",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.0,0.3333],[0.25,0.5],[0.5,0.6667],[0.75,0.8333],[1.0,1.0]]
+        },
+        {
+          "target": "crystal-glow",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0.0,0.3333],[0.25,0.5],[0.5,0.6667],[0.75,0.8333],[1.0,1.0]]
+        },
+        {
+          "target": "crystal-glow",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0.0,0.3684],[0.25,0.5263],[0.5,0.6842],[0.75,0.8421],[1.0,1.0]]
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "progress",
+      "type": "number",
+      "range": [0,1],
+      "drives": "crystal glow radius 60 + 120 p and alpha 0.35 + 0.6 p (0.2 spinning in, 0.3 held, 0.7 raised, 1 at the slam, 0.45 after)"
+    }
+  ],
+  "layers": ["staff-wood","staff-crook","crystal-pulse/crystal-glow","crystal","fist"],
+  "scene_motion": "spins in from 0.1x / -620 deg at 0.86 s; rises 150 px at 1.36 s; slams at 1.8 s"
+}

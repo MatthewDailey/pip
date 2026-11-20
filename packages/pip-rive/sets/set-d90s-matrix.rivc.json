@@ -1,0 +1,1013 @@
+{
+    "artboard": {
+        "name": "set-d90s-matrix",
+        "width": 1060.0,
+        "height": 960.0
+    },
+    "art": {
+        "svg": "set-d90s-matrix.svg"
+    },
+    "clips": [
+        {
+            "name": "rain",
+            "frames": 15600,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "rain-0",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 453.984
+                        },
+                        {
+                            "frame": 948,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 949,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 4848,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 4849,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 8748,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 8749,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 12648,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 12649,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": 453.984
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-1",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -392.5
+                        },
+                        {
+                            "frame": 2790,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 2791,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 5910,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 5911,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 9030,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 9031,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 12150,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 12151,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15270,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 15271,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": -392.5
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-2",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 271.367
+                        },
+                        {
+                            "frame": 1197,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 1198,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 4317,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 4318,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 7437,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 7438,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 10557,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 10558,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 13677,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 13678,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": 271.367
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-3",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -64.595
+                        },
+                        {
+                            "frame": 2504,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 2505,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 6404,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 6405,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 10304,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 10305,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 14204,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 14205,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": -64.595
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-4",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 261.699
+                        },
+                        {
+                            "frame": 1525,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 1526,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 5425,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 5426,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 9325,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 9326,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 13225,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 13226,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": 261.699
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-5",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -98.164
+                        },
+                        {
+                            "frame": 1736,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 1737,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 4336,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 4337,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 6937,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 6938,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 9536,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 9537,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 12136,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 12137,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 14737,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 14738,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": -98.164
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-6",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 187.578
+                        },
+                        {
+                            "frame": 1747,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 1748,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 5647,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 5648,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 9547,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 9548,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 13447,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 13448,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": 187.578
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-7",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 110.234
+                        },
+                        {
+                            "frame": 1583,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 1584,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 4703,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 4704,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 7823,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 7824,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 10943,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 10944,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 14063,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 14064,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": 110.234
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-8",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -151.875
+                        },
+                        {
+                            "frame": 2765,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 2766,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 6665,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 6666,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 10565,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 10566,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 14465,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 14466,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": -151.875
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-9",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 26.445
+                        },
+                        {
+                            "frame": 1784,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 1785,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 4904,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 4905,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 8024,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 8025,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 11144,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 11145,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 14264,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 14265,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": 26.445
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-10",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 146.758
+                        },
+                        {
+                            "frame": 1870,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 1871,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 5770,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 5771,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 9670,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 9671,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 13570,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 13571,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": 146.758
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-11",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -111.592
+                        },
+                        {
+                            "frame": 2116,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 2117,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 5236,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 5237,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 8356,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 8357,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 11476,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 11477,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 14596,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 14597,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": -111.592
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-12",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -409.688
+                        },
+                        {
+                            "frame": 2831,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 2832,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 5951,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 5952,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 9071,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 9072,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 12191,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 12192,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15311,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 15312,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": -409.687
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-13",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 359.453
+                        },
+                        {
+                            "frame": 1232,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 1233,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 5132,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 5133,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 9032,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 9033,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 12932,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 12933,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": 359.453
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-14",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 166.094
+                        },
+                        {
+                            "frame": 1450,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 1451,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 4570,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 4571,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 7690,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 7691,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 10810,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 10811,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 13930,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 13931,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": 166.094
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-15",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -353.828
+                        },
+                        {
+                            "frame": 2697,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 2698,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 5817,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 5818,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 8937,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 8938,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 12057,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 12058,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15177,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 15178,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": -353.828
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-16",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 368.047
+                        },
+                        {
+                            "frame": 1206,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 1207,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 5106,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 5107,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 9006,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 9007,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 12906,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 12907,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": 368.047
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-17",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -220.625
+                        },
+                        {
+                            "frame": 2972,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 2973,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 6872,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 6873,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 10772,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 10773,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 14672,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 14673,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": -220.625
+                        }
+                    ]
+                },
+                {
+                    "target": "rain-18",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -309.248
+                        },
+                        {
+                            "frame": 2590,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 2591,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 5710,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 5711,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 8830,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 8831,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 11950,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 11951,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15070,
+                            "value": 770.0
+                        },
+                        {
+                            "frame": 15071,
+                            "value": -530.0
+                        },
+                        {
+                            "frame": 15600,
+                            "value": -309.248
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "whip-in",
+            "frames": 204,
+            "fps": 600
+        },
+        {
+            "name": "whip-out",
+            "frames": 156,
+            "fps": 600
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "rain",
+                "states": [
+                    {
+                        "name": "rain",
+                        "clip": "rain"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rain"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,1543 @@
+{
+    "artboard": {
+        "name": "set-d00s-dust-trail",
+        "width": 1040.0,
+        "height": 260.0
+    },
+    "art": {
+        "svg": "set-d00s-dust-trail.svg"
+    },
+    "clips": [
+        {
+            "name": "trail",
+            "frames": 882,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "puff-0",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 2,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-0",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -350.0
+                        },
+                        {
+                            "frame": 1,
+                            "value": -350.0
+                        },
+                        {
+                            "frame": 450,
+                            "value": -395.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-0",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 1,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 450,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-0",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.3514
+                        },
+                        {
+                            "frame": 1,
+                            "value": 0.3514
+                        },
+                        {
+                            "frame": 450,
+                            "value": 1.5514
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-0",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.3514
+                        },
+                        {
+                            "frame": 1,
+                            "value": 0.3514
+                        },
+                        {
+                            "frame": 450,
+                            "value": 1.5514
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-1",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 28,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 29,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 479,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-1",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -347.6879
+                        },
+                        {
+                            "frame": 29,
+                            "value": -347.6879
+                        },
+                        {
+                            "frame": 479,
+                            "value": -392.6879
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-1",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 29,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 479,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-1",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.5125
+                        },
+                        {
+                            "frame": 29,
+                            "value": 0.5125
+                        },
+                        {
+                            "frame": 479,
+                            "value": 1.7125
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-1",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.5125
+                        },
+                        {
+                            "frame": 29,
+                            "value": 0.5125
+                        },
+                        {
+                            "frame": 479,
+                            "value": 1.7125
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-2",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 57,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 58,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 508,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-2",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -340.6004
+                        },
+                        {
+                            "frame": 58,
+                            "value": -340.6004
+                        },
+                        {
+                            "frame": 508,
+                            "value": -385.6004
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-2",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 58,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 508,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-2",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4704
+                        },
+                        {
+                            "frame": 58,
+                            "value": 0.4704
+                        },
+                        {
+                            "frame": 508,
+                            "value": 1.6704
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-2",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4704
+                        },
+                        {
+                            "frame": 58,
+                            "value": 0.4704
+                        },
+                        {
+                            "frame": 508,
+                            "value": 1.6704
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-3",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 86,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 87,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 536,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-3",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -328.4997
+                        },
+                        {
+                            "frame": 86,
+                            "value": -328.4997
+                        },
+                        {
+                            "frame": 536,
+                            "value": -373.4997
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-3",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 86,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 536,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-3",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.3922
+                        },
+                        {
+                            "frame": 86,
+                            "value": 0.3922
+                        },
+                        {
+                            "frame": 536,
+                            "value": 1.5922
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-3",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.3922
+                        },
+                        {
+                            "frame": 86,
+                            "value": 0.3922
+                        },
+                        {
+                            "frame": 536,
+                            "value": 1.5922
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-4",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 115,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 116,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 565,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-4",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -311.1333
+                        },
+                        {
+                            "frame": 115,
+                            "value": -311.1333
+                        },
+                        {
+                            "frame": 565,
+                            "value": -356.1333
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-4",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 115,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 565,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-4",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.3966
+                        },
+                        {
+                            "frame": 115,
+                            "value": 0.3966
+                        },
+                        {
+                            "frame": 565,
+                            "value": 1.5966
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-4",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.3966
+                        },
+                        {
+                            "frame": 115,
+                            "value": 0.3966
+                        },
+                        {
+                            "frame": 565,
+                            "value": 1.5966
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-5",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 143,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 144,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 594,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-5",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -288.2349
+                        },
+                        {
+                            "frame": 144,
+                            "value": -288.2349
+                        },
+                        {
+                            "frame": 594,
+                            "value": -333.2349
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-5",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 144,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 594,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-5",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.5705
+                        },
+                        {
+                            "frame": 144,
+                            "value": 0.5705
+                        },
+                        {
+                            "frame": 594,
+                            "value": 1.7705
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-5",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.5705
+                        },
+                        {
+                            "frame": 144,
+                            "value": 0.5705
+                        },
+                        {
+                            "frame": 594,
+                            "value": 1.7705
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-6",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 172,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 173,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 623,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-6",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -259.5269
+                        },
+                        {
+                            "frame": 173,
+                            "value": -259.5269
+                        },
+                        {
+                            "frame": 623,
+                            "value": -304.5269
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-6",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 173,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 623,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-6",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.355
+                        },
+                        {
+                            "frame": 173,
+                            "value": 0.355
+                        },
+                        {
+                            "frame": 623,
+                            "value": 1.555
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-6",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.355
+                        },
+                        {
+                            "frame": 173,
+                            "value": 0.355
+                        },
+                        {
+                            "frame": 623,
+                            "value": 1.555
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-7",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 201,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 202,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 652,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-7",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -224.7247
+                        },
+                        {
+                            "frame": 202,
+                            "value": -224.7247
+                        },
+                        {
+                            "frame": 652,
+                            "value": -269.7247
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-7",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 202,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 652,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-7",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.524
+                        },
+                        {
+                            "frame": 202,
+                            "value": 0.524
+                        },
+                        {
+                            "frame": 652,
+                            "value": 1.724
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-7",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.524
+                        },
+                        {
+                            "frame": 202,
+                            "value": 0.524
+                        },
+                        {
+                            "frame": 652,
+                            "value": 1.724
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-8",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 230,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 231,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 680,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-8",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -183.5459
+                        },
+                        {
+                            "frame": 230,
+                            "value": -183.5459
+                        },
+                        {
+                            "frame": 680,
+                            "value": -228.5459
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-8",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 230,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 680,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-8",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4385
+                        },
+                        {
+                            "frame": 230,
+                            "value": 0.4385
+                        },
+                        {
+                            "frame": 680,
+                            "value": 1.6385
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-8",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4385
+                        },
+                        {
+                            "frame": 230,
+                            "value": 0.4385
+                        },
+                        {
+                            "frame": 680,
+                            "value": 1.6385
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-9",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 259,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 260,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 709,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-9",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -135.725
+                        },
+                        {
+                            "frame": 259,
+                            "value": -135.725
+                        },
+                        {
+                            "frame": 709,
+                            "value": -180.725
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-9",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 259,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 709,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-9",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.5215
+                        },
+                        {
+                            "frame": 259,
+                            "value": 0.5215
+                        },
+                        {
+                            "frame": 709,
+                            "value": 1.7215
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-9",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.5215
+                        },
+                        {
+                            "frame": 259,
+                            "value": 0.5215
+                        },
+                        {
+                            "frame": 709,
+                            "value": 1.7215
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-10",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 287,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 288,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 738,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-10",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -81.0405
+                        },
+                        {
+                            "frame": 288,
+                            "value": -81.0405
+                        },
+                        {
+                            "frame": 738,
+                            "value": -126.0405
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-10",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 288,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 738,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-10",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4299
+                        },
+                        {
+                            "frame": 288,
+                            "value": 0.4299
+                        },
+                        {
+                            "frame": 738,
+                            "value": 1.6299
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-10",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4299
+                        },
+                        {
+                            "frame": 288,
+                            "value": 0.4299
+                        },
+                        {
+                            "frame": 738,
+                            "value": 1.6299
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-11",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 316,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 317,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 767,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-11",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -19.361
+                        },
+                        {
+                            "frame": 317,
+                            "value": -19.361
+                        },
+                        {
+                            "frame": 767,
+                            "value": -64.361
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-11",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 317,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 767,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-11",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.5027
+                        },
+                        {
+                            "frame": 317,
+                            "value": 0.5027
+                        },
+                        {
+                            "frame": 767,
+                            "value": 1.7027
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-11",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.5027
+                        },
+                        {
+                            "frame": 317,
+                            "value": 0.5027
+                        },
+                        {
+                            "frame": 767,
+                            "value": 1.7027
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-12",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 345,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 346,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 796,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-12",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 49.2739
+                        },
+                        {
+                            "frame": 346,
+                            "value": 49.2739
+                        },
+                        {
+                            "frame": 796,
+                            "value": 4.2739
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-12",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 346,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 796,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-12",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.483
+                        },
+                        {
+                            "frame": 346,
+                            "value": 0.483
+                        },
+                        {
+                            "frame": 796,
+                            "value": 1.683
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-12",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.483
+                        },
+                        {
+                            "frame": 346,
+                            "value": 0.483
+                        },
+                        {
+                            "frame": 796,
+                            "value": 1.683
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-13",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 374,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 375,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 824,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-13",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 124.5095
+                        },
+                        {
+                            "frame": 374,
+                            "value": 124.5095
+                        },
+                        {
+                            "frame": 824,
+                            "value": 79.5095
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-13",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 374,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 824,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-13",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4163
+                        },
+                        {
+                            "frame": 374,
+                            "value": 0.4163
+                        },
+                        {
+                            "frame": 824,
+                            "value": 1.6162
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-13",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4163
+                        },
+                        {
+                            "frame": 374,
+                            "value": 0.4163
+                        },
+                        {
+                            "frame": 824,
+                            "value": 1.6162
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-14",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 403,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 404,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 853,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-14",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 205.4153
+                        },
+                        {
+                            "frame": 403,
+                            "value": 205.4153
+                        },
+                        {
+                            "frame": 853,
+                            "value": 160.4153
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-14",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 403,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 853,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-14",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4616
+                        },
+                        {
+                            "frame": 403,
+                            "value": 0.4616
+                        },
+                        {
+                            "frame": 853,
+                            "value": 1.6616
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-14",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4616
+                        },
+                        {
+                            "frame": 403,
+                            "value": 0.4616
+                        },
+                        {
+                            "frame": 853,
+                            "value": 1.6616
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-15",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 431,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 432,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 882,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-15",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 290.0
+                        },
+                        {
+                            "frame": 432,
+                            "value": 290.0
+                        },
+                        {
+                            "frame": 882,
+                            "value": 245.0
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-15",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 432,
+                            "value": 46.0
+                        },
+                        {
+                            "frame": 882,
+                            "value": -6.5
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-15",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4923
+                        },
+                        {
+                            "frame": 432,
+                            "value": 0.4923
+                        },
+                        {
+                            "frame": 882,
+                            "value": 1.6923
+                        }
+                    ]
+                },
+                {
+                    "target": "puff-15",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4923
+                        },
+                        {
+                            "frame": 432,
+                            "value": 0.4923
+                        },
+                        {
+                            "frame": 882,
+                            "value": 1.6923
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

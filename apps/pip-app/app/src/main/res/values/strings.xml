@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pip</string>
+    <string name="a11y_label">Pip scam protection</string>
+    <string name="a11y_description">Reads text on screen and listens to calls on speaker to warn you about likely scams. Audio and text stay on this phone.</string>
+</resources>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-360 -360 720 720" width="720" height="720">
+<!-- Fishbowl helmet in Pip's 540x660 box; (0,0) = box point (285,380), the pop-in pivot. -->
+<defs>
+<radialGradient id="rg1" gradientUnits="userSpaceOnUse" cx="285" cy="360" r="340"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.000"/><stop offset="0.72" stop-color="#BFE6FF" stop-opacity="0.047"/><stop offset="1" stop-color="#D6F0FF" stop-opacity="0.314"/></radialGradient>
+<linearGradient id="lg2" gradientUnits="userSpaceOnUse" x1="0" y1="640" x2="0" y2="708"><stop offset="0" stop-color="#F4F6FA"/><stop offset="1" stop-color="#C5CAD6"/></linearGradient>
+</defs>
+<g id="helmet" transform="translate(-285 -380)">
+<circle id="glass" cx="285" cy="355" r="340" fill="url(#rg1)"/>
+<circle id="rim" cx="285" cy="355" r="340" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.667"/>
+<path id="shine-long" d="M0.47 273.41C30.64 168.2 116.4 88.22 223.46 65.47" fill="none" stroke="#FFFFFF" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.800"/>
+<path id="shine-short" d="M264.35 59.72C281.54 58.52 298.8 58.82 315.94 60.62" fill="none" stroke="#FFFFFF" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.667"/>
+<circle id="shine-dot" cx="498" cy="470" r="10" fill="#FFFFFF" fill-opacity="0.533"/>
+<g id="collar">
+<path d="M98 640L472 640L472 640C490.78 640 506 655.22 506 674L506 674L506 674C506 692.78 490.78 708 472 708L98 708L98 708C79.22 708 64 692.78 64 674L64 674L64 674C64 655.22 79.22 640 98 640Z" fill="url(#lg2)"/>
+<path d="M98 640L472 640L472 640C490.78 640 506 655.22 506 674L506 674L506 674C506 692.78 490.78 708 472 708L98 708L98 708C79.22 708 64 692.78 64 674L64 674L64 674C64 655.22 79.22 640 98 640Z" fill="none" stroke="#969DAD" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M92 676L478 676" fill="none" stroke="#969DAD" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.333"/>
+<circle cx="430" cy="662" r="10" fill="#F05248"/>
+</g>
+</g>
+</svg>

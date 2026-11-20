@@ -1,0 +1,612 @@
+{
+  "riv": "fixtures/spike-pip.riv",
+  "maxDiffPixels": 25,
+  "goldens": [
+    {
+      "name": "neutral",
+      "note": "Rest pose, idle bob at its start",
+      "values": {
+        "mood": 0
+      },
+      "time": 0
+    },
+    {
+      "name": "neutral-bob-top",
+      "note": "Idle loop is 2 s; root is 18 px up at 1 s",
+      "values": {
+        "mood": 0
+      },
+      "time": 1
+    },
+    {
+      "name": "mood-happy",
+      "values": {
+        "mood": 1
+      },
+      "time": 0.5
+    },
+    {
+      "name": "mood-angry",
+      "values": {
+        "mood": 2
+      },
+      "time": 0.5
+    },
+    {
+      "name": "mood-worried",
+      "values": {
+        "mood": 3
+      },
+      "time": 0.5
+    },
+    {
+      "name": "blink-mid",
+      "note": "Blink is a 14-frame one-shot; 0.1 s after the trigger the eyes are mostly shut",
+      "values": {
+        "mood": 0
+      },
+      "triggers": [
+        "blink"
+      ],
+      "triggerAt": 0.25,
+      "time": 0.35
+    },
+    {
+      "name": "pip-neutral",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Pip rig (packages/pip-rive/pip), mood neutral, idle layer on; no blink or dart is under way at 0.5 s",
+      "values": {
+        "mood": "neutral"
+      },
+      "time": 0.5
+    },
+    {
+      "name": "pip-happy",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Pip rig (packages/pip-rive/pip), mood happy, idle layer on; no blink or dart is under way at 0.5 s",
+      "values": {
+        "mood": "happy"
+      },
+      "time": 0.5
+    },
+    {
+      "name": "pip-sad",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Pip rig (packages/pip-rive/pip), mood sad, idle layer on; no blink or dart is under way at 0.5 s",
+      "values": {
+        "mood": "sad"
+      },
+      "time": 0.5
+    },
+    {
+      "name": "pip-angry",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Pip rig (packages/pip-rive/pip), mood angry, idle layer on; no blink or dart is under way at 0.5 s",
+      "values": {
+        "mood": "angry"
+      },
+      "time": 0.5
+    },
+    {
+      "name": "pip-surprised",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Pip rig (packages/pip-rive/pip), mood surprised, idle layer on; no blink or dart is under way at 0.5 s",
+      "values": {
+        "mood": "surprised"
+      },
+      "time": 0.5
+    },
+    {
+      "name": "pip-dart-neutral",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Mood neutral at 2.2 s: the 7.1 s dart rhythm holds its first target (x -0.3), scaled by the mood (neutral 1, sad 0.6, angry 0.3)",
+      "values": {
+        "mood": "neutral"
+      },
+      "time": 2.2
+    },
+    {
+      "name": "pip-dart-sad",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Mood sad at 2.2 s: the 7.1 s dart rhythm holds its first target (x -0.3), scaled by the mood (neutral 1, sad 0.6, angry 0.3)",
+      "values": {
+        "mood": "sad"
+      },
+      "time": 2.2
+    },
+    {
+      "name": "pip-dart-angry",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Mood angry at 2.2 s: the 7.1 s dart rhythm holds its first target (x -0.3), scaled by the mood (neutral 1, sad 0.6, angry 0.3)",
+      "values": {
+        "mood": "angry"
+      },
+      "time": 2.2
+    },
+    {
+      "name": "pip-look-left",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Look blend at its end; down also lowers the upper lids a touch",
+      "values": {
+        "lookX": -1
+      },
+      "time": 0.5
+    },
+    {
+      "name": "pip-look-right",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Look blend at its end; down also lowers the upper lids a touch",
+      "values": {
+        "lookX": 1
+      },
+      "time": 0.5
+    },
+    {
+      "name": "pip-look-up",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Look blend at its end; down also lowers the upper lids a touch",
+      "values": {
+        "lookY": -1
+      },
+      "time": 0.5
+    },
+    {
+      "name": "pip-look-down",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Look blend at its end; down also lowers the upper lids a touch",
+      "values": {
+        "lookY": 1
+      },
+      "time": 0.5
+    },
+    {
+      "name": "pip-headwear-ninja",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Headwear ninja (PipRenderer.drawHeadwear), drawn over the face",
+      "values": {
+        "headwear": "ninja"
+      },
+      "time": 0.5
+    },
+    {
+      "name": "pip-headwear-flowers",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Headwear flowers (PipRenderer.drawHeadwear), drawn over the face",
+      "values": {
+        "headwear": "flowers"
+      },
+      "time": 0.5
+    },
+    {
+      "name": "pip-headwear-sweatband",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Headwear sweatband (PipRenderer.drawHeadwear), drawn over the face",
+      "values": {
+        "headwear": "sweatband"
+      },
+      "time": 0.5
+    },
+    {
+      "name": "pip-headwear-droop",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Ninja band tipped with the hat by hatDroop 1 (-14 degrees about the brim)",
+      "values": {
+        "headwear": "ninja",
+        "hatDroop": 1
+      },
+      "time": 0.5
+    },
+    {
+      "name": "pip-hand-scale",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Right hand holding the sword (hand kind 5) at handRScale 1.6, left fist at handLScale 0.6",
+      "values": {
+        "handR": 5,
+        "handRScale": 1.6,
+        "handL": 1,
+        "handLScale": 0.6
+      },
+      "time": 0.5
+    },
+    {
+      "name": "pip-blink-mid",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Idle blink (the 11.7 s double-blink rhythm) at its closed hold",
+      "time": 2.76
+    },
+    {
+      "name": "pip-alert-peak",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Alert trigger at 0.2 s; apex of the jump (clip frame 18) with wide eyes and a shrunken shadow",
+      "triggers": [
+        "alert"
+      ],
+      "triggerAt": 0.2,
+      "time": 0.5
+    },
+    {
+      "name": "pip-poke-peak",
+      "riv": "goldens/pip-rig.riv",
+      "note": "Poke trigger at 0.2 s; peak of the hit squash (clip frame 4), giggle eyes and grin",
+      "triggers": [
+        "poke"
+      ],
+      "triggerAt": 0.2,
+      "time": 0.27
+    },
+    {
+      "name": "pip-inputs-angry-talking",
+      "riv": "goldens/pip-rig-inputs.riv",
+      "note": "The control: inputs build the showreel nests: mood 3 (angry) and talking as legacy inputs",
+      "values": {
+        "input:mood": 3,
+        "input:talking": true
+      },
+      "time": 0.5
+    },
+    {
+      "name": "hello-landing",
+      "riv": "goldens/hello.riv",
+      "note": "Hello story (packages/pip-rive/stories/hello): the landing squash, clip frame 51",
+      "time": 0.85
+    },
+    {
+      "name": "hello-wave",
+      "riv": "goldens/hello.riv",
+      "note": "Hello story: happy, palm up mid-wave, the Hi! bubble open",
+      "time": 2
+    },
+    {
+      "name": "hello-install-peek",
+      "riv": "goldens/hello-install.riv",
+      "note": "First-run greeting (packages/pip-rive/stories/hello-install): hat and eyes over his own launcher icon, clip frame 84",
+      "time": 1.4
+    },
+    {
+      "name": "hello-install-wave",
+      "riv": "goldens/hello-install.riv",
+      "note": "First-run greeting: landed centre stage, happy, mid-wave under the Hi, I'm Pip! bubble",
+      "time": 4
+    },
+    {
+      "name": "hello-install-gameover",
+      "riv": "goldens/hello-install.riv",
+      "note": "First-run greeting, 1980s: ninja Pip has cut the phishing line; GAME OVER over the arcade",
+      "time": 12
+    },
+    {
+      "name": "hello-install-door",
+      "riv": "goldens/hello-install.riv",
+      "note": "First-run greeting: HOLD THE DOOR! ...on scammers, Pip bracing the door",
+      "time": 23.8
+    },
+    {
+      "name": "roam-rest",
+      "riv": "goldens/roam.riv",
+      "note": "Pip at rest, feet on the anchor",
+      "values": {
+        "anchorX": 540,
+        "anchorY": 1200
+      },
+      "time": 0.2
+    },
+    {
+      "name": "roam-hop-right-air",
+      "riv": "goldens/roam.riv",
+      "note": "Top of a hop 300 px right and 100 up",
+      "values": {
+        "anchorX": 400,
+        "anchorY": 1300,
+        "dx": 300,
+        "dy": -100,
+        "lift": 150,
+        "face": 1
+      },
+      "triggers": [
+        "hop"
+      ],
+      "triggerAt": 0,
+      "time": 0.37
+    },
+    {
+      "name": "roam-hop-left-landed",
+      "riv": "goldens/roam.riv",
+      "note": "A hop 300 px left has landed at x 400 (dx written through blendValue)",
+      "values": {
+        "anchorX": 700,
+        "anchorY": 1300,
+        "dx": -1095.4451,
+        "dy": 0,
+        "lift": 150,
+        "face": -1
+      },
+      "triggers": [
+        "hop"
+      ],
+      "triggerAt": 0,
+      "time": 0.75
+    },
+    {
+      "name": "roam-peekTop-spotted",
+      "riv": "goldens/roam.riv",
+      "note": "Eyes over the icon's rim, spotting the viewer; the icon at 540,1274 hides the rest",
+      "values": {
+        "anchorX": 400,
+        "anchorY": 1200,
+        "dx": 140,
+        "dy": 74.068,
+        "lift": 110,
+        "iconD": 166.056,
+        "face": 1,
+        "icon0X": 540,
+        "icon0Y": 1274.068,
+        "icon0D": 166.056,
+        "label0Y": 1357.096,
+        "label0W": 98.5,
+        "label0H": 67.904,
+        "holeX": 540,
+        "holeY": 1382.004,
+        "holeW": 216,
+        "holeH": 215.873
+      },
+      "triggers": [
+        "peekTop"
+      ],
+      "triggerAt": 0,
+      "time": 2.85
+    },
+    {
+      "name": "roam-peekLeft-out",
+      "riv": "goldens/roam.riv",
+      "note": "Leaning out past the icon's left side",
+      "values": {
+        "anchorX": 400,
+        "anchorY": 1200,
+        "dx": 140,
+        "dy": 74.068,
+        "lift": 110,
+        "iconD": 166.056,
+        "face": -1,
+        "icon0X": 540,
+        "icon0Y": 1274.068,
+        "icon0D": 166.056,
+        "label0Y": 1357.096,
+        "label0W": 98.5,
+        "label0H": 67.904,
+        "holeX": 540,
+        "holeY": 1382.004,
+        "holeW": 216,
+        "holeH": 215.873
+      },
+      "triggers": [
+        "peekLeft"
+      ],
+      "triggerAt": 0,
+      "time": 2.2
+    },
+    {
+      "name": "roam-peekRight-out",
+      "riv": "goldens/roam.riv",
+      "note": "Leaning out past the icon's right side",
+      "values": {
+        "anchorX": 400,
+        "anchorY": 1200,
+        "dx": 140,
+        "dy": 74.068,
+        "lift": 110,
+        "iconD": 166.056,
+        "face": 1,
+        "icon0X": 540,
+        "icon0Y": 1274.068,
+        "icon0D": 166.056,
+        "label0Y": 1357.096,
+        "label0W": 98.5,
+        "label0H": 67.904,
+        "holeX": 540,
+        "holeY": 1382.004,
+        "holeW": 216,
+        "holeH": 215.873
+      },
+      "triggers": [
+        "peekRight"
+      ],
+      "triggerAt": 0,
+      "time": 2.2
+    },
+    {
+      "name": "roam-lurk-left",
+      "riv": "goldens/roam.riv",
+      "note": "A lurk's lean out to the left",
+      "values": {
+        "anchorX": 400,
+        "anchorY": 1200,
+        "dx": 140,
+        "dy": 74.068,
+        "lift": 110,
+        "iconD": 166.056,
+        "face": 1,
+        "icon0X": 540,
+        "icon0Y": 1274.068,
+        "icon0D": 166.056,
+        "label0Y": 1357.096,
+        "label0W": 98.5,
+        "label0H": 67.904,
+        "holeX": 540,
+        "holeY": 1382.004,
+        "holeW": 216,
+        "holeH": 215.873
+      },
+      "triggers": [
+        "lurk"
+      ],
+      "triggerAt": 0,
+      "time": 4.0
+    },
+    {
+      "name": "roam-peek-landed",
+      "riv": "goldens/roam.riv",
+      "note": "Out of hiding, standing on top of the icon",
+      "values": {
+        "anchorX": 400,
+        "anchorY": 1200,
+        "dx": 140,
+        "dy": 74.068,
+        "lift": 110,
+        "iconD": 166.056,
+        "face": 1,
+        "icon0X": 540,
+        "icon0Y": 1274.068,
+        "icon0D": 166.056,
+        "label0Y": 1357.096,
+        "label0W": 98.5,
+        "label0H": 67.904,
+        "holeX": 540,
+        "holeY": 1382.004,
+        "holeW": 216,
+        "holeH": 215.873
+      },
+      "triggers": [
+        "peekTop"
+      ],
+      "triggerAt": 0,
+      "time": 4.4
+    },
+    {
+      "name": "roam-swing-a-mid",
+      "riv": "goldens/roam.riv",
+      "note": "Mid-swing under an anchor at 540,600",
+      "values": {
+        "anchorX": 540,
+        "anchorY": 600,
+        "armAngle": 0.4538,
+        "bodyAngle": -0.4538,
+        "armLength": 547.5056,
+        "webScale": 0.5475,
+        "grip": 207.9,
+        "sweep": -2.5205,
+        "reel": 0.0,
+        "lift": 40,
+        "face": 1
+      },
+      "triggers": [
+        "swing"
+      ],
+      "triggerAt": 0,
+      "time": 1.0
+    },
+    {
+      "name": "roam-swing-b-mid",
+      "riv": "goldens/roam.riv",
+      "note": "Mid-swing under an anchor at 600,500, unequal arms",
+      "values": {
+        "anchorX": 600,
+        "anchorY": 500,
+        "armAngle": 0.469,
+        "bodyAngle": -0.469,
+        "armLength": 663.7638,
+        "webScale": 0.6638,
+        "grip": 207.9,
+        "sweep": -2.3994,
+        "reel": -586.334,
+        "lift": 40,
+        "face": 1
+      },
+      "triggers": [
+        "swing"
+      ],
+      "triggerAt": 0,
+      "time": 1.0
+    },
+    {
+      "name": "roam-swing-b-landed",
+      "riv": "goldens/roam.riv",
+      "note": "The same swing landed at 800,1250 after reeling out",
+      "values": {
+        "anchorX": 600,
+        "anchorY": 500,
+        "armAngle": 0.469,
+        "bodyAngle": -0.469,
+        "armLength": 663.7638,
+        "webScale": 0.6638,
+        "grip": 207.9,
+        "sweep": -2.3994,
+        "reel": -586.334,
+        "lift": 40,
+        "face": 1
+      },
+      "triggers": [
+        "swing"
+      ],
+      "triggerAt": 0,
+      "time": 2.3
+    },
+    {
+      "name": "roam-look",
+      "riv": "goldens/roam.riv",
+      "note": "Looking around, to his left",
+      "values": {
+        "anchorX": 540,
+        "anchorY": 1200,
+        "face": -1
+      },
+      "triggers": [
+        "look"
+      ],
+      "triggerAt": 0,
+      "time": 0.5
+    },
+    {
+      "name": "roam-peek-rim",
+      "riv": "goldens/roam.riv",
+      "note": "Ducking back behind the icon after a left peek: the icon mask covers the circle's rim, nothing of him draws over it",
+      "values": {
+        "anchorX": 400,
+        "anchorY": 1200,
+        "dx": 140,
+        "dy": 74.068,
+        "lift": 110,
+        "iconD": 166.056,
+        "face": -1,
+        "icon0X": 540,
+        "icon0Y": 1274.068,
+        "icon0D": 166.056,
+        "label0Y": 1357.096,
+        "label0W": 98.5,
+        "label0H": 67.904,
+        "holeX": 540,
+        "holeY": 1382.004,
+        "holeW": 216,
+        "holeH": 215.873
+      },
+      "triggers": [
+        "peekLeft"
+      ],
+      "triggerAt": 0,
+      "time": 3.35
+    },
+    {
+      "name": "roam-hop-behind-label",
+      "riv": "goldens/roam.riv",
+      "note": "A hop passing an icon goes behind its circle and label",
+      "values": {
+        "icon0X": 540,
+        "icon0Y": 1274.068,
+        "icon0D": 166.056,
+        "label0Y": 1357.096,
+        "label0W": 98.5,
+        "label0H": 67.904,
+        "anchorX": 420,
+        "anchorY": 1500,
+        "dx": 230,
+        "dy": -100,
+        "lift": 150,
+        "face": 1
+      },
+      "triggers": [
+        "hop"
+      ],
+      "triggerAt": 0,
+      "time": 0.3
+    }
+  ]
+}

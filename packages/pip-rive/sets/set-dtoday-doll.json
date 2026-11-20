@@ -1,0 +1,159 @@
+{
+  "piece": "set-dtoday-doll",
+  "scene": "dToday",
+  "painter": "paintDoll",
+  "origin": [540.0,640.0],
+  "origin_note": "screen px (1080 x 2424 stage) where the SVG's (0, 0) sits when the actor is at rest",
+  "viewBox": [-170.0,-190.0,340.0,650.0],
+  "size": [340.0,650.0],
+  "pose": "progress 0.00",
+  "format": "Draft motion format for rivc. Every track targets a <g id> in the SVG; a group's pivot is its translate() origin. Properties: x, y (absolute, in the parent's units), rotation (degrees, clockwise), scaleX, scaleY, opacity, strokeWidth, fillColor ('#RRGGBB'). Keys are [time s, value]; 'ease' applies between keys (linear, hold, sine, quadIn). driver 'time' clips play on the clock; driver 'input:<name>' clips are scrubbed, clip time = input value. mixBy names an input whose value (0..1) is the clip's blend weight. The SVG's own transforms are each group's setup pose.",
+  "clips": [
+    {
+      "name": "turn",
+      "duration": 1.2,
+      "loop": false,
+      "driver": "input:progress",
+      "note": "eleven head poses (progress 0, 0.1 ... 1) swap on hold keys: the face slides round from her right and widens, features fade in from 0.35, eyes start to glow red from 0.85. Past 1 (overshoot ease) the head tips up to 6 deg.",
+      "tracks": [
+        {
+          "target": "head-pose-0",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,1],[0.05,0],[1.2,0]]
+        },
+        {
+          "target": "head-pose-1",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,0],[0.05,1],[0.15,0],[1.2,0]]
+        },
+        {
+          "target": "head-pose-2",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,0],[0.15,1],[0.25,0],[1.2,0]]
+        },
+        {
+          "target": "head-pose-3",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,0],[0.25,1],[0.35,0],[1.2,0]]
+        },
+        {
+          "target": "head-pose-4",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,0],[0.35,1],[0.45,0],[1.2,0]]
+        },
+        {
+          "target": "head-pose-5",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,0],[0.45,1],[0.55,0],[1.2,0]]
+        },
+        {
+          "target": "head-pose-6",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,0],[0.55,1],[0.65,0],[1.2,0]]
+        },
+        {
+          "target": "head-pose-7",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,0],[0.65,1],[0.75,0],[1.2,0]]
+        },
+        {
+          "target": "head-pose-8",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,0],[0.75,1],[0.85,0],[1.2,0]]
+        },
+        {
+          "target": "head-pose-9",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,0],[0.85,1],[0.95,0],[1.2,0]]
+        },
+        {
+          "target": "head-pose-10",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,0],[0.95,1],[1.2,1]]
+        },
+        {
+          "target": "collar",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0.0,0.0],[0.125,0.0],[0.25,0.0],[0.375,0.0],[0.5,0.1562],[0.625,0.5933],[0.75,0.957],[0.875,1.0],[1.0,1.0]]
+        },
+        {
+          "target": "doll-head",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[0,0],[1,0],[1.2,6]]
+        }
+      ]
+    },
+    {
+      "name": "idle-sway",
+      "duration": 4.8332,
+      "loop": true,
+      "driver": "time",
+      "mixBy": "1 - progress",
+      "note": "back turned, her head rocks +/-3 deg (sin 1.3t); fades out as she turns",
+      "tracks": [
+        {
+          "target": "doll-head",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[0.0,0.0],[0.3021,1.1481],[0.6042,2.1213],[0.9062,2.7716],[1.2083,3.0],[1.5104,2.7716],[1.8125,2.1213],[2.1145,1.1481],[2.4166,0.0],[2.7187,-1.1481],[3.0208,-2.1213],[3.3228,-2.7716],[3.6249,-3.0],[3.927,-2.7716],[4.2291,-2.1213],[4.5311,-1.1481],[4.8332,-0.0]]
+        }
+      ]
+    },
+    {
+      "name": "eye-scan",
+      "duration": 2.4166,
+      "loop": true,
+      "driver": "time",
+      "note": "glowing pupils scan side to side (+/-5 px) once she is facing",
+      "tracks": [
+        {
+          "target": "pupil-9-l",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.0,-27.0697],[0.151,-26.5786],[0.3021,-26.1622],[0.4531,-25.8839],[0.6042,-25.7862],[0.7552,-25.8839],[0.9062,-26.1622],[1.0573,-26.5786],[1.2083,-27.0697],[1.3593,-27.5609],[1.5104,-27.9773],[1.6614,-28.2556],[1.8125,-28.3533],[1.9635,-28.2556],[2.1145,-27.9773],[2.2656,-27.5609],[2.4166,-27.0697]]
+        },
+        {
+          "target": "pupil-9-r",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.0,50.5897],[0.151,51.0809],[0.3021,51.4973],[0.4531,51.7756],[0.6042,51.8733],[0.7552,51.7756],[0.9062,51.4973],[1.0573,51.0809],[1.2083,50.5897],[1.3593,50.0986],[1.5104,49.6822],[1.6614,49.4039],[1.8125,49.3062],[1.9635,49.4039],[2.1145,49.6822],[2.2656,50.0986],[2.4166,50.5897]]
+        },
+        {
+          "target": "pupil-10-l",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.0,-39.216],[0.151,-37.3026],[0.3021,-35.6805],[0.4531,-34.5966],[0.6042,-34.216],[0.7552,-34.5966],[0.9062,-35.6805],[1.0573,-37.3026],[1.2083,-39.216],[1.3593,-41.1294],[1.5104,-42.7515],[1.6614,-43.8354],[1.8125,-44.216],[1.9635,-43.8354],[2.1145,-42.7515],[2.2656,-41.1294],[2.4166,-39.216]]
+        },
+        {
+          "target": "pupil-10-r",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.0,39.216],[0.151,41.1294],[0.3021,42.7515],[0.4531,43.8354],[0.6042,44.216],[0.7552,43.8354],[0.9062,42.7515],[1.0573,41.1294],[1.2083,39.216],[1.3593,37.3026],[1.5104,35.6805],[1.6614,34.5966],[1.8125,34.216],[1.9635,34.5966],[2.1145,35.6805],[2.2656,37.3026],[2.4166,39.216]]
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "progress",
+      "type": "number",
+      "range": [0,1.2],
+      "drives": "0 back turned, 1 facing us. Scene: 0 -> 1 over 0.3 s at 5.95 s (overshoot), back to 0 over 0.3 s at 7.3 s"
+    }
+  ],
+  "layers": ["doll-body","collar","doll-head / buns, hair, head-pose-0..10 (face, eyes, pupil-k-l/r, cheeks, mouth, bangs, strands)"],
+  "approximation": "the Kotlin clips the sliding face and the bangs to the head circle every frame; here the clip is precomputed for 11 poses (hold-swapped, 0.03 s apart during the 0.3 s turn), so no masks are needed"
+}

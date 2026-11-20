@@ -1,0 +1,93 @@
+{
+    "artboard": {
+        "name": "set-d80s-ghost",
+        "width": 400.0,
+        "height": 420.0
+    },
+    "art": {
+        "svg": "set-d80s-ghost.svg"
+    },
+    "clips": [
+        {
+            "name": "skirt-wobble",
+            "frames": 419,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "skirt-0",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 105,
+                            "value": 1.222,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.778,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 419,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "skirt-2",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.943,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 88,
+                            "value": 0.778,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 297,
+                            "value": 1.222,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 419,
+                            "value": 0.943,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "skirt-wobble",
+                "states": [
+                    {
+                        "name": "skirt-wobble",
+                        "clip": "skirt-wobble"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "skirt-wobble"
+                    }
+                ]
+            }
+        ]
+    }
+}

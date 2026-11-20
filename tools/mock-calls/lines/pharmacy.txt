@@ -1,0 +1,5 @@
+voice: Flo (English (US))
+Hi, this is Linda from Main Street Pharmacy. I'm calling to let you know your blood pressure refill is ready.
+We're open until seven tonight, and nine to five on Saturday.
+If it's easier, we can switch you to home delivery at no extra charge.
+Do you have any questions about the new prescription? Okay, have a great day.

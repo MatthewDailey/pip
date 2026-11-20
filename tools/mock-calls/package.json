@@ -1,0 +1,12 @@
+{
+  "name": "@shady-pip/mock-calls",
+  "private": true,
+  "description": "Mock scam calls into the emulator: scripted `say` callers injected into the emulator mic",
+  "scripts": {
+    "call:irs": ". ../../scripts/env.sh && bash mock_call.sh irs --auto",
+    "call:bank": ". ../../scripts/env.sh && bash mock_call.sh bank-fraud --auto",
+    "call:grandson": ". ../../scripts/env.sh && bash mock_call.sh grandson --auto",
+    "call:pharmacy": ". ../../scripts/env.sh && bash mock_call.sh pharmacy --auto",
+    "call:list": ". ../../scripts/env.sh && bash mock_call.sh --list"
+  }
+}

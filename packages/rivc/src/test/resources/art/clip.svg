@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <clipPath id="porthole">
+      <circle cx="120" cy="150" r="90"/>
+    </clipPath>
+    <clipPath id="window" clipPathUnits="objectBoundingBox">
+      <rect x="0.1" y="0.1" width="0.8" height="0.5" rx="0.1"/>
+    </clipPath>
+    <clipPath id="ring" clip-rule="evenodd">
+      <path clip-rule="evenodd" d="M 330 150 m -60 0 a 60 60 0 1 0 120 0 a 60 60 0 1 0 -120 0 Z M 330 150 m -30 0 a 30 30 0 1 0 60 0 a 30 30 0 1 0 -60 0 Z"/>
+    </clipPath>
+  </defs>
+  <rect width="400" height="300" fill="#EFE7DA"/>
+  <g id="scene" clip-path="url(#porthole)">
+    <rect x="20" y="40" width="200" height="110" fill="#7FA8D9"/>
+    <rect x="20" y="150" width="200" height="120" fill="#3FA34D"/>
+    <circle id="moon" cx="160" cy="95" r="28" fill="#FFF6C9"/>
+    <path id="stripe" d="M 20 230 L 220 130 L 220 160 L 20 260 Z" fill="#F05248"/>
+  </g>
+  <circle cx="120" cy="150" r="90" fill="none" stroke="#2B2B2B" stroke-width="6"/>
+  <rect id="card" x="230" y="20" width="150" height="120" fill="#8B3F37" clip-path="url(#window)"/>
+  <g id="target" clip-path="url(#ring)">
+    <rect x="250" y="80" width="160" height="140" fill="#FFC94A"/>
+    <rect x="250" y="150" width="160" height="70" fill="#F05248"/>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+{
+  "piece": "set-d10s-tip-flame",
+  "scene": "d10s",
+  "painter": "paintTipFlame",
+  "origin": "pip-anchored (-138, 98)",
+  "origin_note": "screen px (1080 x 2424 stage) where the SVG's (0, 0) sits when the actor is at rest",
+  "viewBox": [-100.0,-140.0,200.0,180.0],
+  "size": [200.0,180.0],
+  "pose": "time 0",
+  "format": "Draft motion format for rivc. Every track targets a <g id> in the SVG; a group's pivot is its translate() origin. Properties: x, y (absolute, in the parent's units), rotation (degrees, clockwise), scaleX, scaleY, opacity, strokeWidth, fillColor ('#RRGGBB'). Keys are [time s, value]; 'ease' applies between keys (linear, hold, sine, quadIn). driver 'time' clips play on the clock; driver 'input:<name>' clips are scrubbed, clip time = input value. mixBy names an input whose value (0..1) is the clip's blend weight. The SVG's own transforms are each group's setup pose.",
+  "clips": [
+    {
+      "name": "flicker",
+      "duration": 1.1424,
+      "loop": true,
+      "driver": "time",
+      "note": "same flame flicker as the room fire",
+      "tracks": [
+        {
+          "target": "tip-flame-flicker",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0.0,0.9237],[0.0714,0.8998],[0.1428,0.9273],[0.2142,0.8753],[0.2856,0.7395],[0.357,0.7145],[0.4284,0.8495],[0.4998,0.9505],[0.5712,0.9237],[0.6426,0.8998],[0.714,0.9273],[0.7854,0.8753],[0.8568,0.7395],[0.9282,0.7145],[0.9996,0.8495],[1.071,0.9505],[1.1424,0.9237]]
+        },
+        {
+          "target": "tip-flame-flicker",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[0.0,-6.3145],[0.0714,-4.5644],[0.1428,-1.8849],[0.2142,1.0109],[0.2856,4.5659],[0.357,7.4695],[0.4284,7.646],[0.4998,7.0198],[0.5712,6.3145],[0.6426,4.5644],[0.714,1.8849],[0.7854,-1.0109],[0.8568,-4.5659],[0.9282,-7.4695],[0.9996,-7.646],[1.071,-7.0198],[1.1424,-6.3145]]
+        }
+      ]
+    }
+  ],
+  "inputs": [],
+  "anchor": "anchorToPip at (-138, 98): the tip of Pip's hat; pops in at 2.6 s, grows to 1.5x at 2.9 s",
+  "layers": ["tip-flame/tip-flame-flicker"]
+}

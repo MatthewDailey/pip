@@ -1,0 +1,520 @@
+{
+    "artboard": {
+        "name": "set-d60s-shoes",
+        "width": 420.0,
+        "height": 220.0
+    },
+    "art": {
+        "svg": "set-d60s-shoes.svg",
+        "drawRules": [
+            {
+                "id": "shoe-a",
+                "targets": [
+                    {
+                        "name": "above-shoe-b",
+                        "above": "shoe-b"
+                    },
+                    {
+                        "name": "below-shoe-b",
+                        "below": "shoe-b"
+                    }
+                ]
+            }
+        ]
+    },
+    "clips": [
+        {
+            "name": "stride",
+            "frames": 600,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "shoe-a",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 120.0
+                        },
+                        {
+                            "frame": 37,
+                            "value": 110.866
+                        },
+                        {
+                            "frame": 75,
+                            "value": 84.853
+                        },
+                        {
+                            "frame": 113,
+                            "value": 45.922
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 187,
+                            "value": -45.922
+                        },
+                        {
+                            "frame": 225,
+                            "value": -84.853
+                        },
+                        {
+                            "frame": 263,
+                            "value": -110.866
+                        },
+                        {
+                            "frame": 300,
+                            "value": -120.0
+                        },
+                        {
+                            "frame": 337,
+                            "value": -110.866
+                        },
+                        {
+                            "frame": 375,
+                            "value": -84.853
+                        },
+                        {
+                            "frame": 413,
+                            "value": -45.922
+                        },
+                        {
+                            "frame": 450,
+                            "value": -0.0
+                        },
+                        {
+                            "frame": 487,
+                            "value": 45.922
+                        },
+                        {
+                            "frame": 525,
+                            "value": 84.853
+                        },
+                        {
+                            "frame": 563,
+                            "value": 110.866
+                        },
+                        {
+                            "frame": 600,
+                            "value": 120.0
+                        }
+                    ]
+                },
+                {
+                    "target": "shoe-a",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 37,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 75,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 113,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 187,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 225,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 263,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 337,
+                            "value": -19.134
+                        },
+                        {
+                            "frame": 375,
+                            "value": -35.355
+                        },
+                        {
+                            "frame": 413,
+                            "value": -46.194
+                        },
+                        {
+                            "frame": 450,
+                            "value": -50.0
+                        },
+                        {
+                            "frame": 487,
+                            "value": -46.194
+                        },
+                        {
+                            "frame": 525,
+                            "value": -35.355
+                        },
+                        {
+                            "frame": 563,
+                            "value": -19.134
+                        },
+                        {
+                            "frame": 600,
+                            "value": -0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "shoe-a",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 37,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 75,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 113,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 187,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 225,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 263,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 337,
+                            "value": -0.1068665100996128
+                        },
+                        {
+                            "frame": 375,
+                            "value": -0.19746655157063844
+                        },
+                        {
+                            "frame": 413,
+                            "value": -0.2579945700298018
+                        },
+                        {
+                            "frame": 450,
+                            "value": -0.2792526803190927
+                        },
+                        {
+                            "frame": 487,
+                            "value": -0.2579945700298018
+                        },
+                        {
+                            "frame": 525,
+                            "value": -0.19746655157063844
+                        },
+                        {
+                            "frame": 563,
+                            "value": -0.1068665100996128
+                        },
+                        {
+                            "frame": 600,
+                            "value": -0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "shoe-b",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -120.0
+                        },
+                        {
+                            "frame": 37,
+                            "value": -110.866
+                        },
+                        {
+                            "frame": 75,
+                            "value": -84.853
+                        },
+                        {
+                            "frame": 113,
+                            "value": -45.922
+                        },
+                        {
+                            "frame": 150,
+                            "value": -0.0
+                        },
+                        {
+                            "frame": 187,
+                            "value": 45.922
+                        },
+                        {
+                            "frame": 225,
+                            "value": 84.853
+                        },
+                        {
+                            "frame": 263,
+                            "value": 110.866
+                        },
+                        {
+                            "frame": 300,
+                            "value": 120.0
+                        },
+                        {
+                            "frame": 337,
+                            "value": 110.866
+                        },
+                        {
+                            "frame": 375,
+                            "value": 84.853
+                        },
+                        {
+                            "frame": 413,
+                            "value": 45.922
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 487,
+                            "value": -45.922
+                        },
+                        {
+                            "frame": 525,
+                            "value": -84.853
+                        },
+                        {
+                            "frame": 563,
+                            "value": -110.866
+                        },
+                        {
+                            "frame": 600,
+                            "value": -120.0
+                        }
+                    ]
+                },
+                {
+                    "target": "shoe-b",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 37,
+                            "value": -19.134
+                        },
+                        {
+                            "frame": 75,
+                            "value": -35.355
+                        },
+                        {
+                            "frame": 113,
+                            "value": -46.194
+                        },
+                        {
+                            "frame": 150,
+                            "value": -50.0
+                        },
+                        {
+                            "frame": 187,
+                            "value": -46.194
+                        },
+                        {
+                            "frame": 225,
+                            "value": -35.355
+                        },
+                        {
+                            "frame": 263,
+                            "value": -19.134
+                        },
+                        {
+                            "frame": 300,
+                            "value": -0.0
+                        },
+                        {
+                            "frame": 337,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 375,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 413,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 487,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 525,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 563,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "shoe-b",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 37,
+                            "value": -0.1068665100996128
+                        },
+                        {
+                            "frame": 75,
+                            "value": -0.19746655157063844
+                        },
+                        {
+                            "frame": 113,
+                            "value": -0.2579945700298018
+                        },
+                        {
+                            "frame": 150,
+                            "value": -0.2792526803190927
+                        },
+                        {
+                            "frame": 187,
+                            "value": -0.2579945700298018
+                        },
+                        {
+                            "frame": 225,
+                            "value": -0.19746655157063844
+                        },
+                        {
+                            "frame": 263,
+                            "value": -0.1068665100996128
+                        },
+                        {
+                            "frame": 300,
+                            "value": -0.0
+                        },
+                        {
+                            "frame": 337,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 375,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 413,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 487,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 525,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 563,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "shoe-a/drawRules",
+                    "property": "drawTargetId",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "ref": "shoe-a/drawRules/above-shoe-b",
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 1,
+                            "ref": "shoe-a/drawRules/below-shoe-b",
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 300,
+                            "ref": "shoe-a/drawRules/above-shoe-b",
+                            "ease": "hold"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

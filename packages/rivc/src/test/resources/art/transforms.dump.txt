@@ -1,0 +1,67 @@
+RIVE 7.5 fileId=0 toc=[]
+#0 Backboard
+#1 Artboard [0] name="transforms" width=410.0 height=320.0 clip=false
+#2 Node [1] parentId=0 x=30.0 y=30.0
+#3 Node [2] name="world" parentId=1 x=180.0 y=140.0
+#4 Node [3] name="tree" parentId=2 x=-120.0 y=110.0
+#5 Node [4] name="crown" parentId=3 y=-160.0 scaleX=1.5 scaleY=1.5
+#6 Node [5] name="branch" parentId=4 x=-6.6666665 y=-27.97435 rotation=-0.5235988
+#7 Node [6] name="sign" parentId=1 x=210.0 y=60.0 rotation=-0.26195496 scaleX=1.0001185 scaleY=1.0001185 opacity=0.9
+#8 Node [7] name="label" parentId=6 x=65.0 y=32.0
+#9 Node [8] name="leaning" parentId=1 x=250.0 y=150.0
+#10 Node [9] name="mirror" parentId=1 x=150.0 y=260.0 scaleX=-1.0 opacity=0.6
+#11 Shape [10] parentId=9
+#12 PointsPath [11] parentId=10 isClosed=false
+#13 StraightVertex [12] parentId=11 x=0.0 y=10.0
+#14 StraightVertex [13] parentId=11 x=80.0 y=10.0
+#15 Stroke [14] parentId=10 thickness=4.0
+#16 SolidColor [15] parentId=14 colorValue=#FF2B2B2B
+#17 Shape [16] parentId=9
+#18 PointsPath [17] parentId=16 isClosed=true
+#19 StraightVertex [18] parentId=17 x=0.0 y=0.0
+#20 StraightVertex [19] parentId=17 x=40.0 y=-50.0
+#21 StraightVertex [20] parentId=17 x=80.0 y=0.0
+#22 Fill [21] parentId=16
+#23 SolidColor [22] parentId=21 colorValue=#FFF05248
+#24 Shape [23] parentId=8
+#25 PointsPath [24] parentId=23 isClosed=true
+#26 CubicMirroredVertex [25] parentId=24 x=49.279404 y=20.0 rotation=1.2217305 distance=7.0527496
+#27 CubicMirroredVertex [26] parentId=24 x=41.64705 y=32.0 rotation=3.1415927 distance=6.627417
+#28 CubicMirroredVertex [27] parentId=24 x=25.279406 y=20.0 rotation=-1.9198622 distance=7.0527496
+#29 CubicMirroredVertex [28] parentId=24 x=32.911762 y=8.0 rotation=0.0 distance=6.627417
+#30 Fill [29] parentId=23
+#31 SolidColor [30] parentId=29 colorValue=#FFFFF6C9
+#32 Shape [31] parentId=8
+#33 PointsPath [32] parentId=31 isClosed=true
+#34 StraightVertex [33] parentId=32 x=0.0 y=0.0
+#35 StraightVertex [34] parentId=32 x=60.0 y=0.0
+#36 StraightVertex [35] parentId=32 x=89.11762 y=80.0
+#37 StraightVertex [36] parentId=32 x=29.117619 y=80.0
+#38 Fill [37] parentId=31
+#39 SolidColor [38] parentId=37 colorValue=#FF7FA8D9
+#40 Shape [39] name="board" parentId=6
+#41 Rectangle [40] parentId=39 x=65.0 y=25.0 width=130.0 height=50.0 cornerRadiusTL=8.0
+#42 Fill [41] parentId=39
+#43 SolidColor [42] parentId=41 colorValue=#FFFFD166
+#44 Stroke [43] parentId=39 thickness=3.0
+#45 SolidColor [44] parentId=43 colorValue=#FF8B5A2B
+#46 Shape [45] parentId=5
+#47 Ellipse [46] parentId=45 y=-5.0 width=24.0 height=56.0
+#48 Fill [47] parentId=45
+#49 SolidColor [48] parentId=47 colorValue=#FF6CC070
+#50 Stroke [49] parentId=45 thickness=2.0
+#51 SolidColor [50] parentId=49 colorValue=#FF1F5E2A
+#52 Shape [51] parentId=4 x=13.333333 y=-33.333332
+#53 Ellipse [52] parentId=51 y=40.0 width=80.0 height=80.0
+#54 Fill [53] parentId=51
+#55 SolidColor [54] parentId=53 colorValue=#FF3FA34D
+#56 Stroke [55] parentId=51 thickness=2.0
+#57 SolidColor [56] parentId=55 colorValue=#FF1F5E2A
+#58 Shape [57] parentId=3 x=20.0 y=-210.0
+#59 Rectangle [58] parentId=57 y=160.0 width=16.0 height=120.0
+#60 Fill [59] parentId=57
+#61 SolidColor [60] parentId=59 colorValue=#FF8B5A2B
+#62 Shape [61] parentId=1
+#63 Rectangle [62] parentId=61 x=180.0 y=140.0 width=400.0 height=300.0
+#64 Fill [63] parentId=61
+#65 SolidColor [64] parentId=63 colorValue=#FFF4EFE6

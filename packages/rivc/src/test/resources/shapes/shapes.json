@@ -1,0 +1,41 @@
+{
+  "artboard": { "name": "Shapes", "width": 200, "height": 200 },
+  "art": {
+    "svg": "shapes.svg",
+    "drawRules": [
+      { "id": "front", "targets": [{ "name": "below-back", "below": "back" }, { "name": "above-back", "above": "back" }] }
+    ]
+  },
+  "clips": [
+    {
+      "name": "go",
+      "frames": 60,
+      "loop": "loop",
+      "tracks": [
+        {
+          "target": "blob",
+          "property": "vertices",
+          "keys": [
+            { "frame": 0, "path": "M20,20 L60,20 L60,60 Z" },
+            { "frame": 30, "path": "M40,10 L66,25 L66,55 L40,70 L14,55 L14,25 Z" },
+            { "frame": 60, "morph": "star" }
+          ]
+        },
+        { "target": "sweep/stroke/trim", "property": "end", "keys": [{ "frame": 0, "value": 0 }, { "frame": 30, "value": 1 }] },
+        { "target": "sweep/stroke/trim", "property": "offset", "keys": [{ "frame": 30, "value": 0 }, { "frame": 60, "value": 0.5 }] },
+        { "target": "ring", "property": "scaleX", "keys": [{ "frame": 0, "value": 1 }, { "frame": 60, "value": 3 }] },
+        { "target": "ring", "property": "scaleY", "keys": [{ "frame": 0, "value": 1 }, { "frame": 60, "value": 3 }] },
+        {
+          "target": "front/drawRules",
+          "property": "drawTargetId",
+          "keys": [{ "frame": 0, "ref": "front/drawRules/below-back" }, { "frame": 30, "ref": "front/drawRules/above-back" }]
+        }
+      ]
+    }
+  ],
+  "stateMachine": {
+    "name": "Main",
+    "control": "inputs",
+    "layers": [{ "name": "go", "states": [{ "name": "go", "clip": "go" }], "transitions": [{ "from": "entry", "to": "go" }] }]
+  }
+}

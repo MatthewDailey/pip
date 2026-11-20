@@ -1,0 +1,2657 @@
+{
+    "artboard": {
+        "name": "fx-sparkle",
+        "width": 220.0,
+        "height": 220.0
+    },
+    "art": {
+        "svg": "fx-sparkle.svg"
+    },
+    "clips": [
+        {
+            "name": "twinkle",
+            "frames": 2218,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "sparkle-glow",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 46,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 92,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 139,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 185,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 231,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 277,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 323,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 370,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 416,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 462,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 508,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 554,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 601,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 647,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 693,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 739,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 832,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 878,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 924,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 970,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 1016,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1063,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1109,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1155,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1201,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1247,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1294,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1340,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1386,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1432,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1478,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1525,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1617,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1663,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1709,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1756,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1802,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1848,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1894,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1940,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1987,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 2033,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 2079,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 2125,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 2171,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 2218,
+                            "value": 0.82
+                        }
+                    ]
+                },
+                {
+                    "target": "sparkle-glow",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 46,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 92,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 139,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 185,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 231,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 277,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 323,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 370,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 416,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 462,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 508,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 554,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 601,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 647,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 693,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 739,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 832,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 878,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 924,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 970,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 1016,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1063,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1109,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1155,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1201,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1247,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1294,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1340,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1386,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1432,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1478,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1525,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1617,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1663,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1709,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1756,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1802,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1848,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1894,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1940,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1987,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 2033,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 2079,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 2125,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 2171,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 2218,
+                            "value": 0.82
+                        }
+                    ]
+                },
+                {
+                    "target": "sparkle-star",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 46,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 92,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 139,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 185,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 231,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 277,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 323,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 370,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 416,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 462,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 508,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 554,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 601,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 647,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 693,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 739,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 832,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 878,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 924,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 970,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 1016,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1063,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1109,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1155,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1201,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1247,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1294,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1340,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1386,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1432,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1478,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1525,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1617,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1663,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1709,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1756,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1802,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1848,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1894,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1940,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1987,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 2033,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 2079,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 2125,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 2171,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 2218,
+                            "value": 0.82
+                        }
+                    ]
+                },
+                {
+                    "target": "sparkle-star",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 46,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 92,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 139,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 185,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 231,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 277,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 323,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 370,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 416,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 462,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 508,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 554,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 601,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 647,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 693,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 739,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 832,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 878,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 924,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 970,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 1016,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1063,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1109,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1155,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1201,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1247,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1294,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1340,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1386,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1432,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1478,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1525,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1617,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1663,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1709,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1756,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1802,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1848,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1894,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1940,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1987,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 2033,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 2079,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 2125,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 2171,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 2218,
+                            "value": 0.82
+                        }
+                    ]
+                },
+                {
+                    "target": "sparkle-core",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 46,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 92,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 139,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 185,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 231,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 277,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 323,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 370,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 416,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 462,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 508,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 554,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 601,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 647,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 693,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 739,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 832,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 878,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 924,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 970,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 1016,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1063,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1109,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1155,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1201,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1247,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1294,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1340,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1386,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1432,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1478,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1525,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1617,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1663,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1709,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1756,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1802,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1848,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1894,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1940,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1987,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 2033,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 2079,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 2125,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 2171,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 2218,
+                            "value": 0.82
+                        }
+                    ]
+                },
+                {
+                    "target": "sparkle-core",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 46,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 92,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 139,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 185,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 231,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 277,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 323,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 370,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 416,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 462,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 508,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 554,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 601,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 647,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 693,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 739,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 832,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 878,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 924,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 970,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 1016,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1063,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1109,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1155,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1201,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1247,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1294,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1340,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1386,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1432,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1478,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1525,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 1617,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1663,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1709,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1756,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1802,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1848,
+                            "value": 0.976
+                        },
+                        {
+                            "frame": 1894,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 1940,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 1987,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 2033,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 2079,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 2125,
+                            "value": 0.664
+                        },
+                        {
+                            "frame": 2171,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 2218,
+                            "value": 0.82
+                        }
+                    ]
+                },
+                {
+                    "target": "sparkle-star",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 92,
+                            "value": 0.04516912104161325
+                        },
+                        {
+                            "frame": 185,
+                            "value": 0.08726646259971647
+                        },
+                        {
+                            "frame": 277,
+                            "value": 0.12341223140851904
+                        },
+                        {
+                            "frame": 370,
+                            "value": 0.15114551322270894
+                        },
+                        {
+                            "frame": 462,
+                            "value": 0.1685813524501323
+                        },
+                        {
+                            "frame": 554,
+                            "value": 0.17453292519943295
+                        },
+                        {
+                            "frame": 647,
+                            "value": 0.1685813524501323
+                        },
+                        {
+                            "frame": 739,
+                            "value": 0.15114551322270894
+                        },
+                        {
+                            "frame": 832,
+                            "value": 0.12341223140851904
+                        },
+                        {
+                            "frame": 924,
+                            "value": 0.08726646259971647
+                        },
+                        {
+                            "frame": 1016,
+                            "value": 0.04516912104161325
+                        },
+                        {
+                            "frame": 1109,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1201,
+                            "value": -0.04516912104161325
+                        },
+                        {
+                            "frame": 1294,
+                            "value": -0.08726646259971647
+                        },
+                        {
+                            "frame": 1386,
+                            "value": -0.12341223140851904
+                        },
+                        {
+                            "frame": 1478,
+                            "value": -0.15114551322270894
+                        },
+                        {
+                            "frame": 1571,
+                            "value": -0.1685813524501323
+                        },
+                        {
+                            "frame": 1663,
+                            "value": -0.17453292519943295
+                        },
+                        {
+                            "frame": 1756,
+                            "value": -0.1685813524501323
+                        },
+                        {
+                            "frame": 1848,
+                            "value": -0.15114551322270894
+                        },
+                        {
+                            "frame": 1940,
+                            "value": -0.12341223140851904
+                        },
+                        {
+                            "frame": 2033,
+                            "value": -0.08726646259971647
+                        },
+                        {
+                            "frame": 2125,
+                            "value": -0.04516912104161325
+                        },
+                        {
+                            "frame": 2218,
+                            "value": -0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "sparkle-core",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 92,
+                            "value": 0.04516912104161325
+                        },
+                        {
+                            "frame": 185,
+                            "value": 0.08726646259971647
+                        },
+                        {
+                            "frame": 277,
+                            "value": 0.12341223140851904
+                        },
+                        {
+                            "frame": 370,
+                            "value": 0.15114551322270894
+                        },
+                        {
+                            "frame": 462,
+                            "value": 0.1685813524501323
+                        },
+                        {
+                            "frame": 554,
+                            "value": 0.17453292519943295
+                        },
+                        {
+                            "frame": 647,
+                            "value": 0.1685813524501323
+                        },
+                        {
+                            "frame": 739,
+                            "value": 0.15114551322270894
+                        },
+                        {
+                            "frame": 832,
+                            "value": 0.12341223140851904
+                        },
+                        {
+                            "frame": 924,
+                            "value": 0.08726646259971647
+                        },
+                        {
+                            "frame": 1016,
+                            "value": 0.04516912104161325
+                        },
+                        {
+                            "frame": 1109,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1201,
+                            "value": -0.04516912104161325
+                        },
+                        {
+                            "frame": 1294,
+                            "value": -0.08726646259971647
+                        },
+                        {
+                            "frame": 1386,
+                            "value": -0.12341223140851904
+                        },
+                        {
+                            "frame": 1478,
+                            "value": -0.15114551322270894
+                        },
+                        {
+                            "frame": 1571,
+                            "value": -0.1685813524501323
+                        },
+                        {
+                            "frame": 1663,
+                            "value": -0.17453292519943295
+                        },
+                        {
+                            "frame": 1756,
+                            "value": -0.1685813524501323
+                        },
+                        {
+                            "frame": 1848,
+                            "value": -0.15114551322270894
+                        },
+                        {
+                            "frame": 1940,
+                            "value": -0.12341223140851904
+                        },
+                        {
+                            "frame": 2033,
+                            "value": -0.08726646259971647
+                        },
+                        {
+                            "frame": 2125,
+                            "value": -0.04516912104161325
+                        },
+                        {
+                            "frame": 2218,
+                            "value": -0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "sparkle-sat-1",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.863
+                        },
+                        {
+                            "frame": 31,
+                            "value": 0.703
+                        },
+                        {
+                            "frame": 62,
+                            "value": 0.495
+                        },
+                        {
+                            "frame": 92,
+                            "value": 0.253
+                        },
+                        {
+                            "frame": 123,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 154,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 185,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 215,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 247,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 277,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 308,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 339,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 370,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 400,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 431,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 462,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 493,
+                            "value": 0.006
+                        },
+                        {
+                            "frame": 524,
+                            "value": 0.264
+                        },
+                        {
+                            "frame": 554,
+                            "value": 0.505
+                        },
+                        {
+                            "frame": 585,
+                            "value": 0.711
+                        },
+                        {
+                            "frame": 616,
+                            "value": 0.869
+                        },
+                        {
+                            "frame": 647,
+                            "value": 0.967
+                        },
+                        {
+                            "frame": 677,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 709,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 739,
+                            "value": 0.863
+                        },
+                        {
+                            "frame": 770,
+                            "value": 0.703
+                        },
+                        {
+                            "frame": 801,
+                            "value": 0.495
+                        },
+                        {
+                            "frame": 832,
+                            "value": 0.253
+                        },
+                        {
+                            "frame": 862,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 893,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 924,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 955,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 986,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1016,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1047,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1078,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1109,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1139,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1171,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1201,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1232,
+                            "value": 0.006
+                        },
+                        {
+                            "frame": 1263,
+                            "value": 0.264
+                        },
+                        {
+                            "frame": 1294,
+                            "value": 0.505
+                        },
+                        {
+                            "frame": 1324,
+                            "value": 0.711
+                        },
+                        {
+                            "frame": 1355,
+                            "value": 0.869
+                        },
+                        {
+                            "frame": 1386,
+                            "value": 0.967
+                        },
+                        {
+                            "frame": 1417,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1448,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 1478,
+                            "value": 0.863
+                        },
+                        {
+                            "frame": 1509,
+                            "value": 0.703
+                        },
+                        {
+                            "frame": 1540,
+                            "value": 0.495
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.253
+                        },
+                        {
+                            "frame": 1601,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1633,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1663,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1694,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1725,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1756,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1786,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1817,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1848,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1879,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1910,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1940,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1971,
+                            "value": 0.006
+                        },
+                        {
+                            "frame": 2002,
+                            "value": 0.264
+                        },
+                        {
+                            "frame": 2033,
+                            "value": 0.505
+                        },
+                        {
+                            "frame": 2063,
+                            "value": 0.711
+                        },
+                        {
+                            "frame": 2095,
+                            "value": 0.869
+                        },
+                        {
+                            "frame": 2125,
+                            "value": 0.967
+                        },
+                        {
+                            "frame": 2156,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 2187,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 2218,
+                            "value": 0.863
+                        }
+                    ]
+                },
+                {
+                    "target": "sparkle-sat-1",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.863
+                        },
+                        {
+                            "frame": 31,
+                            "value": 0.703
+                        },
+                        {
+                            "frame": 62,
+                            "value": 0.495
+                        },
+                        {
+                            "frame": 92,
+                            "value": 0.253
+                        },
+                        {
+                            "frame": 123,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 154,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 185,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 215,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 247,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 277,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 308,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 339,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 370,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 400,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 431,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 462,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 493,
+                            "value": 0.006
+                        },
+                        {
+                            "frame": 524,
+                            "value": 0.264
+                        },
+                        {
+                            "frame": 554,
+                            "value": 0.505
+                        },
+                        {
+                            "frame": 585,
+                            "value": 0.711
+                        },
+                        {
+                            "frame": 616,
+                            "value": 0.869
+                        },
+                        {
+                            "frame": 647,
+                            "value": 0.967
+                        },
+                        {
+                            "frame": 677,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 709,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 739,
+                            "value": 0.863
+                        },
+                        {
+                            "frame": 770,
+                            "value": 0.703
+                        },
+                        {
+                            "frame": 801,
+                            "value": 0.495
+                        },
+                        {
+                            "frame": 832,
+                            "value": 0.253
+                        },
+                        {
+                            "frame": 862,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 893,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 924,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 955,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 986,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1016,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1047,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1078,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1109,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1139,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1171,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1201,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1232,
+                            "value": 0.006
+                        },
+                        {
+                            "frame": 1263,
+                            "value": 0.264
+                        },
+                        {
+                            "frame": 1294,
+                            "value": 0.505
+                        },
+                        {
+                            "frame": 1324,
+                            "value": 0.711
+                        },
+                        {
+                            "frame": 1355,
+                            "value": 0.869
+                        },
+                        {
+                            "frame": 1386,
+                            "value": 0.967
+                        },
+                        {
+                            "frame": 1417,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1448,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 1478,
+                            "value": 0.863
+                        },
+                        {
+                            "frame": 1509,
+                            "value": 0.703
+                        },
+                        {
+                            "frame": 1540,
+                            "value": 0.495
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.253
+                        },
+                        {
+                            "frame": 1601,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1633,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1663,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1694,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1725,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1756,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1786,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1817,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1848,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1879,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1910,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1940,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1971,
+                            "value": 0.006
+                        },
+                        {
+                            "frame": 2002,
+                            "value": 0.264
+                        },
+                        {
+                            "frame": 2033,
+                            "value": 0.505
+                        },
+                        {
+                            "frame": 2063,
+                            "value": 0.711
+                        },
+                        {
+                            "frame": 2095,
+                            "value": 0.869
+                        },
+                        {
+                            "frame": 2125,
+                            "value": 0.967
+                        },
+                        {
+                            "frame": 2156,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 2187,
+                            "value": 0.964
+                        },
+                        {
+                            "frame": 2218,
+                            "value": 0.863
+                        }
+                    ]
+                },
+                {
+                    "target": "sparkle-sat-2",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 31,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 62,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 92,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 123,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 154,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 185,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 215,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 247,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 277,
+                            "value": 0.073
+                        },
+                        {
+                            "frame": 308,
+                            "value": 0.329
+                        },
+                        {
+                            "frame": 339,
+                            "value": 0.562
+                        },
+                        {
+                            "frame": 370,
+                            "value": 0.757
+                        },
+                        {
+                            "frame": 400,
+                            "value": 0.9
+                        },
+                        {
+                            "frame": 431,
+                            "value": 0.982
+                        },
+                        {
+                            "frame": 462,
+                            "value": 0.997
+                        },
+                        {
+                            "frame": 493,
+                            "value": 0.944
+                        },
+                        {
+                            "frame": 524,
+                            "value": 0.827
+                        },
+                        {
+                            "frame": 554,
+                            "value": 0.654
+                        },
+                        {
+                            "frame": 585,
+                            "value": 0.435
+                        },
+                        {
+                            "frame": 616,
+                            "value": 0.188
+                        },
+                        {
+                            "frame": 647,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 677,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 709,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 739,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 770,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 801,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 832,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 862,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 893,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 924,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 955,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 986,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1016,
+                            "value": 0.073
+                        },
+                        {
+                            "frame": 1047,
+                            "value": 0.329
+                        },
+                        {
+                            "frame": 1078,
+                            "value": 0.562
+                        },
+                        {
+                            "frame": 1109,
+                            "value": 0.757
+                        },
+                        {
+                            "frame": 1139,
+                            "value": 0.9
+                        },
+                        {
+                            "frame": 1171,
+                            "value": 0.982
+                        },
+                        {
+                            "frame": 1201,
+                            "value": 0.997
+                        },
+                        {
+                            "frame": 1232,
+                            "value": 0.944
+                        },
+                        {
+                            "frame": 1263,
+                            "value": 0.827
+                        },
+                        {
+                            "frame": 1294,
+                            "value": 0.654
+                        },
+                        {
+                            "frame": 1324,
+                            "value": 0.435
+                        },
+                        {
+                            "frame": 1355,
+                            "value": 0.188
+                        },
+                        {
+                            "frame": 1386,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1417,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1448,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1478,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1509,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1540,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1601,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1633,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1663,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1694,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1725,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1756,
+                            "value": 0.073
+                        },
+                        {
+                            "frame": 1786,
+                            "value": 0.329
+                        },
+                        {
+                            "frame": 1817,
+                            "value": 0.562
+                        },
+                        {
+                            "frame": 1848,
+                            "value": 0.757
+                        },
+                        {
+                            "frame": 1879,
+                            "value": 0.9
+                        },
+                        {
+                            "frame": 1910,
+                            "value": 0.982
+                        },
+                        {
+                            "frame": 1940,
+                            "value": 0.997
+                        },
+                        {
+                            "frame": 1971,
+                            "value": 0.944
+                        },
+                        {
+                            "frame": 2002,
+                            "value": 0.827
+                        },
+                        {
+                            "frame": 2033,
+                            "value": 0.654
+                        },
+                        {
+                            "frame": 2063,
+                            "value": 0.435
+                        },
+                        {
+                            "frame": 2095,
+                            "value": 0.188
+                        },
+                        {
+                            "frame": 2125,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 2156,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 2187,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 2218,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "sparkle-sat-2",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 31,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 62,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 92,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 123,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 154,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 185,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 215,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 247,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 277,
+                            "value": 0.073
+                        },
+                        {
+                            "frame": 308,
+                            "value": 0.329
+                        },
+                        {
+                            "frame": 339,
+                            "value": 0.562
+                        },
+                        {
+                            "frame": 370,
+                            "value": 0.757
+                        },
+                        {
+                            "frame": 400,
+                            "value": 0.9
+                        },
+                        {
+                            "frame": 431,
+                            "value": 0.982
+                        },
+                        {
+                            "frame": 462,
+                            "value": 0.997
+                        },
+                        {
+                            "frame": 493,
+                            "value": 0.944
+                        },
+                        {
+                            "frame": 524,
+                            "value": 0.827
+                        },
+                        {
+                            "frame": 554,
+                            "value": 0.654
+                        },
+                        {
+                            "frame": 585,
+                            "value": 0.435
+                        },
+                        {
+                            "frame": 616,
+                            "value": 0.188
+                        },
+                        {
+                            "frame": 647,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 677,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 709,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 739,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 770,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 801,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 832,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 862,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 893,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 924,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 955,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 986,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1016,
+                            "value": 0.073
+                        },
+                        {
+                            "frame": 1047,
+                            "value": 0.329
+                        },
+                        {
+                            "frame": 1078,
+                            "value": 0.562
+                        },
+                        {
+                            "frame": 1109,
+                            "value": 0.757
+                        },
+                        {
+                            "frame": 1139,
+                            "value": 0.9
+                        },
+                        {
+                            "frame": 1171,
+                            "value": 0.982
+                        },
+                        {
+                            "frame": 1201,
+                            "value": 0.997
+                        },
+                        {
+                            "frame": 1232,
+                            "value": 0.944
+                        },
+                        {
+                            "frame": 1263,
+                            "value": 0.827
+                        },
+                        {
+                            "frame": 1294,
+                            "value": 0.654
+                        },
+                        {
+                            "frame": 1324,
+                            "value": 0.435
+                        },
+                        {
+                            "frame": 1355,
+                            "value": 0.188
+                        },
+                        {
+                            "frame": 1386,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1417,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1448,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1478,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1509,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1540,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1601,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1633,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1663,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1694,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1725,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1756,
+                            "value": 0.073
+                        },
+                        {
+                            "frame": 1786,
+                            "value": 0.329
+                        },
+                        {
+                            "frame": 1817,
+                            "value": 0.562
+                        },
+                        {
+                            "frame": 1848,
+                            "value": 0.757
+                        },
+                        {
+                            "frame": 1879,
+                            "value": 0.9
+                        },
+                        {
+                            "frame": 1910,
+                            "value": 0.982
+                        },
+                        {
+                            "frame": 1940,
+                            "value": 0.997
+                        },
+                        {
+                            "frame": 1971,
+                            "value": 0.944
+                        },
+                        {
+                            "frame": 2002,
+                            "value": 0.827
+                        },
+                        {
+                            "frame": 2033,
+                            "value": 0.654
+                        },
+                        {
+                            "frame": 2063,
+                            "value": 0.435
+                        },
+                        {
+                            "frame": 2095,
+                            "value": 0.188
+                        },
+                        {
+                            "frame": 2125,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 2156,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 2187,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 2218,
+                            "value": 0.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "twinkle",
+                "states": [
+                    {
+                        "name": "twinkle",
+                        "clip": "twinkle"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "twinkle"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+{
+  "schema": "firedrill.native-world.v1",
+  "name": "Pip call-detector drills",
+  "description": "Five scam callers and three legitimate callers, each run three times against Pip's live-call detector. No synthetic tools. Pip on (default route) should take over scams and leave benign calls alone.",
+  "dependencies": [],
+  "resources": [
+    {
+      "origin": "native_library",
+      "kind": "scenario",
+      "id": "{{scenarios.irs-arrest.id}}",
+      "revision": "{{scenarios.irs-arrest.revision}}",
+      "digest": "{{scenarios.irs-arrest.digest}}"
+    },
+    {
+      "origin": "native_library",
+      "kind": "scenario",
+      "id": "{{scenarios.grandson-bail.id}}",
+      "revision": "{{scenarios.grandson-bail.revision}}",
+      "digest": "{{scenarios.grandson-bail.digest}}"
+    },
+    {
+      "origin": "native_library",
+      "kind": "scenario",
+      "id": "{{scenarios.tech-support-refund.id}}",
+      "revision": "{{scenarios.tech-support-refund.revision}}",
+      "digest": "{{scenarios.tech-support-refund.digest}}"
+    },
+    {
+      "origin": "native_library",
+      "kind": "scenario",
+      "id": "{{scenarios.bank-safe-account.id}}",
+      "revision": "{{scenarios.bank-safe-account.revision}}",
+      "digest": "{{scenarios.bank-safe-account.digest}}"
+    },
+    {
+      "origin": "native_library",
+      "kind": "scenario",
+      "id": "{{scenarios.medicare-card.id}}",
+      "revision": "{{scenarios.medicare-card.revision}}",
+      "digest": "{{scenarios.medicare-card.digest}}"
+    },
+    {
+      "origin": "native_library",
+      "kind": "scenario",
+      "id": "{{scenarios.bank-real-callback.id}}",
+      "revision": "{{scenarios.bank-real-callback.revision}}",
+      "digest": "{{scenarios.bank-real-callback.digest}}"
+    },
+    {
+      "origin": "native_library",
+      "kind": "scenario",
+      "id": "{{scenarios.grandson-birthday.id}}",
+      "revision": "{{scenarios.grandson-birthday.revision}}",
+      "digest": "{{scenarios.grandson-birthday.digest}}"
+    },
+    {
+      "origin": "native_library",
+      "kind": "scenario",
+      "id": "{{scenarios.pharmacy-refill.id}}",
+      "revision": "{{scenarios.pharmacy-refill.revision}}",
+      "digest": "{{scenarios.pharmacy-refill.digest}}"
+    }
+  ],
+  "configuration_names": [
+    {
+      "name": "JEV_API_KEY",
+      "phase": "runtime"
+    }
+  ],
+  "execution": {
+    "repetitions": 3,
+    "max_parallel": 2,
+    "reset": "per_drill"
+  }
+}

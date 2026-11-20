@@ -1,0 +1,75 @@
+{
+  "piece": "set-dtoday-yard",
+  "scene": "dToday",
+  "painter": "paintYard",
+  "origin": [540.0,1212.0],
+  "origin_note": "screen px (1080 x 2424 stage) where the SVG's (0, 0) sits when the actor is at rest",
+  "viewBox": [-600.0,-1272.0,1200.0,2544.0],
+  "size": [1200.0,2544.0],
+  "pose": "progress 0 (green light)",
+  "format": "Draft motion format for rivc. Every track targets a <g id> in the SVG; a group's pivot is its translate() origin. Properties: x, y (absolute, in the parent's units), rotation (degrees, clockwise), scaleX, scaleY, opacity, strokeWidth, fillColor ('#RRGGBB'). Keys are [time s, value]; 'ease' applies between keys (linear, hold, sine, quadIn). driver 'time' clips play on the clock; driver 'input:<name>' clips are scrubbed, clip time = input value. mixBy names an input whose value (0..1) is the clip's blend weight. The SVG's own transforms are each group's setup pose.",
+  "clips": [
+    {
+      "name": "cloud-drift",
+      "duration": 31.4159,
+      "loop": true,
+      "driver": "time",
+      "note": "painted clouds drift +/-6 px on sin(0.2t)",
+      "tracks": [
+        {
+          "target": "cloud-0",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.0,-448.875],[3.927,-444.6324],[7.854,-442.875],[11.781,-444.6324],[15.708,-448.875],[19.635,-453.1176],[23.5619,-454.875],[27.4889,-453.1176],[31.4159,-448.875]]
+        },
+        {
+          "target": "cloud-1",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.0,-229.7012],[3.927,-228.8876],[7.854,-231.5082],[11.781,-236.0278],[15.708,-239.7988],[19.635,-240.6124],[23.5619,-237.9918],[27.4889,-233.4722],[31.4159,-229.7012]]
+        },
+        {
+          "target": "cloud-2",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.0,8.5808],[3.927,5.2173],[7.854,0.6281],[11.781,-2.4984],[15.708,-2.3308],[19.635,1.0327],[23.5619,5.6219],[27.4889,8.7484],[31.4159,8.5808]]
+        },
+        {
+          "target": "cloud-3",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.0,240.5967],[3.927,236.1485],[7.854,233.81],[11.781,234.9511],[15.708,238.9033],[19.635,243.3515],[23.5619,245.69],[27.4889,244.5489],[31.4159,240.5967]]
+        },
+        {
+          "target": "cloud-4",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.0,444.6467],[3.927,443.2035],[7.854,445.2656],[11.781,449.6252],[15.708,453.7283],[19.635,455.1715],[23.5619,453.1094],[27.4889,448.7498],[31.4159,444.6467]]
+        }
+      ]
+    },
+    {
+      "name": "red-light",
+      "duration": 1.0,
+      "loop": false,
+      "driver": "input:progress",
+      "tracks": [
+        {
+          "target": "red-tint",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,0.13]]
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "progress",
+      "type": "number",
+      "range": [0,1],
+      "drives": "red-light tint: 0 -> 1 over 0.16 s as the doll turns (5.95 s), back to 0 at 7.3 s"
+    }
+  ],
+  "layers": ["clouds/cloud-0..4","sand","tree","finish-line","red-tint"]
+}

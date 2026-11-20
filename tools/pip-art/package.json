@@ -1,0 +1,11 @@
+{
+  "name": "@shady-pip/pip-art",
+  "private": true,
+  "description": "Pip's SVG trace build and the scenery generators that write set pieces into packages/pip-rive/sets",
+  "scripts": {
+    "art:fx": "cd ../.. && tools/.venv/bin/python tools/pip-art/fx/gen.py",
+    "art:sets-6090": "cd ../.. && tools/.venv/bin/python tools/pip-art/sets-6090/run.py",
+    "art:sets-modern": "cd ../.. && tools/.venv/bin/python tools/pip-art/sets-modern/run.py",
+    "art:icon": "cd ../.. && tools/.venv/bin/python tools/pip-art/icon/gen.py"
+  }
+}

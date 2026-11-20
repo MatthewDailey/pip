@@ -1,0 +1,66 @@
+{
+ "piece": "set-d90s-sunglasses",
+ "origin": "pip-box (330,396)",
+ "space": "pip-box",
+ "clips": [
+  {
+   "name": "drop-on",
+   "duration": 0.5,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "glasses",
+     "property": "y",
+     "keys": [
+      [0, -1296],
+      [0.5, -396]
+     ],
+     "ease": "outBounce"
+    },
+    {
+     "target": "contact-shadow",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.4, 0.05],
+      [0.5, 1]
+     ],
+     "ease": "easeIn"
+    }
+   ]
+  },
+  {
+   "name": "lift-off",
+   "duration": 0.32,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "glasses",
+     "property": "y",
+     "keys": [
+      [0, -396],
+      [0.32, -1296]
+     ],
+     "ease": "easeIn"
+    },
+    {
+     "target": "contact-shadow",
+     "property": "opacity",
+     "keys": [
+      [0, 1],
+      [0.1, 0]
+     ],
+     "ease": "linear"
+    }
+   ]
+  }
+ ],
+ "inputs": [
+  {
+   "name": "drop",
+   "type": "number",
+   "drives": "0..1 how far they have dropped: y offset = (1-drop)*-900, shadow opacity = drop^4; hidden when < 0"
+  }
+ ],
+ "size": [460, 100]
+}

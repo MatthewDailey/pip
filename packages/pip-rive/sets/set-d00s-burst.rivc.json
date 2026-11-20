@@ -1,0 +1,1235 @@
+{
+    "artboard": {
+        "name": "set-d00s-burst",
+        "width": 2800.0,
+        "height": 2800.0
+    },
+    "art": {
+        "svg": "set-d00s-burst.svg"
+    },
+    "clips": [
+        {
+            "name": "burst",
+            "frames": 600,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "ray-0",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-1",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-2",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-3",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-4",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-5",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-6",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-7",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-8",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-9",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-10",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-11",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-12",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-13",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-14",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1628
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3897
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5713
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8192
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8953
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9464
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9774
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9933
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "flash",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.5
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.3645
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.256
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.1715
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.108
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0625
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.032
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0135
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.004
+                        },
+                        {
+                            "frame": 540,
+                            "value": 5.0E-4
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "flash-glow",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1509
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.381
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5653
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7088
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8166
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8939
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9457
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9771
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9932
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "flash-glow",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.1509
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.381
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5653
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7088
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8166
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.8939
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.9457
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.9771
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.9932
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.9992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "flash-glow",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.95
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.7695
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.608
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.4655
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.342
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.2375
+                        },
+                        {
+                            "frame": 360,
+                            "value": 0.152
+                        },
+                        {
+                            "frame": 420,
+                            "value": 0.0855
+                        },
+                        {
+                            "frame": 480,
+                            "value": 0.038
+                        },
+                        {
+                            "frame": 540,
+                            "value": 0.0095
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "rays",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.17453292519943295
+                        }
+                    ]
+                },
+                {
+                    "target": "rays",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.6
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.45
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.3
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.15
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "shock-ring-ellipse/path",
+                    "property": "width",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 120.0
+                        },
+                        {
+                            "frame": 60,
+                            "value": 564.44
+                        },
+                        {
+                            "frame": 120,
+                            "value": 920.32
+                        },
+                        {
+                            "frame": 180,
+                            "value": 1197.48
+                        },
+                        {
+                            "frame": 240,
+                            "value": 1405.76
+                        },
+                        {
+                            "frame": 300,
+                            "value": 1555.0
+                        },
+                        {
+                            "frame": 360,
+                            "value": 1655.04
+                        },
+                        {
+                            "frame": 420,
+                            "value": 1715.72
+                        },
+                        {
+                            "frame": 480,
+                            "value": 1746.88
+                        },
+                        {
+                            "frame": 540,
+                            "value": 1758.36
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1760.0
+                        }
+                    ]
+                },
+                {
+                    "target": "shock-ring-ellipse/path",
+                    "property": "height",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 16.8
+                        },
+                        {
+                            "frame": 60,
+                            "value": 79.0216
+                        },
+                        {
+                            "frame": 120,
+                            "value": 128.8448
+                        },
+                        {
+                            "frame": 180,
+                            "value": 167.6472
+                        },
+                        {
+                            "frame": 240,
+                            "value": 196.8064
+                        },
+                        {
+                            "frame": 300,
+                            "value": 217.7
+                        },
+                        {
+                            "frame": 360,
+                            "value": 231.7056
+                        },
+                        {
+                            "frame": 420,
+                            "value": 240.2008
+                        },
+                        {
+                            "frame": 480,
+                            "value": 244.5632
+                        },
+                        {
+                            "frame": 540,
+                            "value": 246.1704
+                        },
+                        {
+                            "frame": 600,
+                            "value": 246.4
+                        }
+                    ]
+                },
+                {
+                    "target": "shock-ring-ellipse/stroke/paint",
+                    "property": "thickness",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 17.0
+                        },
+                        {
+                            "frame": 150,
+                            "value": 13.5
+                        },
+                        {
+                            "frame": 300,
+                            "value": 10.0
+                        },
+                        {
+                            "frame": 450,
+                            "value": 6.5
+                        },
+                        {
+                            "frame": 600,
+                            "value": 3.0
+                        }
+                    ]
+                },
+                {
+                    "target": "shock-ring",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "core",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.5
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.001
+                        }
+                    ]
+                },
+                {
+                    "target": "core",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.5
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.25
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.001
+                        }
+                    ]
+                },
+                {
+                    "target": "core",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

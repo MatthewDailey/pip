@@ -1,0 +1,9 @@
+{
+  "name": "@shady-pip/showreel-to-rivc",
+  "private": true,
+  "description": "WIP: converts the exported Kotlin showreel into a rivc project. Not part of build/test until it settles.",
+  "scripts": {
+    "build:wip": ". ../../scripts/env.sh && ../rivc/gradlew -p . installDist",
+    "test:wip": ". ../../scripts/env.sh && ../rivc/gradlew -p . test"
+  }
+}

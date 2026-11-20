@@ -1,0 +1,471 @@
+{
+    "artboard": {
+        "name": "set-d60s-frame",
+        "width": 1060.0,
+        "height": 900.0
+    },
+    "art": {
+        "svg": "set-d60s-frame.svg"
+    },
+    "clips": [
+        {
+            "name": "pop-in",
+            "frames": 300,
+            "fps": 600
+        },
+        {
+            "name": "pop-out",
+            "frames": 252,
+            "fps": 600
+        },
+        {
+            "name": "whip",
+            "frames": 600,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "streak-0",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 66.704
+                        },
+                        {
+                            "frame": 600,
+                            "value": 3122.454
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-1",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 375.492
+                        },
+                        {
+                            "frame": 600,
+                            "value": 3280.633
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-2",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -166.114
+                        },
+                        {
+                            "frame": 600,
+                            "value": 2194.463
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-3",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -491.861
+                        },
+                        {
+                            "frame": 600,
+                            "value": 2301.717
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-4",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -439.507
+                        },
+                        {
+                            "frame": 600,
+                            "value": 2670.63
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-5",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 153.02
+                        },
+                        {
+                            "frame": 600,
+                            "value": 3286.863
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-6",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -385.366
+                        },
+                        {
+                            "frame": 600,
+                            "value": 2433.313
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-7",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -99.393
+                        },
+                        {
+                            "frame": 600,
+                            "value": 2303.716
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-8",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -177.219
+                        },
+                        {
+                            "frame": 600,
+                            "value": 2907.816
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-9",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -622.587
+                        },
+                        {
+                            "frame": 600,
+                            "value": 2527.991
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-10",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 269.991
+                        },
+                        {
+                            "frame": 600,
+                            "value": 3445.671
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-11",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 106.818
+                        },
+                        {
+                            "frame": 600,
+                            "value": 2219.865
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-12",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 294.889
+                        },
+                        {
+                            "frame": 600,
+                            "value": 3763.42
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-13",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -115.505
+                        },
+                        {
+                            "frame": 600,
+                            "value": 2070.057
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-14",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 405.992
+                        },
+                        {
+                            "frame": 600,
+                            "value": 3124.266
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-15",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 523.636
+                        },
+                        {
+                            "frame": 600,
+                            "value": 2653.418
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-16",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 640.923
+                        },
+                        {
+                            "frame": 600,
+                            "value": 3322.938
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-17",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 255.276
+                        },
+                        {
+                            "frame": 600,
+                            "value": 3140.894
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-18",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 433.207
+                        },
+                        {
+                            "frame": 600,
+                            "value": 2897.676
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-19",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 416.9
+                        },
+                        {
+                            "frame": 600,
+                            "value": 3745.978
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-20",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -855.152
+                        },
+                        {
+                            "frame": 600,
+                            "value": 2295.426
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-21",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 148.058
+                        },
+                        {
+                            "frame": 600,
+                            "value": 2408.925
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-22",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -436.234
+                        },
+                        {
+                            "frame": 600,
+                            "value": 3015.563
+                        }
+                    ]
+                },
+                {
+                    "target": "streak-23",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -268.533
+                        },
+                        {
+                            "frame": 600,
+                            "value": 2000.701
+                        }
+                    ]
+                },
+                {
+                    "target": "streaks",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 75,
+                            "value": 0.383
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.707
+                        },
+                        {
+                            "frame": 225,
+                            "value": 0.924
+                        },
+                        {
+                            "frame": 300,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 375,
+                            "value": 0.924
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.707
+                        },
+                        {
+                            "frame": 525,
+                            "value": 0.383
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "flash",
+            "frames": 240,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "flash",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.9,
+                            "ease": "easeOut"
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.0,
+                            "ease": "easeOut"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "input-no-shadow",
+            "frames": 600,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "shadow",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

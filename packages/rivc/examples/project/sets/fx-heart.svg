@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-130 -100 260 200" width="260" height="200">
+<title>heart</title>
+<g id="heart">
+  <g id="heart-shadow" transform="translate(6,9)"><path d="M0,72 C-118,2 -80,-92 0,-40 C80,-92 118,2 0,72 Z" fill="#3A2A26" fill-opacity="0.180"/></g>
+  <g id="heart-rim"><path d="M0,72 C-118,2 -80,-92 0,-40 C80,-92 118,2 0,72 Z" fill="#C4433B"/></g>
+  <g id="heart-body" transform="translate(-3,-5) scale(0.92)"><path d="M0,72 C-118,2 -80,-92 0,-40 C80,-92 118,2 0,72 Z" fill="#F05248"/></g>
+  <g id="heart-gloss"><ellipse cx="0" cy="0" rx="15" ry="9" transform="translate(-38,-34) rotate(-35)" fill="#FFFFFF" fill-opacity="0.600"/><circle cx="-14" cy="-46" r="5" fill="#FFFFFF" fill-opacity="0.533"/></g>
+</g>
+</svg>

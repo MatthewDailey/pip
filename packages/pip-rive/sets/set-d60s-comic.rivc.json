@@ -1,0 +1,55 @@
+{
+    "artboard": {
+        "name": "set-d60s-comic",
+        "width": 940.0,
+        "height": 760.0
+    },
+    "art": {
+        "svg": "set-d60s-comic.svg"
+    },
+    "clips": [
+        {
+            "name": "rays-spin",
+            "frames": 3000,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "rays",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 3000,
+                            "value": 0.5235987755982988
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "rays-spin",
+                "states": [
+                    {
+                        "name": "rays-spin",
+                        "clip": "rays-spin"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rays-spin"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "artboard": {
+        "name": "fx-banner",
+        "width": 1032.0,
+        "height": 231.0
+    },
+    "art": {
+        "svg": "fx-banner.svg"
+    },
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

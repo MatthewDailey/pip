@@ -1,0 +1,46 @@
+{
+  "schema": "firedrill.local-descriptor.v1",
+  "source_roots": [
+    {
+      "alias": "app",
+      "identity_sha256": "<run: node prepare.mjs>"
+    }
+  ],
+  "services": [
+    {
+      "alias": "agent",
+      "root_alias": "app",
+      "role": "agent",
+      "depends_on": [],
+      "configuration": [
+        {
+          "name": "JEV_API_KEY",
+          "phase": "runtime",
+          "secret": true,
+          "required": true
+        }
+      ]
+    }
+  ],
+  "entry_service": "agent",
+  "driver": {
+    "profile": "http.v1",
+    "adapter_sha256": "<sha256 of app/api/firedrill/route.ts; filled by prepare.mjs>",
+    "authentication": "anonymous",
+    "state_domains": [
+      "proc"
+    ]
+  },
+  "state_domains": [
+    {
+      "alias": "proc",
+      "service_alias": "agent",
+      "kind": "process",
+      "location": "local",
+      "reset": "fresh-process",
+      "concurrency": "independent",
+      "hook_sha256": null
+    }
+  ],
+  "dependencies": []
+}

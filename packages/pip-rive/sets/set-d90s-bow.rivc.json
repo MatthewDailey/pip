@@ -1,0 +1,49 @@
+{
+    "artboard": {
+        "name": "set-d90s-bow",
+        "width": 1060.0,
+        "height": 960.0
+    },
+    "art": {
+        "svg": "set-d90s-bow.svg"
+    },
+    "clips": [
+        {
+            "name": "bob",
+            "frames": 750,
+            "fps": 600,
+            "loop": "loop"
+        },
+        {
+            "name": "whip-in",
+            "frames": 204,
+            "fps": 600
+        },
+        {
+            "name": "whip-out",
+            "frames": 156,
+            "fps": 600
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "bob",
+                "states": [
+                    {
+                        "name": "bob",
+                        "clip": "bob"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "bob"
+                    }
+                ]
+            }
+        ]
+    }
+}

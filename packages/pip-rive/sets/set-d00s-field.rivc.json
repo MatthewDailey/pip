@@ -1,0 +1,916 @@
+{
+    "artboard": {
+        "name": "set-d00s-field",
+        "width": 1200.0,
+        "height": 2544.0
+    },
+    "art": {
+        "svg": "set-d00s-field.svg"
+    },
+    "clips": [
+        {
+            "name": "eyes-blink",
+            "frames": 1000,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "eye-pair-0",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 888,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 938,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 1000,
+                            "value": 1.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-pair-1",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 312,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 363,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 1000,
+                            "value": 1.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-pair-2",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 463,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 513,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 1000,
+                            "value": 1.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-pair-3",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 742,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 792,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 1000,
+                            "value": 1.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-pair-4",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 727,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 777,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 1000,
+                            "value": 1.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-pair-5",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 105,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 155,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 1000,
+                            "value": 1.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-pair-6",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 875,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 925,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 1000,
+                            "value": 1.0,
+                            "ease": "hold"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "alarm",
+            "frames": 600,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "eye-0-l",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-0-l",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-0-l-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-0-r",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-0-r",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-0-r-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-0-glow-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-1-l",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-1-l",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-1-l-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-1-r",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-1-r",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-1-r-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-1-glow-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-2-l",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-2-l",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-2-l-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-2-r",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-2-r",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-2-r-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-2-glow-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-3-l",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-3-l",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-3-l-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-3-r",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-3-r",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-3-r-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-3-glow-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-4-l",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-4-l",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-4-l-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-4-r",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-4-r",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-4-r-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-4-glow-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-5-l",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-5-l",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-5-l-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-5-r",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-5-r",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-5-r-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-5-glow-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-6-l",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-6-l",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-6-l-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-6-r",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-6-r",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.8333333333333333
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-6-r-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "eye-6-glow-red",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "eyes-blink",
+                "states": [
+                    {
+                        "name": "eyes-blink",
+                        "clip": "eyes-blink"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "eyes-blink"
+                    }
+                ]
+            }
+        ]
+    }
+}

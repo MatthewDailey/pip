@@ -1,0 +1,57 @@
+{
+ "piece": "set-d70s-steps",
+ "origin": [540, 1150],
+ "clips": [
+  {
+   "name": "rays-turn",
+   "duration": 4.283,
+   "loop": true,
+   "tracks": [
+    {
+     "target": "rays",
+     "property": "rotation",
+     "keys": [
+      [0, 0],
+      [4.283, 25.7]
+     ],
+     "ease": "linear"
+    }
+   ],
+   "note": "6 deg/s; rays repeat every 25.7 deg"
+  },
+  {
+   "name": "bloom",
+   "duration": 0.8,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "rays",
+     "property": "opacity",
+     "keys": [
+      [0, 0.417],
+      [0.8, 1]
+     ],
+     "ease": "easeInOut"
+    },
+    {
+     "target": "sun-glow",
+     "property": "scale",
+     "keys": [
+      [0, 1],
+      [0.8, 1.35]
+     ],
+     "ease": "easeInOut"
+    }
+   ],
+   "note": "plays at set time 6.4 s (the arms-up beat): rays brighten, the sun glow swells"
+  }
+ ],
+ "inputs": [
+  {
+   "name": "progress",
+   "type": "number",
+   "drives": "Scene-level: n.f slides set n out and set n+1 in (a whip pan). The set itself is static at its own origin; the host translates it by -f*940 (horizontal) or +f*760 (vertical)."
+  }
+ ],
+ "size": [940, 760]
+}

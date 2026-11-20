@@ -1,0 +1,1627 @@
+{
+    "artboard": {
+        "name": "set-d90s-scream",
+        "width": 760.0,
+        "height": 560.0
+    },
+    "art": {
+        "svg": "set-d90s-scream.svg"
+    },
+    "clips": [
+        {
+            "name": "jitter",
+            "frames": 377,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "ray-0",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -3.490658503988659,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 19,
+                            "value": -3.4557519189487724,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 56,
+                            "value": -3.5255650890285457,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 94,
+                            "value": -3.4557519189487724,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 132,
+                            "value": -3.5255650890285457,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 170,
+                            "value": -3.4557519189487724,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 208,
+                            "value": -3.5255650890285457,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 245,
+                            "value": -3.4557519189487724,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 283,
+                            "value": -3.5255650890285457,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 320,
+                            "value": -3.4557519189487724,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 358,
+                            "value": -3.5255650890285457,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": -3.490658503988659,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-0-len",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 236.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 23,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 71,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 118,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 165,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 212,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 259,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 307,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 353,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 236.0,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-1",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -3.1413134009094743,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 7,
+                            "value": -3.1357807071806523,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 44,
+                            "value": -3.205593877260425,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 82,
+                            "value": -3.1357807071806523,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 120,
+                            "value": -3.205593877260425,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 158,
+                            "value": -3.1357807071806523,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 196,
+                            "value": -3.205593877260425,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 233,
+                            "value": -3.1357807071806523,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 271,
+                            "value": -3.205593877260425,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 308,
+                            "value": -3.1357807071806523,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 346,
+                            "value": -3.205593877260425,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": -3.1413134009094743,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-1-len",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 245.636,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 4,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 51,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 98,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 145,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 193,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 239,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 287,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 334,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 245.636,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-2",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -2.818968541358641,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 32,
+                            "value": -2.885605212199785,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 70,
+                            "value": -2.8157920421200116,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 108,
+                            "value": -2.885605212199785,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 146,
+                            "value": -2.8157920421200116,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 184,
+                            "value": -2.885605212199785,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 221,
+                            "value": -2.8157920421200116,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 259,
+                            "value": -2.885605212199785,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 296,
+                            "value": -2.8157920421200116,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 334,
+                            "value": -2.885605212199785,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 372,
+                            "value": -2.8157920421200116,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": -2.818968541358641,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-2-len",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 241.155,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 32,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 79,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 126,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 173,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 220,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 268,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 314,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 362,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 241.155,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-3",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -2.5258055869011535,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 20,
+                            "value": -2.5656340004316642,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 58,
+                            "value": -2.4958208303518914,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 96,
+                            "value": -2.5656340004316642,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 134,
+                            "value": -2.4958208303518914,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 172,
+                            "value": -2.5656340004316642,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 209,
+                            "value": -2.4958208303518914,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 247,
+                            "value": -2.5656340004316642,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 284,
+                            "value": -2.4958208303518914,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 322,
+                            "value": -2.5656340004316642,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 360,
+                            "value": -2.4958208303518914,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": -2.5258055869011535,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-3-len",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 229.122,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 12,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 59,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 106,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 154,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 200,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 248,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 295,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 342,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 229.122,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-4",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -2.237163035206332,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 8,
+                            "value": -2.245662788663544,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 46,
+                            "value": -2.175849618583771,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 84,
+                            "value": -2.245662788663544,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 122,
+                            "value": -2.175849618583771,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 160,
+                            "value": -2.245662788663544,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 197,
+                            "value": -2.175849618583771,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 235,
+                            "value": -2.245662788663544,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 272,
+                            "value": -2.175849618583771,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 310,
+                            "value": -2.245662788663544,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 348,
+                            "value": -2.175849618583771,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": -2.237163035206332,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-4-len",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 227.165,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 40,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 87,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 134,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 181,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 229,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 275,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 323,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 370,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 227.165,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-5",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -1.9242429536162684,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 34,
+                            "value": -1.8558609535231305,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 72,
+                            "value": -1.9256741236029036,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 110,
+                            "value": -1.8558609535231305,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 148,
+                            "value": -1.9256741236029036,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 185,
+                            "value": -1.8558609535231305,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 223,
+                            "value": -1.9256741236029036,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 260,
+                            "value": -1.8558609535231305,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 298,
+                            "value": -1.9256741236029036,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 336,
+                            "value": -1.8558609535231305,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 374,
+                            "value": -1.9256741236029036,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": -1.9242429536162684,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-5-len",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 238.151,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 20,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 67,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 115,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 161,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 209,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 256,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 303,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 350,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 238.151,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-6",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -1.5805527173135447,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 22,
+                            "value": -1.53588974175501,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 60,
+                            "value": -1.6057029118347832,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 98,
+                            "value": -1.53588974175501,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 136,
+                            "value": -1.6057029118347832,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 173,
+                            "value": -1.53588974175501,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 211,
+                            "value": -1.6057029118347832,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 248,
+                            "value": -1.53588974175501,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 286,
+                            "value": -1.6057029118347832,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 324,
+                            "value": -1.53588974175501,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 362,
+                            "value": -1.6057029118347832,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": -1.5805527173135447,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-6-len",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 245.985,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 1,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 48,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 95,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 142,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 190,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 236,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 284,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 331,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 245.985,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-7",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -1.2278914886555705,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 10,
+                            "value": -1.2159185299868895,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 48,
+                            "value": -1.2857317000666628,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 86,
+                            "value": -1.2159185299868895,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 124,
+                            "value": -1.2857317000666628,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 161,
+                            "value": -1.2159185299868895,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 199,
+                            "value": -1.2857317000666628,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 236,
+                            "value": -1.2159185299868895,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 274,
+                            "value": -1.2857317000666628,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 312,
+                            "value": -1.2159185299868895,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 350,
+                            "value": -1.2857317000666628,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": -1.2278914886555705,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-7-len",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 239.191,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 28,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 76,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 122,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 170,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 217,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 264,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 311,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 358,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 239.191,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-8",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.8963138373616879,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 36,
+                            "value": -0.9657430350060223,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 74,
+                            "value": -0.8959298649262492,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 112,
+                            "value": -0.9657430350060223,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 149,
+                            "value": -0.8959298649262492,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 187,
+                            "value": -0.9657430350060223,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 224,
+                            "value": -0.8959298649262492,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 262,
+                            "value": -0.9657430350060223,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 300,
+                            "value": -0.8959298649262492,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 338,
+                            "value": -0.9657430350060223,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 375,
+                            "value": -0.8959298649262492,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": -0.8963138373616879,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-8-len",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 227.722,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 9,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 56,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 103,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 151,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 197,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 245,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 292,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 339,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 227.722,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-9",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.5964837251615821,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 24,
+                            "value": -0.6457718232379019,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 62,
+                            "value": -0.5759586531581288,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 100,
+                            "value": -0.6457718232379019,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 137,
+                            "value": -0.5759586531581288,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 175,
+                            "value": -0.6457718232379019,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 212,
+                            "value": -0.5759586531581288,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 250,
+                            "value": -0.6457718232379019,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 288,
+                            "value": -0.5759586531581288,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 326,
+                            "value": -0.6457718232379019,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 363,
+                            "value": -0.5759586531581288,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": -0.5964837251615821,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-9-len",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 228.38,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 37,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 83,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 131,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 178,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 225,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 272,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 319,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 367,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 228.38,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-10",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.3098832086915932,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 12,
+                            "value": -0.3258006114697815,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 50,
+                            "value": -0.2559874413900083,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 88,
+                            "value": -0.3258006114697815,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 125,
+                            "value": -0.2559874413900083,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 163,
+                            "value": -0.3258006114697815,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 200,
+                            "value": -0.2559874413900083,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 238,
+                            "value": -0.3258006114697815,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 276,
+                            "value": -0.2559874413900083,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 314,
+                            "value": -0.3258006114697815,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 351,
+                            "value": -0.2559874413900083,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": -0.3098832086915932,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-10-len",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 240.202,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 17,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 64,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 112,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 158,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 206,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 253,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 300,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 347,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 240.202,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-11",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.005811946409141118,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 38,
+                            "value": 0.06400122367063206,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 76,
+                            "value": -0.005811946409141118,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 113,
+                            "value": 0.06400122367063206,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 151,
+                            "value": -0.005811946409141118,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 188,
+                            "value": 0.06400122367063206,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 226,
+                            "value": -0.005811946409141118,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 264,
+                            "value": 0.06400122367063206,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 302,
+                            "value": -0.005811946409141118,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 339,
+                            "value": 0.06400122367063206,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": -0.005811946409141118,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-11-len",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 245.868,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 44,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 92,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 139,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 186,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 233,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 280,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 328,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 374,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 245.868,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-12",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.33033846752496676,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 26,
+                            "value": 0.3839724354387525,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 64,
+                            "value": 0.3141592653589793,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 101,
+                            "value": 0.3839724354387525,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 139,
+                            "value": 0.3141592653589793,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 176,
+                            "value": 0.3839724354387525,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 214,
+                            "value": 0.3141592653589793,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 252,
+                            "value": 0.3839724354387525,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 290,
+                            "value": 0.3141592653589793,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 327,
+                            "value": 0.3839724354387525,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 365,
+                            "value": 0.3141592653589793,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 0.33033846752496676,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "ray-12-len",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 237.078,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 25,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 73,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 119,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 167,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 214,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 261,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 308,
+                            "value": 226.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 355,
+                            "value": 246.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 377,
+                            "value": 237.078,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "show",
+            "frames": 510,
+            "fps": 600
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "jitter",
+                "states": [
+                    {
+                        "name": "jitter",
+                        "clip": "jitter"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "jitter"
+                    }
+                ]
+            }
+        ]
+    }
+}

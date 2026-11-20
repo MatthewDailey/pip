@@ -1,0 +1,11 @@
+{
+  "name": "@shady-pip/pip-scenarios",
+  "private": true,
+  "description": "Scenario test flow: every scam moment from the Pip re-skin mocks, staged live on the emulator one after another, with Pip's reaction recorded per scenario",
+  "type": "module",
+  "scripts": {
+    "scenarios": ". ../../scripts/env.sh && node run.mjs",
+    "scenarios:auto": ". ../../scripts/env.sh && node run.mjs auto",
+    "scenarios:sheet": ". ../../scripts/env.sh && bash contact-sheet.sh"
+  }
+}

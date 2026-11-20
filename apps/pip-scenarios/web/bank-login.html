@@ -1,0 +1,34 @@
+<!doctype html>
+<!-- Fake "Bank of Example" sign-in page for Pip's phishing scenario. Fictional brand; the form sends nothing. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; form-action 'none'; connect-src 'none'">
+<title>Bank of Example - Verify your account</title>
+<style>
+  body { margin: 0; font: 17px/1.45 system-ui, sans-serif; background: #f3f6f9; color: #1c2430; }
+  header { background: #0b4f8a; color: #fff; padding: 18px 20px; font: 700 22px/1 system-ui; letter-spacing: .02em; }
+  header small { display: block; font: 400 13px/1.4 system-ui; opacity: .8; margin-top: 6px; }
+  main { padding: 22px 20px; }
+  .alert { background: #fff4e5; border: 1px solid #f0b44c; border-radius: 10px; padding: 12px 14px; margin-bottom: 18px; }
+  label { display: block; font-weight: 600; margin: 14px 0 6px; }
+  input { width: 100%; box-sizing: border-box; font: inherit; padding: 12px; border: 1.5px solid #c9c9d1; border-radius: 10px; }
+  button { width: 100%; margin-top: 22px; font: 600 18px system-ui; color: #fff; background: #0b4f8a; border: 0; border-radius: 26px; padding: 15px; }
+  #note { color: #555; margin-top: 14px; }
+</style>
+</head>
+<body>
+<header>BANK OF EXAMPLE<small>Online Banking · Secure verification</small></header>
+<main>
+  <div class="alert"><b>Your account has been locked.</b> We detected suspicious activity. Verify your identity within 24 hours to avoid suspension.</div>
+  <form id="f" onsubmit="event.preventDefault(); document.getElementById('note').textContent = 'Test page: nothing was sent.';">
+    <label for="u">Username</label><input id="u" autocomplete="off">
+    <label for="p">Password</label><input id="p" type="password" autocomplete="off">
+    <label for="c">Card number</label><input id="c" inputmode="numeric" autocomplete="off">
+    <button>Sign in and verify</button>
+  </form>
+  <p id="note"></p>
+</main>
+</body>
+</html>
