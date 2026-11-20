@@ -1,0 +1,103 @@
+{
+ "piece": "set-d80s-maze",
+ "origin": [540, 1170],
+ "clips": [
+  {
+   "name": "pellet-pulse",
+   "duration": 0.628,
+   "loop": true,
+   "tracks": [
+    {
+     "target": "pellet-glow",
+     "property": "opacity",
+     "keys": [
+      [0.0, 0.5],
+      [0.157, 1.0],
+      [0.471, 0.0],
+      [0.628, 0.5]
+     ],
+     "ease": "easeInOut"
+    },
+    {
+     "target": "pellet",
+     "property": "scale",
+     "keys": [
+      [0.0, 1.0],
+      [0.157, 1.086],
+      [0.471, 0.914],
+      [0.628, 1.0]
+     ],
+     "ease": "easeInOut"
+    }
+   ]
+  },
+  {
+   "name": "whip-in",
+   "duration": 0.34,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "x",
+     "keys": [
+      [0, 1410],
+      [0.265, -16],
+      [0.34, 0]
+     ],
+     "ease": "easeOut"
+    }
+   ],
+   "note": "x relative to home (540): flies in from screen x 1950, overshoots 16 px, settles"
+  },
+  {
+   "name": "whip-out",
+   "duration": 0.26,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "x",
+     "keys": [
+      [0, 0],
+      [0.26, -1440]
+     ],
+     "ease": "easeIn"
+    }
+   ]
+  },
+  {
+   "name": "pop-in",
+   "duration": 0.45,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "scale",
+     "keys": [
+      [0, 0.88],
+      [0.45, 1]
+     ],
+     "ease": "outBack"
+    },
+    {
+     "target": "root",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.25, 1]
+     ],
+     "ease": "easeOut"
+    }
+   ]
+  }
+ ],
+ "inputs": [
+  {
+   "name": "progress",
+   "type": "number",
+   "drives": "screen x of Pip's mouth (starts 595): dot-k is hidden once 147 + 56k <= progress; the score text reads 1000 + 10 x (dots eaten), zero-padded to 6 digits"
+  }
+ ],
+ "notes": "Wall bloom is stacked strokes; CRT scanlines are one compound path of 2 px bars; the score is a Rive text run (text-score placeholder, glyphs omitted). 1UP and HI are outlined (Menlo Bold).",
+ "size": [1060, 960]
+}

@@ -1,0 +1,56 @@
+RIVE 7.5 fileId=0 toc=[]
+#0 Backboard
+#1 Artboard [0] name="gradients" width=400.0 height=300.0 clip=false
+#2 Shape [1] name="zigzag" parentId=0
+#3 PointsPath [2] parentId=1 isClosed=false
+#4 StraightVertex [3] parentId=2 x=230.0 y=230.0
+#5 StraightVertex [4] parentId=2 x=250.0 y=210.0
+#6 StraightVertex [5] parentId=2 x=270.0 y=230.0
+#7 StraightVertex [6] parentId=2 x=290.0 y=210.0
+#8 StraightVertex [7] parentId=2 x=310.0 y=230.0
+#9 Stroke [8] parentId=1 thickness=6.0 cap=2 join=2
+#10 SolidColor [9] parentId=8 colorValue=#FF2B4C8C
+#11 Shape [10] name="ribbon" parentId=0
+#12 PointsPath [11] parentId=10 isClosed=false
+#13 CubicDetachedVertex [12] parentId=11 x=230.0 y=180.0 inRotation=0.0 inDistance=0.0 outRotation=-0.7853982 outDistance=42.426407
+#14 CubicMirroredVertex [13] parentId=11 x=340.0 y=180.0 rotation=-0.6435011 distance=50.0
+#15 CubicDetachedVertex [14] parentId=11 x=390.0 y=200.0 inRotation=-1.815775 inDistance=41.231056 outRotation=0.0 outDistance=0.0
+#16 Stroke [15] parentId=10 thickness=10.0 cap=1 join=1
+#17 LinearGradient [16] parentId=15 startX=220.0 startY=30.0 endX=380.0 endY=130.0
+#18 GradientStop [17] parentId=16 colorValue=#FFF05248 position=0.0
+#19 GradientStop [18] parentId=16 colorValue=#80FFD166 position=1.0
+#20 Shape [19] name="tile" parentId=0
+#21 Rectangle [20] parentId=19 x=100.0 y=200.0 width=120.0 height=60.0
+#22 Fill [21] parentId=19
+#23 LinearGradient [22] parentId=21 startX=78.038475 startY=159.01924 endX=137.42308 endY=227.59067 opacity=0.8
+#24 GradientStop [23] parentId=22 colorValue=#FFF05248 position=0.0
+#25 GradientStop [24] parentId=22 colorValue=#80FFD166 position=1.0
+#26 Node [25] name="hill" parentId=0
+#27 Shape [26] parentId=25 x=20.0 y=205.0 scaleX=360.0 scaleY=90.0
+#28 Ellipse [27] parentId=26 x=0.5 y=0.5 width=1.0 height=1.0
+#29 Fill [28] parentId=26
+#30 RadialGradient [29] parentId=28 startX=0.5 startY=0.5 endX=1.0 endY=0.5
+#31 GradientStop [30] parentId=29 colorValue=#FFFFFFFF position=0.0
+#32 GradientStop [31] parentId=29 colorValue=#FF3FA34D position=1.0
+#33 Shape [32] name="banner" parentId=0
+#34 Rectangle [33] parentId=32 x=300.0 y=80.0 width=160.0 height=100.0 cornerRadiusTL=12.0
+#35 Fill [34] parentId=32
+#36 LinearGradient [35] parentId=34 startX=220.0 startY=30.0 endX=380.0 endY=130.0
+#37 GradientStop [36] parentId=35 colorValue=#FFF05248 position=0.0
+#38 GradientStop [37] parentId=35 colorValue=#80FFD166 position=1.0
+#39 Stroke [38] parentId=32 thickness=4.0
+#40 SolidColor [39] parentId=38 colorValue=#FF2B2B2B
+#41 Shape [40] name="sun" parentId=0
+#42 Ellipse [41] parentId=40 x=90.0 y=80.0 width=90.0 height=90.0
+#43 Fill [42] parentId=40
+#44 RadialGradient [43] parentId=42 startX=90.0 startY=80.0 endX=135.0 endY=80.0
+#45 GradientStop [44] parentId=43 colorValue=#FFFFF6C9 position=0.0
+#46 GradientStop [45] parentId=43 colorValue=#FFFFC94A position=0.7
+#47 GradientStop [46] parentId=43 colorValue=#00FF9F1C position=1.0
+#48 Shape [47] name="backdrop" parentId=0
+#49 Rectangle [48] parentId=47 x=200.0 y=150.0 width=400.0 height=300.0
+#50 Fill [49] parentId=47
+#51 LinearGradient [50] parentId=49 startX=0.0 startY=0.0 endX=0.0 endY=300.0
+#52 GradientStop [51] parentId=50 colorValue=#FF2B4C8C position=0.0
+#53 GradientStop [52] parentId=50 colorValue=#FF7FA8D9 position=0.6
+#54 GradientStop [53] parentId=50 colorValue=#FFF6D5A8 position=1.0

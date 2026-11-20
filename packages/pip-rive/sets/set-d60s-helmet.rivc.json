@@ -1,0 +1,42 @@
+{
+    "artboard": {
+        "name": "set-d60s-helmet",
+        "width": 720.0,
+        "height": 720.0
+    },
+    "art": {
+        "svg": "set-d60s-helmet.svg"
+    },
+    "clips": [
+        {
+            "name": "pop-in",
+            "frames": 270,
+            "fps": 600
+        },
+        {
+            "name": "pop-out",
+            "frames": 72,
+            "fps": 600
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-210 -240 420 480" width="420" height="480">
+<!-- Silhouette kid on a bike; (0,0) is the actor point (bike drawn tilted -14 deg by the scene). -->
+<g id="wheel-back" transform="translate(-115 40)">
+<circle cx="0" cy="0" r="66" fill="none" stroke="#0A0E22" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="wheel-back-spokes">
+<path d="M0 0L62 0" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L43.84 43.84" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L0 62" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L-43.84 43.84" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L-62 0" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L-43.84 -43.84" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L0 -62" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L43.84 -43.84" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="0" cy="0" r="8" fill="#0A0E22"/>
+</g>
+<g id="wheel-front" transform="translate(125 40)">
+<circle cx="0" cy="0" r="66" fill="none" stroke="#0A0E22" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="wheel-front-spokes">
+<path d="M0 0L62 0" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L43.84 43.84" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L0 62" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L-43.84 43.84" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L-62 0" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L-43.84 -43.84" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L0 -62" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M0 0L43.84 -43.84" fill="none" stroke="#0A0E22" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<circle cx="0" cy="0" r="8" fill="#0A0E22"/>
+</g>
+<g id="frame">
+<path d="M-115 40L-40 -58" fill="none" stroke="#0A0E22" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-40 -58L5 40" fill="none" stroke="#0A0E22" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 40L-115 40" fill="none" stroke="#0A0E22" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-40 -58L92 -50" fill="none" stroke="#0A0E22" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5 40L92 -50" fill="none" stroke="#0A0E22" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M92 -50L125 40" fill="none" stroke="#0A0E22" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M92 -50L100 -86" fill="none" stroke="#0A0E22" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M100 -86L74 -94" fill="none" stroke="#0A0E22" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="-64" y="-74" width="48" height="14" rx="7" ry="7" fill="#0A0E22"/>
+</g>
+<g id="legs">
+<g id="leg-0-thigh" transform="translate(-38 -74) rotate(25.29)">
+<path d="M0 0L80 0" fill="none" stroke="#141A36" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="leg-0-shin" transform="translate(80 0) rotate(68.53)">
+<path d="M0 0L80 0" fill="none" stroke="#141A36" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="leg-0-foot" transform="translate(80 0) rotate(-93.82)">
+<path d="M-10 0L16 0" fill="none" stroke="#0A0E22" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<g id="leg-1-thigh" transform="translate(-38 -74) rotate(36.78)">
+<path d="M0 0L80 0" fill="none" stroke="#0A0E22" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="leg-1-shin" transform="translate(80 0) rotate(87.51)">
+<path d="M0 0L80 0" fill="none" stroke="#0A0E22" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="leg-1-foot" transform="translate(80 0) rotate(-124.29)">
+<path d="M-10 0L16 0" fill="none" stroke="#0A0E22" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<g id="rider">
+<path d="M-40 -80L4 -150" fill="none" stroke="#0A0E22" stroke-width="48" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M8 -142L76 -94" fill="none" stroke="#0A0E22" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="26" cy="-188" r="31" fill="#0A0E22"/>
+<path d="M-8 -170Q-6 -230 34 -222Q14 -200 10 -168Z" fill="#0A0E22"/>
+</g>
+</svg>

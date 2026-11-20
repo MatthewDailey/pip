@@ -1,0 +1,654 @@
+{
+  "version": 1,
+  "width": 400,
+  "height": 860,
+  "screens": [
+    {
+      "id": "s01",
+      "file": "img/s01.png",
+      "key": "venmo_friend",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "hard",
+      "tags": [
+        "payment",
+        "app",
+        "friend"
+      ],
+      "a11y_text": "Venmo\nPay Linda Chen\n@linda-chen-sf · friends for 6 years\n$20.00\nLunch at the senior center 🥗\nPay",
+      "url": null,
+      "app_package": "com.venmo"
+    },
+    {
+      "id": "s02",
+      "file": "img/s02.png",
+      "key": "google_alert",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "hard",
+      "tags": [
+        "email",
+        "security-alert"
+      ],
+      "a11y_text": "‹ Inbox\nSecurity alert\nGoogle <no-reply@accounts.google.com>\nto me · 9:14 AM\nA new sign-in on Pixel 8\nmargaret.l@example.com\nWe noticed a new sign-in to your Google Account on a Pixel 8 device. If this was you, you don't need to do anything. If not, we'll help you secure your account.\nCheck activity\nYou can also see security activity at https://myaccount.google.com/notifications",
+      "url": null,
+      "app_package": "com.google.android.gm"
+    },
+    {
+      "id": "s03",
+      "file": "img/s03.png",
+      "key": "settings",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "easy",
+      "tags": [
+        "system"
+      ],
+      "a11y_text": "Settings\nNetwork & internet\nConnected devices\nApps\nNotifications\nBattery · 82%\nDisplay\nSound & vibration\nAccessibility\nSecurity & privacy",
+      "url": null,
+      "app_package": "com.android.settings"
+    },
+    {
+      "id": "s04",
+      "file": "img/s04.png",
+      "key": "email_geeksquad",
+      "label": "scam",
+      "fraud_type": "scam_message",
+      "expected_intervene": false,
+      "difficulty": "hard",
+      "tags": [
+        "email",
+        "tech-support",
+        "fake-invoice"
+      ],
+      "a11y_text": "‹ Inbox\nInvoice #GS-88231: Auto-renewal $399.99\nGeek Squad Billing <geeksquad.billing@example.com>\nto me · 9:14 AM\nDear Customer,\nYour Geek Squad Total Protection plan has been renewed for $399.99 and charged to your account today.\nIf you did not authorize this renewal, call our cancellation desk within 24 hours at +1 (888) 555-0147 to receive a full refund.\nThank you,\nGeek Squad Billing Team",
+      "url": null,
+      "app_package": "com.google.android.gm"
+    },
+    {
+      "id": "s05",
+      "file": "img/s05.png",
+      "key": "anydesk_code",
+      "label": "scam",
+      "fraud_type": "remote_access",
+      "expected_intervene": true,
+      "difficulty": "medium",
+      "tags": [
+        "remote-access",
+        "app"
+      ],
+      "a11y_text": "AnyDesk\nThis device\nYour address\n482 916 337\nShare this address with the person who wants to connect.\nIncoming session request \"Amazon Refund Desk\" wants to view and control this device.\nAccept\nDismiss",
+      "url": null,
+      "app_package": "com.anydesk.anydeskandroid"
+    },
+    {
+      "id": "s06",
+      "file": "img/s06.png",
+      "key": "bank_app_tx",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "medium",
+      "tags": [
+        "bank",
+        "app"
+      ],
+      "a11y_text": "Chase\nCHASE TOTAL CHECKING (...4821)\n$3,214.66\nAvailable balance\nSafeway -$62.18\nSocial Security +$1,842.00\nPG&E -$118.40\nCVS Pharmacy -$12.99",
+      "url": null,
+      "app_package": "com.chase.sig.android"
+    },
+    {
+      "id": "s07",
+      "file": "img/s07.png",
+      "key": "calendar",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "easy",
+      "tags": [
+        "calendar"
+      ],
+      "a11y_text": "November\nTue 24\nDr. Patel · 10:30 AM\nThu 26\nThanksgiving at Sarah's\nSat 28\nEmma's birthday party · 2 PM",
+      "url": null,
+      "app_package": "com.google.android.calendar"
+    },
+    {
+      "id": "s08",
+      "file": "img/s08.png",
+      "key": "sms_pharmacy",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "medium",
+      "tags": [
+        "sms",
+        "health"
+      ],
+      "a11y_text": "‹ CVS Pharmacy\nCVS Pharmacy: Your prescription for MARGARET is ready for pickup at 1201 Geary Blvd. Reply STOP to opt out.",
+      "url": null,
+      "app_package": "com.google.android.apps.messaging"
+    },
+    {
+      "id": "s09",
+      "file": "img/s09.png",
+      "key": "ms_real",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "hard",
+      "tags": [
+        "real-domain",
+        "login"
+      ],
+      "a11y_text": "▦ Microsoft\nSign in\nEmail, phone, or Skype\nNo account? Create one!\nNext",
+      "url": "https://login.microsoftonline.com/common/oauth2/authorize",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s10",
+      "file": "img/s10.png",
+      "key": "teamviewer_allow",
+      "label": "scam",
+      "fraud_type": "remote_access",
+      "expected_intervene": true,
+      "difficulty": "hard",
+      "tags": [
+        "remote-access",
+        "system-dialog"
+      ],
+      "a11y_text": "TeamViewer QuickSupport\nYour ID\n1 284 551 907\nAllow remote control? \"Bank Fraud Department - Agent Mike\" would like to control your device. They will be able to see your screen and use your apps, including banking apps.\nAllow\nDeny",
+      "url": null,
+      "app_package": "com.teamviewer.quicksupport.market"
+    },
+    {
+      "id": "s11",
+      "file": "img/s11.png",
+      "key": "chat_crypto",
+      "label": "scam",
+      "fraud_type": "fake_payment",
+      "expected_intervene": true,
+      "difficulty": "hard",
+      "tags": [
+        "chat",
+        "romance",
+        "crypto"
+      ],
+      "a11y_text": "‹ Daniel ❤️\nGood morning my love, I miss you so much\nMorning! How is the platform job going?\nCustoms is holding my container in Rotterdam. I just need $2,000 to release it, then I can finally fly to you. Send USDT to this wallet: TQ7x9kLm3ab2Pz8fWq1. I will pay you back double next week",
+      "url": null,
+      "app_package": "com.whatsapp"
+    },
+    {
+      "id": "s12",
+      "file": "img/s12.png",
+      "key": "sms_family_giftcard",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "hard",
+      "tags": [
+        "sms",
+        "family",
+        "gift-card"
+      ],
+      "a11y_text": "‹ Sarah (daughter)\nHi Mom! Emma's birthday party is Saturday at 2 at our place 🎈\nIf you're stuck on a gift, she'd love a Target gift card. $25 is plenty, just bring it to the party ❤️\nPerfect, I'll pick one up tomorrow!",
+      "url": null,
+      "app_package": "com.google.android.apps.messaging"
+    },
+    {
+      "id": "s13",
+      "file": "img/s13.png",
+      "key": "sms_2fa",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "hard",
+      "tags": [
+        "sms",
+        "otp"
+      ],
+      "a11y_text": "‹ 24273\nChase: Your one-time code is 482913. It expires in 10 minutes. Chase will NEVER call or text you to ask for this code. Don't share it.",
+      "url": null,
+      "app_package": "com.google.android.apps.messaging"
+    },
+    {
+      "id": "s14",
+      "file": "img/s14.png",
+      "key": "sms_grandkid",
+      "label": "scam",
+      "fraud_type": "scam_message",
+      "expected_intervene": true,
+      "difficulty": "medium",
+      "tags": [
+        "sms",
+        "family-emergency",
+        "gift-card",
+        "secrecy"
+      ],
+      "a11y_text": "‹ +1 (702) 555-0128\nGrandma it's me Jake, this is my new number. I got in trouble and I'm at the police station 😞\nI need $800 for bail tonight. Can you buy Apple gift cards at Walgreens and text me pictures of the codes? Please don't tell Mom, she'll be so mad",
+      "url": null,
+      "app_package": "com.google.android.apps.messaging"
+    },
+    {
+      "id": "s15",
+      "file": "img/s15.png",
+      "key": "virus_popup",
+      "label": "scam",
+      "fraud_type": "tech_support_popup",
+      "expected_intervene": true,
+      "difficulty": "easy",
+      "tags": [
+        "tech-support",
+        "phone-number"
+      ],
+      "a11y_text": "Windows Defender Security Center ⚠️ Access to this device has been blocked for security reasons. Trojan Spyware detected. Your banking passwords and photos are at risk.\nCall Microsoft Support: 1-844-555-0182 (toll free)\nDo not close this window or restart your device.\nCall now",
+      "url": "https://security-alert-check.xyz/warning",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s16",
+      "file": "img/s16.png",
+      "key": "usps_fee",
+      "label": "scam",
+      "fraud_type": "fake_payment",
+      "expected_intervene": true,
+      "difficulty": "easy",
+      "tags": [
+        "delivery",
+        "small-fee"
+      ],
+      "a11y_text": "USPS\nPackage on hold\nYour package US9514901185421 could not be delivered due to an incomplete address. A redelivery fee of $1.99 is required within 24 hours or the package will be returned.\nFull name\nCard number\nMM/YY\nCVV\nPay $1.99 and reschedule",
+      "url": "https://usps-redelivery-help.com/fee",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s17",
+      "file": "img/s17.png",
+      "key": "medicare_gov",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "medium",
+      "tags": [
+        "government",
+        "real-domain"
+      ],
+      "a11y_text": "Medicare.gov\nOpen Enrollment ends December 7\nReview your coverage and compare plans for next year. Medicare will never call you to ask for your Medicare number or to sell you anything.\nFind plans\nQuestions? Call 1-800-MEDICARE.",
+      "url": "https://www.medicare.gov/basics/get-started-with-medicare",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s18",
+      "file": "img/s18.png",
+      "key": "usps_tracking",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "hard",
+      "tags": [
+        "delivery",
+        "real-domain"
+      ],
+      "a11y_text": "USPS Tracking®\nTracking Number: 9400111899223197428490\nIn Transit to Next Facility\nExpected delivery by Saturday, November 21 by 9:00pm\nArrived at USPS Regional Facility\nSAN FRANCISCO CA DISTRIBUTION CENTER · November 19, 10:42 pm\nShipping Label Created\nOAKLAND, CA · November 18",
+      "url": "https://tools.usps.com/go/TrackConfirmAction?tLabels=9400111899223197428490",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s19",
+      "file": "img/s19.png",
+      "key": "chase_fake",
+      "label": "scam",
+      "fraud_type": "phishing_login",
+      "expected_intervene": true,
+      "difficulty": "easy",
+      "tags": [
+        "bank",
+        "lookalike-domain",
+        "urgency"
+      ],
+      "a11y_text": "CHASE ◼\nYour account has been LOCKED due to suspicious activity. Verify within 30 minutes or your funds will be frozen.\nSign in to restore access\nUsername\nCard number\nSSN (last 4)\nVerify now",
+      "url": "https://chase-secure-verify.co/login",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s20",
+      "file": "img/s20.png",
+      "key": "news",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "easy",
+      "tags": [
+        "news"
+      ],
+      "a11y_text": "AP\nStorm brings heavy rain to Bay Area, flood watch through Saturday\nBy the Associated Press · November 20, 2026\nSAN FRANCISCO (AP) — A strong atmospheric river moved into Northern California on Thursday, bringing up to 3 inches of rain to the Bay Area and snow to the Sierra Nevada…\nOfficials urged drivers to avoid flooded roads and check on elderly neighbors.",
+      "url": "https://apnews.com/article/weather-storm-bay-area",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s21",
+      "file": "img/s21.png",
+      "key": "sms_bank_lock",
+      "label": "scam",
+      "fraud_type": "scam_message",
+      "expected_intervene": true,
+      "difficulty": "medium",
+      "tags": [
+        "sms",
+        "bank",
+        "credentials"
+      ],
+      "a11y_text": "‹ +1 (415) 555-0199\nBofA Alert: Unusual sign-in detected. Your online banking is suspended. Restore access now at https://bofa-secure-restore.com and confirm your card number and PIN.",
+      "url": null,
+      "app_package": "com.google.android.apps.messaging"
+    },
+    {
+      "id": "s22",
+      "file": "img/s22.png",
+      "key": "amazon_orders",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "medium",
+      "tags": [
+        "shopping",
+        "real-domain"
+      ],
+      "a11y_text": "amazon\nYour Orders\nArriving Tuesday\nLarge print crossword puzzles, Vol. 3\nOrder # 112-4471823-9930214\nDelivered Nov 14\nReading glasses 2.0 (3-pack)\nTrack package",
+      "url": null,
+      "app_package": "com.amazon.mShop.android.shopping"
+    },
+    {
+      "id": "s23",
+      "file": "img/s23.png",
+      "key": "netflix_declined",
+      "label": "scam",
+      "fraud_type": "fake_payment",
+      "expected_intervene": true,
+      "difficulty": "medium",
+      "tags": [
+        "subscription",
+        "lookalike-domain"
+      ],
+      "a11y_text": "NETFLIX\nYour payment was declined\nPlease update your payment details to keep watching. Your membership will be cancelled today if no action is taken.\nName on card\nCard number\nExpiry\nSecurity code\nUpdate payment",
+      "url": "https://netflix-account-billing.co/update",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s24",
+      "file": "img/s24.png",
+      "key": "medicare_ssn",
+      "label": "scam",
+      "fraud_type": "phishing_login",
+      "expected_intervene": true,
+      "difficulty": "medium",
+      "tags": [
+        "government",
+        "personal-data"
+      ],
+      "a11y_text": "Medicare Benefits\nClaim your new plastic Medicare card\nSeniors must upgrade to the new chip card by Friday or benefits may be paused.\nFull name\nDate of birth\nSocial Security Number\nMedicare number\nBank account for $0 fee\nGet my new card",
+      "url": "https://medicare-benefits-card.org/upgrade",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s25",
+      "file": "img/s25.png",
+      "key": "prize_giftcard",
+      "label": "scam",
+      "fraud_type": "fake_payment",
+      "expected_intervene": true,
+      "difficulty": "easy",
+      "tags": [
+        "prize",
+        "gift-card"
+      ],
+      "a11y_text": "🎉 Congratulations!\nYou have been selected to receive $5,000 in the National Consumer Sweepstakes.\nTo release your prize, a one-time processing fee of $250 must be paid with Google Play or Apple gift cards. Enter the card codes below.\nGift card code #1\nGift card code #2\nGift card code #3\nClaim my prize",
+      "url": "https://winners-claim-center.top/claim",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s26",
+      "file": "img/s26.png",
+      "key": "netflix_browse",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "easy",
+      "tags": [
+        "subscription"
+      ],
+      "a11y_text": "NETFLIX\nContinue watching for Mom\nThe Crown\nBridgerton\nTrending now\nNature's Wonders\nGreat British Baking",
+      "url": null,
+      "app_package": "com.netflix.mediaclient"
+    },
+    {
+      "id": "s27",
+      "file": "img/s27.png",
+      "key": "paypal_real",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "hard",
+      "tags": [
+        "real-domain",
+        "login"
+      ],
+      "a11y_text": "PayPal\nEmail or mobile number\nNext\nForgot email? · Sign Up",
+      "url": "https://www.paypal.com/signin",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s28",
+      "file": "img/s28.png",
+      "key": "gmail_inbox",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "easy",
+      "tags": [
+        "email"
+      ],
+      "a11y_text": "Primary\nCostco\nYour warehouse savings for November\nDr. Patel's Office\nReminder: appointment Tuesday 10:30am\nSarah\nPhotos from Thanksgiving planning\nAARP\nThis week: 5 tips for winter driving",
+      "url": null,
+      "app_package": "com.google.android.gm"
+    },
+    {
+      "id": "s29",
+      "file": "img/s29.png",
+      "key": "chase_real",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "hard",
+      "tags": [
+        "bank",
+        "real-domain",
+        "login"
+      ],
+      "a11y_text": "CHASE ◼\nWelcome\nUsername\n☐ Remember me · ☐ Use token\nSign in\nForgot username/password? · Not enrolled? Sign up now.",
+      "url": "https://secure.chase.com/web/auth/logon",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s30",
+      "file": "img/s30.png",
+      "key": "nike_outlet",
+      "label": "scam",
+      "fraud_type": "fake_shopping",
+      "expected_intervene": true,
+      "difficulty": "medium",
+      "tags": [
+        "shopping",
+        "too-good"
+      ],
+      "a11y_text": "NIKE OUTLET ✔\nAir Max 270 — $160 $19.99 (88% off, today only!)\nOnly 3 left · Sale ends in 04:59\nCheckout\nEmail\nShipping address\nCard number\nMM/YY\nCVC\nPlace order",
+      "url": "https://nike-outlet-clearance.shop/checkout",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s31",
+      "file": "img/s31.png",
+      "key": "email_paypal",
+      "label": "scam",
+      "fraud_type": "phishing_login",
+      "expected_intervene": true,
+      "difficulty": "medium",
+      "tags": [
+        "email",
+        "lookalike-sender",
+        "credentials"
+      ],
+      "a11y_text": "‹ Inbox\nAction required: your account is limited\nPayPal Security <service@paypal-account-review.com>\nto me · 9:14 AM\nWe noticed unusual activity and have limited your PayPal account.\nTo restore full access, confirm your identity and payment details within 48 hours. Accounts that are not verified will be permanently closed.\nConfirm my account",
+      "url": null,
+      "app_package": "com.google.android.gm"
+    },
+    {
+      "id": "s32",
+      "file": "img/s32.png",
+      "key": "sms_toll",
+      "label": "scam",
+      "fraud_type": "scam_message",
+      "expected_intervene": true,
+      "difficulty": "medium",
+      "tags": [
+        "sms",
+        "small-fee"
+      ],
+      "a11y_text": "‹ +1 (857) 555-0110\nE-ZPass: You have an outstanding toll balance of $4.15. Pay by today to avoid a $50 late fee and license suspension: https://ezpass-tolls-pay.info",
+      "url": null,
+      "app_package": "com.google.android.apps.messaging"
+    },
+    {
+      "id": "s33",
+      "file": "img/s33.png",
+      "key": "maps",
+      "label": "benign",
+      "fraud_type": "benign",
+      "expected_intervene": false,
+      "difficulty": "easy",
+      "tags": [
+        "maps"
+      ],
+      "a11y_text": "18 min (4.2 mi)\nvia Geary Blvd · Fastest route now\nKaiser Permanente Medical Center\nStart",
+      "url": null,
+      "app_package": "com.google.android.apps.maps"
+    },
+    {
+      "id": "s34",
+      "file": "img/s34.png",
+      "key": "amazon_suspend",
+      "label": "scam",
+      "fraud_type": "phishing_login",
+      "expected_intervene": true,
+      "difficulty": "medium",
+      "tags": [
+        "shopping",
+        "lookalike-domain"
+      ],
+      "a11y_text": "amazon\nAccount on hold\nWe were unable to validate your billing information. Your Prime membership and orders are on hold until you update your payment method.\nEmail or mobile phone number\nCard number\nUpdate payment method",
+      "url": "https://amazon-billing-update.net/ap/signin",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s35",
+      "file": "img/s35.png",
+      "key": "ms_fake_login",
+      "label": "scam",
+      "fraud_type": "phishing_login",
+      "expected_intervene": true,
+      "difficulty": "hard",
+      "tags": [
+        "lookalike-domain",
+        "credentials"
+      ],
+      "a11y_text": "▦ Microsoft\nSign in\nYour password expires today. Sign in to keep your current password.\nEmail, phone, or Skype\nSign in\nCan't access your account?",
+      "url": "https://microsoftonline-verify.com/common/login",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s36",
+      "file": "img/s36.png",
+      "key": "irs_page",
+      "label": "scam",
+      "fraud_type": "fake_payment",
+      "expected_intervene": true,
+      "difficulty": "easy",
+      "tags": [
+        "government",
+        "arrest",
+        "gift-card"
+      ],
+      "a11y_text": "IRS · Internal Revenue Service\nFINAL NOTICE: A warrant has been issued for unpaid federal taxes of $4,812.00. Pay today to avoid arrest.\nAccepted payment: Target or Apple gift cards, Bitcoin.\nSocial Security Number\nGift card number\nGift card PIN\nResolve now",
+      "url": "https://irs-gov-payments.com/resolve",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s37",
+      "file": "img/s37.png",
+      "key": "sms_usps",
+      "label": "scam",
+      "fraud_type": "scam_message",
+      "expected_intervene": true,
+      "difficulty": "medium",
+      "tags": [
+        "sms",
+        "delivery",
+        "small-fee"
+      ],
+      "a11y_text": "‹ +1 (628) 555-0143\nUSPS: Your package is on hold due to an unpaid $1.99 redelivery fee. Pay within 12 hours to avoid return: https://usps-redelivery-help.com/fee",
+      "url": null,
+      "app_package": "com.google.android.apps.messaging"
+    },
+    {
+      "id": "s38",
+      "file": "img/s38.png",
+      "key": "wf_subdomain",
+      "label": "scam",
+      "fraud_type": "phishing_login",
+      "expected_intervene": true,
+      "difficulty": "hard",
+      "tags": [
+        "bank",
+        "subdomain-trick"
+      ],
+      "a11y_text": "WELLS FARGO\nGood afternoon\nSign on to manage your accounts.\nUsername\nFor your security, also confirm the card linked to this account.\nDebit card number\nCard PIN\nSign on",
+      "url": "https://wellsfargo.com.secure-login.app/signon",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s39",
+      "file": "img/s39.png",
+      "key": "fake_antivirus",
+      "label": "scam",
+      "fraud_type": "tech_support_popup",
+      "expected_intervene": true,
+      "difficulty": "medium",
+      "tags": [
+        "tech-support",
+        "fake-download"
+      ],
+      "a11y_text": "⚠️\nYour phone is infected with (4) viruses!\nYour Android device is severely damaged by four viruses. Battery and SIM card data will be corrupted in 2 minutes .\nScanning… 78%\nRemove viruses now",
+      "url": "https://phone-cleaner-scan.live/scan",
+      "app_package": "com.android.chrome"
+    },
+    {
+      "id": "s40",
+      "file": "img/s40.png",
+      "key": "marketplace_zelle",
+      "label": "scam",
+      "fraud_type": "fake_payment",
+      "expected_intervene": true,
+      "difficulty": "hard",
+      "tags": [
+        "chat",
+        "marketplace",
+        "zelle"
+      ],
+      "a11y_text": "‹ Brian (Marketplace)\nHi, is the recliner still available?\nYes! I'm out of town for work but my mover can deliver it tomorrow.\nLots of people want it, so please send the $150 deposit by Zelle to brian.sales.22@example.com in the next hour to hold it. Deposit is refunded on delivery.",
+      "url": null,
+      "app_package": "com.facebook.orca"
+    }
+  ]
+}

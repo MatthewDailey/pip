@@ -1,0 +1,376 @@
+{
+  "piece": "set-d00s-field",
+  "scene": "d00s",
+  "painter": "paintField",
+  "origin": [540.0,1212.0],
+  "origin_note": "screen px (1080 x 2424 stage) where the SVG's (0, 0) sits when the actor is at rest",
+  "viewBox": [-600.0,-1272.0,1200.0,2544.0],
+  "size": [1200.0,2544.0],
+  "pose": "progress 0 (calm cave)",
+  "format": "Draft motion format for rivc. Every track targets a <g id> in the SVG; a group's pivot is its translate() origin. Properties: x, y (absolute, in the parent's units), rotation (degrees, clockwise), scaleX, scaleY, opacity, strokeWidth, fillColor ('#RRGGBB'). Keys are [time s, value]; 'ease' applies between keys (linear, hold, sine, quadIn). driver 'time' clips play on the clock; driver 'input:<name>' clips are scrubbed, clip time = input value. mixBy names an input whose value (0..1) is the clip's blend weight. The SVG's own transforms are each group's setup pose.",
+  "clips": [
+    {
+      "name": "eyes-blink",
+      "duration": 1.6667,
+      "loop": true,
+      "driver": "time",
+      "note": "each pair blinks shut for 5 % of a 1.67 s cycle at its own phase",
+      "tracks": [
+        {
+          "target": "eye-pair-0",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,1],[1.4795,0],[1.5628,1],[1.6667,1]]
+        },
+        {
+          "target": "eye-pair-1",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,1],[0.5208,0],[0.6042,1],[1.6667,1]]
+        },
+        {
+          "target": "eye-pair-2",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,1],[0.7715,0],[0.8548,1],[1.6667,1]]
+        },
+        {
+          "target": "eye-pair-3",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,1],[1.237,0],[1.3203,1],[1.6667,1]]
+        },
+        {
+          "target": "eye-pair-4",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,1],[1.2109,0],[1.2943,1],[1.6667,1]]
+        },
+        {
+          "target": "eye-pair-5",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,1],[0.1758,0],[0.2591,1],[1.6667,1]]
+        },
+        {
+          "target": "eye-pair-6",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,1],[1.4583,0],[1.5417,1],[1.6667,1]]
+        }
+      ]
+    },
+    {
+      "name": "alarm",
+      "duration": 1.0,
+      "loop": false,
+      "driver": "input:progress",
+      "note": "eyes grow 6 -> 11 px and turn from yellow to red",
+      "tracks": [
+        {
+          "target": "eye-0-l",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-0-l",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-0-l-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-0-r",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-0-r",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-0-r-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-0-glow-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-1-l",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-1-l",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-1-l-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-1-r",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-1-r",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-1-r-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-1-glow-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-2-l",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-2-l",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-2-l-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-2-r",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-2-r",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-2-r-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-2-glow-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-3-l",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-3-l",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-3-l-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-3-r",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-3-r",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-3-r-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-3-glow-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-4-l",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-4-l",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-4-l-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-4-r",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-4-r",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-4-r-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-4-glow-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-5-l",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-5-l",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-5-l-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-5-r",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-5-r",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-5-r-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-5-glow-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-6-l",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-6-l",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-6-l-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-6-r",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-6-r",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,1],[1,1.8333333333333333]]
+        },
+        {
+          "target": "eye-6-r-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        },
+        {
+          "target": "eye-6-glow-red",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,1]]
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "progress",
+      "type": "number",
+      "range": [0,1],
+      "drives": "the cave's alarm: the scene snaps it 0 -> 1 (outBack) at 4.45 s as Pip charges in"
+    }
+  ],
+  "layers": ["sun","mountains","ground","cave","cave-eyes/eye-pair-0..6"]
+}

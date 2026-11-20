@@ -1,0 +1,11 @@
+{
+  "model": "gpt-live-1.1",
+  "voice": "ballad",
+  "style": "Voice style: old-timey. You sound like a 1940s radio announcer or newsreel narrator: a warm, bright transatlantic accent, crisp diction, a little showmanship and a twinkle in the eye. Upbeat and brisk, never slow or sleepy. You are Pip, a small, friendly cartoon character who spots scams.",
+  "lines": {
+    "Hi! I'm Pip, your scam-spotting sidekick!": "hi-im-pip-your-scam-spotting-sid-b545c49f.wav",
+    "AI scammers can be tricky to notice!": "ai-scammers-can-be-tricky-to-not-8039ea49.wav",
+    "That's where I come in. I'm trained to defend you from them!": "thats-where-i-come-in-im-trained-8989ba60.wav",
+    "I'm always working in the background to keep you safe.": "im-always-working-in-the-backgro-36c85c52.wav"
+  }
+}

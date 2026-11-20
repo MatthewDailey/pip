@@ -1,0 +1,30 @@
+{
+    "artboard": {
+        "name": "set-d80s-basket",
+        "width": 440.0,
+        "height": 160.0
+    },
+    "art": {
+        "svg": "set-d80s-basket.svg"
+    },
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

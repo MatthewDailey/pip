@@ -1,0 +1,1872 @@
+{
+    "artboard": {
+        "name": "set-d10s-party",
+        "width": 1200.0,
+        "height": 2544.0
+    },
+    "art": {
+        "svg": "set-d10s-party.svg"
+    },
+    "clips": [
+        {
+            "name": "beat",
+            "frames": 300,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "sunburst-beat",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.8796
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.7831
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.708
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.6516
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.6111
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.584
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.5676
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.5591
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.556
+                        },
+                        {
+                            "frame": 300,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.9187
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.8536
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.8029
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.7648
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.7375
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.7192
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.7081
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.7024
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.7003
+                        },
+                        {
+                            "frame": 300,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "spotlights",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.9458
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.9024
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.8686
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.8432
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.825
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.8128
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.8054
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.8016
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.8002
+                        },
+                        {
+                            "frame": 300,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "floor-edge",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.9
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.7916
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.7048
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.6372
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.5864
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.55
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.5256
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.5108
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.5032
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.5004
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.9
+                        }
+                    ]
+                },
+                {
+                    "target": "floor-glow",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.75
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.6416
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.5548
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.4872
+                        },
+                        {
+                            "frame": 120,
+                            "value": 0.4364
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.4
+                        },
+                        {
+                            "frame": 180,
+                            "value": 0.3756
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.3608
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.3532
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.3504
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.75
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "sunburst-spin",
+            "frames": 15429,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "sunburst",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 15429,
+                            "value": 6.283185307179586
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "bokeh-twinkle",
+            "frames": 1885,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "bokeh-0",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.7
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.85
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.9598
+                        },
+                        {
+                            "frame": 471,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.9598
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.85
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.7
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.55
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.4402
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.4
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.4402
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.55
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.7
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-1",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.9524
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.9997
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.9666
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.8621
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.7142
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.5624
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.4476
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.4003
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.4334
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.5379
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.6858
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.8376
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.9524
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-2",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.9728
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.8738
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.7283
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.5752
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.4555
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.4013
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.4272
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.5262
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.6717
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.8248
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.9445
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.9987
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.9728
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-3",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.7423
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.5882
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.464
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.403
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.4216
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.5148
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.6577
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.8118
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.936
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.997
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.9784
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.8852
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.7423
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-4",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.473
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.4053
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.4167
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.5039
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.6437
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.7986
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.927
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.9947
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.9833
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.8961
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.7563
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.6014
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.473
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-5",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4123
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.4934
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.6299
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.7851
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.9175
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.9917
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.9877
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.9066
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.7701
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.6149
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.4825
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.4083
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.4123
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-6",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.6162
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.7714
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.9075
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.9881
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.9914
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.9166
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.7838
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.6286
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.4925
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.4119
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.4086
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.4834
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.6162
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-7",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.8971
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.9838
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.9944
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.9262
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.7973
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.6424
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.5029
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.4162
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.4056
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.4738
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.6027
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.7576
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.8971
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-8",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.9968
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.9352
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.8106
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.6563
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.5138
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.4211
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.4032
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.4648
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.5894
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.7437
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.8862
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.9789
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.9968
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-9",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.8236
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.6704
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.5251
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.4267
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.4015
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.4563
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.5764
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.7296
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.8749
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.9733
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.9985
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.9437
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.8236
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-10",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.5368
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.4328
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.4004
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.4483
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.5636
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.7155
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.8632
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.9672
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.9996
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.9517
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.8364
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.6845
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.5368
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-11",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.4409
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.5512
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.7013
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.8511
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.9605
+                        },
+                        {
+                            "frame": 942,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.9591
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.8488
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.6987
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.5489
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.4395
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.4
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-12",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.539
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.6872
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.8388
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.9532
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.9997
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.966
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.861
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.7128
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.5612
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.4468
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.4003
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.434
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.539
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-13",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.8261
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.9453
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.9988
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.9722
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.8727
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.727
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.5739
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.4547
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.4012
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.4278
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.5273
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.673
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.8261
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-14",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.9972
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.9779
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.8841
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.741
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.5869
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.4631
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.4028
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.4221
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.5159
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.659
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.8131
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.9369
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.9972
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-15",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.8951
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.755
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.6002
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.4721
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.4051
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.4171
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.5049
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.645
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.7998
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.9279
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.9949
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.9829
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.8951
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-16",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.6136
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.4816
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.408
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.4127
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.4944
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.6312
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.7864
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.9184
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.992
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.9873
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.9056
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.7688
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.6136
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-17",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4116
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.4089
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.4843
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.6175
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.7727
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.9085
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.9884
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.9911
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.9157
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.7825
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.6273
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.4915
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.4116
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-18",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4747
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.6039
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.7589
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.8981
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.9842
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.9942
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.9253
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.7961
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.6411
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.5019
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.4158
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.4058
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.4747
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-19",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.745
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.8872
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.9794
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.9966
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.9344
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.8094
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.655
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.5128
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.4206
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.4034
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.4656
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.5906
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.745
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-20",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.9739
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.9984
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.943
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.8224
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.6691
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.524
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.4261
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.4016
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.457
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.5776
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.7309
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.876
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.9739
+                        }
+                    ]
+                },
+                {
+                    "target": "bokeh-21",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.951
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.8352
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.6832
+                        },
+                        {
+                            "frame": 471,
+                            "value": 0.5357
+                        },
+                        {
+                            "frame": 628,
+                            "value": 0.4322
+                        },
+                        {
+                            "frame": 785,
+                            "value": 0.4005
+                        },
+                        {
+                            "frame": 942,
+                            "value": 0.449
+                        },
+                        {
+                            "frame": 1100,
+                            "value": 0.5648
+                        },
+                        {
+                            "frame": 1257,
+                            "value": 0.7168
+                        },
+                        {
+                            "frame": 1414,
+                            "value": 0.8643
+                        },
+                        {
+                            "frame": 1571,
+                            "value": 0.9678
+                        },
+                        {
+                            "frame": 1728,
+                            "value": 0.9995
+                        },
+                        {
+                            "frame": 1885,
+                            "value": 0.951
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "spotlight-swing",
+            "frames": 2693,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "spotlight-0",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 168,
+                            "value": 0.17365676991493179
+                        },
+                        {
+                            "frame": 337,
+                            "value": 0.3208752923206535
+                        },
+                        {
+                            "frame": 505,
+                            "value": 0.4192437942923059
+                        },
+                        {
+                            "frame": 673,
+                            "value": 0.4537856055185257
+                        },
+                        {
+                            "frame": 842,
+                            "value": 0.4192437942923059
+                        },
+                        {
+                            "frame": 1010,
+                            "value": 0.3208752923206535
+                        },
+                        {
+                            "frame": 1178,
+                            "value": 0.17365676991493179
+                        },
+                        {
+                            "frame": 1346,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1515,
+                            "value": -0.17365676991493179
+                        },
+                        {
+                            "frame": 1683,
+                            "value": -0.3208752923206535
+                        },
+                        {
+                            "frame": 1851,
+                            "value": -0.4192437942923059
+                        },
+                        {
+                            "frame": 2020,
+                            "value": -0.4537856055185257
+                        },
+                        {
+                            "frame": 2188,
+                            "value": -0.4192437942923059
+                        },
+                        {
+                            "frame": 2356,
+                            "value": -0.3208752923206535
+                        },
+                        {
+                            "frame": 2524,
+                            "value": -0.17365676991493179
+                        },
+                        {
+                            "frame": 2693,
+                            "value": -0.0
+                        }
+                    ]
+                },
+                {
+                    "target": "spotlight-1",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.39171122534209535
+                        },
+                        {
+                            "frame": 168,
+                            "value": 0.27422438674409705
+                        },
+                        {
+                            "frame": 337,
+                            "value": 0.11498927243839441
+                        },
+                        {
+                            "frame": 505,
+                            "value": -0.06175149426481137
+                        },
+                        {
+                            "frame": 673,
+                            "value": -0.2290919176167757
+                        },
+                        {
+                            "frame": 842,
+                            "value": -0.3615554265261373
+                        },
+                        {
+                            "frame": 1010,
+                            "value": -0.43897474148610177
+                        },
+                        {
+                            "frame": 1178,
+                            "value": -0.4495636540579514
+                        },
+                        {
+                            "frame": 1346,
+                            "value": -0.39171122534209535
+                        },
+                        {
+                            "frame": 1515,
+                            "value": -0.27422438674409705
+                        },
+                        {
+                            "frame": 1683,
+                            "value": -0.11498927243839441
+                        },
+                        {
+                            "frame": 1851,
+                            "value": 0.06175149426481137
+                        },
+                        {
+                            "frame": 2020,
+                            "value": 0.2290919176167757
+                        },
+                        {
+                            "frame": 2188,
+                            "value": 0.3615554265261373
+                        },
+                        {
+                            "frame": 2356,
+                            "value": 0.43897474148610177
+                        },
+                        {
+                            "frame": 2524,
+                            "value": 0.4495636540579514
+                        },
+                        {
+                            "frame": 2693,
+                            "value": 0.39171122534209535
+                        }
+                    ]
+                },
+                {
+                    "target": "spotlight-2",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.39550906179443507
+                        },
+                        {
+                            "frame": 168,
+                            "value": -0.4505392931098162
+                        },
+                        {
+                            "frame": 337,
+                            "value": -0.4369798301510723
+                        },
+                        {
+                            "frame": 505,
+                            "value": -0.3568936520940605
+                        },
+                        {
+                            "frame": 673,
+                            "value": -0.2224736290932132
+                        },
+                        {
+                            "frame": 842,
+                            "value": -0.054183746628163956
+                        },
+                        {
+                            "frame": 1010,
+                            "value": 0.12235456188181047
+                        },
+                        {
+                            "frame": 1178,
+                            "value": 0.2802649712852494
+                        },
+                        {
+                            "frame": 1346,
+                            "value": 0.39550906179443507
+                        },
+                        {
+                            "frame": 1515,
+                            "value": 0.4505392931098162
+                        },
+                        {
+                            "frame": 1683,
+                            "value": 0.4369798301510723
+                        },
+                        {
+                            "frame": 1851,
+                            "value": 0.3568936520940605
+                        },
+                        {
+                            "frame": 2020,
+                            "value": 0.2224736290932132
+                        },
+                        {
+                            "frame": 2188,
+                            "value": 0.054183746628163956
+                        },
+                        {
+                            "frame": 2356,
+                            "value": -0.12235456188181047
+                        },
+                        {
+                            "frame": 2524,
+                            "value": -0.2802649712852494
+                        },
+                        {
+                            "frame": 2693,
+                            "value": -0.39550906179443507
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "beat",
+                "states": [
+                    {
+                        "name": "beat",
+                        "clip": "beat"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "beat"
+                    }
+                ]
+            },
+            {
+                "name": "sunburst-spin",
+                "states": [
+                    {
+                        "name": "sunburst-spin",
+                        "clip": "sunburst-spin"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "sunburst-spin"
+                    }
+                ]
+            },
+            {
+                "name": "bokeh-twinkle",
+                "states": [
+                    {
+                        "name": "bokeh-twinkle",
+                        "clip": "bokeh-twinkle"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "bokeh-twinkle"
+                    }
+                ]
+            },
+            {
+                "name": "spotlight-swing",
+                "states": [
+                    {
+                        "name": "spotlight-swing",
+                        "clip": "spotlight-swing"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "spotlight-swing"
+                    }
+                ]
+            }
+        ]
+    }
+}

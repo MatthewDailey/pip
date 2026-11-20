@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B4C8C"/>
+      <stop offset="0.6" stop-color="#7FA8D9"/>
+      <stop offset="1" stop-color="#F6D5A8"/>
+    </linearGradient>
+    <linearGradient id="diag" gradientUnits="userSpaceOnUse" x1="220" y1="30" x2="380" y2="130">
+      <stop offset="0%" style="stop-color:#F05248"/>
+      <stop offset="100%" stop-color="#FFD166" stop-opacity="0.5"/>
+    </linearGradient>
+    <!-- Inherits stops from diag, with its own geometry and a rotation. -->
+    <linearGradient id="diagTurned" xlink:href="#diag" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="0"
+      gradientTransform="rotate(30 0.5 0.5)"/>
+    <radialGradient id="sunGlow" gradientUnits="userSpaceOnUse" cx="90" cy="80" r="45">
+      <stop offset="0" stop-color="#FFF6C9"/>
+      <stop offset="0.7" stop-color="#FFC94A"/>
+      <stop offset="1" stop-color="#FF9F1C" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Bounding-box units on a wide shape: an elliptical radial gradient. -->
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#3FA34D"/>
+    </radialGradient>
+  </defs>
+  <rect id="backdrop" width="400" height="300" fill="url(#sky)"/>
+  <circle id="sun" cx="90" cy="80" r="45" fill="url(#sunGlow)"/>
+  <rect id="banner" x="220" y="30" width="160" height="100" rx="12" fill="url(#diag)" stroke="#2B2B2B" stroke-width="4"/>
+  <ellipse id="hill" cx="200" cy="250" rx="180" ry="45" fill="url(#glow)"/>
+  <rect id="tile" x="40" y="170" width="120" height="60" fill="url(#diagTurned)" fill-opacity="0.8"/>
+  <path id="ribbon" d="M 230 180 C 260 150 300 210 340 180 S 380 160 390 200" fill="none" stroke="url(#diag)"
+    stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <polyline id="zigzag" points="230,230 250,210 270,230 290,210 310,230" fill="none" stroke="#2B4C8C" stroke-width="6"
+    stroke-linejoin="bevel" stroke-linecap="square"/>
+</svg>

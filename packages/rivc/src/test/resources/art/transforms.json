@@ -1,0 +1,11 @@
+{
+  "artboard": { "name": "transforms", "width": 400, "height": 300, "padding": { "top": 20, "left": 10 } },
+  "art": {
+    "svg": "transforms.svg",
+    "nodes": [{ "id": "world", "x": 180, "y": 140 }],
+    "groups": [
+      { "id": "tree", "parent": "world", "pivot": { "x": 60, "y": 250 } },
+      { "id": "crown", "pivot": { "x": 60, "y": 90 } }
+    ]
+  }
+}

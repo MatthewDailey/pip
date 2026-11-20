@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-470 -1500 940 3000" width="940" height="3000">
+<title>spotlight</title>
+<defs>
+<linearGradient id="cone-grad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="1400"><stop offset="0" stop-color="#FF4FD8" stop-opacity="0.749"/><stop offset="0.55" stop-color="#FF4FD8" stop-opacity="0.349"/><stop offset="1" stop-color="#FF4FD8" stop-opacity="0.118"/></linearGradient><radialGradient id="pool-grad" gradientUnits="userSpaceOnUse" cx="0" cy="0" r="1"><stop offset="0" stop-color="#FF4FD8" stop-opacity="0.447"/><stop offset="1" stop-color="#FF4FD8" stop-opacity="0.000"/></radialGradient>
+</defs>
+<g id="spotlight">
+  <g id="cones" opacity="1"><g id="cone-0" opacity="0.42"><path d="M-40,20 L40,20 L330,1400 L-330,1400 Z" fill="url(#cone-grad)"/></g><g id="cone-1" opacity="0.2"><path d="M-45.2,20 L45.2,20 L372.9,1400 L-372.9,1400 Z" fill="url(#cone-grad)"/></g><g id="cone-2" opacity="0.2"><path d="M-50.4,20 L50.4,20 L415.8,1400 L-415.8,1400 Z" fill="url(#cone-grad)"/></g><g id="cone-3" opacity="0.2"><path d="M-55.6,20 L55.6,20 L458.7,1400 L-458.7,1400 Z" fill="url(#cone-grad)"/></g></g>
+  <g id="pool" transform="translate(0,1400) scale(430,80)"><circle r="1" fill="url(#pool-grad)"/></g>
+  <g id="fixture">
+    <path d="M-62,-40 L-62,-120 L62,-120 L62,-40" fill="none" stroke="#3A363D" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M0,-120 L0,-170" fill="none" stroke="#3A363D" stroke-width="12" stroke-linecap="round"/>
+    <rect x="-52" y="-100" width="104" height="106" rx="22" fill="#2E2B31"/>
+    <rect x="-40" y="-96" width="16" height="90" rx="8" fill="#FFFFFF" fill-opacity="0.149"/>
+    <circle cx="-62" cy="-40" r="9" fill="#56515A"/><circle cx="62" cy="-40" r="9" fill="#56515A"/>
+    <rect x="-58" y="-6" width="116" height="28" rx="14" fill="#4A464D"/>
+  </g>
+  <g id="lens-glow" transform="translate(0,18) scale(1)"><circle r="70" fill="#FF4FD8" fill-opacity="0.298"/></g>
+  <g id="lens"><ellipse cx="0" cy="17" rx="44" ry="13" fill="#FFAFED"/><ellipse cx="0" cy="16.5" rx="24" ry="7.5" fill="#FFFFFF"/></g>
+</g>
+</svg>

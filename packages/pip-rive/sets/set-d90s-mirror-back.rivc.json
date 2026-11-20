@@ -1,0 +1,48 @@
+{
+    "artboard": {
+        "name": "set-d90s-mirror-back",
+        "width": 700.0,
+        "height": 800.0
+    },
+    "art": {
+        "svg": "set-d90s-mirror-back.svg"
+    },
+    "clips": [
+        {
+            "name": "pop-in",
+            "frames": 270,
+            "fps": 600
+        },
+        {
+            "name": "rattle",
+            "frames": 48,
+            "fps": 600,
+            "loop": "loop"
+        },
+        {
+            "name": "pop-out",
+            "frames": 168,
+            "fps": 600
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

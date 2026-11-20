@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-170 -140 340 280" width="340" height="280">
+<!-- Pip's hat tip as a shark fin; (0,0) is the waterline at the fin's foot. -->
+<defs>
+<clipPath id="above-water"><rect x="-300" y="-300" width="600" height="302"/></clipPath>
+</defs>
+<ellipse id="shadow" cx="0" cy="27" rx="100" ry="19" fill="#062A44" fill-opacity="0.251"/>
+<g id="heading">
+<g id="wake">
+<g id="wake-0" transform="translate(-46 0)">
+<ellipse cx="0" cy="2" rx="26" ry="6" fill="#FFFFFF" fill-opacity="0.800"/>
+</g>
+<g id="wake-1" transform="translate(-86 0) scale(1.11 1)">
+<ellipse cx="0" cy="2" rx="22" ry="6" fill="#FFFFFF" fill-opacity="0.620"/>
+</g>
+<g id="wake-2" transform="translate(-126 0) scale(1.15 1)">
+<ellipse cx="0" cy="2" rx="18" ry="6" fill="#FFFFFF" fill-opacity="0.439"/>
+</g>
+<g id="wake-3" transform="translate(-166 0) scale(1.03 1)">
+<ellipse cx="0" cy="2" rx="14" ry="6" fill="#FFFFFF" fill-opacity="0.259"/>
+</g>
+</g>
+<g id="fin" clip-path="url(#above-water)">
+<path d="M58 6C44 -50 4 -112 -54 -128C-32 -92 -32 -40 -50 6Z" fill="#F05248"/>
+<path d="M-50 6C-32 -40 -32 -92 -54 -128C-20 -100 -6 -50 -14 6Z" fill="#C04139"/>
+<path d="M44 -18C32 -60 6 -100 -36 -118" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.400"/>
+</g>
+</g>
+<path id="waterline" d="M-64 2L64 2" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.867"/>
+</svg>

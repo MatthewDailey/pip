@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "artboard": { "name": "Pip", "width": 540, "height": 660 },
+  "art": {
+    "svg": "pip.svg",
+    "nodes": [{ "id": "root" }],
+    "shapes": [
+      { "id": "hat", "parent": "root" },
+      { "id": "face", "parent": "root" },
+      { "id": "eyeL", "parent": "root", "pivot": "center" },
+      { "id": "eyeR", "parent": "root", "pivot": "center" }
+    ]
+  },
+  "clips": [
+    {
+      "name": "idle", "frames": 120, "loop": "loop",
+      "tracks": [
+        { "target": "root", "property": "y", "keys": [
+          { "frame": 0, "value": 0, "ease": "easeInOut" },
+          { "frame": 60, "value": -18, "ease": "easeInOut" },
+          { "frame": 120, "value": 0, "ease": "easeInOut" }
+        ] }
+      ]
+    },
+    {
+      "name": "blink", "frames": 14,
+      "tracks": [
+        { "target": "eyeL", "property": "scaleY", "keys": [
+          { "frame": 0, "value": 1 }, { "frame": 5, "value": 0.08 }, { "frame": 8, "value": 0.08 }, { "frame": 14, "value": 1 }
+        ] },
+        { "target": "eyeR", "property": "scaleY", "keys": [
+          { "frame": 0, "value": 1 }, { "frame": 5, "value": 0.08 }, { "frame": 8, "value": 0.08 }, { "frame": 14, "value": 1 }
+        ] }
+      ]
+    },
+    { "name": "mood_0", "frames": 1, "tracks": [{ "target": "face/fill", "property": "colorValue", "keys": [{ "frame": 0, "color": "#FDE3D2" }] }] },
+    { "name": "mood_1", "frames": 1, "tracks": [{ "target": "face/fill", "property": "colorValue", "keys": [{ "frame": 0, "color": "#FFB8C8" }] }] },
+    { "name": "mood_2", "frames": 1, "tracks": [{ "target": "face/fill", "property": "colorValue", "keys": [{ "frame": 0, "color": "#F26A5A" }] }] },
+    { "name": "mood_3", "frames": 1, "tracks": [{ "target": "face/fill", "property": "colorValue", "keys": [{ "frame": 0, "color": "#C9D8F0" }] }] }
+  ],
+  "viewModel": {
+    "name": "Pip",
+    "instance": "Default",
+    "properties": [
+      { "name": "mood", "type": "number", "default": 0 },
+      { "name": "blink", "type": "trigger" }
+    ]
+  },
+  "stateMachine": {
+    "name": "Pip",
+    "control": "viewModel",
+    "inputs": [
+      { "name": "mood", "type": "number", "default": 0 },
+      { "name": "blink", "type": "trigger" }
+    ],
+    "layers": [
+      {
+        "name": "Idle",
+        "states": [{ "name": "idle", "clip": "idle" }],
+        "transitions": [{ "from": "entry", "to": "idle" }]
+      },
+      {
+        "name": "Blink",
+        "states": [{ "name": "blink", "clip": "blink" }, { "name": "open" }],
+        "transitions": [
+          { "from": "any", "to": "blink", "conditions": [{ "on": "blink" }] },
+          { "from": "entry", "to": "open" },
+          { "from": "blink", "to": "open", "exitTimePercent": 100 }
+        ]
+      },
+      {
+        "name": "Mood",
+        "states": [
+          { "name": "mood_0", "clip": "mood_0" },
+          { "name": "mood_1", "clip": "mood_1" },
+          { "name": "mood_2", "clip": "mood_2" },
+          { "name": "mood_3", "clip": "mood_3" }
+        ],
+        "transitions": [
+          { "from": "any", "to": "mood_0", "durationMs": 150, "conditions": [{ "on": "mood", "op": "==", "value": 0 }] },
+          { "from": "any", "to": "mood_1", "durationMs": 150, "conditions": [{ "on": "mood", "op": "==", "value": 1 }] },
+          { "from": "any", "to": "mood_2", "durationMs": 150, "conditions": [{ "on": "mood", "op": "==", "value": 2 }] },
+          { "from": "any", "to": "mood_3", "durationMs": 150, "conditions": [{ "on": "mood", "op": "==", "value": 3 }] },
+          { "from": "entry", "to": "mood_0" }
+        ]
+      }
+    ]
+  }
+}

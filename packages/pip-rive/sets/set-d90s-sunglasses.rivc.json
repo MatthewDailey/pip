@@ -1,0 +1,113 @@
+{
+    "artboard": {
+        "name": "set-d90s-sunglasses",
+        "width": 460.0,
+        "height": 100.0
+    },
+    "art": {
+        "svg": "set-d90s-sunglasses.svg"
+    },
+    "clips": [
+        {
+            "name": "drop-on",
+            "frames": 300,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "glasses",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -1296.0,
+                            "ease": "easeOut"
+                        },
+                        {
+                            "frame": 300,
+                            "value": -396.0,
+                            "ease": "easeOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "contact-shadow",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "easeIn"
+                        },
+                        {
+                            "frame": 240,
+                            "value": 0.05,
+                            "ease": "easeIn"
+                        },
+                        {
+                            "frame": 300,
+                            "value": 1.0,
+                            "ease": "easeIn"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "lift-off",
+            "frames": 192,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "glasses",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -396.0,
+                            "ease": "easeIn"
+                        },
+                        {
+                            "frame": 192,
+                            "value": -1296.0,
+                            "ease": "easeIn"
+                        }
+                    ]
+                },
+                {
+                    "target": "contact-shadow",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 60,
+                            "value": 0.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

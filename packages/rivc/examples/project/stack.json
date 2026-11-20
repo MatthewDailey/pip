@@ -1,0 +1,21 @@
+{
+  "assets": [
+    { "name": "Inter-Bold", "font": "fonts/Inter-Bold.ttf", "fallback": "Notes" },
+    { "name": "Notes", "font": "fonts/NotoSansSymbols-Notes.ttf" }
+  ],
+  "artboards": [
+    {
+      "artboard": { "name": "Main", "width": 1080, "height": 1200 },
+      "clips": [{ "name": "timeline", "frames": 60 }],
+      "instances": [{ "id": "pip", "artboard": "Pip", "x": 270, "y": 260 }],
+      "texts": [
+        { "id": "under", "text": "UNDER PIP", "font": "Inter-Bold", "size": 150, "color": "#FFFF8A3D", "x": 60, "y": 520,
+          "stroke": { "color": "#FF3A2A26", "width": 22 }, "gloss": { "color": "#FFFFC8A8", "y": 95 } },
+        { "id": "over", "text": "♪ OVER PIP ♪", "font": "Inter-Bold", "size": 120, "color": "#FF5BD873", "x": 40, "y": 900,
+          "stroke": { "color": "#FF3A2A26", "width": 18 } }
+      ],
+      "stack": ["under", "pip", "over"]
+    },
+    { "source": "../spike/pip.json", "control": "inputs" }
+  ]
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="1000" viewBox="0 0 16 1000">
+  <g id="line">
+    <rect id="lineShade" x="3.5" y="0" width="9" height="1000" fill="#2E2A3A" fill-opacity="0.55"/>
+    <rect id="lineSilk" x="5.5" y="0" width="5" height="1000" fill="#F7F5FF"/>
+  </g>
+</svg>

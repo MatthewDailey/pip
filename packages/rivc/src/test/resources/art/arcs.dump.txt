@@ -1,0 +1,95 @@
+RIVE 7.5 fileId=0 toc=[]
+#0 Backboard
+#1 Artboard [0] name="arcs" width=400.0 height=300.0 clip=false
+#2 Shape [1] name="dots" parentId=0
+#3 PointsPath [2] parentId=1 isClosed=false
+#4 StraightVertex [3] parentId=2 x=0.5 y=0.5
+#5 StraightVertex [4] parentId=2 x=0.5 y=10.0
+#6 PointsPath [5] parentId=1 isClosed=false
+#7 StraightVertex [6] parentId=5 x=10.5 y=0.0
+#8 StraightVertex [7] parentId=5 x=10.5 y=10.0
+#9 Stroke [8] parentId=1 thickness=1.0
+#10 SolidColor [9] parentId=8 colorValue=#FF000000
+#11 Shape [10] name="frame" parentId=0
+#12 PointsPath [11] parentId=10 isClosed=true
+#13 StraightVertex [12] parentId=11 x=330.0 y=230.0
+#14 StraightVertex [13] parentId=11 x=390.0 y=230.0
+#15 StraightVertex [14] parentId=11 x=390.0 y=290.0
+#16 StraightVertex [15] parentId=11 x=330.0 y=290.0
+#17 PointsPath [16] parentId=10 isClosed=true
+#18 StraightVertex [17] parentId=16 x=345.0 y=245.0
+#19 StraightVertex [18] parentId=16 x=375.0 y=245.0
+#20 StraightVertex [19] parentId=16 x=375.0 y=275.0
+#21 StraightVertex [20] parentId=16 x=345.0 y=275.0
+#22 Fill [21] parentId=10 fillRule=1
+#23 SolidColor [22] parentId=21 colorValue=#FF2B2B2B
+#24 Shape [23] name="steps" parentId=0
+#25 PointsPath [24] parentId=23 isClosed=true
+#26 StraightVertex [25] parentId=24 x=200.0 y=290.0
+#27 StraightVertex [26] parentId=24 x=220.0 y=290.0
+#28 StraightVertex [27] parentId=24 x=220.0 y=270.0
+#29 StraightVertex [28] parentId=24 x=240.0 y=270.0
+#30 StraightVertex [29] parentId=24 x=240.0 y=250.0
+#31 StraightVertex [30] parentId=24 x=260.0 y=250.0
+#32 StraightVertex [31] parentId=24 x=260.0 y=230.0
+#33 StraightVertex [32] parentId=24 x=280.0 y=230.0
+#34 StraightVertex [33] parentId=24 x=280.0 y=290.0
+#35 Fill [34] parentId=23
+#36 SolidColor [35] parentId=34 colorValue=#FF8B3F37
+#37 Shape [36] name="blob" parentId=0
+#38 PointsPath [37] parentId=36 isClosed=true
+#39 CubicDetachedVertex [38] parentId=37 x=30.0 y=190.0 inRotation=1.5707964 inDistance=15.0 outRotation=-1.5707964 outDistance=20.0
+#40 CubicMirroredVertex [39] parentId=37 x=80.0 y=175.0 rotation=0.6435011 distance=25.0
+#41 CubicMirroredVertex [40] parentId=37 x=110.0 y=215.0 rotation=2.158799 distance=18.027756
+#42 CubicMirroredVertex [41] parentId=37 x=50.0 y=225.0 rotation=-2.6779451 distance=22.36068
+#43 Fill [42] parentId=36
+#44 SolidColor [43] parentId=42 colorValue=#FF7FA8D9
+#45 Shape [44] name="wave" parentId=0
+#46 PointsPath [45] parentId=44 isClosed=false
+#47 CubicDetachedVertex [46] parentId=45 x=20.0 y=240.0 inRotation=0.0 inDistance=0.0 outRotation=-1.1071488 outDistance=29.81424
+#48 CubicMirroredVertex [47] parentId=45 x=60.0 y=240.0 rotation=1.1071488 distance=29.81424
+#49 CubicMirroredVertex [48] parentId=45 x=100.0 y=240.0 rotation=-1.1071488 distance=29.81424
+#50 CubicMirroredVertex [49] parentId=45 x=140.0 y=240.0 rotation=1.1071488 distance=29.81424
+#51 CubicDetachedVertex [50] parentId=45 x=180.0 y=240.0 inRotation=2.0344439 inDistance=29.81424 outRotation=0.0 outDistance=0.0
+#52 Stroke [51] parentId=44 thickness=4.0
+#53 SolidColor [52] parentId=51 colorValue=#FF3FA34D
+#54 Shape [53] name="disc" parentId=0
+#55 PointsPath [54] parentId=53 isClosed=true
+#56 CubicMirroredVertex [55] parentId=54 x=230.0 y=200.0 rotation=1.5707964 distance=22.09139
+#57 CubicMirroredVertex [56] parentId=54 x=270.0 y=240.0 rotation=0.0 distance=22.09139
+#58 CubicMirroredVertex [57] parentId=54 x=310.0 y=200.0 rotation=-1.5707964 distance=22.09139
+#59 CubicMirroredVertex [58] parentId=54 x=270.0 y=160.0 rotation=3.1415927 distance=22.09139
+#60 Fill [59] parentId=53
+#61 SolidColor [60] parentId=59 colorValue=#FFFFC94A
+#62 Shape [61] name="tilted" parentId=0
+#63 PointsPath [62] parentId=61 isClosed=false
+#64 CubicDetachedVertex [63] parentId=62 x=220.0 y=60.0 inRotation=0.0 inDistance=0.0 outRotation=-1.2828299 outDistance=19.016396
+#65 CubicMirroredVertex [64] parentId=62 x=289.77887 y=56.985573 rotation=0.4636476 distance=37.048386
+#66 CubicDetachedVertex [65] parentId=62 x=340.0 y=120.0 inRotation=-1.2828299 inDistance=19.016396 outRotation=0.0 outDistance=0.0
+#67 Stroke [66] parentId=61 thickness=5.0
+#68 SolidColor [67] parentId=66 colorValue=#FFF05248
+#69 Shape [68] name="flags" parentId=0
+#70 PointsPath [69] parentId=68 isClosed=false
+#71 CubicDetachedVertex [70] parentId=69 x=40.0 y=80.0 inRotation=0.0 inDistance=0.0 outRotation=-0.61653 outDistance=9.306799
+#72 CubicMirroredVertex [71] parentId=69 x=70.0 y=71.53594 rotation=0.0 distance=11.480023
+#73 CubicDetachedVertex [72] parentId=69 x=100.0 y=80.0 inRotation=-2.5250626 inDistance=9.306799 outRotation=0.0 outDistance=0.0
+#74 PointsPath [73] parentId=68 isClosed=false
+#75 CubicDetachedVertex [74] parentId=73 x=120.0 y=80.0 inRotation=0.0 inDistance=0.0 outRotation=-2.5250626 outDistance=17.382597
+#76 CubicMirroredVertex [75] parentId=73 x=122.31266 y=45.421017 rotation=-0.53999335 distance=18.042023
+#77 CubicMirroredVertex [76] parentId=73 x=177.68735 y=45.421017 rotation=0.53999335 distance=18.042023
+#78 CubicDetachedVertex [77] parentId=73 x=180.0 y=80.0 inRotation=-0.61653 inDistance=17.382597 outRotation=0.0 outDistance=0.0
+#79 PointsPath [78] parentId=68 isClosed=false
+#80 CubicDetachedVertex [79] parentId=78 x=40.0 y=140.0 inRotation=0.0 inDistance=0.0 outRotation=0.61653 outDistance=9.306799
+#81 CubicMirroredVertex [80] parentId=78 x=70.0 y=148.46405 rotation=0.0 distance=11.480023
+#82 CubicDetachedVertex [81] parentId=78 x=100.0 y=140.0 inRotation=2.5250626 inDistance=9.306799 outRotation=0.0 outDistance=0.0
+#83 PointsPath [82] parentId=68 isClosed=false
+#84 CubicDetachedVertex [83] parentId=82 x=120.0 y=140.0 inRotation=0.0 inDistance=0.0 outRotation=2.5250626 outDistance=17.382597
+#85 CubicMirroredVertex [84] parentId=82 x=122.31266 y=174.57898 rotation=0.53999335 distance=18.042023
+#86 CubicMirroredVertex [85] parentId=82 x=177.68735 y=174.57898 rotation=-0.53999335 distance=18.042023
+#87 CubicDetachedVertex [86] parentId=82 x=180.0 y=140.0 inRotation=0.61653 inDistance=17.382597 outRotation=0.0 outDistance=0.0
+#88 Stroke [87] parentId=68 thickness=4.0
+#89 SolidColor [88] parentId=87 colorValue=#FF2B4C8C
+#90 Shape [89] parentId=0
+#91 Rectangle [90] parentId=89 x=200.0 y=150.0 width=400.0 height=300.0
+#92 Fill [91] parentId=89
+#93 SolidColor [92] parentId=91 colorValue=#FFFFFFFF

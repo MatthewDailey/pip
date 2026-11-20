@@ -1,0 +1,871 @@
+{
+    "artboard": {
+        "name": "set-dtoday-corridor",
+        "width": 1200.0,
+        "height": 2544.0
+    },
+    "art": {
+        "svg": "set-dtoday-corridor.svg"
+    },
+    "clips": [
+        {
+            "name": "torches",
+            "frames": 1549,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "torch-l-glow",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 43,
+                            "value": 0.9364
+                        },
+                        {
+                            "frame": 86,
+                            "value": 0.9625
+                        },
+                        {
+                            "frame": 129,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 172,
+                            "value": 0.8648
+                        },
+                        {
+                            "frame": 215,
+                            "value": 0.8696
+                        },
+                        {
+                            "frame": 258,
+                            "value": 0.872
+                        },
+                        {
+                            "frame": 301,
+                            "value": 0.806
+                        },
+                        {
+                            "frame": 344,
+                            "value": 0.6956
+                        },
+                        {
+                            "frame": 387,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 430,
+                            "value": 0.6956
+                        },
+                        {
+                            "frame": 473,
+                            "value": 0.806
+                        },
+                        {
+                            "frame": 516,
+                            "value": 0.872
+                        },
+                        {
+                            "frame": 559,
+                            "value": 0.8696
+                        },
+                        {
+                            "frame": 603,
+                            "value": 0.8648
+                        },
+                        {
+                            "frame": 646,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 689,
+                            "value": 0.9625
+                        },
+                        {
+                            "frame": 732,
+                            "value": 0.9364
+                        },
+                        {
+                            "frame": 775,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 818,
+                            "value": 0.7036
+                        },
+                        {
+                            "frame": 861,
+                            "value": 0.6775
+                        },
+                        {
+                            "frame": 904,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 947,
+                            "value": 0.7752
+                        },
+                        {
+                            "frame": 990,
+                            "value": 0.7704
+                        },
+                        {
+                            "frame": 1033,
+                            "value": 0.768
+                        },
+                        {
+                            "frame": 1076,
+                            "value": 0.834
+                        },
+                        {
+                            "frame": 1119,
+                            "value": 0.9444
+                        },
+                        {
+                            "frame": 1162,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1205,
+                            "value": 0.9444
+                        },
+                        {
+                            "frame": 1248,
+                            "value": 0.834
+                        },
+                        {
+                            "frame": 1291,
+                            "value": 0.768
+                        },
+                        {
+                            "frame": 1334,
+                            "value": 0.7704
+                        },
+                        {
+                            "frame": 1377,
+                            "value": 0.7752
+                        },
+                        {
+                            "frame": 1420,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1463,
+                            "value": 0.6775
+                        },
+                        {
+                            "frame": 1506,
+                            "value": 0.7036
+                        },
+                        {
+                            "frame": 1549,
+                            "value": 0.82
+                        }
+                    ]
+                },
+                {
+                    "target": "torch-l-flame-flicker",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.9024
+                        },
+                        {
+                            "frame": 57,
+                            "value": 0.7203
+                        },
+                        {
+                            "frame": 115,
+                            "value": 0.8127
+                        },
+                        {
+                            "frame": 172,
+                            "value": 0.8925
+                        },
+                        {
+                            "frame": 230,
+                            "value": 0.897
+                        },
+                        {
+                            "frame": 287,
+                            "value": 0.9626
+                        },
+                        {
+                            "frame": 344,
+                            "value": 0.8345
+                        },
+                        {
+                            "frame": 402,
+                            "value": 0.7012
+                        },
+                        {
+                            "frame": 459,
+                            "value": 0.8655
+                        },
+                        {
+                            "frame": 516,
+                            "value": 0.9534
+                        },
+                        {
+                            "frame": 574,
+                            "value": 0.8925
+                        },
+                        {
+                            "frame": 631,
+                            "value": 0.8981
+                        },
+                        {
+                            "frame": 689,
+                            "value": 0.788
+                        },
+                        {
+                            "frame": 746,
+                            "value": 0.7288
+                        },
+                        {
+                            "frame": 803,
+                            "value": 0.9339
+                        },
+                        {
+                            "frame": 861,
+                            "value": 0.98
+                        },
+                        {
+                            "frame": 918,
+                            "value": 0.8452
+                        },
+                        {
+                            "frame": 975,
+                            "value": 0.834
+                        },
+                        {
+                            "frame": 1033,
+                            "value": 0.7845
+                        },
+                        {
+                            "frame": 1090,
+                            "value": 0.7902
+                        },
+                        {
+                            "frame": 1148,
+                            "value": 0.9859
+                        },
+                        {
+                            "frame": 1205,
+                            "value": 0.9598
+                        },
+                        {
+                            "frame": 1262,
+                            "value": 0.7772
+                        },
+                        {
+                            "frame": 1320,
+                            "value": 0.8003
+                        },
+                        {
+                            "frame": 1377,
+                            "value": 0.8258
+                        },
+                        {
+                            "frame": 1435,
+                            "value": 0.8566
+                        },
+                        {
+                            "frame": 1492,
+                            "value": 0.9972
+                        },
+                        {
+                            "frame": 1549,
+                            "value": 0.9024
+                        }
+                    ]
+                },
+                {
+                    "target": "torch-l-flame-flicker",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.06015975398699254
+                        },
+                        {
+                            "frame": 57,
+                            "value": 0.14217975685521406
+                        },
+                        {
+                            "frame": 115,
+                            "value": 0.126813878120656
+                        },
+                        {
+                            "frame": 172,
+                            "value": 0.0622663663941497
+                        },
+                        {
+                            "frame": 230,
+                            "value": -0.020470966796641493
+                        },
+                        {
+                            "frame": 287,
+                            "value": -0.08682140364045793
+                        },
+                        {
+                            "frame": 344,
+                            "value": -0.13105502820300222
+                        },
+                        {
+                            "frame": 402,
+                            "value": -0.12026889342567726
+                        },
+                        {
+                            "frame": 459,
+                            "value": -0.022916173078685546
+                        },
+                        {
+                            "frame": 516,
+                            "value": 0.05694834816332298
+                        },
+                        {
+                            "frame": 574,
+                            "value": 0.1150189430356783
+                        },
+                        {
+                            "frame": 631,
+                            "value": 0.1148653540615028
+                        },
+                        {
+                            "frame": 689,
+                            "value": 0.07050082980505894
+                        },
+                        {
+                            "frame": 746,
+                            "value": -0.02519557308179014
+                        },
+                        {
+                            "frame": 803,
+                            "value": -0.08947779476199329
+                        },
+                        {
+                            "frame": 861,
+                            "value": -0.11177786661472484
+                        },
+                        {
+                            "frame": 918,
+                            "value": -0.09993406231069131
+                        },
+                        {
+                            "frame": 975,
+                            "value": -0.023778365729170747
+                        },
+                        {
+                            "frame": 1033,
+                            "value": 0.06916914358578727
+                        },
+                        {
+                            "frame": 1090,
+                            "value": 0.12975650323951843
+                        },
+                        {
+                            "frame": 1148,
+                            "value": 0.10471626446115578
+                        },
+                        {
+                            "frame": 1205,
+                            "value": 0.05790827925191986
+                        },
+                        {
+                            "frame": 1262,
+                            "value": -0.023628267413499233
+                        },
+                        {
+                            "frame": 1320,
+                            "value": -0.10431134807469311
+                        },
+                        {
+                            "frame": 1377,
+                            "value": -0.1324198756780618
+                        },
+                        {
+                            "frame": 1435,
+                            "value": -0.09860761207917564
+                        },
+                        {
+                            "frame": 1492,
+                            "value": -0.019888026826475384
+                        },
+                        {
+                            "frame": 1549,
+                            "value": 0.06015975398699254
+                        }
+                    ]
+                },
+                {
+                    "target": "torch-r-glow",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 43,
+                            "value": 0.9364
+                        },
+                        {
+                            "frame": 86,
+                            "value": 0.9625
+                        },
+                        {
+                            "frame": 129,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 172,
+                            "value": 0.8648
+                        },
+                        {
+                            "frame": 215,
+                            "value": 0.8696
+                        },
+                        {
+                            "frame": 258,
+                            "value": 0.872
+                        },
+                        {
+                            "frame": 301,
+                            "value": 0.806
+                        },
+                        {
+                            "frame": 344,
+                            "value": 0.6956
+                        },
+                        {
+                            "frame": 387,
+                            "value": 0.64
+                        },
+                        {
+                            "frame": 430,
+                            "value": 0.6956
+                        },
+                        {
+                            "frame": 473,
+                            "value": 0.806
+                        },
+                        {
+                            "frame": 516,
+                            "value": 0.872
+                        },
+                        {
+                            "frame": 559,
+                            "value": 0.8696
+                        },
+                        {
+                            "frame": 603,
+                            "value": 0.8648
+                        },
+                        {
+                            "frame": 646,
+                            "value": 0.91
+                        },
+                        {
+                            "frame": 689,
+                            "value": 0.9625
+                        },
+                        {
+                            "frame": 732,
+                            "value": 0.9364
+                        },
+                        {
+                            "frame": 775,
+                            "value": 0.82
+                        },
+                        {
+                            "frame": 818,
+                            "value": 0.7036
+                        },
+                        {
+                            "frame": 861,
+                            "value": 0.6775
+                        },
+                        {
+                            "frame": 904,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 947,
+                            "value": 0.7752
+                        },
+                        {
+                            "frame": 990,
+                            "value": 0.7704
+                        },
+                        {
+                            "frame": 1033,
+                            "value": 0.768
+                        },
+                        {
+                            "frame": 1076,
+                            "value": 0.834
+                        },
+                        {
+                            "frame": 1119,
+                            "value": 0.9444
+                        },
+                        {
+                            "frame": 1162,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 1205,
+                            "value": 0.9444
+                        },
+                        {
+                            "frame": 1248,
+                            "value": 0.834
+                        },
+                        {
+                            "frame": 1291,
+                            "value": 0.768
+                        },
+                        {
+                            "frame": 1334,
+                            "value": 0.7704
+                        },
+                        {
+                            "frame": 1377,
+                            "value": 0.7752
+                        },
+                        {
+                            "frame": 1420,
+                            "value": 0.73
+                        },
+                        {
+                            "frame": 1463,
+                            "value": 0.6775
+                        },
+                        {
+                            "frame": 1506,
+                            "value": 0.7036
+                        },
+                        {
+                            "frame": 1549,
+                            "value": 0.82
+                        }
+                    ]
+                },
+                {
+                    "target": "torch-r-flame-flicker",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.9021
+                        },
+                        {
+                            "frame": 57,
+                            "value": 0.9284
+                        },
+                        {
+                            "frame": 115,
+                            "value": 0.8709
+                        },
+                        {
+                            "frame": 172,
+                            "value": 0.7077
+                        },
+                        {
+                            "frame": 230,
+                            "value": 0.8222
+                        },
+                        {
+                            "frame": 287,
+                            "value": 0.9811
+                        },
+                        {
+                            "frame": 344,
+                            "value": 0.9013
+                        },
+                        {
+                            "frame": 402,
+                            "value": 0.8653
+                        },
+                        {
+                            "frame": 459,
+                            "value": 0.8217
+                        },
+                        {
+                            "frame": 516,
+                            "value": 0.7319
+                        },
+                        {
+                            "frame": 574,
+                            "value": 0.8905
+                        },
+                        {
+                            "frame": 631,
+                            "value": 1.0111
+                        },
+                        {
+                            "frame": 689,
+                            "value": 0.8567
+                        },
+                        {
+                            "frame": 746,
+                            "value": 0.8
+                        },
+                        {
+                            "frame": 803,
+                            "value": 0.8146
+                        },
+                        {
+                            "frame": 861,
+                            "value": 0.7915
+                        },
+                        {
+                            "frame": 918,
+                            "value": 0.9449
+                        },
+                        {
+                            "frame": 975,
+                            "value": 0.9945
+                        },
+                        {
+                            "frame": 1033,
+                            "value": 0.7892
+                        },
+                        {
+                            "frame": 1090,
+                            "value": 0.7631
+                        },
+                        {
+                            "frame": 1148,
+                            "value": 0.8529
+                        },
+                        {
+                            "frame": 1205,
+                            "value": 0.8587
+                        },
+                        {
+                            "frame": 1262,
+                            "value": 0.9599
+                        },
+                        {
+                            "frame": 1320,
+                            "value": 0.9392
+                        },
+                        {
+                            "frame": 1377,
+                            "value": 0.7303
+                        },
+                        {
+                            "frame": 1435,
+                            "value": 0.7718
+                        },
+                        {
+                            "frame": 1492,
+                            "value": 0.9186
+                        },
+                        {
+                            "frame": 1549,
+                            "value": 0.9021
+                        }
+                    ]
+                },
+                {
+                    "target": "torch-r-flame-flicker",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.08513716091228339
+                        },
+                        {
+                            "frame": 57,
+                            "value": -0.11737513752587066
+                        },
+                        {
+                            "frame": 115,
+                            "value": -0.1038174198963787
+                        },
+                        {
+                            "frame": 172,
+                            "value": -0.041729077085932424
+                        },
+                        {
+                            "frame": 230,
+                            "value": 0.055250142801132496
+                        },
+                        {
+                            "frame": 287,
+                            "value": 0.10078403765641256
+                        },
+                        {
+                            "frame": 344,
+                            "value": 0.11766137152319774
+                        },
+                        {
+                            "frame": 402,
+                            "value": 0.07383615400562012
+                        },
+                        {
+                            "frame": 459,
+                            "value": -0.010309659891530504
+                        },
+                        {
+                            "frame": 516,
+                            "value": -0.10480527625300749
+                        },
+                        {
+                            "frame": 574,
+                            "value": -0.12232838194303056
+                        },
+                        {
+                            "frame": 631,
+                            "value": -0.08951095601778118
+                        },
+                        {
+                            "frame": 689,
+                            "value": -0.034480724702399976
+                        },
+                        {
+                            "frame": 746,
+                            "value": 0.05677730589662753
+                        },
+                        {
+                            "frame": 803,
+                            "value": 0.12119915391699024
+                        },
+                        {
+                            "frame": 861,
+                            "value": 0.13379344979938132
+                        },
+                        {
+                            "frame": 918,
+                            "value": 0.06763848983178825
+                        },
+                        {
+                            "frame": 975,
+                            "value": -0.008518952078984322
+                        },
+                        {
+                            "frame": 1033,
+                            "value": -0.09724625526262005
+                        },
+                        {
+                            "frame": 1090,
+                            "value": -0.14249217079132104
+                        },
+                        {
+                            "frame": 1148,
+                            "value": -0.10600082679062361
+                        },
+                        {
+                            "frame": 1205,
+                            "value": -0.03439694889830425
+                        },
+                        {
+                            "frame": 1262,
+                            "value": 0.047338565301842196
+                        },
+                        {
+                            "frame": 1320,
+                            "value": 0.10525208054151804
+                        },
+                        {
+                            "frame": 1377,
+                            "value": 0.14485011061076541
+                        },
+                        {
+                            "frame": 1435,
+                            "value": 0.08273733319079118
+                        },
+                        {
+                            "frame": 1492,
+                            "value": -0.009222319767538036
+                        },
+                        {
+                            "frame": 1549,
+                            "value": -0.08513716091228339
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "light",
+            "frames": 780,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "light-pool",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.55
+                        },
+                        {
+                            "frame": 780,
+                            "value": 0.55
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "impact",
+            "frames": 960,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "impact-flash",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.1
+                        },
+                        {
+                            "frame": 960,
+                            "value": 0.1
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "torches",
+                "states": [
+                    {
+                        "name": "torches",
+                        "clip": "torches"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "torches"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,113 @@
+{
+ "piece": "set-d70s-banner",
+ "origin": [540, 670],
+ "clips": [
+  {
+   "name": "drop-in",
+   "duration": 0.55,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "scale",
+     "keys": [
+      [0.0, 0.4],
+      [0.303, 1.08],
+      [0.55, 1]
+     ],
+     "ease": "outBack"
+    },
+    {
+     "target": "root",
+     "property": "rotation",
+     "keys": [
+      [0.0, -14],
+      [0.303, 3],
+      [0.55, 0]
+     ],
+     "ease": "easeInOut"
+    },
+    {
+     "target": "root",
+     "property": "y",
+     "keys": [
+      [0.0, -40],
+      [0.55, 0]
+     ],
+     "ease": "outBack"
+    },
+    {
+     "target": "root",
+     "property": "opacity",
+     "keys": [
+      [0.0, 0],
+      [0.138, 1],
+      [0.55, 1]
+     ],
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "name": "hold",
+   "duration": 0.55,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "y",
+     "keys": [
+      [0, 0],
+      [0.55, -6]
+     ],
+     "ease": "easeInOut"
+    },
+    {
+     "target": "root",
+     "property": "rotation",
+     "keys": [
+      [0, 0],
+      [0.55, -1.5]
+     ],
+     "ease": "easeInOut"
+    }
+   ]
+  },
+  {
+   "name": "lift-out",
+   "duration": 0.3,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "y",
+     "keys": [
+      [0, -6],
+      [0.3, -100]
+     ],
+     "ease": "inBack"
+    },
+    {
+     "target": "root",
+     "property": "opacity",
+     "keys": [
+      [0, 1],
+      [0.3, 0]
+     ],
+     "ease": "inBack"
+    },
+    {
+     "target": "root",
+     "property": "scale",
+     "keys": [
+      [0, 1],
+      [0.3, 0.85]
+     ],
+     "ease": "inBack"
+    }
+   ]
+  }
+ ],
+ "notes": "Scene plays drop-in at 0.05 s, hold at 0.6 s, lift-out at 1.15 s. y is relative to the origin.",
+ "size": [560, 300]
+}

@@ -1,0 +1,9 @@
+# Machine-specific or produced after `firedrill register` / `library save`.
+# Templates and personas/evaluations stay in git.
+descriptor.json
+plan.local.json
+plan.pip-off.local.json
+world.json
+ids.json
+scenarios/*.json
+!scenarios/*.template.json

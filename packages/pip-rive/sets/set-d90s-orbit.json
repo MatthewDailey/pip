@@ -1,0 +1,50 @@
+{
+ "piece": "set-d90s-orbit",
+ "origin": [540, 1200],
+ "clips": [
+  {
+   "name": "orbit",
+   "duration": 5.143,
+   "loop": true,
+   "tracks": [
+    {
+     "target": "ring-0",
+     "property": "trimOffset",
+     "keys": [
+      [0, 0.0],
+      [5.143, 1.0]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "ring-1",
+     "property": "trimOffset",
+     "keys": [
+      [0, 0.3333],
+      [5.143, -0.6667]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "ring-2",
+     "property": "trimOffset",
+     "keys": [
+      [0, 0.6667],
+      [5.143, 1.6667]
+     ],
+     "ease": "linear"
+    }
+   ],
+   "note": "rings 0 and 2 run clockwise, ring 1 counter-clockwise, 70 deg/s"
+  }
+ ],
+ "inputs": [
+  {
+   "name": "progress",
+   "type": "number",
+   "drives": "overall opacity (1 = full)"
+  }
+ ],
+ "notes": "Each arc is 110 deg of an ellipse. In Rive build each ring as the full ellipse stroke with a Trim Path (start 0, end 0.3056, offset = 120j/360) and animate the trim offset; the SVG draws the full ellipse with data-trim-end/-offset giving the t=0 trim.",
+ "size": [960, 400]
+}

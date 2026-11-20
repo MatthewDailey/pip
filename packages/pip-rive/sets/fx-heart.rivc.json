@@ -1,0 +1,253 @@
+{
+    "artboard": {
+        "name": "fx-heart",
+        "width": 260.0,
+        "height": 200.0
+    },
+    "art": {
+        "svg": "fx-heart.svg"
+    },
+    "clips": [
+        {
+            "name": "beat",
+            "frames": 539,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "heart",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 22,
+                            "value": 1.005
+                        },
+                        {
+                            "frame": 45,
+                            "value": 1.018
+                        },
+                        {
+                            "frame": 67,
+                            "value": 1.035
+                        },
+                        {
+                            "frame": 90,
+                            "value": 1.052
+                        },
+                        {
+                            "frame": 112,
+                            "value": 1.065
+                        },
+                        {
+                            "frame": 134,
+                            "value": 1.07
+                        },
+                        {
+                            "frame": 157,
+                            "value": 1.065
+                        },
+                        {
+                            "frame": 179,
+                            "value": 1.052
+                        },
+                        {
+                            "frame": 202,
+                            "value": 1.035
+                        },
+                        {
+                            "frame": 224,
+                            "value": 1.018
+                        },
+                        {
+                            "frame": 247,
+                            "value": 1.005
+                        },
+                        {
+                            "frame": 269,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 292,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 314,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 337,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 359,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 382,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 404,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 427,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 449,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 471,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 494,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 516,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 539,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "heart",
+                    "property": "scaleY",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 22,
+                            "value": 1.005
+                        },
+                        {
+                            "frame": 45,
+                            "value": 1.018
+                        },
+                        {
+                            "frame": 67,
+                            "value": 1.035
+                        },
+                        {
+                            "frame": 90,
+                            "value": 1.052
+                        },
+                        {
+                            "frame": 112,
+                            "value": 1.065
+                        },
+                        {
+                            "frame": 134,
+                            "value": 1.07
+                        },
+                        {
+                            "frame": 157,
+                            "value": 1.065
+                        },
+                        {
+                            "frame": 179,
+                            "value": 1.052
+                        },
+                        {
+                            "frame": 202,
+                            "value": 1.035
+                        },
+                        {
+                            "frame": 224,
+                            "value": 1.018
+                        },
+                        {
+                            "frame": 247,
+                            "value": 1.005
+                        },
+                        {
+                            "frame": 269,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 292,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 314,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 337,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 359,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 382,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 404,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 427,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 449,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 471,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 494,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 516,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 539,
+                            "value": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "beat",
+                "states": [
+                    {
+                        "name": "beat",
+                        "clip": "beat"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "beat"
+                    }
+                ]
+            }
+        ]
+    }
+}

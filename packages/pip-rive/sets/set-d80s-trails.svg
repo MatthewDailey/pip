@@ -1,0 +1,410 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-560 -150 1120 300" width="1120" height="300">
+<!-- Twin fire tracks, painted in screen space; (0,0) = screen (665,1357). -->
+<defs>
+<clipPath id="reveal"><rect id="reveal-shape" x="150" y="1150" width="1030" height="300"/></clipPath>
+<linearGradient id="lg1" gradientUnits="userSpaceOnUse" x1="0" y1="-74" x2="0" y2="0"><stop offset="0" stop-color="#FFF2B0"/><stop offset="0.5" stop-color="#FFB23F"/><stop offset="1" stop-color="#FF4A1C"/></linearGradient>
+<linearGradient id="lg2" gradientUnits="userSpaceOnUse" x1="0" y1="-74" x2="0" y2="0"><stop offset="0" stop-color="#FFF2B0"/><stop offset="0.5" stop-color="#FFB23F"/><stop offset="1" stop-color="#FF4A1C"/></linearGradient>
+</defs>
+<g id="screen" transform="translate(-665 -1357)">
+<g id="trails" clip-path="url(#reveal)">
+<g id="track-0">
+<path d="M150 1338L1180 1338" fill="none" stroke="#3A2A26" stroke-width="9.6" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.333"/>
+<g id="glow-0">
+<path d="M150 1338L1180 1338" fill="none" stroke="#FF6A1F" stroke-width="54.4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.207"/>
+<path d="M150 1338L1180 1338" fill="none" stroke="#FF6A1F" stroke-width="43.73" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.207"/>
+<path d="M150 1338L1180 1338" fill="none" stroke="#FF6A1F" stroke-width="33.07" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.207"/>
+</g>
+<g id="flames-0" transform="translate(0 1338)">
+<g id="flame-0-0" transform="translate(150 0)">
+<path d="M-8.8 0Q-9.6 -14.98 -5.99 -27.23Q8 -12.26 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-1" transform="translate(170 0)">
+<path d="M-8.8 0Q-9.6 -14.93 -5.97 -27.15Q8 -12.22 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-2" transform="translate(190 0)">
+<path d="M-8.8 0Q-9.6 -21.18 -8.47 -38.51Q8 -17.33 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-3" transform="translate(210 0)">
+<path d="M-8.8 0Q-9.6 -20.01 -8 -36.38Q8 -16.37 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-4" transform="translate(230 0)">
+<path d="M-8.8 0Q-9.6 -25.23 -10.09 -45.88Q8 -20.65 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-5" transform="translate(250 0)">
+<path d="M-8.8 0Q-9.6 -17.78 -7.11 -32.33Q8 -14.55 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-6" transform="translate(270 0)">
+<path d="M-8.8 0Q-9.6 -26.19 -10.48 -47.62Q8 -21.43 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-7" transform="translate(290 0)">
+<path d="M-8.8 0Q-9.6 -15.67 -6.27 -28.49Q8 -12.82 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-8" transform="translate(310 0)">
+<path d="M-8.8 0Q-9.6 -16.67 -6.67 -30.3Q8 -13.63 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-9" transform="translate(330 0)">
+<path d="M-8.8 0Q-9.6 -14.81 -5.92 -26.93Q8 -12.12 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-10" transform="translate(350 0)">
+<path d="M-8.8 0Q-9.6 -22.54 -9.02 -40.99Q8 -18.44 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-11" transform="translate(370 0)">
+<path d="M-8.8 0Q-9.6 -28.48 -11.39 -51.79Q8 -23.3 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-12" transform="translate(390 0)">
+<path d="M-8.8 0Q-9.6 -24.59 -9.83 -44.7Q8 -20.12 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-13" transform="translate(410 0)">
+<path d="M-8.8 0Q-9.6 -25.14 -10.06 -45.71Q8 -20.57 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-14" transform="translate(430 0)">
+<path d="M-8.8 0Q-9.6 -19.61 -7.84 -35.66Q8 -16.05 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-15" transform="translate(450 0)">
+<path d="M-8.8 0Q-9.6 -14.93 -5.97 -27.15Q8 -12.22 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-16" transform="translate(470 0)">
+<path d="M-8.8 0Q-9.6 -17.59 -7.04 -31.99Q8 -14.39 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-17" transform="translate(490 0)">
+<path d="M-8.8 0Q-9.6 -22.7 -9.08 -41.27Q8 -18.57 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-18" transform="translate(510 0)">
+<path d="M-8.8 0Q-9.6 -18.3 -7.32 -33.28Q8 -14.98 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-19" transform="translate(530 0)">
+<path d="M-8.8 0Q-9.6 -25.27 -10.11 -45.94Q8 -20.67 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-20" transform="translate(550 0)">
+<path d="M-8.8 0Q-9.6 -25.45 -10.18 -46.28Q8 -20.82 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-21" transform="translate(570 0)">
+<path d="M-8.8 0Q-9.6 -22.82 -9.13 -41.49Q8 -18.67 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-22" transform="translate(590 0)">
+<path d="M-8.8 0Q-9.6 -23.78 -9.51 -43.24Q8 -19.46 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-23" transform="translate(610 0)">
+<path d="M-8.8 0Q-9.6 -21.68 -8.67 -39.41Q8 -17.74 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-24" transform="translate(630 0)">
+<path d="M-8.8 0Q-9.6 -24.94 -9.98 -45.35Q8 -20.41 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-25" transform="translate(650 0)">
+<path d="M-8.8 0Q-9.6 -27.37 -10.95 -49.76Q8 -22.39 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-26" transform="translate(670 0)">
+<path d="M-8.8 0Q-9.6 -28.36 -11.34 -51.56Q8 -23.2 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-27" transform="translate(690 0)">
+<path d="M-8.8 0Q-9.6 -28.67 -11.47 -52.12Q8 -23.46 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-28" transform="translate(710 0)">
+<path d="M-8.8 0Q-9.6 -23.19 -9.28 -42.17Q8 -18.98 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-29" transform="translate(730 0)">
+<path d="M-8.8 0Q-9.6 -13.45 -5.38 -24.45Q8 -11 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-30" transform="translate(750 0)">
+<path d="M-8.8 0Q-9.6 -21.86 -8.74 -39.75Q8 -17.89 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-31" transform="translate(770 0)">
+<path d="M-8.8 0Q-9.6 -25.22 -10.09 -45.85Q8 -20.63 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-32" transform="translate(790 0)">
+<path d="M-8.8 0Q-9.6 -15.89 -6.36 -28.89Q8 -13 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-33" transform="translate(810 0)">
+<path d="M-8.8 0Q-9.6 -24.34 -9.73 -44.25Q8 -19.91 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-34" transform="translate(830 0)">
+<path d="M-8.8 0Q-9.6 -25.92 -10.37 -47.12Q8 -21.2 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-35" transform="translate(850 0)">
+<path d="M-8.8 0Q-9.6 -22.59 -9.04 -41.07Q8 -18.48 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-36" transform="translate(870 0)">
+<path d="M-8.8 0Q-9.6 -28.67 -11.47 -52.12Q8 -23.46 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-37" transform="translate(890 0)">
+<path d="M-8.8 0Q-9.6 -20.25 -8.1 -36.83Q8 -16.57 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-38" transform="translate(910 0)">
+<path d="M-8.8 0Q-9.6 -15.95 -6.38 -29Q8 -13.05 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-39" transform="translate(930 0)">
+<path d="M-8.8 0Q-9.6 -18.12 -7.25 -32.94Q8 -14.82 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-40" transform="translate(950 0)">
+<path d="M-8.8 0Q-9.6 -22.91 -9.17 -41.66Q8 -18.75 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-41" transform="translate(970 0)">
+<path d="M-8.8 0Q-9.6 -18.86 -7.54 -34.29Q8 -15.43 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-42" transform="translate(990 0)">
+<path d="M-8.8 0Q-9.6 -23.01 -9.2 -41.83Q8 -18.82 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-43" transform="translate(1010 0)">
+<path d="M-8.8 0Q-9.6 -26.5 -10.6 -48.19Q8 -21.68 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-44" transform="translate(1030 0)">
+<path d="M-8.8 0Q-9.6 -21.74 -8.7 -39.53Q8 -17.79 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-45" transform="translate(1050 0)">
+<path d="M-8.8 0Q-9.6 -16.51 -6.6 -30.02Q8 -13.51 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-46" transform="translate(1070 0)">
+<path d="M-8.8 0Q-9.6 -14.19 -5.68 -25.8Q8 -11.61 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-47" transform="translate(1090 0)">
+<path d="M-8.8 0Q-9.6 -24.21 -9.69 -44.03Q8 -19.81 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-48" transform="translate(1110 0)">
+<path d="M-8.8 0Q-9.6 -28.7 -11.48 -52.18Q8 -23.48 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-49" transform="translate(1130 0)">
+<path d="M-8.8 0Q-9.6 -27.37 -10.95 -49.76Q8 -22.39 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-50" transform="translate(1150 0)">
+<path d="M-8.8 0Q-9.6 -23.04 -9.22 -41.89Q8 -18.85 8.8 0Z" fill="url(#lg1)"/>
+</g>
+<g id="flame-0-51" transform="translate(1170 0)">
+<path d="M-8.8 0Q-9.6 -15.61 -6.25 -28.39Q8 -12.77 8.8 0Z" fill="url(#lg1)"/>
+</g>
+</g>
+<path id="hot-0" d="M150 1338L1180 1338" fill="none" stroke="#FFE08A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="embers-0">
+<g id="ember-0-0" transform="translate(265.67 1323.4)" opacity="0.888">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-0-1" transform="translate(899.73 1221.71)" opacity="0.105">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-0-2" transform="translate(991.94 1286.96)" opacity="0.607">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-0-3" transform="translate(247.97 1258.02)" opacity="0.385">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-0-4" transform="translate(184.68 1317.18)" opacity="0.840">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-0-5" transform="translate(887.76 1335.97)" opacity="0.984">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-0-6" transform="translate(1134.96 1304.23)" opacity="0.740">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-0-7" transform="translate(341.65 1242.02)" opacity="0.262">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-0-8" transform="translate(823.76 1244.56)" opacity="0.281">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-0-9" transform="translate(934.67 1243.67)" opacity="0.274">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+</g>
+</g>
+<g id="track-1">
+<path d="M150 1376L1180 1376" fill="none" stroke="#3A2A26" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.333"/>
+<g id="glow-1">
+<path d="M150 1376L1180 1376" fill="none" stroke="#FF6A1F" stroke-width="60" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.207"/>
+<path d="M150 1376L1180 1376" fill="none" stroke="#FF6A1F" stroke-width="49.33" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.207"/>
+<path d="M150 1376L1180 1376" fill="none" stroke="#FF6A1F" stroke-width="38.67" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.207"/>
+</g>
+<g id="flames-1" transform="translate(0 1376)">
+<g id="flame-1-0" transform="translate(150 0)">
+<path d="M-11 0Q-12 -33.75 -13.5 -61.36Q10 -27.61 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-1" transform="translate(170 0)">
+<path d="M-11 0Q-12 -31.43 -12.57 -57.14Q10 -25.71 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-2" transform="translate(190 0)">
+<path d="M-11 0Q-12 -30.62 -12.25 -55.66Q10 -25.05 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-3" transform="translate(210 0)">
+<path d="M-11 0Q-12 -20.52 -8.21 -37.31Q10 -16.79 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-4" transform="translate(230 0)">
+<path d="M-11 0Q-12 -32.05 -12.82 -58.27Q10 -26.22 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-5" transform="translate(250 0)">
+<path d="M-11 0Q-12 -19.24 -7.69 -34.97Q10 -15.74 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-6" transform="translate(270 0)">
+<path d="M-11 0Q-12 -23.23 -9.29 -42.23Q10 -19.01 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-7" transform="translate(290 0)">
+<path d="M-11 0Q-12 -30.81 -12.32 -56.02Q10 -25.21 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-8" transform="translate(310 0)">
+<path d="M-11 0Q-12 -24.31 -9.72 -44.2Q10 -19.89 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-9" transform="translate(330 0)">
+<path d="M-11 0Q-12 -19.21 -7.68 -34.92Q10 -15.71 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-10" transform="translate(350 0)">
+<path d="M-11 0Q-12 -29.03 -11.61 -52.78Q10 -23.75 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-11" transform="translate(370 0)">
+<path d="M-11 0Q-12 -27.95 -11.18 -50.81Q10 -22.87 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-12" transform="translate(390 0)">
+<path d="M-11 0Q-12 -34.49 -13.8 -62.72Q10 -28.22 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-13" transform="translate(410 0)">
+<path d="M-11 0Q-12 -31.5 -12.6 -57.28Q10 -25.78 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-14" transform="translate(430 0)">
+<path d="M-11 0Q-12 -30.04 -12.01 -54.61Q10 -24.57 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-15" transform="translate(450 0)">
+<path d="M-11 0Q-12 -18.28 -7.31 -33.23Q10 -14.96 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-16" transform="translate(470 0)">
+<path d="M-11 0Q-12 -22.57 -9.03 -41.04Q10 -18.47 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-17" transform="translate(490 0)">
+<path d="M-11 0Q-12 -31.5 -12.6 -57.28Q10 -25.78 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-18" transform="translate(510 0)">
+<path d="M-11 0Q-12 -31.54 -12.62 -57.35Q10 -25.81 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-19" transform="translate(530 0)">
+<path d="M-11 0Q-12 -31.97 -12.79 -58.12Q10 -26.16 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-20" transform="translate(550 0)">
+<path d="M-11 0Q-12 -24.7 -9.88 -44.91Q10 -20.21 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-21" transform="translate(570 0)">
+<path d="M-11 0Q-12 -20.21 -8.09 -36.75Q10 -16.54 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-22" transform="translate(590 0)">
+<path d="M-11 0Q-12 -30.48 -12.19 -55.42Q10 -24.94 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-23" transform="translate(610 0)">
+<path d="M-11 0Q-12 -34.95 -13.98 -63.54Q10 -28.59 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-24" transform="translate(630 0)">
+<path d="M-11 0Q-12 -19.67 -7.87 -35.77Q10 -16.09 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-25" transform="translate(650 0)">
+<path d="M-11 0Q-12 -30 -12 -54.54Q10 -24.54 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-26" transform="translate(670 0)">
+<path d="M-11 0Q-12 -23.98 -9.59 -43.61Q10 -19.62 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-27" transform="translate(690 0)">
+<path d="M-11 0Q-12 -32.51 -13 -59.11Q10 -26.6 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-28" transform="translate(710 0)">
+<path d="M-11 0Q-12 -23.15 -9.26 -42.09Q10 -18.94 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-29" transform="translate(730 0)">
+<path d="M-11 0Q-12 -27.61 -11.04 -50.2Q10 -22.59 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-30" transform="translate(750 0)">
+<path d="M-11 0Q-12 -36.18 -14.47 -65.79Q10 -29.61 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-31" transform="translate(770 0)">
+<path d="M-11 0Q-12 -36.22 -14.49 -65.86Q10 -29.64 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-32" transform="translate(790 0)">
+<path d="M-11 0Q-12 -31.81 -12.73 -57.84Q10 -26.03 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-33" transform="translate(810 0)">
+<path d="M-11 0Q-12 -27.21 -10.88 -49.48Q10 -22.26 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-34" transform="translate(830 0)">
+<path d="M-11 0Q-12 -21.14 -8.46 -38.44Q10 -17.3 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-35" transform="translate(850 0)">
+<path d="M-11 0Q-12 -32.36 -12.94 -58.83Q10 -26.47 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-36" transform="translate(870 0)">
+<path d="M-11 0Q-12 -24.35 -9.74 -44.27Q10 -19.92 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-37" transform="translate(890 0)">
+<path d="M-11 0Q-12 -19.9 -7.96 -36.19Q10 -16.28 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-38" transform="translate(910 0)">
+<path d="M-11 0Q-12 -17.43 -6.97 -31.69Q10 -14.26 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-39" transform="translate(930 0)">
+<path d="M-11 0Q-12 -28.06 -11.23 -51.02Q10 -22.96 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-40" transform="translate(950 0)">
+<path d="M-11 0Q-12 -26.59 -10.64 -48.35Q10 -21.76 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-41" transform="translate(970 0)">
+<path d="M-11 0Q-12 -25.63 -10.25 -46.59Q10 -20.97 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-42" transform="translate(990 0)">
+<path d="M-11 0Q-12 -27.29 -10.92 -49.62Q10 -22.33 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-43" transform="translate(1010 0)">
+<path d="M-11 0Q-12 -23.95 -9.58 -43.55Q10 -19.6 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-44" transform="translate(1030 0)">
+<path d="M-11 0Q-12 -16.5 -6.6 -30Q10 -13.5 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-45" transform="translate(1050 0)">
+<path d="M-11 0Q-12 -24.93 -9.97 -45.33Q10 -20.4 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-46" transform="translate(1070 0)">
+<path d="M-11 0Q-12 -25.36 -10.14 -46.1Q10 -20.75 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-47" transform="translate(1090 0)">
+<path d="M-11 0Q-12 -25.7 -10.28 -46.73Q10 -21.03 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-48" transform="translate(1110 0)">
+<path d="M-11 0Q-12 -22.76 -9.11 -41.39Q10 -18.63 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-49" transform="translate(1130 0)">
+<path d="M-11 0Q-12 -32.97 -13.19 -59.95Q10 -26.98 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-50" transform="translate(1150 0)">
+<path d="M-11 0Q-12 -26.01 -10.41 -47.3Q10 -21.28 11 0Z" fill="url(#lg2)"/>
+</g>
+<g id="flame-1-51" transform="translate(1170 0)">
+<path d="M-11 0Q-12 -21.22 -8.49 -38.58Q10 -17.36 11 0Z" fill="url(#lg2)"/>
+</g>
+</g>
+<path id="hot-1" d="M150 1376L1180 1376" fill="none" stroke="#FFE08A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="embers-1">
+<g id="ember-1-0" transform="translate(415.55 1286.62)" opacity="0.312">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-1-1" transform="translate(757.91 1359.75)" opacity="0.875">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-1-2" transform="translate(999.99 1291.2)" opacity="0.348">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-1-3" transform="translate(418.97 1326.55)" opacity="0.620">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-1-4" transform="translate(613.17 1269.87)" opacity="0.184">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-1-5" transform="translate(438.15 1269.87)" opacity="0.184">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-1-6" transform="translate(364.47 1352.77)" opacity="0.821">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-1-7" transform="translate(764.11 1370.67)" opacity="0.959">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-1-8" transform="translate(741.15 1369.91)" opacity="0.953">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+<g id="ember-1-9" transform="translate(626.88 1247.4)" opacity="0.011">
+<circle cx="0" cy="0" r="3.5" fill="#FFD27A"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</svg>

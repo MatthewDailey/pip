@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-530 -480 1060 960" width="1060" height="960">
+<!-- Panel: (0,0) is the centre of the 1000x860 panel at screen (540,1170); Pip stands on local y=180. Ship bow over the sunset sea (in front of the sunset, behind Pip). -->
+<defs>
+<clipPath id="panel"><path d="M-444 -430L444 -430L444 -430C474.93 -430 500 -404.93 500 -374L500 374L500 374C500 404.93 474.93 430 444 430L-444 430L-444 430C-474.93 430 -500 404.93 -500 374L-500 -374L-500 -374C-500 -404.93 -474.93 -430 -444 -430Z"/></clipPath>
+<linearGradient id="lg1" gradientUnits="userSpaceOnUse" x1="0" y1="180" x2="0" y2="460"><stop offset="0" stop-color="#3A2B4A"/><stop offset="1" stop-color="#1B1428"/></linearGradient>
+<linearGradient id="lg2" gradientUnits="userSpaceOnUse" x1="-520" y1="0" x2="330" y2="0"><stop offset="0" stop-color="#8E5A33"/><stop offset="0.5" stop-color="#C98E58"/><stop offset="1" stop-color="#E2AE74"/></linearGradient>
+</defs>
+<g id="set" clip-path="url(#panel)">
+<path id="hull" d="M-520 250L330 186L250 310L110 470L-520 470Z" fill="url(#lg1)"/>
+<path id="hull-stripe" d="M-520 288L292 214" fill="none" stroke="#F4EEE8" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="hull-edge" d="M-520 250L330 186" fill="none" stroke="#FFB27A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="deck" d="M-520 150L330 186L-520 250Z" fill="url(#lg2)"/>
+<g id="planks">
+<path d="M-520 170L330 186" fill="none" stroke="#603818" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.251"/>
+<path d="M-520 190L330 186" fill="none" stroke="#603818" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.251"/>
+<path d="M-520 210L330 186" fill="none" stroke="#603818" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.251"/>
+<path d="M-520 230L330 186" fill="none" stroke="#603818" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.251"/>
+</g>
+<path id="deck-outline" d="M-520 150L330 186L-520 250Z" fill="none" stroke="#3A2A26" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="rail">
+<path d="M-500 150.85L-500 86.85" fill="none" stroke="#2A2036" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-390 155.51L-390 91.51" fill="none" stroke="#2A2036" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-280 160.16L-280 96.16" fill="none" stroke="#2A2036" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-170 164.82L-170 100.82" fill="none" stroke="#2A2036" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-60 169.48L-60 105.48" fill="none" stroke="#2A2036" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50 174.14L50 110.14" fill="none" stroke="#2A2036" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M160 178.8L160 114.8" fill="none" stroke="#2A2036" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M270 183.46L270 119.46" fill="none" stroke="#2A2036" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-520 86L320 140" fill="none" stroke="#2A2036" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M-520 82L320 136" fill="none" stroke="#FFC08A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.600"/>
+<path d="M320 140L330 186" fill="none" stroke="#2A2036" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

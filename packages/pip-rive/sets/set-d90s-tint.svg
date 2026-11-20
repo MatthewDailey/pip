@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-500 -430 1000 860" width="1000" height="860">
+<!-- Panel: (0,0) is the centre of the 1000x860 panel at screen (540,1170); Pip stands on local y=180. Green bullet-time tint laid over Pip. -->
+<path id="tint" d="M-444 -430L444 -430L444 -430C474.93 -430 500 -404.93 500 -374L500 374L500 374C500 404.93 474.93 430 444 430L-444 430L-444 430C-474.93 430 -500 404.93 -500 374L-500 -374L-500 -374C-500 -404.93 -474.93 -430 -444 -430Z" fill="#1FD86A" fill-opacity="0.110"/>
+</svg>

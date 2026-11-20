@@ -1,0 +1,61 @@
+RIVE 7.5 fileId=0 toc=[]
+#0 Backboard
+#1 ViewModel name="Anim"
+#2 ViewModelPropertyString name="label"
+#3 ViewModelInstance name="Default" viewModelId=0
+#4 ViewModelInstanceString viewModelPropertyId=0 propertyValue=""
+#5 Artboard [0] name="Anim" width=200.0 height=200.0 clip=false defaultStateMachineId=0 viewModelId=0
+#6 Node [1] name="eyes" parentId=0
+#7 Shape [2] name="flash" parentId=0
+#8 Ellipse [3] parentId=2 x=180.0 y=20.0 width=24.0 height=24.0
+#9 Fill [4] parentId=2
+#10 SolidColor [5] parentId=4 colorValue=#FFFFFF00
+#11 Shape [6] name="eyeL" parentId=1
+#12 Ellipse [7] parentId=6 x=80.0 y=105.0 width=16.0 height=20.0
+#13 Fill [8] parentId=6
+#14 SolidColor [9] parentId=8 colorValue=#FF202020
+#15 LinearAnimation name="quiet" fps=60 duration=1 loopValue=0
+#16 KeyedObject objectId=2
+#17 KeyedProperty propertyKey=18
+#18 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#19 LinearAnimation name="alert" fps=60 duration=30 loopValue=0
+#20 KeyedObject objectId=2
+#21 KeyedProperty propertyKey=18
+#22 KeyFrameDouble frame=0 interpolationType=1 value=1.0
+#23 LinearAnimation name="left" fps=60 duration=1 loopValue=0
+#24 KeyedObject objectId=1
+#25 KeyedProperty propertyKey=13
+#26 KeyFrameDouble frame=0 interpolationType=1 value=-30.0
+#27 LinearAnimation name="right" fps=60 duration=1 loopValue=0
+#28 KeyedObject objectId=1
+#29 KeyedProperty propertyKey=13
+#30 KeyFrameDouble frame=0 interpolationType=1 value=30.0
+#31 StateMachine name="Anim"
+#32 StateMachineTrigger name="alert"
+#33 StateMachineNumber name="lookX" value=0.0
+#34 StateMachineBool name="awake" value=true
+#35 StateMachineNumber name="level" value=2.0
+#36 StateMachineLayer name="Alert"
+#37 AnyState
+#38 EntryState
+#39 StateTransition stateToId=3 flags=0 duration=0 exitTime=0
+#40 ExitState
+#41 AnimationState animationId=0
+#42 StateTransition stateToId=4 flags=0 duration=0 exitTime=0
+#43 TransitionTriggerCondition inputId=0
+#44 TransitionBoolCondition inputId=2 opValue=0
+#45 TransitionNumberCondition inputId=3 opValue=3 value=1.0
+#46 AnimationState animationId=1
+#47 StateTransition stateToId=3 flags=4 duration=0 exitTime=400
+#48 TransitionBoolCondition inputId=2 opValue=1
+#49 StateMachineLayer name="Look"
+#50 AnyState
+#51 EntryState
+#52 StateTransition stateToId=3 flags=0 duration=0 exitTime=0
+#53 ExitState
+#54 BlendState1DInput flags=2 inputId=1
+#55 BlendAnimation1D animationId=2 value=-1.0
+#56 BlendAnimation1D animationId=3 value=1.0
+#57 BlendStateDirect
+#58 BlendAnimationDirect animationId=2 blendSource=0 inputId=3
+#59 BlendAnimationDirect animationId=3 blendSource=1 mixValue=25.0

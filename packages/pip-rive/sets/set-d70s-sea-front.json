@@ -1,0 +1,31 @@
+{
+ "piece": "set-d70s-sea-front",
+ "origin": [540, 1150],
+ "notes": "Kotlin sums two travelling sines; here the swell is one periodic profile (second harmonic snapped to twice the first) that scrolls left one wavelength per loop.",
+ "clips": [
+  {
+   "name": "swell",
+   "duration": 2.417,
+   "loop": true,
+   "tracks": [
+    {
+     "target": "waves",
+     "property": "x",
+     "keys": [
+      [0, 0],
+      [2.417, -349.066]
+     ],
+     "ease": "linear"
+    }
+   ]
+  }
+ ],
+ "inputs": [
+  {
+   "name": "progress",
+   "type": "number",
+   "drives": "Scene-level: n.f slides set n out and set n+1 in (a whip pan). The set itself is static at its own origin; the host translates it by -f*940 (horizontal) or +f*760 (vertical)."
+  }
+ ],
+ "size": [940, 760]
+}

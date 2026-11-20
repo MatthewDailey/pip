@@ -1,0 +1,335 @@
+{
+    "pipRig": "packages/pip-rive/pip/pip-inputs.json",
+    "pipInputs": {
+        "mood": "Mood ordinal NEUTRAL/HAPPY/SAD/ANGRY/SURPRISED (hold keys)",
+        "lookX": "lookX (direct)",
+        "lookY": "lookY (direct)",
+        "talking": "not in the export; left at its default",
+        "alert": "not in the export; left at its default",
+        "poke": "not in the export; left at its default",
+        "eyesOpen": "eyesOpen x (1 - blink): the rig has no blink number (life blinks come from the rig's idle)",
+        "lidTop": "lidTop (direct)",
+        "squint": "squint (direct)",
+        "eyeScale": "eyeScale (direct)",
+        "browRaise": "browRaise (direct)",
+        "browTilt": "browTilt (direct)",
+        "brows": "brows boolean as 0/1 (hold)",
+        "blush": "blush (direct)",
+        "hatSway": "hatSway (direct)",
+        "hatDroop": "hatDroop (direct)",
+        "mouth": "Mouth ordinal NONE/SMILE/FROWN/O/SHOUT/FLAT (hold keys; NONE = no mouth, as in Kotlin)",
+        "headwear": "Headwear ordinal NONE/NINJA/FLOWERS/SWEATBAND (hold)",
+        "life": "life (the rig runs its own idle layer; the export's life* channels are not keyed)",
+        "handL": "leftHand ordinal NONE/FIST/POINT/PEACE/PALM/SWORD/PHONE/CUBE (hold; CUBE not drawn)",
+        "handLX": "leftX (box units)",
+        "handLY": "leftY (box units)",
+        "handLAngle": "leftAngle (degrees)",
+        "handLScale": "not in the export; left at its default",
+        "handR": "rightHand ordinal (hold)",
+        "handRX": "rightX (box units)",
+        "handRY": "rightY (box units)",
+        "handRAngle": "rightAngle (degrees)",
+        "handRScale": "not in the export; left at its default"
+    },
+    "pipGaps": [
+        "Pip.leftScale: the rig has no 'leftScale' input; not converted",
+        "Pip.rightScale: the rig has no 'rightScale' input; not converted"
+    ],
+    "coverage": {
+        "mainTracks": 712,
+        "mainKeys": 13891,
+        "actorsAsPieces": 8,
+        "actorsAsTexts": 7,
+        "unmatchedActors": 0,
+        "nestedInstances": 8,
+        "cues": 22,
+        "events": 10,
+        "rivBytes": 563026
+    },
+    "actors": [
+        "Pip.sunglasses -> set-d90s-sunglasses on his box at (330, 396), y offset (1 - drop) x -900",
+        "dToday-actor-0 (CUSTOM) -> piece set-dtoday-corridor",
+        "dToday-actor-1 (CUSTOM) -> piece set-dtoday-door",
+        "dToday-actor-2 (CUSTOM) -> piece set-dtoday-dust",
+        "dToday-actor-3 (BANNER) -> BANNER: fx-banner as texts",
+        "dToday-actor-4 (BUBBLE) -> BUBBLE: fx-bubble frame + text",
+        "dToday-actor-5 (SWEAT) -> kind SWEAT -> fx-sweat",
+        "dToday-actor-6 (CUSTOM) -> shout text",
+        "dToday-actor-7 (CUSTOM) -> shout text",
+        "dToday-actor-8 (SMOKE) -> kind SMOKE -> fx-smoke",
+        "dToday-actor-9 (CUSTOM) -> piece set-dtoday-yard",
+        "dToday-actor-10 (CUSTOM) -> piece set-dtoday-doll",
+        "dToday-actor-11 (CUSTOM) -> shout text",
+        "dToday-actor-12 (CUSTOM) -> shout text",
+        "dToday-actor-13 (SWEAT) -> kind SWEAT -> fx-sweat",
+        "dToday-actor-14 (BUBBLE) -> BUBBLE: fx-bubble frame + text"
+    ],
+    "unmatched": [],
+    "texts": [
+        "dToday-actor-3: banner \"Today\" at 115.5 px",
+        "dToday-actor-4: bubble \"Hold the door!\"",
+        "dToday-actor-6: shout \"HOLD THE DOOR!\" / \"HOLD DOOR!\" at 128.0 px, letter by letter",
+        "dToday-actor-7: shout \"HODOR!\" at 240.0 px, letter by letter",
+        "dToday-actor-11: shout \"Green light!\" at 120.0 px, letter by letter",
+        "dToday-actor-12: shout \"Red light!\" at 130.0 px, letter by letter",
+        "dToday-actor-14: bubble \"Phew…\""
+    ],
+    "textGaps": [
+        "dToday-actor-3: the banner's fit-to-width shrink is computed at scale 1 (Kotlin re-fits as the actor scales)",
+        "dToday-actor-6: the shout face is Inter Bold upright; Kotlin's is sans-serif-black bold italic",
+        "dToday-actor-7: the shout face is Inter Bold upright; Kotlin's is sans-serif-black bold italic",
+        "dToday-actor-11: the shout face is Inter Bold upright; Kotlin's is sans-serif-black bold italic",
+        "dToday-actor-12: the shout face is Inter Bold upright; Kotlin's is sans-serif-black bold italic"
+    ],
+    "masks": [],
+    "compilerGaps": [
+        "Colour inputs (fx tints: heart, music notes, sparkle, spotlight): no colour state-machine input and no colour remap; pieces keep their SVG colours.",
+        "data-text placeholders in set SVGs (banner, bubble, leeroy letters, maze score, scam card) aren't drawn by rivc; titles, bubbles and shouts are rivc texts on the main artboard instead.",
+        "Instances can't be parented to a node, so Pip's feet pivot, panel offsets and Pip-box pieces are composed into each instance's own keyed transform."
+    ],
+    "pieceGaps": {
+        "fx-confetti": [
+            "flutter/confetti-0-flip.fill: no shape with an id under 'confetti-0-flip' to colour; dropped",
+            "flutter/confetti-1-flip.fill: no shape with an id under 'confetti-1-flip' to colour; dropped",
+            "flutter/confetti-2-flip.fill: no shape with an id under 'confetti-2-flip' to colour; dropped",
+            "flutter/confetti-3-flip.fill: no shape with an id under 'confetti-3-flip' to colour; dropped",
+            "flutter/confetti-4-flip.fill: no shape with an id under 'confetti-4-flip' to colour; dropped",
+            "flutter/confetti-5-flip.fill: no shape with an id under 'confetti-5-flip' to colour; dropped",
+            "flutter/confetti-6-flip.fill: no shape with an id under 'confetti-6-flip' to colour; dropped",
+            "flutter/confetti-7-flip.fill: no shape with an id under 'confetti-7-flip' to colour; dropped",
+            "flutter/confetti-8-flip.fill: no shape with an id under 'confetti-8-flip' to colour; dropped",
+            "flutter/confetti-9-flip.fill: no shape with an id under 'confetti-9-flip' to colour; dropped",
+            "flutter/confetti-10-flip.fill: no shape with an id under 'confetti-10-flip' to colour; dropped",
+            "flutter/confetti-11-flip.fill: no shape with an id under 'confetti-11-flip' to colour; dropped",
+            "flutter/confetti-12-flip.fill: no shape with an id under 'confetti-12-flip' to colour; dropped",
+            "flutter/confetti-13-flip.fill: no shape with an id under 'confetti-13-flip' to colour; dropped",
+            "flutter/confetti-14-flip.fill: no shape with an id under 'confetti-14-flip' to colour; dropped",
+            "flutter/confetti-15-flip.fill: no shape with an id under 'confetti-15-flip' to colour; dropped",
+            "flutter/confetti-16-flip.fill: no shape with an id under 'confetti-16-flip' to colour; dropped",
+            "flutter/confetti-17-flip.fill: no shape with an id under 'confetti-17-flip' to colour; dropped",
+            "flutter/confetti-18-flip.fill: no shape with an id under 'confetti-18-flip' to colour; dropped",
+            "flutter/confetti-19-flip.fill: no shape with an id under 'confetti-19-flip' to colour; dropped",
+            "flutter/confetti-20-flip.fill: no shape with an id under 'confetti-20-flip' to colour; dropped",
+            "flutter/confetti-21-flip.fill: no shape with an id under 'confetti-21-flip' to colour; dropped",
+            "flutter/confetti-22-flip.fill: no shape with an id under 'confetti-22-flip' to colour; dropped",
+            "flutter/confetti-23-flip.fill: no shape with an id under 'confetti-23-flip' to colour; dropped",
+            "flutter/confetti-24-flip.fill: no shape with an id under 'confetti-24-flip' to colour; dropped",
+            "flutter/confetti-25-flip.fill: no shape with an id under 'confetti-25-flip' to colour; dropped",
+            "flutter/confetti-26-flip.fill: no shape with an id under 'confetti-26-flip' to colour; dropped",
+            "flutter/confetti-27-flip.fill: no shape with an id under 'confetti-27-flip' to colour; dropped",
+            "flutter/confetti-28-flip.fill: no shape with an id under 'confetti-28-flip' to colour; dropped",
+            "flutter/confetti-29-flip.fill: no shape with an id under 'confetti-29-flip' to colour; dropped",
+            "flutter/confetti-30-flip.fill: no shape with an id under 'confetti-30-flip' to colour; dropped",
+            "flutter/confetti-31-flip.fill: no shape with an id under 'confetti-31-flip' to colour; dropped",
+            "flutter/confetti-32-flip.fill: no shape with an id under 'confetti-32-flip' to colour; dropped",
+            "flutter/confetti-33-flip.fill: no shape with an id under 'confetti-33-flip' to colour; dropped",
+            "flutter/confetti-34-flip.fill: no shape with an id under 'confetti-34-flip' to colour; dropped",
+            "flutter/confetti-35-flip.fill: no shape with an id under 'confetti-35-flip' to colour; dropped",
+            "flutter/confetti-36-flip.fill: no shape with an id under 'confetti-36-flip' to colour; dropped",
+            "flutter/confetti-37-flip.fill: no shape with an id under 'confetti-37-flip' to colour; dropped",
+            "flutter/confetti-38-flip.fill: no shape with an id under 'confetti-38-flip' to colour; dropped",
+            "flutter/confetti-39-flip.fill: no shape with an id under 'confetti-39-flip' to colour; dropped"
+        ],
+        "fx-door": [
+            "rattle/door-leaf: rotation pivot on a group that also moves; rotates about its origin"
+        ],
+        "fx-scam-card": [
+            "split/half-left: rotation pivot on a group that also moves; rotates about its origin",
+            "split/half-right: rotation pivot on a group that also moves; rotates about its origin"
+        ],
+        "set-d60s-banner": [
+            "drop-in/root.scale: no element 'root' in set-d60s-banner.svg; dropped",
+            "drop-in/root.rotation: no element 'root' in set-d60s-banner.svg; dropped",
+            "drop-in/root.y: no element 'root' in set-d60s-banner.svg; dropped",
+            "drop-in/root.opacity: no element 'root' in set-d60s-banner.svg; dropped",
+            "hold/root.y: no element 'root' in set-d60s-banner.svg; dropped",
+            "hold/root.rotation: no element 'root' in set-d60s-banner.svg; dropped",
+            "lift-out/root.y: no element 'root' in set-d60s-banner.svg; dropped",
+            "lift-out/root.opacity: no element 'root' in set-d60s-banner.svg; dropped",
+            "lift-out/root.scale: no element 'root' in set-d60s-banner.svg; dropped"
+        ],
+        "set-d60s-burst-bam": [
+            "hit/root.scale: no element 'root' in set-d60s-burst-bam.svg; dropped",
+            "hit/root.rotation: no element 'root' in set-d60s-burst-bam.svg; dropped",
+            "hit/root.opacity: no element 'root' in set-d60s-burst-bam.svg; dropped"
+        ],
+        "set-d60s-burst-pow": [
+            "hit/root.scale: no element 'root' in set-d60s-burst-pow.svg; dropped",
+            "hit/root.rotation: no element 'root' in set-d60s-burst-pow.svg; dropped",
+            "hit/root.opacity: no element 'root' in set-d60s-burst-pow.svg; dropped"
+        ],
+        "set-d60s-burst-zap": [
+            "hit/root.scale: no element 'root' in set-d60s-burst-zap.svg; dropped",
+            "hit/root.rotation: no element 'root' in set-d60s-burst-zap.svg; dropped",
+            "hit/root.opacity: no element 'root' in set-d60s-burst-zap.svg; dropped"
+        ],
+        "set-d60s-flag": [
+            "plant-wobble/root.rotation: no element 'root' in set-d60s-flag.svg; dropped"
+        ],
+        "set-d60s-frame": [
+            "pop-in/root.scale: no element 'root' in set-d60s-frame.svg; dropped",
+            "pop-in/root.opacity: no element 'root' in set-d60s-frame.svg; dropped",
+            "pop-out/root.scale: no element 'root' in set-d60s-frame.svg; dropped",
+            "pop-out/root.opacity: no element 'root' in set-d60s-frame.svg; dropped"
+        ],
+        "set-d60s-helmet": [
+            "pop-in/root.scale: no element 'root' in set-d60s-helmet.svg; dropped",
+            "pop-out/root.scale: no element 'root' in set-d60s-helmet.svg; dropped"
+        ],
+        "set-d70s-banner": [
+            "drop-in/root.scale: no element 'root' in set-d70s-banner.svg; dropped",
+            "drop-in/root.rotation: no element 'root' in set-d70s-banner.svg; dropped",
+            "drop-in/root.y: no element 'root' in set-d70s-banner.svg; dropped",
+            "drop-in/root.opacity: no element 'root' in set-d70s-banner.svg; dropped",
+            "hold/root.y: no element 'root' in set-d70s-banner.svg; dropped",
+            "hold/root.rotation: no element 'root' in set-d70s-banner.svg; dropped",
+            "lift-out/root.y: no element 'root' in set-d70s-banner.svg; dropped",
+            "lift-out/root.opacity: no element 'root' in set-d70s-banner.svg; dropped",
+            "lift-out/root.scale: no element 'root' in set-d70s-banner.svg; dropped"
+        ],
+        "set-d80s-maze": [
+            "whip-in/root.x: no element 'root' in set-d80s-maze.svg; dropped",
+            "whip-out/root.x: no element 'root' in set-d80s-maze.svg; dropped",
+            "pop-in/root.scale: no element 'root' in set-d80s-maze.svg; dropped",
+            "pop-in/root.opacity: no element 'root' in set-d80s-maze.svg; dropped"
+        ],
+        "set-d80s-moon": [
+            "iris-out/iris-shape.scale: no element 'iris-shape' in set-d80s-moon.svg; dropped",
+            "whip-in/root.x: no element 'root' in set-d80s-moon.svg; dropped",
+            "whip-out/root.x: no element 'root' in set-d80s-moon.svg; dropped"
+        ],
+        "set-d80s-neon": [
+            "flicker-on/root.opacity: no element 'root' in set-d80s-neon.svg; dropped",
+            "flicker-on/root.scale: no element 'root' in set-d80s-neon.svg; dropped",
+            "flicker-on/root.y: no element 'root' in set-d80s-neon.svg; dropped"
+        ],
+        "set-d80s-speedo": [
+            "pop-in/root.scale: no element 'root' in set-d80s-speedo.svg; dropped",
+            "pop-in/root.opacity: no element 'root' in set-d80s-speedo.svg; dropped"
+        ],
+        "set-d80s-trails": [
+            "lay-down/reveal-shape.scaleX: no element 'reveal-shape' in set-d80s-trails.svg; dropped"
+        ],
+        "set-d90s-banner": [
+            "pop/root.scale: no element 'root' in set-d90s-banner.svg; dropped",
+            "pop/root.rotation: no element 'root' in set-d90s-banner.svg; dropped",
+            "pop/root.opacity: no element 'root' in set-d90s-banner.svg; dropped"
+        ],
+        "set-d90s-bow": [
+            "bob/root.y: no element 'root' in set-d90s-bow.svg; dropped",
+            "whip-in/root.x: no element 'root' in set-d90s-bow.svg; dropped",
+            "whip-out/root.x: no element 'root' in set-d90s-bow.svg; dropped"
+        ],
+        "set-d90s-matrix": [
+            "whip-in/root.x: no element 'root' in set-d90s-matrix.svg; dropped",
+            "whip-out/root.x: no element 'root' in set-d90s-matrix.svg; dropped"
+        ],
+        "set-d90s-mirror-back": [
+            "pop-in/root.scale: no element 'root' in set-d90s-mirror-back.svg; dropped",
+            "pop-in/root.opacity: no element 'root' in set-d90s-mirror-back.svg; dropped",
+            "rattle/root.rotation: no element 'root' in set-d90s-mirror-back.svg; dropped",
+            "pop-out/root.scale: no element 'root' in set-d90s-mirror-back.svg; dropped",
+            "pop-out/root.opacity: no element 'root' in set-d90s-mirror-back.svg; dropped"
+        ],
+        "set-d90s-mirror-front": [
+            "pop-in/root.scale: no element 'root' in set-d90s-mirror-front.svg; dropped",
+            "pop-in/root.opacity: no element 'root' in set-d90s-mirror-front.svg; dropped",
+            "rattle/root.rotation: no element 'root' in set-d90s-mirror-front.svg; dropped",
+            "pop-out/root.scale: no element 'root' in set-d90s-mirror-front.svg; dropped",
+            "pop-out/root.opacity: no element 'root' in set-d90s-mirror-front.svg; dropped"
+        ],
+        "set-d90s-scream": [
+            "show/root.opacity: no element 'root' in set-d90s-scream.svg; dropped",
+            "show/root.scale: no element 'root' in set-d90s-scream.svg; dropped"
+        ],
+        "set-d90s-sunglasses": [
+            "drop-on/glasses.y: outBounce has no Bezier; easeOut stands in"
+        ],
+        "set-d90s-sunset": [
+            "whip-in/root.x: no element 'root' in set-d90s-sunset.svg; dropped",
+            "whip-out/root.x: no element 'root' in set-d90s-sunset.svg; dropped",
+            "pop-in/root.scale: no element 'root' in set-d90s-sunset.svg; dropped",
+            "pop-in/root.opacity: no element 'root' in set-d90s-sunset.svg; dropped"
+        ],
+        "set-d90s-tint": [
+            "whip-in/root.x: no element 'root' in set-d90s-tint.svg; dropped",
+            "whip-out/root.x: no element 'root' in set-d90s-tint.svg; dropped"
+        ]
+    },
+    "unusedPieces": [
+        "fx-banner",
+        "fx-bubble",
+        "fx-confetti",
+        "fx-disco-ball",
+        "fx-door",
+        "fx-heart",
+        "fx-moon-crescent",
+        "fx-moon",
+        "fx-music-note-double",
+        "fx-music-note",
+        "fx-neon-grid",
+        "fx-peace-bg",
+        "fx-rain-cloud",
+        "fx-scam-card",
+        "fx-slash",
+        "fx-sparkle",
+        "fx-spotlight",
+        "set-d00s-brawl",
+        "set-d00s-burst",
+        "set-d00s-cavern",
+        "set-d00s-dust-trail",
+        "set-d00s-field",
+        "set-d00s-leeroy",
+        "set-d00s-signal",
+        "set-d00s-staff",
+        "set-d00s-wizard-hat",
+        "set-d10s-fire-back",
+        "set-d10s-fire-front",
+        "set-d10s-glint",
+        "set-d10s-lasso",
+        "set-d10s-mug",
+        "set-d10s-party",
+        "set-d10s-room",
+        "set-d10s-tip-flame",
+        "set-d60s-banner",
+        "set-d60s-burst-bam",
+        "set-d60s-burst-pow",
+        "set-d60s-burst-zap",
+        "set-d60s-comic",
+        "set-d60s-flag",
+        "set-d60s-frame",
+        "set-d60s-helmet",
+        "set-d60s-moon",
+        "set-d60s-shoes",
+        "set-d60s-starburst",
+        "set-d60s-zebra",
+        "set-d70s-banner",
+        "set-d70s-disco",
+        "set-d70s-fin",
+        "set-d70s-sea-front",
+        "set-d70s-sea",
+        "set-d70s-splash",
+        "set-d70s-steps",
+        "set-d80s-basket",
+        "set-d80s-bike",
+        "set-d80s-ghost",
+        "set-d80s-maze",
+        "set-d80s-moon",
+        "set-d80s-neon",
+        "set-d80s-speedo",
+        "set-d80s-streaks",
+        "set-d80s-trails",
+        "set-d80s-zap",
+        "set-d90s-banner",
+        "set-d90s-bow",
+        "set-d90s-bullet",
+        "set-d90s-matrix",
+        "set-d90s-mirror-back",
+        "set-d90s-mirror-front",
+        "set-d90s-orbit",
+        "set-d90s-scream",
+        "set-d90s-sunset",
+        "set-d90s-tint",
+        "set-d90s-wind"
+    ]
+}

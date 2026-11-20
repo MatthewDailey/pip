@@ -1,0 +1,323 @@
+{
+ "piece": "set-d60s-frame",
+ "origin": [540, 1150],
+ "layer": "frame shadow/border behind Pip (layer -1), flash in front (layer 2)",
+ "notes": "Streak x positions wrap in Kotlin (fract); here they slide linearly, which is what is visible during the 0.28 s pan. Streaks opacity = sin(pi*f) of the pan; the streaks group is horizontal, rotate it 90 degrees for vertical pans (d70s sea->disco).",
+ "clips": [
+  {
+   "name": "pop-in",
+   "duration": 0.5,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "scale",
+     "keys": [
+      [0, 0.86],
+      [0.5, 1]
+     ],
+     "ease": "outBack"
+    },
+    {
+     "target": "root",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.175, 1],
+      [0.5, 1]
+     ],
+     "ease": "linear"
+    }
+   ]
+  },
+  {
+   "name": "pop-out",
+   "duration": 0.42,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "scale",
+     "keys": [
+      [0, 1],
+      [0.42, 0.86]
+     ],
+     "ease": "inBack"
+    },
+    {
+     "target": "root",
+     "property": "opacity",
+     "keys": [
+      [0, 1],
+      [0.42, 0]
+     ],
+     "ease": "inBack"
+    }
+   ]
+  },
+  {
+   "name": "whip",
+   "duration": 1.0,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "streak-0",
+     "property": "x",
+     "keys": [
+      [0, 66.704],
+      [1, 3122.454]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-1",
+     "property": "x",
+     "keys": [
+      [0, 375.492],
+      [1, 3280.633]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-2",
+     "property": "x",
+     "keys": [
+      [0, -166.114],
+      [1, 2194.463]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-3",
+     "property": "x",
+     "keys": [
+      [0, -491.861],
+      [1, 2301.717]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-4",
+     "property": "x",
+     "keys": [
+      [0, -439.507],
+      [1, 2670.63]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-5",
+     "property": "x",
+     "keys": [
+      [0, 153.02],
+      [1, 3286.863]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-6",
+     "property": "x",
+     "keys": [
+      [0, -385.366],
+      [1, 2433.313]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-7",
+     "property": "x",
+     "keys": [
+      [0, -99.393],
+      [1, 2303.716]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-8",
+     "property": "x",
+     "keys": [
+      [0, -177.219],
+      [1, 2907.816]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-9",
+     "property": "x",
+     "keys": [
+      [0, -622.587],
+      [1, 2527.991]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-10",
+     "property": "x",
+     "keys": [
+      [0, 269.991],
+      [1, 3445.671]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-11",
+     "property": "x",
+     "keys": [
+      [0, 106.818],
+      [1, 2219.865]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-12",
+     "property": "x",
+     "keys": [
+      [0, 294.889],
+      [1, 3763.42]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-13",
+     "property": "x",
+     "keys": [
+      [0, -115.505],
+      [1, 2070.057]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-14",
+     "property": "x",
+     "keys": [
+      [0, 405.992],
+      [1, 3124.266]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-15",
+     "property": "x",
+     "keys": [
+      [0, 523.636],
+      [1, 2653.418]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-16",
+     "property": "x",
+     "keys": [
+      [0, 640.923],
+      [1, 3322.938]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-17",
+     "property": "x",
+     "keys": [
+      [0, 255.276],
+      [1, 3140.894]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-18",
+     "property": "x",
+     "keys": [
+      [0, 433.207],
+      [1, 2897.676]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-19",
+     "property": "x",
+     "keys": [
+      [0, 416.9],
+      [1, 3745.978]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-20",
+     "property": "x",
+     "keys": [
+      [0, -855.152],
+      [1, 2295.426]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-21",
+     "property": "x",
+     "keys": [
+      [0, 148.058],
+      [1, 2408.925]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-22",
+     "property": "x",
+     "keys": [
+      [0, -436.234],
+      [1, 3015.563]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-23",
+     "property": "x",
+     "keys": [
+      [0, -268.533],
+      [1, 2000.701]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streaks",
+     "property": "opacity",
+     "keys": [
+      [0.0, 0.0],
+      [0.125, 0.383],
+      [0.25, 0.707],
+      [0.375, 0.924],
+      [0.5, 1.0],
+      [0.625, 0.924],
+      [0.75, 0.707],
+      [0.875, 0.383],
+      [1.0, 0.0]
+     ],
+     "ease": "linear"
+    }
+   ],
+   "note": "time = pan fraction f (scrub with progress)"
+  },
+  {
+   "name": "flash",
+   "duration": 0.4,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "flash",
+     "property": "opacity",
+     "keys": [
+      [0, 0.9],
+      [0.4, 0]
+     ],
+     "ease": "easeOut"
+    }
+   ]
+  }
+ ],
+ "inputs": [
+  {
+   "name": "progress",
+   "type": "number",
+   "drives": "Scene-level: n.f slides set n out and set n+1 in (a whip pan). The set itself is static at its own origin; the host translates it by -f*940 (horizontal) or +f*760 (vertical)."
+  }
+ ],
+ "size": [1060, 900]
+}

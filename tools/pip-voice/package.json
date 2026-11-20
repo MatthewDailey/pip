@@ -1,0 +1,8 @@
+{
+  "name": "@shady-pip/pip-voice",
+  "private": true,
+  "description": "Renders Pip's first-run greeting lines in a GPT-Live voice; the app bundles the clips",
+  "scripts": {
+    "voice:greeting": ". ../../scripts/env.sh && bash render_greeting.sh"
+  }
+}

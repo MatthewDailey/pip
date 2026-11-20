@@ -1,0 +1,4620 @@
+{
+  "piece": "set-dtoday-dust",
+  "scene": "dToday",
+  "painter": "paintDust",
+  "origin": [540.0,900.0],
+  "origin_note": "screen px (1080 x 2424 stage) where the SVG's (0, 0) sits when the actor is at rest",
+  "viewBox": [-420.0,-420.0,840.0,1960.0],
+  "size": [840.0,1960.0],
+  "pose": "every grain at its spawn point (the clip hides each until its thud)",
+  "format": "Draft motion format for rivc. Every track targets a <g id> in the SVG; a group's pivot is its translate() origin. Properties: x, y (absolute, in the parent's units), rotation (degrees, clockwise), scaleX, scaleY, opacity, strokeWidth, fillColor ('#RRGGBB'). Keys are [time s, value]; 'ease' applies between keys (linear, hold, sine, quadIn). driver 'time' clips play on the clock; driver 'input:<name>' clips are scrubbed, clip time = input value. mixBy names an input whose value (0..1) is the clip's blend weight. The SVG's own transforms are each group's setup pose.",
+  "clips": [
+    {
+      "name": "falls",
+      "duration": 5.6,
+      "loop": false,
+      "driver": "time",
+      "note": "for each thud (see set-dtoday-door input_curves.thuds) a haze puff and 18-28 grains drop from above the frame: x drifts linearly, y falls under gravity (quadIn is exact), alpha fades over 1.6 s; big hits also shed spinning stone chips. Play from dToday 0 s.",
+      "tracks": [
+        {
+          "target": "haze-0",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.1925],[1.4,0]]
+        },
+        {
+          "target": "haze-0",
+          "property": "y",
+          "ease": "linear",
+          "keys": [[0.5,-300.0],[1.4,-228.0]]
+        },
+        {
+          "target": "haze-0",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[0.5,1],[1.4,3.4]]
+        },
+        {
+          "target": "haze-0",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0.5,1],[1.4,3.4]]
+        },
+        {
+          "target": "grit-0-0",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-0",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,-134.4727],[2.1,-128.7852]]
+        },
+        {
+          "target": "grit-0-0",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-316.9531],[2.1,2.6469]]
+        },
+        {
+          "target": "grit-0-1",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-1",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,155.0391],[2.1,207.9766]]
+        },
+        {
+          "target": "grit-0-1",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-291.6406],[2.1,391.8094]]
+        },
+        {
+          "target": "grit-0-2",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-2",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,-248.9062],[2.1,-267.0625]]
+        },
+        {
+          "target": "grit-0-2",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-329.7266],[2.1,343.2734]]
+        },
+        {
+          "target": "grit-0-3",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-3",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,27.4219],[2.1,9.4844]]
+        },
+        {
+          "target": "grit-0-3",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-329.6094],[2.1,210.3906]]
+        },
+        {
+          "target": "grit-0-4",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-4",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,149.7656],[2.1,121.3281]]
+        },
+        {
+          "target": "grit-0-4",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-335.2344],[2.1,182.9156]]
+        },
+        {
+          "target": "grit-0-5",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-5",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,245.7422],[2.1,252.8516]]
+        },
+        {
+          "target": "grit-0-5",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-316.1914],[2.1,137.3586]]
+        },
+        {
+          "target": "grit-0-6",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-6",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,-221.4844],[2.1,-195.2344]]
+        },
+        {
+          "target": "grit-0-6",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-305.9375],[2.1,273.9625]]
+        },
+        {
+          "target": "grit-0-7",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-7",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,57.876],[2.1,100.0947]]
+        },
+        {
+          "target": "grit-0-7",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-297.3828],[2.1,352.8172]]
+        },
+        {
+          "target": "grit-0-8",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-8",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,222.5391],[2.1,181.8516]]
+        },
+        {
+          "target": "grit-0-8",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-341.7969],[2.1,-19.8219]]
+        },
+        {
+          "target": "grit-0-9",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-9",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,229.9219],[2.1,211.5469]]
+        },
+        {
+          "target": "grit-0-9",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-329.8438],[2.1,310.8563]]
+        },
+        {
+          "target": "grit-0-10",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-10",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,219.375],[2.1,187.4375]]
+        },
+        {
+          "target": "grit-0-10",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-337.1094],[2.1,298.8406]]
+        },
+        {
+          "target": "grit-0-11",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-11",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,25.3125],[2.1,3.875]]
+        },
+        {
+          "target": "grit-0-11",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-331.4844],[2.1,236.0656]]
+        },
+        {
+          "target": "grit-0-12",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-12",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,251.0156],[2.1,304.2812]]
+        },
+        {
+          "target": "grit-0-12",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-291.4648],[2.1,372.0352]]
+        },
+        {
+          "target": "grit-0-13",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-13",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,164.5312],[2.1,169.7812]]
+        },
+        {
+          "target": "grit-0-13",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-317.1875],[2.1,139.2125]]
+        },
+        {
+          "target": "grit-0-14",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-14",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,-41.1328],[2.1,8.3047]]
+        },
+        {
+          "target": "grit-0-14",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-293.5156],[2.1,107.0719]]
+        },
+        {
+          "target": "grit-0-15",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-15",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,263.1445],[2.1,273.5352]]
+        },
+        {
+          "target": "grit-0-15",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-314.4336],[2.1,216.0664]]
+        },
+        {
+          "target": "grit-0-16",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-16",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,3.1641],[2.1,-21.7734]]
+        },
+        {
+          "target": "grit-0-16",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-333.3594],[2.1,31.8406]]
+        },
+        {
+          "target": "grit-0-17",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.499,0],[0.5,0.85],[2.1,0]]
+        },
+        {
+          "target": "grit-0-17",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[0.5,-175.0781],[2.1,-209.4219]]
+        },
+        {
+          "target": "grit-0-17",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[0.5,-338.3984],[2.1,114.9141]]
+        },
+        {
+          "target": "haze-1",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.21],[2.4,0]]
+        },
+        {
+          "target": "haze-1",
+          "property": "y",
+          "ease": "linear",
+          "keys": [[1.5,-300.0],[2.4,-228.0]]
+        },
+        {
+          "target": "haze-1",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[1.5,1],[2.4,3.4]]
+        },
+        {
+          "target": "haze-1",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[1.5,1],[2.4,3.4]]
+        },
+        {
+          "target": "grit-1-0",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-0",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,-202.5],[3.1,-204.25]]
+        },
+        {
+          "target": "grit-1-0",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-320.9375],[3.1,253.2625]]
+        },
+        {
+          "target": "grit-1-1",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-1",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,-248.9062],[3.1,-286.9688]]
+        },
+        {
+          "target": "grit-1-1",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-340.3906],[3.1,193.9094]]
+        },
+        {
+          "target": "grit-1-2",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-2",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,33.75],[3.1,54.6406]]
+        },
+        {
+          "target": "grit-1-2",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-308.8086],[3.1,253.5164]]
+        },
+        {
+          "target": "grit-1-3",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-3",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,183.5156],[3.1,127.5156]]
+        },
+        {
+          "target": "grit-1-3",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-350.0],[3.1,44.65]]
+        },
+        {
+          "target": "grit-1-4",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-4",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,198.0176],[3.1,239.4707]]
+        },
+        {
+          "target": "grit-1-4",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-297.793],[3.1,124.407]]
+        },
+        {
+          "target": "grit-1-5",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-5",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,-258.9258],[3.1,-265.0508]]
+        },
+        {
+          "target": "grit-1-5",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-323.2812],[3.1,179.6687]]
+        },
+        {
+          "target": "grit-1-6",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-6",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,-14.7656],[3.1,-66.8281]]
+        },
+        {
+          "target": "grit-1-6",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-347.8906],[3.1,112.3094]]
+        },
+        {
+          "target": "grit-1-7",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-7",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,-78.0469],[3.1,-112.6094]]
+        },
+        {
+          "target": "grit-1-7",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-338.5156],[3.1,300.2844]]
+        },
+        {
+          "target": "grit-1-8",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-8",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,-206.7188],[3.1,-242.5938]]
+        },
+        {
+          "target": "grit-1-8",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-339.2188],[3.1,-18.6687]]
+        },
+        {
+          "target": "grit-1-9",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-9",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,92.8125],[3.1,74.1094]]
+        },
+        {
+          "target": "grit-1-9",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-330.0195],[3.1,312.5805]]
+        },
+        {
+          "target": "grit-1-10",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-10",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,-119.1797],[3.1,-102.9922]]
+        },
+        {
+          "target": "grit-1-10",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-311.3281],[3.1,281.8719]]
+        },
+        {
+          "target": "grit-1-11",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-11",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,-206.7188],[3.1,-238.4375]]
+        },
+        {
+          "target": "grit-1-11",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-336.9922],[3.1,-13.5922]]
+        },
+        {
+          "target": "grit-1-12",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-12",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,204.873],[3.1,225.2168]]
+        },
+        {
+          "target": "grit-1-12",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-309.1016],[3.1,-7.5516]]
+        },
+        {
+          "target": "grit-1-13",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-13",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,-104.4141],[3.1,-117.5391]]
+        },
+        {
+          "target": "grit-1-13",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-327.0312],[3.1,306.0688]]
+        },
+        {
+          "target": "grit-1-14",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-14",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,-244.6875],[3.1,-281.0]]
+        },
+        {
+          "target": "grit-1-14",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-339.4531],[3.1,80.8469]]
+        },
+        {
+          "target": "grit-1-15",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-15",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,-232.0312],[3.1,-225.4688]]
+        },
+        {
+          "target": "grit-1-15",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-316.4844],[3.1,-17.7844]]
+        },
+        {
+          "target": "grit-1-16",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-16",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,-118.125],[3.1,-84.2188]]
+        },
+        {
+          "target": "grit-1-16",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-301.8359],[3.1,169.7641]]
+        },
+        {
+          "target": "grit-1-17",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-17",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,88.5938],[3.1,86.1875]]
+        },
+        {
+          "target": "grit-1-17",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-321.2891],[3.1,-20.6891]]
+        },
+        {
+          "target": "grit-1-18",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.499,0],[1.5,0.85],[3.1,0]]
+        },
+        {
+          "target": "grit-1-18",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[1.5,105.4688],[3.1,61.7188]]
+        },
+        {
+          "target": "grit-1-18",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[1.5,-343.4375],[3.1,277.3125]]
+        },
+        {
+          "target": "haze-2",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.245],[2.9,0]]
+        },
+        {
+          "target": "haze-2",
+          "property": "y",
+          "ease": "linear",
+          "keys": [[2.0,-300.0],[2.9,-228.0]]
+        },
+        {
+          "target": "haze-2",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[2.0,1],[2.9,3.4]]
+        },
+        {
+          "target": "haze-2",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[2.0,1],[2.9,3.4]]
+        },
+        {
+          "target": "grit-2-0",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-0",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,259.4531],[3.6,210.4531]]
+        },
+        {
+          "target": "grit-2-0",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-346.25],[3.6,-62.75]]
+        },
+        {
+          "target": "grit-2-1",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-1",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,151.875],[3.6,119.7188]]
+        },
+        {
+          "target": "grit-2-1",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-337.2266],[3.6,279.7828]]
+        },
+        {
+          "target": "grit-2-2",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-2",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,20.0391],[3.6,73.6328]]
+        },
+        {
+          "target": "grit-2-2",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-291.2891],[3.6,393.1109]]
+        },
+        {
+          "target": "grit-2-3",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-3",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,35.3485],[3.6,20.4735]]
+        },
+        {
+          "target": "grit-2-3",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-327.9688],[3.6,217.7313]]
+        },
+        {
+          "target": "grit-2-4",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-4",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,174.0234],[3.6,145.0391]]
+        },
+        {
+          "target": "grit-2-4",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-335.5273],[3.6,117.7852]]
+        },
+        {
+          "target": "grit-2-5",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-5",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,-210.9375],[3.6,-190.375]]
+        },
+        {
+          "target": "grit-2-5",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-308.9844],[3.6,326.0156]]
+        },
+        {
+          "target": "grit-2-6",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-6",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,200.3906],[3.6,220.0781]]
+        },
+        {
+          "target": "grit-2-6",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-309.4531],[3.6,124.1469]]
+        },
+        {
+          "target": "grit-2-7",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-7",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,191.9531],[3.6,169.6406]]
+        },
+        {
+          "target": "grit-2-7",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-331.9531],[3.6,217.7844]]
+        },
+        {
+          "target": "grit-2-8",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-8",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,-75.9375],[3.6,-44.4375]]
+        },
+        {
+          "target": "grit-2-8",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-303.125],[3.6,301.475]]
+        },
+        {
+          "target": "grit-2-9",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-9",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,216.2109],[3.6,248.5859]]
+        },
+        {
+          "target": "grit-2-9",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-302.6562],[3.6,11.2438]]
+        },
+        {
+          "target": "grit-2-10",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-10",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,167.959],[3.6,205.1465]]
+        },
+        {
+          "target": "grit-2-10",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-300.0781],[3.6,29.4969]]
+        },
+        {
+          "target": "grit-2-11",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-11",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,-91.7578],[3.6,-86.5078]]
+        },
+        {
+          "target": "grit-2-11",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-317.1875],[3.6,278.8625]]
+        },
+        {
+          "target": "grit-2-12",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-12",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,-256.2891],[3.6,-225.2266]]
+        },
+        {
+          "target": "grit-2-12",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-303.3594],[3.6,284.1406]]
+        },
+        {
+          "target": "grit-2-13",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-13",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,-6.3281],[3.6,-30.3906]]
+        },
+        {
+          "target": "grit-2-13",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-332.8906],[3.6,363.8594]]
+        },
+        {
+          "target": "grit-2-14",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-14",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,120.2344],[3.6,97.375]]
+        },
+        {
+          "target": "grit-2-14",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-332.2461],[3.6,351.2039]]
+        },
+        {
+          "target": "grit-2-15",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-15",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,97.0312],[3.6,133.7812]]
+        },
+        {
+          "target": "grit-2-15",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-300.3125],[3.6,239.6875]]
+        },
+        {
+          "target": "grit-2-16",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-16",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,-108.6328],[3.6,-76.1484]]
+        },
+        {
+          "target": "grit-2-16",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-302.5977],[3.6,63.5523]]
+        },
+        {
+          "target": "grit-2-17",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-17",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,-179.2969],[3.6,-180.6094]]
+        },
+        {
+          "target": "grit-2-17",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-320.7031],[3.6,91.9969]]
+        },
+        {
+          "target": "grit-2-18",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-18",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,-95.7129],[3.6,-96.5879]]
+        },
+        {
+          "target": "grit-2-18",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-320.4688],[3.6,344.9312]]
+        },
+        {
+          "target": "grit-2-19",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-19",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,-30.5859],[3.6,-29.7109]]
+        },
+        {
+          "target": "grit-2-19",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-319.5312],[3.6,106.4688]]
+        },
+        {
+          "target": "grit-2-20",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1.999,0],[2.0,0.85],[3.6,0]]
+        },
+        {
+          "target": "grit-2-20",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.0,160.3125],[3.6,126.625]]
+        },
+        {
+          "target": "grit-2-20",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.0,-338.0469],[3.6,125.9531]]
+        },
+        {
+          "target": "haze-3",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.28],[3.4,0]]
+        },
+        {
+          "target": "haze-3",
+          "property": "y",
+          "ease": "linear",
+          "keys": [[2.5,-300.0],[3.4,-228.0]]
+        },
+        {
+          "target": "haze-3",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[2.5,1],[3.4,3.4]]
+        },
+        {
+          "target": "haze-3",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[2.5,1],[3.4,3.4]]
+        },
+        {
+          "target": "grit-3-0",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[2.5,0],[4.1,45.0]]
+        },
+        {
+          "target": "grit-3-0",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,1.0],[4.1,0]]
+        },
+        {
+          "target": "grit-3-0",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,-146.6016],[4.1,-138.7266]]
+        },
+        {
+          "target": "grit-3-0",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-315.7812],[4.1,2362.0938]]
+        },
+        {
+          "target": "grit-3-1",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-1",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,-58.5352],[4.1,-65.2617]]
+        },
+        {
+          "target": "grit-3-1",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-323.6035],[4.1,149.8965]]
+        },
+        {
+          "target": "grit-3-2",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-2",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,132.627],[4.1,140.502]]
+        },
+        {
+          "target": "grit-3-2",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-315.7812],[4.1,209.0187]]
+        },
+        {
+          "target": "grit-3-3",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-3",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,9.4922],[4.1,45.3672]]
+        },
+        {
+          "target": "grit-3-3",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-300.7812],[4.1,96.9563]]
+        },
+        {
+          "target": "grit-3-4",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[2.5,0],[4.1,270.0]]
+        },
+        {
+          "target": "grit-3-4",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,1.0],[4.1,0]]
+        },
+        {
+          "target": "grit-3-4",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,-54.8438],[4.1,-7.5938]]
+        },
+        {
+          "target": "grit-3-4",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-294.6875],[4.1,2009.3125]]
+        },
+        {
+          "target": "grit-3-5",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-5",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,189.8438],[4.1,151.3438]]
+        },
+        {
+          "target": "grit-3-5",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-340.625],[4.1,32.175]]
+        },
+        {
+          "target": "grit-3-6",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-6",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,196.1719],[4.1,226.3867]]
+        },
+        {
+          "target": "grit-3-6",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-303.8135],[4.1,122.8396]]
+        },
+        {
+          "target": "grit-3-7",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-7",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,124.4531],[4.1,76.7656]]
+        },
+        {
+          "target": "grit-3-7",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-345.5469],[4.1,219.1531]]
+        },
+        {
+          "target": "grit-3-8",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[2.5,0],[4.1,-268.75]]
+        },
+        {
+          "target": "grit-3-8",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,1.0],[4.1,0]]
+        },
+        {
+          "target": "grit-3-8",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,-104.4141],[4.1,-151.4453]]
+        },
+        {
+          "target": "grit-3-8",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-345.1953],[4.1,2084.8047]]
+        },
+        {
+          "target": "grit-3-9",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-9",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,-194.3262],[4.1,-236.5449]]
+        },
+        {
+          "target": "grit-3-9",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-342.6172],[4.1,84.3922]]
+        },
+        {
+          "target": "grit-3-10",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-10",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,179.8242],[4.1,140.4492]]
+        },
+        {
+          "target": "grit-3-10",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-341.0938],[4.1,-11.9937]]
+        },
+        {
+          "target": "grit-3-11",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-11",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,110.7422],[4.1,101.623]]
+        },
+        {
+          "target": "grit-3-11",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-324.8853],[4.1,91.6147]]
+        },
+        {
+          "target": "grit-3-12",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[2.5,0],[4.1,30.0]]
+        },
+        {
+          "target": "grit-3-12",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,1.0],[4.1,0]]
+        },
+        {
+          "target": "grit-3-12",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,221.4844],[4.1,226.7344]]
+        },
+        {
+          "target": "grit-3-12",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-317.1875],[4.1,1669.1875]]
+        },
+        {
+          "target": "grit-3-13",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-13",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,128.6719],[4.1,182.7031]]
+        },
+        {
+          "target": "grit-3-13",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-291.0547],[4.1,0.0453]]
+        },
+        {
+          "target": "grit-3-14",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-14",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,73.8281],[4.1,41.2344]]
+        },
+        {
+          "target": "grit-3-14",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-337.4609],[4.1,194.9391]]
+        },
+        {
+          "target": "grit-3-15",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-15",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,-136.0547],[4.1,-142.6172]]
+        },
+        {
+          "target": "grit-3-15",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-323.5156],[4.1,317.4219]]
+        },
+        {
+          "target": "grit-3-16",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[2.5,0],[4.1,-73.2812]]
+        },
+        {
+          "target": "grit-3-16",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,1.0],[4.1,0]]
+        },
+        {
+          "target": "grit-3-16",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,-119.707],[4.1,-132.5312]]
+        },
+        {
+          "target": "grit-3-16",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-326.8701],[4.1,1797.1299]]
+        },
+        {
+          "target": "grit-3-17",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-17",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,46.9336],[4.1,48.2461]]
+        },
+        {
+          "target": "grit-3-17",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-319.2969],[4.1,446.8031]]
+        },
+        {
+          "target": "grit-3-18",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-18",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,252.0703],[4.1,203.7266]]
+        },
+        {
+          "target": "grit-3-18",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-345.8984],[4.1,153.2516]]
+        },
+        {
+          "target": "grit-3-19",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-19",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,-263.6719],[4.1,-243.5469]]
+        },
+        {
+          "target": "grit-3-19",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-309.2188],[4.1,392.2812]]
+        },
+        {
+          "target": "grit-3-20",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[2.5,0],[4.1,-125.0]]
+        },
+        {
+          "target": "grit-3-20",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,1.0],[4.1,0]]
+        },
+        {
+          "target": "grit-3-20",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,213.0469],[4.1,191.1719]]
+        },
+        {
+          "target": "grit-3-20",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-331.7188],[4.1,2242.2812]]
+        },
+        {
+          "target": "grit-3-21",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.499,0],[2.5,0.85],[4.1,0]]
+        },
+        {
+          "target": "grit-3-21",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.5,-259.4531],[4.1,-225.1641]]
+        },
+        {
+          "target": "grit-3-21",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.5,-301.6309],[4.1,96.8191]]
+        },
+        {
+          "target": "haze-4",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.2625],[3.65,0]]
+        },
+        {
+          "target": "haze-4",
+          "property": "y",
+          "ease": "linear",
+          "keys": [[2.75,-300.0],[3.65,-228.0]]
+        },
+        {
+          "target": "haze-4",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[2.75,1],[3.65,3.4]]
+        },
+        {
+          "target": "haze-4",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[2.75,1],[3.65,3.4]]
+        },
+        {
+          "target": "grit-4-0",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[2.75,0],[4.35,-10.0]]
+        },
+        {
+          "target": "grit-4-0",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,1.0],[4.35,0]]
+        },
+        {
+          "target": "grit-4-0",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,-37.9688],[4.35,-39.7188]]
+        },
+        {
+          "target": "grit-4-0",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-320.9375],[4.35,2307.0625]]
+        },
+        {
+          "target": "grit-4-1",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-1",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,187.7344],[4.35,152.5977]]
+        },
+        {
+          "target": "grit-4-1",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-338.8232],[4.35,70.0768]]
+        },
+        {
+          "target": "grit-4-2",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-2",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,-263.6719],[4.35,-303.4844]]
+        },
+        {
+          "target": "grit-4-2",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-341.3281],[4.35,383.9219]]
+        },
+        {
+          "target": "grit-4-3",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-3",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,-76.9922],[4.35,-109.8047]]
+        },
+        {
+          "target": "grit-4-3",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-337.5781],[4.35,128.3219]]
+        },
+        {
+          "target": "grit-4-4",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[2.75,0],[4.35,311.25]]
+        },
+        {
+          "target": "grit-4-4",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,1.0],[4.35,0]]
+        },
+        {
+          "target": "grit-4-4",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,-31.1133],[4.35,23.3555]]
+        },
+        {
+          "target": "grit-4-4",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-290.8203],[4.35,1842.1797]]
+        },
+        {
+          "target": "grit-4-5",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-5",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,-93.0762],[4.35,-46.7012]]
+        },
+        {
+          "target": "grit-4-5",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-295.1562],[4.35,224.4188]]
+        },
+        {
+          "target": "grit-4-6",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-6",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,18.9844],[4.35,27.4609]]
+        },
+        {
+          "target": "grit-4-6",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-315.459],[4.35,87.741]]
+        },
+        {
+          "target": "grit-4-7",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-7",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,-101.25],[4.35,-155.0625]]
+        },
+        {
+          "target": "grit-4-7",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-348.8281],[4.35,301.3719]]
+        },
+        {
+          "target": "grit-4-8",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[2.75,0],[4.35,48.75]]
+        },
+        {
+          "target": "grit-4-8",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,1.0],[4.35,0]]
+        },
+        {
+          "target": "grit-4-8",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,265.7812],[4.35,274.3125]]
+        },
+        {
+          "target": "grit-4-8",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-315.4297],[4.35,1693.0703]]
+        },
+        {
+          "target": "grit-4-9",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-9",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,194.0625],[4.35,142.6562]]
+        },
+        {
+          "target": "grit-4-9",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-347.5391],[4.35,212.4109]]
+        },
+        {
+          "target": "grit-4-10",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-10",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,213.0469],[4.35,181.9844]]
+        },
+        {
+          "target": "grit-4-10",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-336.6406],[4.35,302.1594]]
+        },
+        {
+          "target": "grit-4-11",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-11",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,-169.8047],[4.35,-140.4922]]
+        },
+        {
+          "target": "grit-4-11",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-304.2969],[4.35,282.2531]]
+        },
+        {
+          "target": "grit-4-12",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[2.75,0],[4.35,267.5]]
+        },
+        {
+          "target": "grit-4-12",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,1.0],[4.35,0]]
+        },
+        {
+          "target": "grit-4-12",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,95.3174],[4.35,142.1299]]
+        },
+        {
+          "target": "grit-4-12",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-294.9219],[4.35,2390.0781]]
+        },
+        {
+          "target": "grit-4-13",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-13",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,-6.8555],[4.35,-9.4805]]
+        },
+        {
+          "target": "grit-4-13",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-321.4062],[4.35,91.2937]]
+        },
+        {
+          "target": "grit-4-14",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-14",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,-183.5156],[4.35,-134.0781]]
+        },
+        {
+          "target": "grit-4-14",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-293.5156],[4.35,124.8844]]
+        },
+        {
+          "target": "grit-4-15",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-15",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,-40.0781],[4.35,7.1719]]
+        },
+        {
+          "target": "grit-4-15",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-294.6875],[4.35,328.9125]]
+        },
+        {
+          "target": "grit-4-16",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[2.75,0],[4.35,-88.125]]
+        },
+        {
+          "target": "grit-4-16",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,1.0],[4.35,0]]
+        },
+        {
+          "target": "grit-4-16",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,-48.5156],[4.35,-63.9375]]
+        },
+        {
+          "target": "grit-4-16",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-328.2617],[4.35,1591.7383]]
+        },
+        {
+          "target": "grit-4-17",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-17",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,-179.2969],[4.35,-129.8594]]
+        },
+        {
+          "target": "grit-4-17",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-293.5156],[4.35,-9.0656]]
+        },
+        {
+          "target": "grit-4-18",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-18",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,50.625],[4.35,99.9531]]
+        },
+        {
+          "target": "grit-4-18",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-293.5742],[4.35,-0.5742]]
+        },
+        {
+          "target": "grit-4-19",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-19",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,238.8867],[4.35,200.3867]]
+        },
+        {
+          "target": "grit-4-19",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-340.625],[4.35,39.775]]
+        },
+        {
+          "target": "grit-4-20",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[2.75,0],[4.35,-72.5]]
+        },
+        {
+          "target": "grit-4-20",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,1.0],[4.35,0]]
+        },
+        {
+          "target": "grit-4-20",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,124.1895],[4.35,111.502]]
+        },
+        {
+          "target": "grit-4-20",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-326.7969],[4.35,1647.2031]]
+        },
+        {
+          "target": "grit-4-21",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.749,0],[2.75,0.85],[4.35,0]]
+        },
+        {
+          "target": "grit-4-21",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[2.75,151.875],[4.35,127.2656]]
+        },
+        {
+          "target": "grit-4-21",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[2.75,-333.1836],[4.35,318.4414]]
+        },
+        {
+          "target": "haze-5",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.35],[3.9,0]]
+        },
+        {
+          "target": "haze-5",
+          "property": "y",
+          "ease": "linear",
+          "keys": [[3.0,-300.0],[3.9,-228.0]]
+        },
+        {
+          "target": "haze-5",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[3.0,1],[3.9,3.4]]
+        },
+        {
+          "target": "haze-5",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[3.0,1],[3.9,3.4]]
+        },
+        {
+          "target": "grit-5-0",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.0,0],[4.6,-257.5]]
+        },
+        {
+          "target": "grit-5-0",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,1.0],[4.6,0]]
+        },
+        {
+          "target": "grit-5-0",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-223.0664],[4.6,-268.1289]]
+        },
+        {
+          "target": "grit-5-0",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-344.1406],[4.6,1653.8594]]
+        },
+        {
+          "target": "grit-5-1",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-1",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,26.3672],[4.6,31.6172]]
+        },
+        {
+          "target": "grit-5-1",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-317.1875],[4.6,281.7125]]
+        },
+        {
+          "target": "grit-5-2",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-2",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-33.75],[4.6,11.75]]
+        },
+        {
+          "target": "grit-5-2",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-295.625],[4.6,158.875]]
+        },
+        {
+          "target": "grit-5-3",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-3",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-2.1094],[4.6,-30.6562]]
+        },
+        {
+          "target": "grit-5-3",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-335.293],[4.6,-6.193]]
+        },
+        {
+          "target": "grit-5-4",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.0,0],[4.6,-287.5]]
+        },
+        {
+          "target": "grit-5-4",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,1.0],[4.6,0]]
+        },
+        {
+          "target": "grit-5-4",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-189.8438],[4.6,-240.1562]]
+        },
+        {
+          "target": "grit-5-4",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-346.9531],[4.6,1804.0469]]
+        },
+        {
+          "target": "grit-5-5",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-5",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-21.0938],[4.6,-74.9062]]
+        },
+        {
+          "target": "grit-5-5",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-348.8281],[4.6,137.9719]]
+        },
+        {
+          "target": "grit-5-6",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-6",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-71.7188],[4.6,-109.8906]]
+        },
+        {
+          "target": "grit-5-6",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-340.4492],[4.6,266.0508]]
+        },
+        {
+          "target": "grit-5-7",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-7",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,189.8438],[4.6,168.4062]]
+        },
+        {
+          "target": "grit-5-7",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-331.4844],[4.6,67.9156]]
+        },
+        {
+          "target": "grit-5-8",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.0,0],[4.6,128.125]]
+        },
+        {
+          "target": "grit-5-8",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,1.0],[4.6,0]]
+        },
+        {
+          "target": "grit-5-8",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-191.9531],[4.6,-169.5312]]
+        },
+        {
+          "target": "grit-5-8",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-307.9883],[4.6,2355.2617]]
+        },
+        {
+          "target": "grit-5-9",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-9",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-62.2266],[4.6,-50.4141]]
+        },
+        {
+          "target": "grit-5-9",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-313.6719],[4.6,184.5281]]
+        },
+        {
+          "target": "grit-5-10",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-10",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-86.4844],[4.6,-112.7344]]
+        },
+        {
+          "target": "grit-5-10",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-334.0625],[4.6,382.6375]]
+        },
+        {
+          "target": "grit-5-11",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-11",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,261.5625],[4.6,296.3438]]
+        },
+        {
+          "target": "grit-5-11",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-301.3672],[4.6,208.2328]]
+        },
+        {
+          "target": "grit-5-12",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.0,0],[4.6,-252.5]]
+        },
+        {
+          "target": "grit-5-12",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,1.0],[4.6,0]]
+        },
+        {
+          "target": "grit-5-12",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-189.8438],[4.6,-234.0312]]
+        },
+        {
+          "target": "grit-5-12",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-343.6719],[4.6,1873.3281]]
+        },
+        {
+          "target": "grit-5-13",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-13",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-217.2656],[4.6,-238.2109]]
+        },
+        {
+          "target": "grit-5-13",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-331.2207],[4.6,-7.8207]]
+        },
+        {
+          "target": "grit-5-14",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-14",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-104.4141],[4.6,-123.2266]]
+        },
+        {
+          "target": "grit-5-14",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-330.0781],[4.6,322.0813]]
+        },
+        {
+          "target": "grit-5-15",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-15",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,95.7129],[4.6,136.4004]]
+        },
+        {
+          "target": "grit-5-15",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-298.2031],[4.6,30.8969]]
+        },
+        {
+          "target": "grit-5-16",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.0,0],[4.6,91.25]]
+        },
+        {
+          "target": "grit-5-16",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,1.0],[4.6,0]]
+        },
+        {
+          "target": "grit-5-16",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-80.6836],[4.6,-64.7148]]
+        },
+        {
+          "target": "grit-5-16",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-311.4453],[4.6,1728.5547]]
+        },
+        {
+          "target": "grit-5-17",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-17",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,233.0859],[4.6,204.2109]]
+        },
+        {
+          "target": "grit-5-17",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-335.4688],[4.6,226.7969]]
+        },
+        {
+          "target": "grit-5-18",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-18",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,113.9062],[4.6,138.2422]]
+        },
+        {
+          "target": "grit-5-18",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-306.9629],[4.6,8.8371]]
+        },
+        {
+          "target": "grit-5-19",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-19",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-35.8594],[4.6,-48.1094]]
+        },
+        {
+          "target": "grit-5-19",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-326.5625],[4.6,257.1375]]
+        },
+        {
+          "target": "grit-5-20",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.0,0],[4.6,-251.25]]
+        },
+        {
+          "target": "grit-5-20",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,1.0],[4.6,0]]
+        },
+        {
+          "target": "grit-5-20",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-65.3906],[4.6,-109.3594]]
+        },
+        {
+          "target": "grit-5-20",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-343.5547],[4.6,2039.5703]]
+        },
+        {
+          "target": "grit-5-21",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-21",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,12.6562],[4.6,38.9062]]
+        },
+        {
+          "target": "grit-5-21",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-305.9375],[4.6,300.5625]]
+        },
+        {
+          "target": "grit-5-22",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-22",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-11.0742],[4.6,37.9258]]
+        },
+        {
+          "target": "grit-5-22",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-293.75],[4.6,60.05]]
+        },
+        {
+          "target": "grit-5-23",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-23",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,89.9121],[4.6,115.3418]]
+        },
+        {
+          "target": "grit-5-23",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-306.377],[4.6,418.1605]]
+        },
+        {
+          "target": "grit-5-24",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.0,0],[4.6,-160.0]]
+        },
+        {
+          "target": "grit-5-24",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,1.0],[4.6,0]]
+        },
+        {
+          "target": "grit-5-24",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,-176.1328],[4.6,-204.1328]]
+        },
+        {
+          "target": "grit-5-24",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-335.0],[4.6,1987.0]]
+        },
+        {
+          "target": "grit-5-25",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[2.999,0],[3.0,0.85],[4.6,0]]
+        },
+        {
+          "target": "grit-5-25",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.0,130.7812],[4.6,140.1875]]
+        },
+        {
+          "target": "grit-5-25",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.0,-314.9609],[4.6,107.2391]]
+        },
+        {
+          "target": "haze-6",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.28],[4.15,0]]
+        },
+        {
+          "target": "haze-6",
+          "property": "y",
+          "ease": "linear",
+          "keys": [[3.25,-300.0],[4.15,-228.0]]
+        },
+        {
+          "target": "haze-6",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[3.25,1],[4.15,3.4]]
+        },
+        {
+          "target": "haze-6",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[3.25,1],[4.15,3.4]]
+        },
+        {
+          "target": "grit-6-0",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.25,0],[4.85,270.0]]
+        },
+        {
+          "target": "grit-6-0",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,1.0],[4.85,0]]
+        },
+        {
+          "target": "grit-6-0",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,-160.3125],[4.85,-113.0625]]
+        },
+        {
+          "target": "grit-6-0",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-294.6875],[4.85,1697.3125]]
+        },
+        {
+          "target": "grit-6-1",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-1",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,33.75],[4.85,71.375]]
+        },
+        {
+          "target": "grit-6-1",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-299.8438],[4.85,111.6687]]
+        },
+        {
+          "target": "grit-6-2",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-2",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,180.3516],[4.85,178.6016]]
+        },
+        {
+          "target": "grit-6-2",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-320.9375],[4.85,371.0625]]
+        },
+        {
+          "target": "grit-6-3",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-3",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,-254.1797],[4.85,-270.4766]]
+        },
+        {
+          "target": "grit-6-3",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-328.7305],[4.85,353.7695]]
+        },
+        {
+          "target": "grit-6-4",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.25,0],[4.85,295.0]]
+        },
+        {
+          "target": "grit-6-4",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,1.0],[4.85,0]]
+        },
+        {
+          "target": "grit-6-4",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,-43.7695],[4.85,7.8555]]
+        },
+        {
+          "target": "grit-6-4",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-292.3438],[4.85,1954.6562]]
+        },
+        {
+          "target": "grit-6-5",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-5",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,55.8984],[4.85,42.3359]]
+        },
+        {
+          "target": "grit-6-5",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-327.2656],[4.85,5.6344]]
+        },
+        {
+          "target": "grit-6-6",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-6",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,124.4531],[4.85,80.4844]]
+        },
+        {
+          "target": "grit-6-6",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-343.5547],[4.85,375.0453]]
+        },
+        {
+          "target": "grit-6-7",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-7",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,84.375],[4.85,97.0625]]
+        },
+        {
+          "target": "grit-6-7",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-313.2031],[4.85,153.6469]]
+        },
+        {
+          "target": "grit-6-8",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.25,0],[4.85,177.9688]]
+        },
+        {
+          "target": "grit-6-8",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,1.0],[4.85,0]]
+        },
+        {
+          "target": "grit-6-8",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,181.4062],[4.85,212.5508]]
+        },
+        {
+          "target": "grit-6-8",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-303.3154],[4.85,2306.6846]]
+        },
+        {
+          "target": "grit-6-9",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-9",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,-261.5625],[4.85,-248.0]]
+        },
+        {
+          "target": "grit-6-9",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-312.7344],[4.85,174.0656]]
+        },
+        {
+          "target": "grit-6-10",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-10",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,205.6641],[4.85,177.6641]]
+        },
+        {
+          "target": "grit-6-10",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-335.0],[4.85,26.875]]
+        },
+        {
+          "target": "grit-6-11",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-11",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,27.8833],[4.85,23.9458]]
+        },
+        {
+          "target": "grit-6-11",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-322.1094],[4.85,212.1906]]
+        },
+        {
+          "target": "grit-6-12",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.25,0],[4.85,-275.0]]
+        },
+        {
+          "target": "grit-6-12",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,1.0],[4.85,0]]
+        },
+        {
+          "target": "grit-6-12",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,156.0938],[4.85,107.9688]]
+        },
+        {
+          "target": "grit-6-12",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-345.7812],[4.85,1916.2188]]
+        },
+        {
+          "target": "grit-6-13",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-13",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,227.8125],[4.85,189.0732]]
+        },
+        {
+          "target": "grit-6-13",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-340.7532],[4.85,-31.1282]]
+        },
+        {
+          "target": "grit-6-14",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-14",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,172.9688],[4.85,165.9688]]
+        },
+        {
+          "target": "grit-6-14",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-323.75],[4.85,16.75]]
+        },
+        {
+          "target": "grit-6-15",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-15",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,160.3125],[4.85,168.4062]]
+        },
+        {
+          "target": "grit-6-15",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-315.6641],[4.85,114.1359]]
+        },
+        {
+          "target": "grit-6-16",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.25,0],[4.85,58.75]]
+        },
+        {
+          "target": "grit-6-16",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,1.0],[4.85,0]]
+        },
+        {
+          "target": "grit-6-16",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,-223.5938],[4.85,-213.3125]]
+        },
+        {
+          "target": "grit-6-16",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-314.4922],[4.85,1610.0078]]
+        },
+        {
+          "target": "grit-6-17",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-17",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,-260.5078],[4.85,-223.7578]]
+        },
+        {
+          "target": "grit-6-17",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-300.3125],[4.85,319.4875]]
+        },
+        {
+          "target": "grit-6-18",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-18",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,-160.5762],[4.85,-123.416]]
+        },
+        {
+          "target": "grit-6-18",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-300.0928],[4.85,8.1072]]
+        },
+        {
+          "target": "grit-6-19",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-19",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,64.3359],[4.85,110.2734]]
+        },
+        {
+          "target": "grit-6-19",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-295.3906],[4.85,239.8594]]
+        },
+        {
+          "target": "grit-6-20",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.25,0],[4.85,317.5]]
+        },
+        {
+          "target": "grit-6-20",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,1.0],[4.85,0]]
+        },
+        {
+          "target": "grit-6-20",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,-224.6484],[4.85,-169.0859]]
+        },
+        {
+          "target": "grit-6-20",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-290.2344],[4.85,2148.7656]]
+        },
+        {
+          "target": "grit-6-21",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.249,0],[3.25,0.85],[4.85,0]]
+        },
+        {
+          "target": "grit-6-21",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.25,-132.8906],[4.85,-88.7031]]
+        },
+        {
+          "target": "grit-6-21",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.25,-296.3281],[4.85,118.2719]]
+        },
+        {
+          "target": "haze-7",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.35],[4.4,0]]
+        },
+        {
+          "target": "haze-7",
+          "property": "y",
+          "ease": "linear",
+          "keys": [[3.5,-300.0],[4.4,-228.0]]
+        },
+        {
+          "target": "haze-7",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[3.5,1],[4.4,3.4]]
+        },
+        {
+          "target": "haze-7",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[3.5,1],[4.4,3.4]]
+        },
+        {
+          "target": "grit-7-0",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.5,0],[5.1,156.25]]
+        },
+        {
+          "target": "grit-7-0",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,1.0],[5.1,0]]
+        },
+        {
+          "target": "grit-7-0",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,220.957],[5.1,248.3008]]
+        },
+        {
+          "target": "grit-7-0",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-305.3516],[5.1,1731.6484]]
+        },
+        {
+          "target": "grit-7-1",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-1",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,-86.4844],[5.1,-106.1719]]
+        },
+        {
+          "target": "grit-7-1",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-330.5469],[5.1,28.0031]]
+        },
+        {
+          "target": "grit-7-2",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-2",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,263.6719],[5.1,252.7344]]
+        },
+        {
+          "target": "grit-7-2",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-325.8594],[5.1,60.2406]]
+        },
+        {
+          "target": "grit-7-3",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-3",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,-80.1562],[5.1,-46.4688]]
+        },
+        {
+          "target": "grit-7-3",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-301.9531],[5.1,33.7969]]
+        },
+        {
+          "target": "grit-7-4",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.5,0],[5.1,-2.5]]
+        },
+        {
+          "target": "grit-7-4",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,1.0],[5.1,0]]
+        },
+        {
+          "target": "grit-7-4",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,84.375],[5.1,83.9375]]
+        },
+        {
+          "target": "grit-7-4",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-320.2344],[5.1,1937.2656]]
+        },
+        {
+          "target": "grit-7-5",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-5",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,125.5078],[5.1,151.3203]]
+        },
+        {
+          "target": "grit-7-5",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-306.1719],[5.1,370.6281]]
+        },
+        {
+          "target": "grit-7-6",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-6",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,-253.125],[5.1,-251.1562]]
+        },
+        {
+          "target": "grit-7-6",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-318.9453],[5.1,230.5547]]
+        },
+        {
+          "target": "grit-7-7",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-7",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,59.0625],[5.1,104.5625]]
+        },
+        {
+          "target": "grit-7-7",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-295.625],[5.1,189.275]]
+        },
+        {
+          "target": "grit-7-8",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.5,0],[5.1,78.75]]
+        },
+        {
+          "target": "grit-7-8",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,1.0],[5.1,0]]
+        },
+        {
+          "target": "grit-7-8",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,-207.7734],[5.1,-193.9922]]
+        },
+        {
+          "target": "grit-7-8",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-312.6172],[5.1,1784.3828]]
+        },
+        {
+          "target": "grit-7-9",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-9",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,248.9062],[5.1,213.0312]]
+        },
+        {
+          "target": "grit-7-9",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-339.2188],[5.1,-54.7688]]
+        },
+        {
+          "target": "grit-7-10",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-10",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,-6.3281],[5.1,31.5156]]
+        },
+        {
+          "target": "grit-7-10",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-299.7266],[5.1,207.4984]]
+        },
+        {
+          "target": "grit-7-11",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-11",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,8.4375],[5.1,-36.1875]]
+        },
+        {
+          "target": "grit-7-11",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-343.9062],[5.1,253.0938]]
+        },
+        {
+          "target": "grit-7-12",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.5,0],[5.1,32.5]]
+        },
+        {
+          "target": "grit-7-12",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,1.0],[5.1,0]]
+        },
+        {
+          "target": "grit-7-12",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,227.8125],[5.1,233.5]]
+        },
+        {
+          "target": "grit-7-12",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-316.9531],[5.1,1823.5469]]
+        },
+        {
+          "target": "grit-7-13",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-13",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,-176.1328],[5.1,-153.6016]]
+        },
+        {
+          "target": "grit-7-13",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-307.9297],[5.1,-16.3547]]
+        },
+        {
+          "target": "grit-7-14",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-14",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,-258.8928],[5.1,-284.2678]]
+        },
+        {
+          "target": "grit-7-14",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-333.5938],[5.1,81.0063]]
+        },
+        {
+          "target": "grit-7-15",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-15",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,18.9844],[5.1,8.8125]]
+        },
+        {
+          "target": "grit-7-15",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-325.4492],[5.1,374.1508]]
+        },
+        {
+          "target": "grit-7-16",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.5,0],[5.1,287.5]]
+        },
+        {
+          "target": "grit-7-16",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,1.0],[5.1,0]]
+        },
+        {
+          "target": "grit-7-16",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,-135.0],[5.1,-84.6875]]
+        },
+        {
+          "target": "grit-7-16",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-293.0469],[5.1,2268.5781]]
+        },
+        {
+          "target": "grit-7-17",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-17",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,-208.8281],[5.1,-184.7656]]
+        },
+        {
+          "target": "grit-7-17",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-307.1094],[5.1,147.3906]]
+        },
+        {
+          "target": "grit-7-18",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-18",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,-23.2031],[5.1,-31.625]]
+        },
+        {
+          "target": "grit-7-18",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-324.5117],[5.1,384.5883]]
+        },
+        {
+          "target": "grit-7-19",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-19",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,175.0781],[5.1,200.4531]]
+        },
+        {
+          "target": "grit-7-19",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-306.4062],[5.1,413.6187]]
+        },
+        {
+          "target": "grit-7-20",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.5,0],[5.1,-92.5]]
+        },
+        {
+          "target": "grit-7-20",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,1.0],[5.1,0]]
+        },
+        {
+          "target": "grit-7-20",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,243.6328],[5.1,227.4453]]
+        },
+        {
+          "target": "grit-7-20",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-328.6719],[5.1,1633.3281]]
+        },
+        {
+          "target": "grit-7-21",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-21",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,15.8203],[5.1,32.8828]]
+        },
+        {
+          "target": "grit-7-21",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-310.8594],[5.1,132.2406]]
+        },
+        {
+          "target": "grit-7-22",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-22",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,-98.6133],[5.1,-52.6758]]
+        },
+        {
+          "target": "grit-7-22",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-295.3906],[5.1,65.4156]]
+        },
+        {
+          "target": "grit-7-23",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-23",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,-216.2109],[5.1,-196.4141]]
+        },
+        {
+          "target": "grit-7-23",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-309.3945],[5.1,236.3055]]
+        },
+        {
+          "target": "grit-7-24",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.5,0],[5.1,187.5]]
+        },
+        {
+          "target": "grit-7-24",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,1.0],[5.1,0]]
+        },
+        {
+          "target": "grit-7-24",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,-14.7656],[5.1,18.0469]]
+        },
+        {
+          "target": "grit-7-24",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-302.4219],[5.1,2160.5781]]
+        },
+        {
+          "target": "grit-7-25",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.499,0],[3.5,0.85],[5.1,0]]
+        },
+        {
+          "target": "grit-7-25",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.5,65.3906],[5.1,56.6406]]
+        },
+        {
+          "target": "grit-7-25",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.5,-324.6875],[5.1,160.2125]]
+        },
+        {
+          "target": "haze-8",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.2975],[4.65,0]]
+        },
+        {
+          "target": "haze-8",
+          "property": "y",
+          "ease": "linear",
+          "keys": [[3.75,-300.0],[4.65,-228.0]]
+        },
+        {
+          "target": "haze-8",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[3.75,1],[4.65,3.4]]
+        },
+        {
+          "target": "haze-8",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[3.75,1],[4.65,3.4]]
+        },
+        {
+          "target": "grit-8-0",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.75,0],[5.35,143.75]]
+        },
+        {
+          "target": "grit-8-0",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,1.0],[5.35,0]]
+        },
+        {
+          "target": "grit-8-0",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,122.3438],[5.35,147.5]]
+        },
+        {
+          "target": "grit-8-0",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-306.5234],[5.35,1902.2266]]
+        },
+        {
+          "target": "grit-8-1",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-1",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,-143.4375],[5.35,-108.4375]]
+        },
+        {
+          "target": "grit-8-1",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-301.25],[5.35,367.95]]
+        },
+        {
+          "target": "grit-8-2",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-2",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,35.332],[5.35,89.1445]]
+        },
+        {
+          "target": "grit-8-2",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-291.1719],[5.35,400.8281]]
+        },
+        {
+          "target": "grit-8-3",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-3",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,-169.8047],[5.35,-196.0547]]
+        },
+        {
+          "target": "grit-8-3",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-334.0625],[5.35,131.6594]]
+        },
+        {
+          "target": "grit-8-4",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.75,0],[5.35,-110.0]]
+        },
+        {
+          "target": "grit-8-4",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,1.0],[5.35,0]]
+        },
+        {
+          "target": "grit-8-4",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,155.0391],[5.35,135.7891]]
+        },
+        {
+          "target": "grit-8-4",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-330.3125],[5.35,2291.6875]]
+        },
+        {
+          "target": "grit-8-5",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-5",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,-101.25],[5.35,-144.3438]]
+        },
+        {
+          "target": "grit-8-5",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-343.0859],[5.35,263.4141]]
+        },
+        {
+          "target": "grit-8-6",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-6",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,153.9844],[5.35,171.9219]]
+        },
+        {
+          "target": "grit-8-6",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-310.3906],[5.35,52.0781]]
+        },
+        {
+          "target": "grit-8-7",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-7",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,75.9375],[5.35,89.5]]
+        },
+        {
+          "target": "grit-8-7",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-312.7344],[5.35,46.7656]]
+        },
+        {
+          "target": "grit-8-8",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.75,0],[5.35,-27.5]]
+        },
+        {
+          "target": "grit-8-8",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,1.0],[5.35,0]]
+        },
+        {
+          "target": "grit-8-8",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,8.4375],[5.35,3.625]]
+        },
+        {
+          "target": "grit-8-8",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-322.5781],[5.35,2176.4219]]
+        },
+        {
+          "target": "grit-8-9",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-9",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,193.0078],[5.35,173.7578]]
+        },
+        {
+          "target": "grit-8-9",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-330.3125],[5.35,69.8]]
+        },
+        {
+          "target": "grit-8-10",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-10",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,27.6855],[5.35,-12.4551]]
+        },
+        {
+          "target": "grit-8-10",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-341.5039],[5.35,420.7961]]
+        },
+        {
+          "target": "grit-8-11",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-11",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,93.8672],[5.35,40.4922]]
+        },
+        {
+          "target": "grit-8-11",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-348.5938],[5.35,339.6063]]
+        },
+        {
+          "target": "grit-8-12",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.75,0],[5.35,185.0]]
+        },
+        {
+          "target": "grit-8-12",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,1.0],[5.35,0]]
+        },
+        {
+          "target": "grit-8-12",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,23.2031],[5.35,55.5781]]
+        },
+        {
+          "target": "grit-8-12",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-302.6562],[5.35,1768.8438]]
+        },
+        {
+          "target": "grit-8-13",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-13",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,181.4062],[5.35,165.875]]
+        },
+        {
+          "target": "grit-8-13",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-328.3203],[5.35,226.8797]]
+        },
+        {
+          "target": "grit-8-14",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-14",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,240.4688],[5.35,287.7188]]
+        },
+        {
+          "target": "grit-8-14",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-294.6875],[5.35,251.0125]]
+        },
+        {
+          "target": "grit-8-15",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-15",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,88.5938],[5.35,94.8281]]
+        },
+        {
+          "target": "grit-8-15",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-316.6602],[5.35,427.1148]]
+        },
+        {
+          "target": "grit-8-16",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.75,0],[5.35,167.5]]
+        },
+        {
+          "target": "grit-8-16",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,1.0],[5.35,0]]
+        },
+        {
+          "target": "grit-8-16",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,-196.1719],[5.35,-166.8594]]
+        },
+        {
+          "target": "grit-8-16",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-304.2969],[5.35,1780.7031]]
+        },
+        {
+          "target": "grit-8-17",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-17",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,9.9042],[5.35,43.5917]]
+        },
+        {
+          "target": "grit-8-17",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-301.9531],[5.35,277.9469]]
+        },
+        {
+          "target": "grit-8-18",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-18",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,139.2188],[5.35,157.1562]]
+        },
+        {
+          "target": "grit-8-18",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-310.3906],[5.35,195.8844]]
+        },
+        {
+          "target": "grit-8-19",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-19",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,-107.5781],[5.35,-71.7031]]
+        },
+        {
+          "target": "grit-8-19",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-300.7812],[5.35,281.9688]]
+        },
+        {
+          "target": "grit-8-20",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[3.75,0],[5.35,-96.5625]]
+        },
+        {
+          "target": "grit-8-20",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,1.0],[5.35,0]]
+        },
+        {
+          "target": "grit-8-20",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,-234.1406],[5.35,-251.0391]]
+        },
+        {
+          "target": "grit-8-20",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-329.0527],[5.35,1614.9473]]
+        },
+        {
+          "target": "grit-8-21",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-21",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,210.9375],[5.35,256.0]]
+        },
+        {
+          "target": "grit-8-21",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-295.8594],[5.35,431.2906]]
+        },
+        {
+          "target": "grit-8-22",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.749,0],[3.75,0.85],[5.35,0]]
+        },
+        {
+          "target": "grit-8-22",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[3.75,-111.7969],[5.35,-75.0469]]
+        },
+        {
+          "target": "grit-8-22",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[3.75,-300.3125],[5.35,46.8375]]
+        },
+        {
+          "target": "haze-9",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.4025],[4.9,0]]
+        },
+        {
+          "target": "haze-9",
+          "property": "y",
+          "ease": "linear",
+          "keys": [[4.0,-300.0],[4.9,-228.0]]
+        },
+        {
+          "target": "haze-9",
+          "property": "scaleX",
+          "ease": "linear",
+          "keys": [[4.0,1],[4.9,3.4]]
+        },
+        {
+          "target": "haze-9",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[4.0,1],[4.9,3.4]]
+        },
+        {
+          "target": "grit-9-0",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[4.0,0],[5.6,125.625]]
+        },
+        {
+          "target": "grit-9-0",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,1.0],[5.6,0]]
+        },
+        {
+          "target": "grit-9-0",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,-84.375],[5.6,-62.3906]]
+        },
+        {
+          "target": "grit-9-0",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-308.2227],[5.6,1742.2773]]
+        },
+        {
+          "target": "grit-9-1",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-1",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,6.3281],[5.6,-3.2969]]
+        },
+        {
+          "target": "grit-9-1",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-325.1562],[5.6,288.9438]]
+        },
+        {
+          "target": "grit-9-2",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-2",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,-67.5],[5.6,-97.9062]]
+        },
+        {
+          "target": "grit-9-2",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-336.2891],[5.6,346.6859]]
+        },
+        {
+          "target": "grit-9-3",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-3",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,246.7969],[5.6,211.7969]]
+        },
+        {
+          "target": "grit-9-3",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-338.75],[5.6,235.45]]
+        },
+        {
+          "target": "grit-9-4",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[4.0,0],[5.6,117.5]]
+        },
+        {
+          "target": "grit-9-4",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,1.0],[5.6,0]]
+        },
+        {
+          "target": "grit-9-4",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,-233.0859],[5.6,-212.5234]]
+        },
+        {
+          "target": "grit-9-4",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-308.9844],[5.6,1692.0156]]
+        },
+        {
+          "target": "grit-9-5",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-5",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,97.8223],[5.6,145.0176]]
+        },
+        {
+          "target": "grit-9-5",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-294.7168],[5.6,150.2832]]
+        },
+        {
+          "target": "grit-9-6",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-6",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,-180.8789],[5.6,-186.5664]]
+        },
+        {
+          "target": "grit-9-6",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-323.0469],[5.6,263.5031]]
+        },
+        {
+          "target": "grit-9-7",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-7",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,97.0312],[5.6,83.6875]]
+        },
+        {
+          "target": "grit-9-7",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-327.1484],[5.6,368.6516]]
+        },
+        {
+          "target": "grit-9-8",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[4.0,0],[5.6,-230.0]]
+        },
+        {
+          "target": "grit-9-8",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,1.0],[5.6,0]]
+        },
+        {
+          "target": "grit-9-8",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,200.3906],[5.6,160.1406]]
+        },
+        {
+          "target": "grit-9-8",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-341.5625],[5.6,1636.9375]]
+        },
+        {
+          "target": "grit-9-9",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-9",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,244.6875],[5.6,235.0625]]
+        },
+        {
+          "target": "grit-9-9",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-325.1562],[5.6,220.5438]]
+        },
+        {
+          "target": "grit-9-10",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-10",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,-105.4688],[5.6,-153.6348]]
+        },
+        {
+          "target": "grit-9-10",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-345.8032],[5.6,277.7968]]
+        },
+        {
+          "target": "grit-9-11",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-11",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,217.2656],[5.6,175.2656]]
+        },
+        {
+          "target": "grit-9-11",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-342.5],[5.6,373.25]]
+        },
+        {
+          "target": "grit-9-12",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[4.0,0],[5.6,-228.75]]
+        },
+        {
+          "target": "grit-9-12",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,1.0],[5.6,0]]
+        },
+        {
+          "target": "grit-9-12",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,87.5391],[5.6,47.5078]]
+        },
+        {
+          "target": "grit-9-12",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-341.4453],[5.6,1598.0547]]
+        },
+        {
+          "target": "grit-9-13",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-13",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,165.3223],[5.6,209.9473]]
+        },
+        {
+          "target": "grit-9-13",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-296.0938],[5.6,378.8062]]
+        },
+        {
+          "target": "grit-9-14",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-14",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,71.7188],[5.6,118.0938]]
+        },
+        {
+          "target": "grit-9-14",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-295.1562],[5.6,106.1438]]
+        },
+        {
+          "target": "grit-9-15",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-15",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,-10.5469],[5.6,31.0977]]
+        },
+        {
+          "target": "grit-9-15",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-297.6904],[5.6,418.0596]]
+        },
+        {
+          "target": "grit-9-16",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[4.0,0],[5.6,-212.5]]
+        },
+        {
+          "target": "grit-9-16",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,1.0],[5.6,0]]
+        },
+        {
+          "target": "grit-9-16",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,-14.7656],[5.6,-51.9531]]
+        },
+        {
+          "target": "grit-9-16",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-339.9219],[5.6,2093.0781]]
+        },
+        {
+          "target": "grit-9-17",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-17",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,-56.9531],[5.6,-91.2969]]
+        },
+        {
+          "target": "grit-9-17",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-338.3984],[5.6,223.4516]]
+        },
+        {
+          "target": "grit-9-18",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-18",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,122.3438],[5.6,107.25]]
+        },
+        {
+          "target": "grit-9-18",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-328.0859],[5.6,83.1891]]
+        },
+        {
+          "target": "grit-9-19",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-19",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,5.2734],[5.6,-28.8516]]
+        },
+        {
+          "target": "grit-9-19",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-338.2812],[5.6,61.1188]]
+        },
+        {
+          "target": "grit-9-20",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[4.0,0],[5.6,-309.6875]]
+        },
+        {
+          "target": "grit-9-20",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,1.0],[5.6,0]]
+        },
+        {
+          "target": "grit-9-20",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,55.2393],[5.6,1.0439]]
+        },
+        {
+          "target": "grit-9-20",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-349.0332],[5.6,1912.9668]]
+        },
+        {
+          "target": "grit-9-21",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-21",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,-258.3984],[5.6,-288.1484]]
+        },
+        {
+          "target": "grit-9-21",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-335.9375],[5.6,351.3125]]
+        },
+        {
+          "target": "grit-9-22",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-22",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,-48.5156],[5.6,-74.9844]]
+        },
+        {
+          "target": "grit-9-22",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-334.1797],[5.6,308.4203]]
+        },
+        {
+          "target": "grit-9-23",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-23",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,213.0469],[5.6,244.5469]]
+        },
+        {
+          "target": "grit-9-23",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-303.125],[5.6,205.525]]
+        },
+        {
+          "target": "grit-9-24",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[4.0,0],[5.6,-225.0]]
+        },
+        {
+          "target": "grit-9-24",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,1.0],[5.6,0]]
+        },
+        {
+          "target": "grit-9-24",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,-265.7812],[5.6,-305.1562]]
+        },
+        {
+          "target": "grit-9-24",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-341.0938],[5.6,1861.6562]]
+        },
+        {
+          "target": "grit-9-25",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-25",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,-225.7031],[5.6,-219.4688]]
+        },
+        {
+          "target": "grit-9-25",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-316.6602],[5.6,92.2398]]
+        },
+        {
+          "target": "grit-9-26",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-26",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,-265.7812],[5.6,-217.2188]]
+        },
+        {
+          "target": "grit-9-26",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-293.9844],[5.6,259.3156]]
+        },
+        {
+          "target": "grit-9-27",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[3.999,0],[4.0,0.85],[5.6,0]]
+        },
+        {
+          "target": "grit-9-27",
+          "property": "x",
+          "ease": "linear",
+          "keys": [[4.0,-267.8906],[5.6,-253.4531]]
+        },
+        {
+          "target": "grit-9-27",
+          "property": "y",
+          "ease": "quadIn",
+          "keys": [[4.0,-312.2656],[5.6,374.2719]]
+        }
+      ]
+    }
+  ],
+  "inputs": [],
+  "layers": ["thud-0..9 / haze-n, grit-n-k"]
+}

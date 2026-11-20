@@ -1,0 +1,1100 @@
+{
+    "artboard": {
+        "name": "set-d10s-lasso",
+        "width": 380.0,
+        "height": 180.0
+    },
+    "art": {
+        "svg": "set-d10s-lasso.svg"
+    },
+    "clips": [
+        {
+            "name": "spin",
+            "frames": 600,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "smear-1",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 218.2034
+                        },
+                        {
+                            "frame": 25,
+                            "value": 206.6243
+                        },
+                        {
+                            "frame": 50,
+                            "value": 185.0531
+                        },
+                        {
+                            "frame": 75,
+                            "value": 154.9597
+                        },
+                        {
+                            "frame": 100,
+                            "value": 118.3949
+                        },
+                        {
+                            "frame": 125,
+                            "value": 77.8507
+                        },
+                        {
+                            "frame": 150,
+                            "value": 36.0899
+                        },
+                        {
+                            "frame": 175,
+                            "value": -4.0414
+                        },
+                        {
+                            "frame": 200,
+                            "value": -39.8084
+                        },
+                        {
+                            "frame": 225,
+                            "value": -68.7737
+                        },
+                        {
+                            "frame": 250,
+                            "value": -88.9632
+                        },
+                        {
+                            "frame": 275,
+                            "value": -99.0011
+                        },
+                        {
+                            "frame": 300,
+                            "value": -98.2034
+                        },
+                        {
+                            "frame": 325,
+                            "value": -86.6243
+                        },
+                        {
+                            "frame": 350,
+                            "value": -65.0531
+                        },
+                        {
+                            "frame": 375,
+                            "value": -34.9597
+                        },
+                        {
+                            "frame": 400,
+                            "value": 1.6051
+                        },
+                        {
+                            "frame": 425,
+                            "value": 42.1493
+                        },
+                        {
+                            "frame": 450,
+                            "value": 83.9101
+                        },
+                        {
+                            "frame": 475,
+                            "value": 124.0414
+                        },
+                        {
+                            "frame": 500,
+                            "value": 159.8084
+                        },
+                        {
+                            "frame": 525,
+                            "value": 188.7737
+                        },
+                        {
+                            "frame": 550,
+                            "value": 208.9632
+                        },
+                        {
+                            "frame": 575,
+                            "value": 219.0011
+                        },
+                        {
+                            "frame": 600,
+                            "value": 218.2034
+                        }
+                    ]
+                },
+                {
+                    "target": "smear-1",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -72.9191
+                        },
+                        {
+                            "frame": 25,
+                            "value": -64.3912
+                        },
+                        {
+                            "frame": 50,
+                            "value": -56.7907
+                        },
+                        {
+                            "frame": 75,
+                            "value": -50.6356
+                        },
+                        {
+                            "frame": 100,
+                            "value": -46.3453
+                        },
+                        {
+                            "frame": 125,
+                            "value": -44.2123
+                        },
+                        {
+                            "frame": 150,
+                            "value": -44.3818
+                        },
+                        {
+                            "frame": 175,
+                            "value": -46.8423
+                        },
+                        {
+                            "frame": 200,
+                            "value": -51.4262
+                        },
+                        {
+                            "frame": 225,
+                            "value": -57.8211
+                        },
+                        {
+                            "frame": 250,
+                            "value": -65.5911
+                        },
+                        {
+                            "frame": 275,
+                            "value": -74.2067
+                        },
+                        {
+                            "frame": 300,
+                            "value": -83.0809
+                        },
+                        {
+                            "frame": 325,
+                            "value": -91.6088
+                        },
+                        {
+                            "frame": 350,
+                            "value": -99.2093
+                        },
+                        {
+                            "frame": 375,
+                            "value": -105.3644
+                        },
+                        {
+                            "frame": 400,
+                            "value": -109.6547
+                        },
+                        {
+                            "frame": 425,
+                            "value": -111.7877
+                        },
+                        {
+                            "frame": 450,
+                            "value": -111.6182
+                        },
+                        {
+                            "frame": 475,
+                            "value": -109.1577
+                        },
+                        {
+                            "frame": 500,
+                            "value": -104.5738
+                        },
+                        {
+                            "frame": 525,
+                            "value": -98.1789
+                        },
+                        {
+                            "frame": 550,
+                            "value": -90.4089
+                        },
+                        {
+                            "frame": 575,
+                            "value": -81.7933
+                        },
+                        {
+                            "frame": 600,
+                            "value": -72.9191
+                        }
+                    ]
+                },
+                {
+                    "target": "smear-2",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 216.8107
+                        },
+                        {
+                            "frame": 25,
+                            "value": 219.6946
+                        },
+                        {
+                            "frame": 50,
+                            "value": 211.6956
+                        },
+                        {
+                            "frame": 75,
+                            "value": 193.3587
+                        },
+                        {
+                            "frame": 100,
+                            "value": 165.9338
+                        },
+                        {
+                            "frame": 125,
+                            "value": 131.2896
+                        },
+                        {
+                            "frame": 150,
+                            "value": 91.7871
+                        },
+                        {
+                            "frame": 175,
+                            "value": 50.1184
+                        },
+                        {
+                            "frame": 200,
+                            "value": 9.1231
+                        },
+                        {
+                            "frame": 225,
+                            "value": -28.405
+                        },
+                        {
+                            "frame": 250,
+                            "value": -59.9085
+                        },
+                        {
+                            "frame": 275,
+                            "value": -83.2404
+                        },
+                        {
+                            "frame": 300,
+                            "value": -96.8107
+                        },
+                        {
+                            "frame": 325,
+                            "value": -99.6946
+                        },
+                        {
+                            "frame": 350,
+                            "value": -91.6956
+                        },
+                        {
+                            "frame": 375,
+                            "value": -73.3587
+                        },
+                        {
+                            "frame": 400,
+                            "value": -45.9338
+                        },
+                        {
+                            "frame": 425,
+                            "value": -11.2896
+                        },
+                        {
+                            "frame": 450,
+                            "value": 28.2129
+                        },
+                        {
+                            "frame": 475,
+                            "value": 69.8816
+                        },
+                        {
+                            "frame": 500,
+                            "value": 110.8769
+                        },
+                        {
+                            "frame": 525,
+                            "value": 148.405
+                        },
+                        {
+                            "frame": 550,
+                            "value": 179.9085
+                        },
+                        {
+                            "frame": 575,
+                            "value": 203.2404
+                        },
+                        {
+                            "frame": 600,
+                            "value": 216.8107
+                        }
+                    ]
+                },
+                {
+                    "target": "smear-2",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -84.7548
+                        },
+                        {
+                            "frame": 25,
+                            "value": -75.9002
+                        },
+                        {
+                            "frame": 50,
+                            "value": -67.1887
+                        },
+                        {
+                            "frame": 75,
+                            "value": -59.2139
+                        },
+                        {
+                            "frame": 100,
+                            "value": -52.5195
+                        },
+                        {
+                            "frame": 125,
+                            "value": -47.5614
+                        },
+                        {
+                            "frame": 150,
+                            "value": -44.6777
+                        },
+                        {
+                            "frame": 175,
+                            "value": -44.0649
+                        },
+                        {
+                            "frame": 200,
+                            "value": -45.7647
+                        },
+                        {
+                            "frame": 225,
+                            "value": -49.6613
+                        },
+                        {
+                            "frame": 250,
+                            "value": -55.4891
+                        },
+                        {
+                            "frame": 275,
+                            "value": -62.851
+                        },
+                        {
+                            "frame": 300,
+                            "value": -71.2452
+                        },
+                        {
+                            "frame": 325,
+                            "value": -80.0998
+                        },
+                        {
+                            "frame": 350,
+                            "value": -88.8113
+                        },
+                        {
+                            "frame": 375,
+                            "value": -96.7861
+                        },
+                        {
+                            "frame": 400,
+                            "value": -103.4805
+                        },
+                        {
+                            "frame": 425,
+                            "value": -108.4386
+                        },
+                        {
+                            "frame": 450,
+                            "value": -111.3223
+                        },
+                        {
+                            "frame": 475,
+                            "value": -111.9351
+                        },
+                        {
+                            "frame": 500,
+                            "value": -110.2353
+                        },
+                        {
+                            "frame": 525,
+                            "value": -106.3387
+                        },
+                        {
+                            "frame": 550,
+                            "value": -100.5109
+                        },
+                        {
+                            "frame": 575,
+                            "value": -93.149
+                        },
+                        {
+                            "frame": 600,
+                            "value": -84.7548
+                        }
+                    ]
+                },
+                {
+                    "target": "smear-3",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 196.4039
+                        },
+                        {
+                            "frame": 25,
+                            "value": 213.4011
+                        },
+                        {
+                            "frame": 50,
+                            "value": 219.9442
+                        },
+                        {
+                            "frame": 75,
+                            "value": 215.5874
+                        },
+                        {
+                            "frame": 100,
+                            "value": 200.6276
+                        },
+                        {
+                            "frame": 125,
+                            "value": 176.0843
+                        },
+                        {
+                            "frame": 150,
+                            "value": 143.63
+                        },
+                        {
+                            "frame": 175,
+                            "value": 105.4764
+                        },
+                        {
+                            "frame": 200,
+                            "value": 64.2237
+                        },
+                        {
+                            "frame": 225,
+                            "value": 22.6832
+                        },
+                        {
+                            "frame": 250,
+                            "value": -16.3143
+                        },
+                        {
+                            "frame": 275,
+                            "value": -50.111
+                        },
+                        {
+                            "frame": 300,
+                            "value": -76.4039
+                        },
+                        {
+                            "frame": 325,
+                            "value": -93.4011
+                        },
+                        {
+                            "frame": 350,
+                            "value": -99.9442
+                        },
+                        {
+                            "frame": 375,
+                            "value": -95.5874
+                        },
+                        {
+                            "frame": 400,
+                            "value": -80.6276
+                        },
+                        {
+                            "frame": 425,
+                            "value": -56.0843
+                        },
+                        {
+                            "frame": 450,
+                            "value": -23.63
+                        },
+                        {
+                            "frame": 475,
+                            "value": 14.5236
+                        },
+                        {
+                            "frame": 500,
+                            "value": 55.7763
+                        },
+                        {
+                            "frame": 525,
+                            "value": 97.3168
+                        },
+                        {
+                            "frame": 550,
+                            "value": 136.3143
+                        },
+                        {
+                            "frame": 575,
+                            "value": 170.111
+                        },
+                        {
+                            "frame": 600,
+                            "value": 196.4039
+                        }
+                    ]
+                },
+                {
+                    "target": "smear-3",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -95.7714
+                        },
+                        {
+                            "frame": 25,
+                            "value": -87.6637
+                        },
+                        {
+                            "frame": 50,
+                            "value": -78.8975
+                        },
+                        {
+                            "frame": 75,
+                            "value": -70.0702
+                        },
+                        {
+                            "frame": 100,
+                            "value": -61.7832
+                        },
+                        {
+                            "frame": 125,
+                            "value": -54.6014
+                        },
+                        {
+                            "frame": 150,
+                            "value": -49.0142
+                        },
+                        {
+                            "frame": 175,
+                            "value": -45.4023
+                        },
+                        {
+                            "frame": 200,
+                            "value": -44.0118
+                        },
+                        {
+                            "frame": 225,
+                            "value": -44.9377
+                        },
+                        {
+                            "frame": 250,
+                            "value": -48.1166
+                        },
+                        {
+                            "frame": 275,
+                            "value": -53.3321
+                        },
+                        {
+                            "frame": 300,
+                            "value": -60.2286
+                        },
+                        {
+                            "frame": 325,
+                            "value": -68.3363
+                        },
+                        {
+                            "frame": 350,
+                            "value": -77.1025
+                        },
+                        {
+                            "frame": 375,
+                            "value": -85.9298
+                        },
+                        {
+                            "frame": 400,
+                            "value": -94.2168
+                        },
+                        {
+                            "frame": 425,
+                            "value": -101.3986
+                        },
+                        {
+                            "frame": 450,
+                            "value": -106.9858
+                        },
+                        {
+                            "frame": 475,
+                            "value": -110.5977
+                        },
+                        {
+                            "frame": 500,
+                            "value": -111.9882
+                        },
+                        {
+                            "frame": 525,
+                            "value": -111.0623
+                        },
+                        {
+                            "frame": 550,
+                            "value": -107.8834
+                        },
+                        {
+                            "frame": 575,
+                            "value": -102.6679
+                        },
+                        {
+                            "frame": 600,
+                            "value": -95.7714
+                        }
+                    ]
+                },
+                {
+                    "target": "lasso-rope",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 105.0
+                        },
+                        {
+                            "frame": 25,
+                            "value": 103.8756
+                        },
+                        {
+                            "frame": 50,
+                            "value": 100.5788
+                        },
+                        {
+                            "frame": 75,
+                            "value": 95.3345
+                        },
+                        {
+                            "frame": 100,
+                            "value": 88.5
+                        },
+                        {
+                            "frame": 125,
+                            "value": 80.541
+                        },
+                        {
+                            "frame": 150,
+                            "value": 72.0
+                        },
+                        {
+                            "frame": 175,
+                            "value": 63.459
+                        },
+                        {
+                            "frame": 200,
+                            "value": 55.5
+                        },
+                        {
+                            "frame": 225,
+                            "value": 48.6655
+                        },
+                        {
+                            "frame": 250,
+                            "value": 43.4212
+                        },
+                        {
+                            "frame": 275,
+                            "value": 40.1244
+                        },
+                        {
+                            "frame": 300,
+                            "value": 39.0
+                        },
+                        {
+                            "frame": 325,
+                            "value": 40.1244
+                        },
+                        {
+                            "frame": 350,
+                            "value": 43.4212
+                        },
+                        {
+                            "frame": 375,
+                            "value": 48.6655
+                        },
+                        {
+                            "frame": 400,
+                            "value": 55.5
+                        },
+                        {
+                            "frame": 425,
+                            "value": 63.459
+                        },
+                        {
+                            "frame": 450,
+                            "value": 72.0
+                        },
+                        {
+                            "frame": 475,
+                            "value": 80.541
+                        },
+                        {
+                            "frame": 500,
+                            "value": 88.5
+                        },
+                        {
+                            "frame": 525,
+                            "value": 95.3345
+                        },
+                        {
+                            "frame": 550,
+                            "value": 100.5788
+                        },
+                        {
+                            "frame": 575,
+                            "value": 103.8756
+                        },
+                        {
+                            "frame": 600,
+                            "value": 105.0
+                        }
+                    ]
+                },
+                {
+                    "target": "lasso-rope",
+                    "property": "y",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -33.0
+                        },
+                        {
+                            "frame": 25,
+                            "value": -30.4118
+                        },
+                        {
+                            "frame": 50,
+                            "value": -28.0
+                        },
+                        {
+                            "frame": 75,
+                            "value": -25.9289
+                        },
+                        {
+                            "frame": 100,
+                            "value": -24.3397
+                        },
+                        {
+                            "frame": 125,
+                            "value": -23.3407
+                        },
+                        {
+                            "frame": 150,
+                            "value": -23.0
+                        },
+                        {
+                            "frame": 175,
+                            "value": -23.3407
+                        },
+                        {
+                            "frame": 200,
+                            "value": -24.3397
+                        },
+                        {
+                            "frame": 225,
+                            "value": -25.9289
+                        },
+                        {
+                            "frame": 250,
+                            "value": -28.0
+                        },
+                        {
+                            "frame": 275,
+                            "value": -30.4118
+                        },
+                        {
+                            "frame": 300,
+                            "value": -33.0
+                        },
+                        {
+                            "frame": 325,
+                            "value": -35.5882
+                        },
+                        {
+                            "frame": 350,
+                            "value": -38.0
+                        },
+                        {
+                            "frame": 375,
+                            "value": -40.0711
+                        },
+                        {
+                            "frame": 400,
+                            "value": -41.6603
+                        },
+                        {
+                            "frame": 425,
+                            "value": -42.6593
+                        },
+                        {
+                            "frame": 450,
+                            "value": -43.0
+                        },
+                        {
+                            "frame": 475,
+                            "value": -42.6593
+                        },
+                        {
+                            "frame": 500,
+                            "value": -41.6603
+                        },
+                        {
+                            "frame": 525,
+                            "value": -40.0711
+                        },
+                        {
+                            "frame": 550,
+                            "value": -38.0
+                        },
+                        {
+                            "frame": 575,
+                            "value": -35.5882
+                        },
+                        {
+                            "frame": 600,
+                            "value": -33.0
+                        }
+                    ]
+                },
+                {
+                    "target": "lasso-rope",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -0.29218382474711874
+                        },
+                        {
+                            "frame": 25,
+                            "value": -0.3236765457701044
+                        },
+                        {
+                            "frame": 50,
+                            "value": -0.4566898333938442
+                        },
+                        {
+                            "frame": 75,
+                            "value": -1.1076173592421374
+                        },
+                        {
+                            "frame": 100,
+                            "value": -2.4695675877433927
+                        },
+                        {
+                            "frame": 125,
+                            "value": -2.786449566735483
+                        },
+                        {
+                            "frame": 150,
+                            "value": -2.8652005679147194
+                        },
+                        {
+                            "frame": 175,
+                            "value": -2.8835736489504633
+                        },
+                        {
+                            "frame": 200,
+                            "value": -2.8758156604253484
+                        },
+                        {
+                            "frame": 225,
+                            "value": -2.8511646300701807
+                        },
+                        {
+                            "frame": 250,
+                            "value": -2.8110447465545874
+                        },
+                        {
+                            "frame": 275,
+                            "value": -2.7524208823093494
+                        },
+                        {
+                            "frame": 300,
+                            "value": -2.667323863969862
+                        },
+                        {
+                            "frame": 325,
+                            "value": -2.539670482478997
+                        },
+                        {
+                            "frame": 350,
+                            "value": -2.3387534149771656
+                        },
+                        {
+                            "frame": 375,
+                            "value": -2.0165412004494843
+                        },
+                        {
+                            "frame": 400,
+                            "value": -1.5604953935496262
+                        },
+                        {
+                            "frame": 425,
+                            "value": -1.1059400978309708
+                        },
+                        {
+                            "frame": 450,
+                            "value": -0.786399982388093
+                        },
+                        {
+                            "frame": 475,
+                            "value": -0.5881026540935053
+                        },
+                        {
+                            "frame": 500,
+                            "value": -0.46335873646571457
+                        },
+                        {
+                            "frame": 525,
+                            "value": -0.3821380943949065
+                        },
+                        {
+                            "frame": 550,
+                            "value": -0.329347120509834
+                        },
+                        {
+                            "frame": 575,
+                            "value": -0.2988981063795409
+                        },
+                        {
+                            "frame": 600,
+                            "value": -0.29218382474711874
+                        }
+                    ]
+                },
+                {
+                    "target": "lasso-rope",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.4982
+                        },
+                        {
+                            "frame": 25,
+                            "value": 0.3792
+                        },
+                        {
+                            "frame": 50,
+                            "value": 0.2377
+                        },
+                        {
+                            "frame": 75,
+                            "value": 0.1087
+                        },
+                        {
+                            "frame": 100,
+                            "value": 0.158
+                        },
+                        {
+                            "frame": 125,
+                            "value": 0.3109
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.461
+                        },
+                        {
+                            "frame": 175,
+                            "value": 0.589
+                        },
+                        {
+                            "frame": 200,
+                            "value": 0.6847
+                        },
+                        {
+                            "frame": 225,
+                            "value": 0.742
+                        },
+                        {
+                            "frame": 250,
+                            "value": 0.7579
+                        },
+                        {
+                            "frame": 275,
+                            "value": 0.7328
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.6711
+                        },
+                        {
+                            "frame": 325,
+                            "value": 0.5817
+                        },
+                        {
+                            "frame": 350,
+                            "value": 0.4799
+                        },
+                        {
+                            "frame": 375,
+                            "value": 0.391
+                        },
+                        {
+                            "frame": 400,
+                            "value": 0.3517
+                        },
+                        {
+                            "frame": 425,
+                            "value": 0.3825
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.458
+                        },
+                        {
+                            "frame": 475,
+                            "value": 0.5402
+                        },
+                        {
+                            "frame": 500,
+                            "value": 0.6044
+                        },
+                        {
+                            "frame": 525,
+                            "value": 0.6369
+                        },
+                        {
+                            "frame": 550,
+                            "value": 0.6308
+                        },
+                        {
+                            "frame": 575,
+                            "value": 0.5839
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.4982
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

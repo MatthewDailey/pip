@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 2424" width="1080" height="2424">
+<defs>
+  <linearGradient id="sky-fill" x1="0" y1="0" x2="0" y2="1700" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#BFE3F2"/>
+    <stop offset="1" stop-color="#FFF4E6"/>
+  </linearGradient>
+</defs>
+<g id="sky"><rect x="0" y="0" width="1080" height="2424" fill="url(#sky-fill)"/></g>
+<g id="hill-back"><ellipse cx="900" cy="1760" rx="620" ry="260" fill="#C9E7B8"/></g>
+<g id="ground">
+  <rect x="0" y="1700" width="1080" height="724" fill="#9FD38A"/>
+  <rect x="0" y="1700" width="1080" height="14" fill="#86C070"/>
+</g>
+<g id="sun"><circle cx="860" cy="330" r="110" fill="#FFE08A"/></g>
+<g id="bubble">
+  <path d="M 660 1010 L 640 1090 L 740 1010 Z" fill="#FFFFFF"/>
+  <rect x="600" y="800" width="400" height="220" rx="60" ry="60" fill="#FFFFFF"/>
+</g>
+</svg>

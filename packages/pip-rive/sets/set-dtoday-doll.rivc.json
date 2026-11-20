@@ -1,0 +1,789 @@
+{
+    "artboard": {
+        "name": "set-dtoday-doll",
+        "width": 340.0,
+        "height": 650.0
+    },
+    "art": {
+        "svg": "set-dtoday-doll.svg"
+    },
+    "clips": [
+        {
+            "name": "turn",
+            "frames": 720,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "head-pose-0",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 30,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 720,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "head-pose-1",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 30,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 90,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 720,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "head-pose-2",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 90,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 720,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "head-pose-3",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 150,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 210,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 720,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "head-pose-4",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 210,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 270,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 720,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "head-pose-5",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 270,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 330,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 720,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "head-pose-6",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 330,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 390,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 720,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "head-pose-7",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 390,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 720,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "head-pose-8",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 450,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 510,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 720,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "head-pose-9",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 510,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 570,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 720,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "head-pose-10",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 570,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 720,
+                            "value": 1.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "collar",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 75,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 225,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.1562
+                        },
+                        {
+                            "frame": 375,
+                            "value": 0.5933
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.957
+                        },
+                        {
+                            "frame": 525,
+                            "value": 1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                },
+                {
+                    "target": "doll-head",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 720,
+                            "value": 0.10471975511965978
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "idle-sway",
+            "frames": 2900,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "doll-head",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 181,
+                            "value": 0.020038125142146895
+                        },
+                        {
+                            "frame": 363,
+                            "value": 0.037023669422555715
+                        },
+                        {
+                            "frame": 544,
+                            "value": 0.04837354554827483
+                        },
+                        {
+                            "frame": 725,
+                            "value": 0.05235987755982989
+                        },
+                        {
+                            "frame": 906,
+                            "value": 0.04837354554827483
+                        },
+                        {
+                            "frame": 1088,
+                            "value": 0.037023669422555715
+                        },
+                        {
+                            "frame": 1269,
+                            "value": 0.020038125142146895
+                        },
+                        {
+                            "frame": 1450,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 1631,
+                            "value": -0.020038125142146895
+                        },
+                        {
+                            "frame": 1812,
+                            "value": -0.037023669422555715
+                        },
+                        {
+                            "frame": 1994,
+                            "value": -0.04837354554827483
+                        },
+                        {
+                            "frame": 2175,
+                            "value": -0.05235987755982989
+                        },
+                        {
+                            "frame": 2356,
+                            "value": -0.04837354554827483
+                        },
+                        {
+                            "frame": 2537,
+                            "value": -0.037023669422555715
+                        },
+                        {
+                            "frame": 2719,
+                            "value": -0.020038125142146895
+                        },
+                        {
+                            "frame": 2900,
+                            "value": -0.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "eye-scan",
+            "frames": 1450,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "pupil-9-l",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -27.0697
+                        },
+                        {
+                            "frame": 91,
+                            "value": -26.5786
+                        },
+                        {
+                            "frame": 181,
+                            "value": -26.1622
+                        },
+                        {
+                            "frame": 272,
+                            "value": -25.8839
+                        },
+                        {
+                            "frame": 363,
+                            "value": -25.7862
+                        },
+                        {
+                            "frame": 453,
+                            "value": -25.8839
+                        },
+                        {
+                            "frame": 544,
+                            "value": -26.1622
+                        },
+                        {
+                            "frame": 634,
+                            "value": -26.5786
+                        },
+                        {
+                            "frame": 725,
+                            "value": -27.0697
+                        },
+                        {
+                            "frame": 816,
+                            "value": -27.5609
+                        },
+                        {
+                            "frame": 906,
+                            "value": -27.9773
+                        },
+                        {
+                            "frame": 997,
+                            "value": -28.2556
+                        },
+                        {
+                            "frame": 1088,
+                            "value": -28.3533
+                        },
+                        {
+                            "frame": 1178,
+                            "value": -28.2556
+                        },
+                        {
+                            "frame": 1269,
+                            "value": -27.9773
+                        },
+                        {
+                            "frame": 1359,
+                            "value": -27.5609
+                        },
+                        {
+                            "frame": 1450,
+                            "value": -27.0697
+                        }
+                    ]
+                },
+                {
+                    "target": "pupil-9-r",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 50.5897
+                        },
+                        {
+                            "frame": 91,
+                            "value": 51.0809
+                        },
+                        {
+                            "frame": 181,
+                            "value": 51.4973
+                        },
+                        {
+                            "frame": 272,
+                            "value": 51.7756
+                        },
+                        {
+                            "frame": 363,
+                            "value": 51.8733
+                        },
+                        {
+                            "frame": 453,
+                            "value": 51.7756
+                        },
+                        {
+                            "frame": 544,
+                            "value": 51.4973
+                        },
+                        {
+                            "frame": 634,
+                            "value": 51.0809
+                        },
+                        {
+                            "frame": 725,
+                            "value": 50.5897
+                        },
+                        {
+                            "frame": 816,
+                            "value": 50.0986
+                        },
+                        {
+                            "frame": 906,
+                            "value": 49.6822
+                        },
+                        {
+                            "frame": 997,
+                            "value": 49.4039
+                        },
+                        {
+                            "frame": 1088,
+                            "value": 49.3062
+                        },
+                        {
+                            "frame": 1178,
+                            "value": 49.4039
+                        },
+                        {
+                            "frame": 1269,
+                            "value": 49.6822
+                        },
+                        {
+                            "frame": 1359,
+                            "value": 50.0986
+                        },
+                        {
+                            "frame": 1450,
+                            "value": 50.5897
+                        }
+                    ]
+                },
+                {
+                    "target": "pupil-10-l",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -39.216
+                        },
+                        {
+                            "frame": 91,
+                            "value": -37.3026
+                        },
+                        {
+                            "frame": 181,
+                            "value": -35.6805
+                        },
+                        {
+                            "frame": 272,
+                            "value": -34.5966
+                        },
+                        {
+                            "frame": 363,
+                            "value": -34.216
+                        },
+                        {
+                            "frame": 453,
+                            "value": -34.5966
+                        },
+                        {
+                            "frame": 544,
+                            "value": -35.6805
+                        },
+                        {
+                            "frame": 634,
+                            "value": -37.3026
+                        },
+                        {
+                            "frame": 725,
+                            "value": -39.216
+                        },
+                        {
+                            "frame": 816,
+                            "value": -41.1294
+                        },
+                        {
+                            "frame": 906,
+                            "value": -42.7515
+                        },
+                        {
+                            "frame": 997,
+                            "value": -43.8354
+                        },
+                        {
+                            "frame": 1088,
+                            "value": -44.216
+                        },
+                        {
+                            "frame": 1178,
+                            "value": -43.8354
+                        },
+                        {
+                            "frame": 1269,
+                            "value": -42.7515
+                        },
+                        {
+                            "frame": 1359,
+                            "value": -41.1294
+                        },
+                        {
+                            "frame": 1450,
+                            "value": -39.216
+                        }
+                    ]
+                },
+                {
+                    "target": "pupil-10-r",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 39.216
+                        },
+                        {
+                            "frame": 91,
+                            "value": 41.1294
+                        },
+                        {
+                            "frame": 181,
+                            "value": 42.7515
+                        },
+                        {
+                            "frame": 272,
+                            "value": 43.8354
+                        },
+                        {
+                            "frame": 363,
+                            "value": 44.216
+                        },
+                        {
+                            "frame": 453,
+                            "value": 43.8354
+                        },
+                        {
+                            "frame": 544,
+                            "value": 42.7515
+                        },
+                        {
+                            "frame": 634,
+                            "value": 41.1294
+                        },
+                        {
+                            "frame": 725,
+                            "value": 39.216
+                        },
+                        {
+                            "frame": 816,
+                            "value": 37.3026
+                        },
+                        {
+                            "frame": 906,
+                            "value": 35.6805
+                        },
+                        {
+                            "frame": 997,
+                            "value": 34.5966
+                        },
+                        {
+                            "frame": 1088,
+                            "value": 34.216
+                        },
+                        {
+                            "frame": 1178,
+                            "value": 34.5966
+                        },
+                        {
+                            "frame": 1269,
+                            "value": 35.6805
+                        },
+                        {
+                            "frame": 1359,
+                            "value": 37.3026
+                        },
+                        {
+                            "frame": 1450,
+                            "value": 39.216
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "inputs": [
+            {
+                "name": "idle-swayMix",
+                "type": "number",
+                "default": 0.0
+            }
+        ],
+        "layers": [
+            {
+                "name": "idle-sway",
+                "states": [
+                    {
+                        "name": "idle-sway",
+                        "direct": [
+                            {
+                                "clip": "idle-sway",
+                                "by": "idle-swayMix"
+                            }
+                        ]
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "idle-sway"
+                    }
+                ]
+            },
+            {
+                "name": "eye-scan",
+                "states": [
+                    {
+                        "name": "eye-scan",
+                        "clip": "eye-scan"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "eye-scan"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+node_modules/
+# Build outputs written by serve.sh
+pip.riv
+build.json
+# Written by golden.mjs when a golden fails
+goldens/*.actual.png
+goldens/*.diff.png

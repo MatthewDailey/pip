@@ -1,0 +1,1261 @@
+{
+    "artboard": {
+        "name": "set-d80s-speedo",
+        "width": 540.0,
+        "height": 260.0
+    },
+    "art": {
+        "svg": "set-d80s-speedo.svg"
+    },
+    "clips": [
+        {
+            "name": "count",
+            "frames": 600,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "tens-0",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "ones-0",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 7,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 68,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 75,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 136,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 143,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 205,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 211,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 273,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 280,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 341,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 348,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 409,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 416,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 477,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 484,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 545,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 552,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "tens-1",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 68,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 136,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "ones-1",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 7,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 14,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 75,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 82,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 143,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 150,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 211,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 218,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 280,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 286,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 348,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 355,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 416,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 423,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 484,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 491,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 552,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 559,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "tens-2",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 136,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 205,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "ones-2",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 14,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 20,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 82,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 89,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 150,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 157,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 218,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 225,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 286,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 293,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 355,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 361,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 423,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 430,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 491,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 498,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 559,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 566,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "tens-3",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 205,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 273,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "ones-3",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 20,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 27,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 89,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 95,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 157,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 164,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 225,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 232,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 293,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 300,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 361,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 368,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 430,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 436,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 498,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 505,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 566,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 573,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "tens-4",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 273,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 341,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "ones-4",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 27,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 34,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 95,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 102,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 164,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 170,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 232,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 239,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 300,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 307,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 368,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 375,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 436,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 443,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 505,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 511,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 573,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 580,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "tens-5",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 341,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 409,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "ones-5",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 34,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 41,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 102,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 109,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 170,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 177,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 239,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 245,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 307,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 375,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 382,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 443,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 450,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 511,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 518,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 580,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 586,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "tens-6",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 409,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 477,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "ones-6",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 41,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 48,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 109,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 116,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 177,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 184,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 245,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 252,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 314,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 320,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 382,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 389,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 450,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 457,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 518,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 525,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 586,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 593,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "tens-7",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 477,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 545,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "ones-7",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 48,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 55,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 116,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 123,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 184,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 191,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 252,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 259,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 320,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 327,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 389,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 395,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 457,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 464,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 525,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 532,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 593,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 600,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "tens-8",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 545,
+                            "value": 1.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "ones-8",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 55,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 61,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 123,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 130,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 191,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 198,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 259,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 266,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 327,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 334,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 395,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 402,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 464,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 470,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 532,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 539,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "tens-9",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                },
+                {
+                    "target": "ones-9",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 61,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 68,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 130,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 136,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 198,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 205,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 266,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 273,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 334,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 341,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 402,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 409,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 470,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 477,
+                            "value": 0.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 539,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 545,
+                            "value": 0.0,
+                            "ease": "hold"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "redline",
+            "frames": 134,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "readout",
+                    "property": "opacity",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 67,
+                            "value": 0.6,
+                            "ease": "hold"
+                        },
+                        {
+                            "frame": 134,
+                            "value": 1.0,
+                            "ease": "hold"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "pop-in",
+            "frames": 210,
+            "fps": 600
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "inputs": [
+            {
+                "name": "redlineMix",
+                "type": "number",
+                "default": 0.0
+            }
+        ],
+        "layers": [
+            {
+                "name": "redline",
+                "states": [
+                    {
+                        "name": "redline",
+                        "direct": [
+                            {
+                                "clip": "redline",
+                                "by": "redlineMix"
+                            }
+                        ]
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "redline"
+                    }
+                ]
+            }
+        ]
+    }
+}

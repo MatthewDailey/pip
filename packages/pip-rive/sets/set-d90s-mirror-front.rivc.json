@@ -1,0 +1,69 @@
+{
+    "artboard": {
+        "name": "set-d90s-mirror-front",
+        "width": 760.0,
+        "height": 860.0
+    },
+    "art": {
+        "svg": "set-d90s-mirror-front.svg"
+    },
+    "clips": [
+        {
+            "name": "pop-in",
+            "frames": 270,
+            "fps": 600
+        },
+        {
+            "name": "rattle",
+            "frames": 48,
+            "fps": 600,
+            "loop": "loop"
+        },
+        {
+            "name": "pop-out",
+            "frames": 168,
+            "fps": 600
+        },
+        {
+            "name": "sheen",
+            "frames": 600,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "sheen",
+                    "property": "x",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -760.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 760.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

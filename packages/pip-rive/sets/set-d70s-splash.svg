@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-350 -280 700 560" width="700" height="560">
+<!-- Dive/surface splash; (0,0) is the water surface point. Drawn at p = 0.35. -->
+<g id="ring" transform="scale(0.73)" opacity="0.650">
+<ellipse cx="0" cy="0" rx="150" ry="16" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+</g>
+<g id="drop-0" transform="translate(-102.25 81.29) scale(0.82)" opacity="0.000">
+<circle cx="0" cy="0" r="8.9" fill="#BFEAF5"/>
+</g>
+<g id="drop-1" transform="translate(-102.43 40.88) scale(0.82)" opacity="0.000">
+<circle cx="0" cy="0" r="13.83" fill="#FFFFFF"/>
+</g>
+<g id="drop-2" transform="translate(-85.25 32.84) scale(0.82)" opacity="0.000">
+<circle cx="0" cy="0" r="12.05" fill="#FFFFFF"/>
+</g>
+<g id="drop-3" transform="translate(-114.73 -12.77) scale(0.82)" opacity="0.878">
+<circle cx="0" cy="0" r="14.53" fill="#BFEAF5"/>
+</g>
+<g id="drop-4" transform="translate(-87.86 -23.74) scale(0.82)" opacity="0.878">
+<circle cx="0" cy="0" r="11.97" fill="#FFFFFF"/>
+</g>
+<g id="drop-5" transform="translate(-48.31 -51.32) scale(0.82)" opacity="0.878">
+<circle cx="0" cy="0" r="13.91" fill="#FFFFFF"/>
+</g>
+<g id="drop-6" transform="translate(-55.63 -67.09) scale(0.82)" opacity="0.878">
+<circle cx="0" cy="0" r="15.5" fill="#BFEAF5"/>
+</g>
+<g id="drop-7" transform="translate(-5.07 -78.75) scale(0.82)" opacity="0.878">
+<circle cx="0" cy="0" r="8.44" fill="#FFFFFF"/>
+</g>
+<g id="drop-8" transform="translate(10.6 -71.33) scale(0.82)" opacity="0.878">
+<circle cx="0" cy="0" r="13.94" fill="#FFFFFF"/>
+</g>
+<g id="drop-9" transform="translate(31.7 -7.48) scale(0.82)" opacity="0.878">
+<circle cx="0" cy="0" r="9.44" fill="#BFEAF5"/>
+</g>
+<g id="drop-10" transform="translate(46.16 -17.52) scale(0.82)" opacity="0.878">
+<circle cx="0" cy="0" r="12.16" fill="#FFFFFF"/>
+</g>
+<g id="drop-11" transform="translate(103.4 -51.27) scale(0.82)" opacity="0.878">
+<circle cx="0" cy="0" r="15.44" fill="#FFFFFF"/>
+</g>
+<g id="drop-12" transform="translate(70.57 25.12) scale(0.82)" opacity="0.000">
+<circle cx="0" cy="0" r="11.67" fill="#BFEAF5"/>
+</g>
+<g id="drop-13" transform="translate(105.1 11.85) scale(0.82)" opacity="0.000">
+<circle cx="0" cy="0" r="10.33" fill="#FFFFFF"/>
+</g>
+<g id="drop-14" transform="translate(155.34 20.27) scale(0.82)" opacity="0.000">
+<circle cx="0" cy="0" r="11.33" fill="#FFFFFF"/>
+</g>
+<g id="drop-15" transform="translate(149.74 60.85) scale(0.82)" opacity="0.000">
+<circle cx="0" cy="0" r="9.55" fill="#BFEAF5"/>
+</g>
+</svg>

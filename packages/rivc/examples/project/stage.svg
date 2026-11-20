@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 2424" width="1080" height="2424">
+<title>stage</title>
+<rect id="bg" x="0" y="0" width="1080" height="2424" fill="#20304A"/>
+<rect id="bubbleBg" x="140" y="300" width="800" height="360" rx="48" fill="#FFFFFF"/>
+<rect id="bannerBg" x="20" y="1960" width="1040" height="400" rx="32" fill="#E0464E"/>
+</svg>

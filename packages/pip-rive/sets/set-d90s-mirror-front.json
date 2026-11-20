@@ -1,0 +1,101 @@
+{
+ "piece": "set-d90s-mirror-front",
+ "origin": [540, 1150],
+ "clips": [
+  {
+   "name": "pop-in",
+   "duration": 0.45,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "scale",
+     "keys": [
+      [0, 0.86],
+      [0.45, 1]
+     ],
+     "ease": "outBack"
+    },
+    {
+     "target": "root",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.25, 1]
+     ],
+     "ease": "easeOut"
+    }
+   ]
+  },
+  {
+   "name": "rattle",
+   "duration": 0.08,
+   "loop": true,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "rotation",
+     "keys": [
+      [0, 0],
+      [0.02, -1.4],
+      [0.06, 1.4],
+      [0.08, 0]
+     ],
+     "ease": "linear"
+    }
+   ],
+   "note": "the scream shakes the mirror (scene loops it 9 times)"
+  },
+  {
+   "name": "pop-out",
+   "duration": 0.28,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "root",
+     "property": "scale",
+     "keys": [
+      [0, 1],
+      [0.28, 0.72]
+     ],
+     "ease": "inBack"
+    },
+    {
+     "target": "root",
+     "property": "opacity",
+     "keys": [
+      [0, 1],
+      [0.28, 0]
+     ],
+     "ease": "easeIn"
+    }
+   ]
+  },
+  {
+   "name": "sheen",
+   "duration": 1.0,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "sheen",
+     "property": "x",
+     "keys": [
+      [0, -760],
+      [1, 760]
+     ],
+     "ease": "linear"
+    }
+   ],
+   "note": "time = progress; the scene sweeps it twice"
+  }
+ ],
+ "inputs": [
+  {
+   "name": "progress",
+   "type": "number",
+   "drives": "sheen sweep: sheen x = -760 + 1520*progress (drawn here at 0.5)"
+  }
+ ],
+ "notes": "Chrome frame is a stroke with a diagonal linear gradient; bulb glows are radial gradients.",
+ "size": [760, 860]
+}

@@ -1,0 +1,30 @@
+{
+    "artboard": {
+        "name": "fx-bubble",
+        "width": 396.5,
+        "height": 377.21
+    },
+    "art": {
+        "svg": "fx-bubble.svg"
+    },
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,166 @@
+{
+    "artboard": {
+        "name": "set-d70s-fin",
+        "width": 340.0,
+        "height": 280.0
+    },
+    "art": {
+        "svg": "set-d70s-fin.svg"
+    },
+    "clips": [
+        {
+            "name": "wake",
+            "frames": 419,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "wake-0",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 105,
+                            "value": 1.115,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 314,
+                            "value": 0.885,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 419,
+                            "value": 1.0,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "wake-1",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.115,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 38,
+                            "value": 1.136,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 247,
+                            "value": 0.864,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 419,
+                            "value": 1.115,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "wake-2",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.152,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 181,
+                            "value": 0.833,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 390,
+                            "value": 1.167,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 419,
+                            "value": 1.152,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                },
+                {
+                    "target": "wake-3",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 1.03,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 114,
+                            "value": 0.786,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 323,
+                            "value": 1.214,
+                            "ease": "easeInOut"
+                        },
+                        {
+                            "frame": 419,
+                            "value": 1.03,
+                            "ease": "easeInOut"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "input-heading",
+            "frames": 600,
+            "fps": 600,
+            "tracks": [
+                {
+                    "target": "heading",
+                    "property": "scaleX",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": -1.0
+                        },
+                        {
+                            "frame": 600,
+                            "value": 1.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "wake",
+                "states": [
+                    {
+                        "name": "wake",
+                        "clip": "wake"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "wake"
+                    }
+                ]
+            }
+        ]
+    }
+}

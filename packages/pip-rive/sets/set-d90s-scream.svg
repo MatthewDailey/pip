@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-380 -280 760 560" width="760" height="560">
+<!-- Scream shock lines around Pip; (0,0) at screen (548,1185). -->
+<g id="rays">
+<g id="ray-0" transform="rotate(-200)">
+<g id="ray-0-len" transform="translate(236 0)">
+<path d="M0 0L56.92 0" fill="none" stroke="#3A2A26" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="ray-1" transform="rotate(-179.98)">
+<g id="ray-1-len" transform="translate(245.64 0)">
+<path d="M0 0L71.88 0" fill="none" stroke="#3A2A26" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="93.88" cy="0" r="6" fill="#FFC21F"/>
+</g>
+</g>
+<g id="ray-2" transform="rotate(-161.51)">
+<g id="ray-2-len" transform="translate(241.16 0)">
+<path d="M0 0L67.96 0" fill="none" stroke="#3A2A26" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="ray-3" transform="rotate(-144.72)">
+<g id="ray-3-len" transform="translate(229.12 0)">
+<path d="M0 0L60.7 0" fill="none" stroke="#3A2A26" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="ray-4" transform="rotate(-128.18)">
+<g id="ray-4-len" transform="translate(227.17 0)">
+<path d="M0 0L61.11 0" fill="none" stroke="#3A2A26" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="83.11" cy="0" r="6" fill="#FFC21F"/>
+</g>
+</g>
+<g id="ray-5" transform="rotate(-110.25)">
+<g id="ray-5-len" transform="translate(238.15 0)">
+<path d="M0 0L77.26 0" fill="none" stroke="#3A2A26" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="ray-6" transform="rotate(-90.56)">
+<g id="ray-6-len" transform="translate(245.99 0)">
+<path d="M0 0L57.25 0" fill="none" stroke="#3A2A26" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="ray-7" transform="rotate(-70.35)">
+<g id="ray-7-len" transform="translate(239.19 0)">
+<path d="M0 0L72.94 0" fill="none" stroke="#3A2A26" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="94.94" cy="0" r="6" fill="#FFC21F"/>
+</g>
+</g>
+<g id="ray-8" transform="rotate(-51.35)">
+<g id="ray-8-len" transform="translate(227.72 0)">
+<path d="M0 0L65 0" fill="none" stroke="#3A2A26" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="ray-9" transform="rotate(-34.18)">
+<g id="ray-9-len" transform="translate(228.38 0)">
+<path d="M0 0L72.71 0" fill="none" stroke="#3A2A26" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="ray-10" transform="rotate(-17.75)">
+<g id="ray-10-len" transform="translate(240.2 0)">
+<path d="M0 0L64.21 0" fill="none" stroke="#3A2A26" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="86.21" cy="0" r="6" fill="#FFC21F"/>
+</g>
+</g>
+<g id="ray-11" transform="rotate(-0.33)">
+<g id="ray-11-len" transform="translate(245.87 0)">
+<path d="M0 0L70.96 0" fill="none" stroke="#3A2A26" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<g id="ray-12" transform="rotate(18.93)">
+<g id="ray-12-len" transform="translate(237.08 0)">
+<path d="M0 0L69.13 0" fill="none" stroke="#3A2A26" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</svg>

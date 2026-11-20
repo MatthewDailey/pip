@@ -1,0 +1,9 @@
+{
+  "name": "@shady-pip/pip-show",
+  "private": true,
+  "description": "Pip showreel soundtrack synthesiser and the emulator recorder that muxes it onto the video",
+  "scripts": {
+    "showreel:record": ". ../../scripts/env.sh && bash record.sh",
+    "soundtrack:test": ". ../../scripts/env.sh && ../.venv/bin/python soundtrack.py --cues test_cues.json --out test_render.wav"
+  }
+}

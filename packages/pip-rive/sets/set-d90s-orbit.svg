@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-480 -200 960 400" width="960" height="400">
+<!-- Bullet-time ripple arcs around Pip; (0,0) at screen (540,1200). -->
+<g id="rings">
+<g id="ring-0">
+<path id="ring-0-0" d="M330 -40C330 -1.34 182.25 30 0 30C-182.25 30 -330 -1.34 -330 -40C-330 -78.66 -182.25 -110 0 -110C182.25 -110 330 -78.66 330 -40Z" fill="none" stroke="#7CFFB0" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.092" data-trim-end="0.3056" data-trim-offset="0.0"/>
+<path id="ring-0-1" d="M330 -40C330 -1.34 182.25 30 0 30C-182.25 30 -330 -1.34 -330 -40C-330 -78.66 -182.25 -110 0 -110C182.25 -110 330 -78.66 330 -40Z" fill="none" stroke="#7CFFB0" stroke-width="22.67" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.092" data-trim-end="0.3056" data-trim-offset="0.0"/>
+<path id="ring-0-2" d="M330 -40C330 -1.34 182.25 30 0 30C-182.25 30 -330 -1.34 -330 -40C-330 -78.66 -182.25 -110 0 -110C182.25 -110 330 -78.66 330 -40Z" fill="none" stroke="#7CFFB0" stroke-width="17.33" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.092" data-trim-end="0.3056" data-trim-offset="0.0"/>
+<path id="ring-0-3" d="M330 -40C330 -1.34 182.25 30 0 30C-182.25 30 -330 -1.34 -330 -40C-330 -78.66 -182.25 -110 0 -110C182.25 -110 330 -78.66 330 -40Z" fill="none" stroke="#7CFFB0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.502" data-trim-end="0.3056" data-trim-offset="0.0"/>
+</g>
+<g id="ring-1">
+<path id="ring-1-0" d="M390 0C390 47.5 215.39 86 0 86C-215.39 86 -390 47.5 -390 0C-390 -47.5 -215.39 -86 0 -86C215.39 -86 390 -47.5 390 0Z" fill="none" stroke="#7CFFB0" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.092" data-trim-end="0.3056" data-trim-offset="0.3333"/>
+<path id="ring-1-1" d="M390 0C390 47.5 215.39 86 0 86C-215.39 86 -390 47.5 -390 0C-390 -47.5 -215.39 -86 0 -86C215.39 -86 390 -47.5 390 0Z" fill="none" stroke="#7CFFB0" stroke-width="22.67" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.092" data-trim-end="0.3056" data-trim-offset="0.3333"/>
+<path id="ring-1-2" d="M390 0C390 47.5 215.39 86 0 86C-215.39 86 -390 47.5 -390 0C-390 -47.5 -215.39 -86 0 -86C215.39 -86 390 -47.5 390 0Z" fill="none" stroke="#7CFFB0" stroke-width="17.33" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.092" data-trim-end="0.3056" data-trim-offset="0.3333"/>
+<path id="ring-1-3" d="M390 0C390 47.5 215.39 86 0 86C-215.39 86 -390 47.5 -390 0C-390 -47.5 -215.39 -86 0 -86C215.39 -86 390 -47.5 390 0Z" fill="none" stroke="#7CFFB0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.502" data-trim-end="0.3056" data-trim-offset="0.3333"/>
+</g>
+<g id="ring-2">
+<path id="ring-2-0" d="M450 40C450 96.33 248.53 142 0 142C-248.53 142 -450 96.33 -450 40C-450 -16.33 -248.53 -62 0 -62C248.53 -62 450 -16.33 450 40Z" fill="none" stroke="#7CFFB0" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.092" data-trim-end="0.3056" data-trim-offset="0.6667"/>
+<path id="ring-2-1" d="M450 40C450 96.33 248.53 142 0 142C-248.53 142 -450 96.33 -450 40C-450 -16.33 -248.53 -62 0 -62C248.53 -62 450 -16.33 450 40Z" fill="none" stroke="#7CFFB0" stroke-width="22.67" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.092" data-trim-end="0.3056" data-trim-offset="0.6667"/>
+<path id="ring-2-2" d="M450 40C450 96.33 248.53 142 0 142C-248.53 142 -450 96.33 -450 40C-450 -16.33 -248.53 -62 0 -62C248.53 -62 450 -16.33 450 40Z" fill="none" stroke="#7CFFB0" stroke-width="17.33" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.092" data-trim-end="0.3056" data-trim-offset="0.6667"/>
+<path id="ring-2-3" d="M450 40C450 96.33 248.53 142 0 142C-248.53 142 -450 96.33 -450 40C-450 -16.33 -248.53 -62 0 -62C248.53 -62 450 -16.33 450 40Z" fill="none" stroke="#7CFFB0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.502" data-trim-end="0.3056" data-trim-offset="0.6667"/>
+</g>
+</g>
+</svg>

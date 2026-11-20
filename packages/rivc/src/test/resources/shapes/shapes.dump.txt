@@ -1,0 +1,214 @@
+RIVE 7.5 fileId=0 toc=[]
+#0 Backboard
+#1 Artboard [0] name="Shapes" width=200.0 height=200.0 clip=false defaultStateMachineId=0
+#2 Node [1] name="ring" parentId=0
+#3 Node [2] name="back" parentId=0
+#4 Node [3] name="front" parentId=0
+#5 Shape [4] name="front-card" parentId=3
+#6 Rectangle [5] parentId=4 x=80.0 y=160.0 width=60.0 height=40.0
+#7 Fill [6] parentId=4
+#8 SolidColor [7] parentId=6 colorValue=#FFE0A020
+#9 Shape [8] name="back-card" parentId=2
+#10 Rectangle [9] parentId=8 x=50.0 y=140.0 width=60.0 height=40.0
+#11 Fill [10] parentId=8
+#12 SolidColor [11] parentId=10 colorValue=#FF40A040
+#13 Shape [12] name="ring-line" parentId=1
+#14 Ellipse [13] parentId=12 x=150.0 y=40.0 width=40.0 height=40.0
+#15 Stroke [14] parentId=12 thickness=3.0 transformAffectsStroke=false
+#16 SolidColor [15] parentId=14 colorValue=#FF2040E0
+#17 Shape [16] name="sweep" parentId=0
+#18 PointsPath [17] parentId=16 isClosed=false
+#19 StraightVertex [18] parentId=17 x=100.0 y=100.0
+#20 StraightVertex [19] parentId=17 x=180.0 y=100.0
+#21 Stroke [20] parentId=16 thickness=4.0
+#22 SolidColor [21] parentId=20 colorValue=#FF202020
+#23 TrimPath [22] parentId=20 start=0.0 end=0.5 offset=0.0 modeValue=1
+#24 Shape [23] name="blob" parentId=0
+#25 PointsPath [24] parentId=23 isClosed=true
+#26 CubicDetachedVertex [25] parentId=24 x=20.0 y=20.0 inRotation=0.0 inDistance=0.0 outRotation=0.0 outDistance=0.0
+#27 CubicDetachedVertex [26] parentId=24 x=40.0 y=20.0 inRotation=3.1415927 inDistance=10.0 outRotation=0.0 outDistance=10.0
+#28 CubicDetachedVertex [27] parentId=24 x=60.0 y=20.0 inRotation=0.0 inDistance=0.0 outRotation=0.0 outDistance=0.0
+#29 CubicDetachedVertex [28] parentId=24 x=60.0 y=40.0 inRotation=-1.5707964 inDistance=10.0 outRotation=1.5707964 outDistance=10.0
+#30 CubicDetachedVertex [29] parentId=24 x=60.0 y=60.0 inRotation=0.0 inDistance=0.0 outRotation=0.0 outDistance=0.0
+#31 CubicDetachedVertex [30] parentId=24 x=40.0 y=40.0 inRotation=0.7853982 inDistance=14.142136 outRotation=-2.3561945 outDistance=14.142136
+#32 Fill [31] parentId=23
+#33 SolidColor [32] parentId=31 colorValue=#FFE04040
+#34 DrawRules [33] parentId=3
+#35 DrawTarget [34] parentId=33 drawableId=8 placementValue=1
+#36 DrawTarget [35] parentId=33 drawableId=8 placementValue=0
+#37 LinearAnimation name="go" fps=60 duration=60 loopValue=1
+#38 KeyedObject objectId=25
+#39 KeyedProperty propertyKey=24
+#40 KeyFrameDouble frame=0 interpolationType=1 value=20.0
+#41 KeyFrameDouble frame=30 interpolationType=1 value=40.0
+#42 KeyFrameDouble frame=60 interpolationType=1 value=40.0
+#43 KeyedProperty propertyKey=25
+#44 KeyFrameDouble frame=0 interpolationType=1 value=20.0
+#45 KeyFrameDouble frame=30 interpolationType=1 value=10.0
+#46 KeyFrameDouble frame=60 interpolationType=1 value=10.0
+#47 KeyedProperty propertyKey=84
+#48 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#49 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#50 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#51 KeyedProperty propertyKey=85
+#52 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#53 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#54 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#55 KeyedProperty propertyKey=86
+#56 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#57 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#58 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#59 KeyedProperty propertyKey=87
+#60 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#61 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#62 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#63 KeyedObject objectId=26
+#64 KeyedProperty propertyKey=24
+#65 KeyFrameDouble frame=0 interpolationType=1 value=40.0
+#66 KeyFrameDouble frame=30 interpolationType=1 value=66.0
+#67 KeyFrameDouble frame=60 interpolationType=1 value=55.0
+#68 KeyedProperty propertyKey=25
+#69 KeyFrameDouble frame=0 interpolationType=1 value=20.0
+#70 KeyFrameDouble frame=30 interpolationType=1 value=25.0
+#71 KeyFrameDouble frame=60 interpolationType=1 value=22.5
+#72 KeyedProperty propertyKey=84
+#73 KeyFrameDouble frame=0 interpolationType=1 value=3.1415927
+#74 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#75 KeyFrameDouble frame=60 interpolationType=1 value=-2.4468544
+#76 KeyedProperty propertyKey=85
+#77 KeyFrameDouble frame=0 interpolationType=1 value=10.0
+#78 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#79 KeyFrameDouble frame=60 interpolationType=1 value=9.762812
+#80 KeyedProperty propertyKey=86
+#81 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#82 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#83 KeyFrameDouble frame=60 interpolationType=1 value=0.69473827
+#84 KeyedProperty propertyKey=87
+#85 KeyFrameDouble frame=0 interpolationType=1 value=10.0
+#86 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#87 KeyFrameDouble frame=60 interpolationType=1 value=9.762812
+#88 KeyedObject objectId=27
+#89 KeyedProperty propertyKey=24
+#90 KeyFrameDouble frame=0 interpolationType=1 value=60.0
+#91 KeyFrameDouble frame=30 interpolationType=1 value=66.0
+#92 KeyFrameDouble frame=60 interpolationType=1 value=70.0
+#93 KeyedProperty propertyKey=25
+#94 KeyFrameDouble frame=0 interpolationType=1 value=20.0
+#95 KeyFrameDouble frame=30 interpolationType=1 value=55.0
+#96 KeyFrameDouble frame=60 interpolationType=1 value=35.0
+#97 KeyedProperty propertyKey=84
+#98 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#99 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#100 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#101 KeyedProperty propertyKey=85
+#102 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#103 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#104 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#105 KeyedProperty propertyKey=86
+#106 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#107 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#108 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#109 KeyedProperty propertyKey=87
+#110 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#111 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#112 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#113 KeyedObject objectId=28
+#114 KeyedProperty propertyKey=24
+#115 KeyFrameDouble frame=0 interpolationType=1 value=60.0
+#116 KeyFrameDouble frame=30 interpolationType=1 value=40.0
+#117 KeyFrameDouble frame=60 interpolationType=1 value=58.0
+#118 KeyedProperty propertyKey=25
+#119 KeyFrameDouble frame=0 interpolationType=1 value=40.0
+#120 KeyFrameDouble frame=30 interpolationType=1 value=70.0
+#121 KeyFrameDouble frame=60 interpolationType=1 value=70.0
+#122 KeyedProperty propertyKey=84
+#123 KeyFrameDouble frame=0 interpolationType=1 value=-1.5707964
+#124 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#125 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#126 KeyedProperty propertyKey=85
+#127 KeyFrameDouble frame=0 interpolationType=1 value=10.0
+#128 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#129 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#130 KeyedProperty propertyKey=86
+#131 KeyFrameDouble frame=0 interpolationType=1 value=1.5707964
+#132 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#133 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#134 KeyedProperty propertyKey=87
+#135 KeyFrameDouble frame=0 interpolationType=1 value=10.0
+#136 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#137 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#138 KeyedObject objectId=29
+#139 KeyedProperty propertyKey=24
+#140 KeyFrameDouble frame=0 interpolationType=1 value=60.0
+#141 KeyFrameDouble frame=30 interpolationType=1 value=14.0
+#142 KeyFrameDouble frame=60 interpolationType=1 value=22.0
+#143 KeyedProperty propertyKey=25
+#144 KeyFrameDouble frame=0 interpolationType=1 value=60.0
+#145 KeyFrameDouble frame=30 interpolationType=1 value=55.0
+#146 KeyFrameDouble frame=60 interpolationType=1 value=70.0
+#147 KeyedProperty propertyKey=84
+#148 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#149 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#150 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#151 KeyedProperty propertyKey=85
+#152 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#153 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#154 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#155 KeyedProperty propertyKey=86
+#156 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#157 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#158 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#159 KeyedProperty propertyKey=87
+#160 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#161 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#162 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#163 KeyedObject objectId=30
+#164 KeyedProperty propertyKey=24
+#165 KeyFrameDouble frame=0 interpolationType=1 value=40.0
+#166 KeyFrameDouble frame=30 interpolationType=1 value=14.0
+#167 KeyFrameDouble frame=60 interpolationType=1 value=10.0
+#168 KeyedProperty propertyKey=25
+#169 KeyFrameDouble frame=0 interpolationType=1 value=40.0
+#170 KeyFrameDouble frame=30 interpolationType=1 value=25.0
+#171 KeyFrameDouble frame=60 interpolationType=1 value=35.0
+#172 KeyedProperty propertyKey=84
+#173 KeyFrameDouble frame=0 interpolationType=1 value=0.7853982
+#174 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#175 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#176 KeyedProperty propertyKey=85
+#177 KeyFrameDouble frame=0 interpolationType=1 value=14.142136
+#178 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#179 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#180 KeyedProperty propertyKey=86
+#181 KeyFrameDouble frame=0 interpolationType=1 value=-2.3561945
+#182 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#183 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#184 KeyedProperty propertyKey=87
+#185 KeyFrameDouble frame=0 interpolationType=1 value=14.142136
+#186 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#187 KeyFrameDouble frame=60 interpolationType=1 value=0.0
+#188 KeyedObject objectId=22
+#189 KeyedProperty propertyKey=115
+#190 KeyFrameDouble frame=0 interpolationType=1 value=0.0
+#191 KeyFrameDouble frame=30 interpolationType=1 value=1.0
+#192 KeyedProperty propertyKey=116
+#193 KeyFrameDouble frame=30 interpolationType=1 value=0.0
+#194 KeyFrameDouble frame=60 interpolationType=1 value=0.5
+#195 KeyedObject objectId=1
+#196 KeyedProperty propertyKey=16
+#197 KeyFrameDouble frame=0 interpolationType=1 value=1.0
+#198 KeyFrameDouble frame=60 interpolationType=1 value=3.0
+#199 KeyedProperty propertyKey=17
+#200 KeyFrameDouble frame=0 interpolationType=1 value=1.0
+#201 KeyFrameDouble frame=60 interpolationType=1 value=3.0
+#202 KeyedObject objectId=33
+#203 KeyedProperty propertyKey=121
+#204 KeyFrameId frame=0 interpolationType=0 value=34
+#205 KeyFrameId frame=30 interpolationType=0 value=35
+#206 StateMachine name="Main"
+#207 StateMachineLayer name="go"
+#208 AnyState
+#209 EntryState
+#210 StateTransition stateToId=3 flags=0 duration=0 exitTime=0
+#211 ExitState
+#212 AnimationState animationId=0

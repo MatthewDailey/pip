@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Converts the exported Kotlin showreel into a rivc project and compiles it.
+#   tools/showreel-to-rivc/showreel-to-rivc [--repo .] [--export apps/pip-app/app/build/showreel/showreel.json]
+#     [--pip packages/pip-rive/pip/pip-inputs.json] [--out packages/pip-rive/showreel/showreel.json] [--no-compile]
+set -euo pipefail
+here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+export JAVA_HOME="${JAVA_HOME:-/opt/homebrew/opt/openjdk@21/libexec/openjdk.jdk/Contents/Home}"
+gradle="${RIVC_GRADLE:-$(command -v gradle || /bin/ls -d "$HOME"/.gradle/wrapper/dists/gradle-9.1.0-bin/*/gradle-9.1.0/bin/gradle 2>/dev/null | head -1)}"
+"$gradle" -q -p "$here" installDist >&2
+cd "$here/../.."
+exec "$here/build/install/showreel-to-rivc/bin/showreel-to-rivc" --repo . "$@"

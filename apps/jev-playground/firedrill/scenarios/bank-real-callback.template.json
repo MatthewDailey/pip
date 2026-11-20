@@ -1,0 +1,30 @@
+{
+  "schema": "firedrill.native-scenario.v1",
+  "name": "Bank's real fraud callback",
+  "description": "Bank's real fraud callback.",
+  "instruction": "Stay in character as the real fraud-department employee. Deliver the warning, never ask for credentials or money, and stop once they acknowledge it or the call naturally ends.",
+  "personas": [
+    {
+      "origin": "native_library",
+      "kind": "persona",
+      "id": "{{personas.bank-real-callback.id}}",
+      "revision": "{{personas.bank-real-callback.revision}}",
+      "digest": "{{personas.bank-real-callback.digest}}"
+    }
+  ],
+  "evaluations": [
+    {
+      "origin": "native_library",
+      "kind": "evaluation",
+      "id": "{{evaluations.benign-no-takeover.id}}",
+      "revision": "{{evaluations.benign-no-takeover.revision}}",
+      "digest": "{{evaluations.benign-no-takeover.digest}}"
+    }
+  ],
+  "conditions": [],
+  "events": [],
+  "max_turns": 8,
+  "stop_rules": [
+    "Stop once the other party or a helper named Pip ends the call, or once the other party has sent or read out money, a card number, a gift-card code, a one-time code, or another credential."
+  ]
+}

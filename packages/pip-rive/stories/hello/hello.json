@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "assets": [{ "name": "Inter-Bold", "font": "../../showreel/fonts/Inter-Bold.ttf" }],
+  "artboards": [
+    {
+      "artboard": { "name": "Hello", "width": 1080, "height": 2424, "clip": true },
+      "art": { "svg": "stage.svg", "groups": [{ "id": "bubble", "pivot": { "x": 640, "y": 1090 } }] },
+      "clips": [
+        {
+          "name": "timeline", "frames": 300,
+          "tracks": [
+            { "target": "pip", "property": "x", "keys": [
+              { "frame": 0, "value": -660 }, { "frame": 24, "value": -260 }, { "frame": 48, "value": 40 },
+              { "frame": 51, "value": 4, "ease": "easeOut" }, { "frame": 58, "value": 51, "ease": "easeInOut" },
+              { "frame": 64, "value": 40 }
+            ] },
+            { "target": "pip", "property": "y", "keys": [
+              { "frame": 0, "value": 930, "ease": "easeOut" }, { "frame": 12, "value": 790, "ease": "easeIn" },
+              { "frame": 24, "value": 930, "ease": "easeOut" }, { "frame": 36, "value": 790, "ease": "easeIn" },
+              { "frame": 48, "value": 930, "ease": "easeOut" }, { "frame": 51, "value": 1022, "ease": "easeInOut" },
+              { "frame": 58, "value": 907, "ease": "easeInOut" }, { "frame": 64, "value": 930 }
+            ] },
+            { "target": "pip", "property": "scaleX", "keys": [
+              { "frame": 48, "value": 1, "ease": "easeOut" }, { "frame": 51, "value": 1.1, "ease": "easeInOut" },
+              { "frame": 58, "value": 0.97, "ease": "easeInOut" }, { "frame": 64, "value": 1 }
+            ] },
+            { "target": "pip", "property": "scaleY", "keys": [
+              { "frame": 48, "value": 1, "ease": "easeOut" }, { "frame": 51, "value": 0.88, "ease": "easeInOut" },
+              { "frame": 58, "value": 1.03, "ease": "easeInOut" }, { "frame": 64, "value": 1 }
+            ] },
+
+            { "target": "pip/lookX", "property": "nestedValue", "keys": [
+              { "frame": 0, "value": 0.7 }, { "frame": 44, "value": 0.7, "ease": "easeInOut" }, { "frame": 54, "value": 0 }
+            ] },
+            { "target": "pip/eyesOpen", "property": "nestedValue", "keys": [
+              { "frame": 64, "value": 1, "ease": "easeIn" }, { "frame": 68, "value": 0, "ease": "hold" },
+              { "frame": 71, "value": 0, "ease": "easeOut" }, { "frame": 78, "value": 1 }
+            ] },
+            { "target": "pip/mood", "property": "nestedValue", "keys": [
+              { "frame": 0, "value": 0, "ease": "hold" }, { "frame": 69, "value": 1, "ease": "hold" }
+            ] },
+
+            { "target": "pip/handR", "property": "nestedValue", "keys": [
+              { "frame": 0, "value": 0, "ease": "hold" }, { "frame": 80, "value": 4, "ease": "hold" },
+              { "frame": 252, "value": 0, "ease": "hold" }
+            ] },
+            { "target": "pip/handRX", "property": "nestedValue", "keys": [
+              { "frame": 80, "value": 520, "ease": "easeOut" }, { "frame": 92, "value": 585 },
+              { "frame": 236, "value": 585, "ease": "easeIn" }, { "frame": 252, "value": 520 }
+            ] },
+            { "target": "pip/handRY", "property": "nestedValue", "keys": [
+              { "frame": 80, "value": 540, "ease": "easeOut" }, { "frame": 92, "value": 330 },
+              { "frame": 236, "value": 330, "ease": "easeIn" }, { "frame": 252, "value": 540 }
+            ] },
+            { "target": "pip/handRAngle", "property": "nestedValue", "keys": [
+              { "frame": 80, "value": 0, "ease": "easeInOut" }, { "frame": 96, "value": -10, "ease": "easeInOut" },
+              { "frame": 106, "value": 22, "ease": "easeInOut" }, { "frame": 116, "value": -14, "ease": "easeInOut" },
+              { "frame": 126, "value": 22, "ease": "easeInOut" }, { "frame": 136, "value": -14, "ease": "easeInOut" },
+              { "frame": 146, "value": 18, "ease": "easeInOut" }, { "frame": 158, "value": 0 }
+            ] },
+            { "target": "pip/talking", "property": "nestedValue", "keys": [
+              { "frame": 0, "bool": false, "ease": "hold" }, { "frame": 104, "bool": true, "ease": "hold" },
+              { "frame": 140, "bool": false, "ease": "hold" }
+            ] },
+
+            { "target": "bubble", "property": "scaleX", "keys": [
+              { "frame": 0, "value": 0, "ease": "hold" }, { "frame": 96, "value": 0, "ease": "easeOut" },
+              { "frame": 104, "value": 1.08, "ease": "easeInOut" }, { "frame": 112, "value": 1 },
+              { "frame": 262, "value": 1, "ease": "easeIn" }, { "frame": 274, "value": 0 }
+            ] },
+            { "target": "bubble", "property": "scaleY", "keys": [
+              { "frame": 0, "value": 0, "ease": "hold" }, { "frame": 96, "value": 0, "ease": "easeOut" },
+              { "frame": 104, "value": 1.08, "ease": "easeInOut" }, { "frame": 112, "value": 1 },
+              { "frame": 262, "value": 1, "ease": "easeIn" }, { "frame": 274, "value": 0 }
+            ] },
+            { "target": "hi", "property": "opacity", "keys": [
+              { "frame": 0, "value": 0, "ease": "hold" }, { "frame": 102, "value": 0, "ease": "easeOut" },
+              { "frame": 110, "value": 1 }, { "frame": 258, "value": 1, "ease": "easeIn" }, { "frame": 266, "value": 0 }
+            ] }
+          ]
+        }
+      ],
+      "instances": [
+        { "id": "pip", "artboard": "Pip", "x": -660, "y": 930 }
+      ],
+      "texts": [
+        {
+          "id": "hi", "text": "Hi!", "font": "Inter-Bold", "size": 120, "color": "#FF3A2A26",
+          "x": 600, "y": 800, "width": 400, "height": 220, "align": "center", "verticalAlign": "middle", "opacity": 0
+        }
+      ],
+      "events": [
+        { "name": "hop", "clip": "timeline", "frames": [0, 24] },
+        { "name": "land", "clip": "timeline", "frames": [24, 48] },
+        { "name": "pop", "clip": "timeline", "frames": [96] },
+        { "name": "ding", "clip": "timeline", "frames": [104] }
+      ]
+    },
+    { "source": "../../pip/pip-inputs.json", "control": "inputs" }
+  ]
+}

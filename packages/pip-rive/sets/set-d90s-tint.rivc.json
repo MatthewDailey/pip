@@ -1,0 +1,42 @@
+{
+    "artboard": {
+        "name": "set-d90s-tint",
+        "width": 1000.0,
+        "height": 860.0
+    },
+    "art": {
+        "svg": "set-d90s-tint.svg"
+    },
+    "clips": [
+        {
+            "name": "whip-in",
+            "frames": 204,
+            "fps": 600
+        },
+        {
+            "name": "whip-out",
+            "frames": 156,
+            "fps": 600
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

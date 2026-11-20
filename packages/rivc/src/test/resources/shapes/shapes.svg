@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- A triangle the clip morphs into a hexagon (path data) and a pentagon (the hidden 'star'). -->
+  <path id="blob" d="M20,20 L60,20 L60,60 Z" fill="#E04040"/>
+  <path id="star" d="M40,10 L70,35 L58,70 L22,70 L10,35 Z" fill="none" visibility="hidden"/>
+  <!-- A line drawn half-way in at rest; the clip trims it in and slides the window. -->
+  <path id="sweep" d="M100,100 L180,100" fill="none" stroke="#202020" stroke-width="4" data-trim-end="0.5"/>
+  <!-- A ring whose stroke keeps its width while its group scales. -->
+  <g id="ring"><circle id="ring-line" cx="150" cy="40" r="20" fill="none" stroke="#2040E0" stroke-width="3" vector-effect="non-scaling-stroke"/></g>
+  <!-- Two overlapping cards: 'front' paints last, and the clip moves it below 'back' and back again. -->
+  <g id="back"><rect id="back-card" x="20" y="120" width="60" height="40" fill="#40A040"/></g>
+  <g id="front"><rect id="front-card" x="50" y="140" width="60" height="40" fill="#E0A020"/></g>
+</svg>

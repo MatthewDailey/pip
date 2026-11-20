@@ -1,0 +1,125 @@
+{
+  "piece": "set-d10s-room",
+  "scene": "d10s",
+  "painter": "paintRoom",
+  "origin": [540.0,1212.0],
+  "origin_note": "screen px (1080 x 2424 stage) where the SVG's (0, 0) sits when the actor is at rest",
+  "viewBox": [-600.0,-1272.0,1200.0,2544.0],
+  "size": [1200.0,2544.0],
+  "pose": "progress 0.05 (scene start)",
+  "format": "Draft motion format for rivc. Every track targets a <g id> in the SVG; a group's pivot is its translate() origin. Properties: x, y (absolute, in the parent's units), rotation (degrees, clockwise), scaleX, scaleY, opacity, strokeWidth, fillColor ('#RRGGBB'). Keys are [time s, value]; 'ease' applies between keys (linear, hold, sine, quadIn). driver 'time' clips play on the clock; driver 'input:<name>' clips are scrubbed, clip time = input value. mixBy names an input whose value (0..1) is the clip's blend weight. The SVG's own transforms are each group's setup pose.",
+  "clips": [
+    {
+      "name": "heat",
+      "duration": 1.0,
+      "loop": false,
+      "driver": "input:progress",
+      "note": "smoke banks down from the ceiling, the room warms orange and the plant wilts (leaves droop 40 deg, green -> olive)",
+      "tracks": [
+        {
+          "target": "leaf-0",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[0,-60],[1,-100]]
+        },
+        {
+          "target": "leaf-0-shape",
+          "property": "fillColor",
+          "ease": "linear",
+          "keys": [[0,"#5FA85A"],[1,"#8A8A40"]]
+        },
+        {
+          "target": "leaf-1",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[0,-30],[1,-70]]
+        },
+        {
+          "target": "leaf-1-shape",
+          "property": "fillColor",
+          "ease": "linear",
+          "keys": [[0,"#5FA85A"],[1,"#8A8A40"]]
+        },
+        {
+          "target": "leaf-2",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[0,0],[1,40]]
+        },
+        {
+          "target": "leaf-2-shape",
+          "property": "fillColor",
+          "ease": "linear",
+          "keys": [[0,"#5FA85A"],[1,"#8A8A40"]]
+        },
+        {
+          "target": "leaf-3",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[0,30],[1,70]]
+        },
+        {
+          "target": "leaf-3-shape",
+          "property": "fillColor",
+          "ease": "linear",
+          "keys": [[0,"#5FA85A"],[1,"#8A8A40"]]
+        },
+        {
+          "target": "leaf-4",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[0,60],[1,100]]
+        },
+        {
+          "target": "leaf-4-shape",
+          "property": "fillColor",
+          "ease": "linear",
+          "keys": [[0,"#5FA85A"],[1,"#8A8A40"]]
+        },
+        {
+          "target": "smoke",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0.0,0.0566],[0.25,0.2925],[0.5,0.5283],[0.75,0.7642],[1.0,1.0]]
+        },
+        {
+          "target": "smoke",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[0.01,1]]
+        },
+        {
+          "target": "heat-tint",
+          "property": "opacity",
+          "ease": "linear",
+          "keys": [[0,0],[1,0.14]]
+        }
+      ]
+    },
+    {
+      "name": "picture-rattle",
+      "duration": 2.0944,
+      "loop": true,
+      "driver": "time",
+      "mixBy": "progress",
+      "note": "the crooked picture rattles +/-2 deg (sin 3t), weighted by progress",
+      "tracks": [
+        {
+          "target": "picture-wobble",
+          "property": "rotation",
+          "ease": "linear",
+          "keys": [[0.0,0.0],[0.1309,0.7654],[0.2618,1.4142],[0.3927,1.8478],[0.5236,2.0],[0.6545,1.8478],[0.7854,1.4142],[0.9163,0.7654],[1.0472,0.0],[1.1781,-0.7654],[1.309,-1.4142],[1.4399,-1.8478],[1.5708,-2.0],[1.7017,-1.8478],[1.8326,-1.4142],[1.9635,-0.7654],[2.0944,-0.0]]
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "progress",
+      "type": "number",
+      "range": [0,1],
+      "drives": "how far the fire has taken hold; shared with the two fire pieces. Scene: 0.05 -> 0.5 (58 %) -> 0.8 (64 %) -> 0.72 -> 1 over 3.1 s"
+    }
+  ],
+  "layers": ["wallpaper","picture/picture-wobble","wainscot","floor","side-table","plant/leaf-0..4","smoke","heat-tint"]
+}

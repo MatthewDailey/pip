@@ -1,0 +1,10 @@
+{
+    "artboard": {
+        "name": "gen-flash-screen",
+        "width": 1080.0,
+        "height": 2424.0
+    },
+    "art": {
+        "svg": "gen-flash-screen.svg"
+    }
+}

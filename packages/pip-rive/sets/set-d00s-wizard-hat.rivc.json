@@ -1,0 +1,115 @@
+{
+    "artboard": {
+        "name": "set-d00s-wizard-hat",
+        "width": 400.0,
+        "height": 380.0
+    },
+    "art": {
+        "svg": "set-d00s-wizard-hat.svg"
+    },
+    "clips": [
+        {
+            "name": "tip-sway",
+            "frames": 1142,
+            "fps": 600,
+            "loop": "loop",
+            "tracks": [
+                {
+                    "target": "hat-tip",
+                    "property": "rotation",
+                    "keys": [
+                        {
+                            "frame": 0,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 71,
+                            "value": 0.021373302019922557
+                        },
+                        {
+                            "frame": 143,
+                            "value": 0.039491564984875695
+                        },
+                        {
+                            "frame": 214,
+                            "value": 0.05159891400596036
+                        },
+                        {
+                            "frame": 286,
+                            "value": 0.05585053606381855
+                        },
+                        {
+                            "frame": 357,
+                            "value": 0.05159891400596036
+                        },
+                        {
+                            "frame": 428,
+                            "value": 0.039491564984875695
+                        },
+                        {
+                            "frame": 500,
+                            "value": 0.021373302019922557
+                        },
+                        {
+                            "frame": 571,
+                            "value": 0.0
+                        },
+                        {
+                            "frame": 643,
+                            "value": -0.021373302019922557
+                        },
+                        {
+                            "frame": 714,
+                            "value": -0.039491564984875695
+                        },
+                        {
+                            "frame": 785,
+                            "value": -0.05159891400596036
+                        },
+                        {
+                            "frame": 857,
+                            "value": -0.05585053606381855
+                        },
+                        {
+                            "frame": 928,
+                            "value": -0.05159891400596036
+                        },
+                        {
+                            "frame": 1000,
+                            "value": -0.039491564984875695
+                        },
+                        {
+                            "frame": 1071,
+                            "value": -0.021373302019922557
+                        },
+                        {
+                            "frame": 1142,
+                            "value": -0.0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "tip-sway",
+                "states": [
+                    {
+                        "name": "tip-sway",
+                        "clip": "tip-sway"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "tip-sway"
+                    }
+                ]
+            }
+        ]
+    }
+}

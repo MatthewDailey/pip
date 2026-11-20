@@ -1,0 +1,30 @@
+{
+    "artboard": {
+        "name": "fx-sweat",
+        "width": 90.0,
+        "height": 120.0
+    },
+    "art": {
+        "svg": "fx-sweat.svg"
+    },
+    "stateMachine": {
+        "name": "Main",
+        "control": "inputs",
+        "layers": [
+            {
+                "name": "Rest",
+                "states": [
+                    {
+                        "name": "rest"
+                    }
+                ],
+                "transitions": [
+                    {
+                        "from": "entry",
+                        "to": "rest"
+                    }
+                ]
+            }
+        ]
+    }
+}

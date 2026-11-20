@@ -1,0 +1,268 @@
+{
+ "piece": "set-d80s-streaks",
+ "origin": [540, 1170],
+ "clips": [
+  {
+   "name": "pan",
+   "duration": 1.0,
+   "loop": false,
+   "tracks": [
+    {
+     "target": "streak-0",
+     "property": "x",
+     "keys": [
+      [0, 697.852],
+      [0.93, -900],
+      [0.931, 900],
+      [1, 779.414]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-1",
+     "property": "x",
+     "keys": [
+      [0, -411.328],
+      [0.31, -900],
+      [0.311, 900],
+      [1, -186.328]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-2",
+     "property": "x",
+     "keys": [
+      [0, -10.547],
+      [0.401, -900],
+      [0.402, 900],
+      [1, -427.852]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-3",
+     "property": "x",
+     "keys": [
+      [0, -569.531],
+      [0.16, -900],
+      [0.161, 900],
+      [1, -838.125]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-4",
+     "property": "x",
+     "keys": [
+      [0, 7.031],
+      [0.431, -900],
+      [0.432, 900],
+      [1, -297.422]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-5",
+     "property": "x",
+     "keys": [
+      [0, -428.906],
+      [0.204, -900],
+      [0.205, 900],
+      [1, 857.812]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-6",
+     "property": "x",
+     "keys": [
+      [0, -787.5],
+      [0.048, -900],
+      [0.049, 900],
+      [1, 490.781]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-7",
+     "property": "x",
+     "keys": [
+      [0, 801.562],
+      [0.761, -900],
+      [0.762, 900],
+      [1, 364.219]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-8",
+     "property": "x",
+     "keys": [
+      [0, -435.938],
+      [0.301, -900],
+      [0.302, 900],
+      [1, -177.188]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-9",
+     "property": "x",
+     "keys": [
+      [0, 576.562],
+      [0.858, -900],
+      [0.859, 900],
+      [1, 656.016]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-10",
+     "property": "x",
+     "keys": [
+      [0, -35.156],
+      [0.353, -900],
+      [0.354, 900],
+      [1, -687.656]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-11",
+     "property": "x",
+     "keys": [
+      [0, -773.438],
+      [0.085, -900],
+      [0.086, 900],
+      [1, -457.734]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-12",
+     "property": "x",
+     "keys": [
+      [0, 73.828],
+      [0.504, -900],
+      [0.505, 900],
+      [1, -59.766]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-13",
+     "property": "x",
+     "keys": [
+      [0, 376.172],
+      [0.52, -900],
+      [0.521, 900],
+      [1, -276.328]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-14",
+     "property": "x",
+     "keys": [
+      [0, 151.172],
+      [0.473, -900],
+      [0.474, 900],
+      [1, -272.461]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-15",
+     "property": "x",
+     "keys": [
+      [0, 551.953],
+      [0.829, -900],
+      [0.83, 900],
+      [1, 599.766]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-16",
+     "property": "x",
+     "keys": [
+      [0, -612.488],
+      [0.151, -900],
+      [0.152, 900],
+      [1, -716.55]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-17",
+     "property": "x",
+     "keys": [
+      [0, 619.629],
+      [0.614, -900],
+      [0.615, 900],
+      [1, -56.074]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-18",
+     "property": "x",
+     "keys": [
+      [0, -657.422],
+      [0.145, -900],
+      [0.146, 900],
+      [1, -525.234]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-19",
+     "property": "x",
+     "keys": [
+      [0, -857.812],
+      [0.019, -900],
+      [0.02, 900],
+      [1, 489.814]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-20",
+     "property": "x",
+     "keys": [
+      [0, 706.641],
+      [0.983, -900],
+      [0.984, 900],
+      [1, 872.578]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streak-21",
+     "property": "x",
+     "keys": [
+      [0, 323.438],
+      [0.589, -900],
+      [0.59, 900],
+      [1, 46.406]
+     ],
+     "ease": "linear"
+    },
+    {
+     "target": "streaks",
+     "property": "opacity",
+     "keys": [
+      [0, 0],
+      [0.22, 1],
+      [0.68, 1],
+      [1, 0]
+     ],
+     "ease": "linear"
+    }
+   ],
+   "note": "time = progress; scene plays it over 0.5 s"
+  }
+ ],
+ "size": [1800, 860]
+}

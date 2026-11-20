@@ -1,0 +1,100 @@
+{
+  "agent_id": "",
+  "descriptor_sha256": "",
+  "personas": {
+    "irs-arrest": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "grandson-bail": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "tech-support-refund": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "bank-safe-account": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "medicare-card": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "bank-real-callback": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "grandson-birthday": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "pharmacy-refill": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    }
+  },
+  "evaluations": {
+    "scam-takeover": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "benign-no-takeover": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    }
+  },
+  "scenarios": {
+    "irs-arrest": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "grandson-bail": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "tech-support-refund": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "bank-safe-account": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "medicare-card": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "bank-real-callback": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "grandson-birthday": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    },
+    "pharmacy-refill": {
+      "id": "",
+      "revision": 1,
+      "digest": ""
+    }
+  }
+}

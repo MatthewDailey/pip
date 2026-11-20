@@ -1,0 +1,114 @@
+{
+  "piece": "set-d00s-signal",
+  "scene": "d00s",
+  "painter": "paintSignal",
+  "origin": "pip-anchored (210, 70)",
+  "origin_note": "screen px (1080 x 2424 stage) where the SVG's (0, 0) sits when the actor is at rest",
+  "viewBox": [-110.0,-86.0,220.0,172.0],
+  "size": [220.0,172.0],
+  "pose": "progress 3.1 (three amber bars)",
+  "format": "Draft motion format for rivc. Every track targets a <g id> in the SVG; a group's pivot is its translate() origin. Properties: x, y (absolute, in the parent's units), rotation (degrees, clockwise), scaleX, scaleY, opacity, strokeWidth, fillColor ('#RRGGBB'). Keys are [time s, value]; 'ease' applies between keys (linear, hold, sine, quadIn). driver 'time' clips play on the clock; driver 'input:<name>' clips are scrubbed, clip time = input value. mixBy names an input whose value (0..1) is the clip's blend weight. The SVG's own transforms are each group's setup pose.",
+  "clips": [
+    {
+      "name": "bars",
+      "duration": 5.0,
+      "loop": false,
+      "driver": "input:progress",
+      "note": "bar i fills as progress passes i -> i + 1; colour red < 1.6, amber < 3.6, green above; the X shows below 1.6",
+      "tracks": [
+        {
+          "target": "bar-0-fill",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,0.001],[1,1],[5,1]]
+        },
+        {
+          "target": "bar-0-fill-shape",
+          "property": "fillColor",
+          "ease": "hold",
+          "keys": [[0,"#F05248"],[1.6,"#FFB020"],[3.6,"#34C759"]]
+        },
+        {
+          "target": "bar-1-fill",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,0.001],[1,0.001],[2,1],[5,1]]
+        },
+        {
+          "target": "bar-1-fill-shape",
+          "property": "fillColor",
+          "ease": "hold",
+          "keys": [[0,"#F05248"],[1.6,"#FFB020"],[3.6,"#34C759"]]
+        },
+        {
+          "target": "bar-2-fill",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,0.001],[2,0.001],[3,1],[5,1]]
+        },
+        {
+          "target": "bar-2-fill-shape",
+          "property": "fillColor",
+          "ease": "hold",
+          "keys": [[0,"#F05248"],[1.6,"#FFB020"],[3.6,"#34C759"]]
+        },
+        {
+          "target": "bar-3-fill",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,0.001],[3,0.001],[4,1],[5,1]]
+        },
+        {
+          "target": "bar-3-fill-shape",
+          "property": "fillColor",
+          "ease": "hold",
+          "keys": [[0,"#F05248"],[1.6,"#FFB020"],[3.6,"#34C759"]]
+        },
+        {
+          "target": "bar-4-fill",
+          "property": "scaleY",
+          "ease": "linear",
+          "keys": [[0,0.001],[4,0.001],[5,1],[5,1]]
+        },
+        {
+          "target": "bar-4-fill-shape",
+          "property": "fillColor",
+          "ease": "hold",
+          "keys": [[0,"#F05248"],[1.6,"#FFB020"],[3.6,"#34C759"]]
+        },
+        {
+          "target": "no-signal",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,1],[1.6,0]]
+        }
+      ]
+    },
+    {
+      "name": "x-blink",
+      "duration": 0.3491,
+      "loop": true,
+      "driver": "time",
+      "note": "the no-signal X blinks: on while sin(18t) > -0.2",
+      "tracks": [
+        {
+          "target": "no-signal-x",
+          "property": "opacity",
+          "ease": "hold",
+          "keys": [[0,1],[0.1857,0],[0.3379,1],[0.3491,1]]
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "name": "progress",
+      "type": "number",
+      "range": [0,5],
+      "drives": "number of bars (fractional fills partway). Scene: 1, 2, 3.1, collapse to 1.1, then 5.2 -> 5 between 6.12 and 7.52 s"
+    }
+  ],
+  "anchor": "anchorToPip at (210, 70)",
+  "layers": ["bars/bar-0..4-fill","no-signal/no-signal-x"],
+  "approximation": "the Kotlin bar 'pop' (2 % squeeze while a bar is part-filled) is dropped"
+}

@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "descriptor_sha256": "<digest printed by firedrill register; pass to: node prepare.mjs --descriptor-sha256 DIGEST>",
+  "roots": [
+    {
+      "alias": "app",
+      "path": "<absolute path to shady-pip repo; filled by prepare.mjs>",
+      "identity_sha256": "<same as descriptor source_roots>"
+    }
+  ],
+  "services": [
+    {
+      "alias": "agent",
+      "root_alias": "app",
+      "mode": "launch",
+      "command": {
+        "executable": "<absolute path to pnpm; filled by prepare.mjs>",
+        "args": [
+          "exec",
+          "next",
+          "dev"
+        ]
+      },
+      "cwd": "apps/jev-playground",
+      "env_passthrough": [
+        "PATH",
+        "HOME",
+        "LANG",
+        "USER"
+      ],
+      "env_static": {},
+      "local_secret_env": [
+        "JEV_API_KEY"
+      ],
+      "readiness": {
+        "kind": "http",
+        "url": "http://127.0.0.1:0/api/status",
+        "expect_status": [
+          200
+        ]
+      },
+      "readiness_timeout_ms": 120000,
+      "stop_timeout_ms": 8000,
+      "per_drill": true,
+      "port_env": "PORT"
+    }
+  ],
+  "driver": {
+    "profile": "http.v1",
+    "service_alias": "agent",
+    "path": "/api/firedrill?pip=off",
+    "method": "POST",
+    "stream": "none",
+    "session_header": null,
+    "request_template": "message-text",
+    "response_pointer": "/reply"
+  },
+  "state_hooks": [],
+  "max_parallel_drills": 2
+}

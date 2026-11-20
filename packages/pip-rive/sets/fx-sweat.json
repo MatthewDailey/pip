@@ -1,0 +1,11 @@
+{
+  "piece": "sweat",
+  "svg": "fx-sweat.svg",
+  "origin": [45.0, 60.0],
+  "size": [90, 120],
+  "notes": [
+    "Static drop (about 64x98). All its motion (pop, slide down, fade) is at actor level in the scene."
+  ],
+  "clips": [],
+  "inputs": []
+}

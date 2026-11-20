@@ -1,0 +1,24 @@
+{
+  "name": "shady-pip",
+  "private": true,
+  "description": "Pip, a personal cyber defense agent: the Android app, the rivc .riv compiler and previewer, and the mock-call tools",
+  "packageManager": "pnpm@12.14.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "bootstrap": "bash scripts/bootstrap.sh",
+    "dev": "node scripts/play.mjs",
+    "play": "turbo dev",
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "setup": "bash scripts/setup.sh",
+    "demo": "bash scripts/demo.sh",
+    "demo:reset": "bash scripts/demo.sh reset"
+  },
+  "devDependencies": {
+    "@clack/prompts": "1.9.0",
+    "turbo": "2.11.13"
+  }
+}
